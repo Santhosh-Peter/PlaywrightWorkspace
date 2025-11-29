@@ -1,7 +1,8 @@
 
-    import {test, expect, Locator, Browser, Page, BrowserContext} from '@playwright/test'
+    import {test, expect, Browser, BrowserContext, Page, Locator, firefox } from '@playwright/test'
     import { chromium } from '@playwright/test'
-import path from 'path';
+import { link } from 'fs';
+    import path from 'path';
 
 
     let browser : Browser;
@@ -20,20 +21,18 @@ import path from 'path';
     test.beforeEach(async() => {
         browserContext = await browser.newContext();
         page = await browserContext.newPage();
+        page.setDefaultTimeout(35000);
+        await page.goto('https://testautomationpractice.blogspot.com/');
     });
 
     test.afterEach(async() => {
-        await browserContext.close();
         await page.close();
+        await browserContext.close();
     });
 
     test.describe('Whole Application Tests', () =>{
 
     test('Enter details into text boxes', async() => {
-
-        page.setDefaultTimeout(15000);
-
-        await page.goto('https://testautomationpractice.blogspot.com/');
 
         const nameTB : Locator = await page.getByPlaceholder("Enter Name");
         await nameTB.focus();
@@ -51,6 +50,7 @@ import path from 'path';
             await sleep(10000);
             await page.waitForTimeout(10000);
             const jhgh = async() => await page.locator("//input[@id='female']").click();
+            await jhgh();
             await page.screenshot({path: 'screenshot1.png'});
             // await clickRadio(element);
 
@@ -60,7 +60,7 @@ import path from 'path';
     //     async function clickRadio(element: string) {
 
     //     const genderRadioFemale : Locator = page.locator(element);
-    //     genderRadioFemale.click();
+    //     await genderRadioFemale.click();
     //     await page.screenshot({path: 'screenshot1.png'});
     // }    
 
@@ -70,10 +70,6 @@ import path from 'path';
 
 
     test('Select all multi select checkboxes', async() => {
-
-    page.setDefaultTimeout(15000);
-
-    await page.goto('https://testautomationpractice.blogspot.com/');
 
     const checkboxesContainer = page.locator('//div[@class="form-group"][4]');
     const checkboxes = checkboxesContainer.locator('//div');
@@ -90,8 +86,6 @@ import path from 'path';
 
 
     test('Get all countries from dropdown', async() =>{
-
-        await page.goto('https://testautomationpractice.blogspot.com/');
 
         const countriesDropdown = page.locator('//select[@id="country"]');
         await countriesDropdown.scrollIntoViewIfNeeded();
@@ -112,8 +106,6 @@ import path from 'path';
 
     test('Upload files', async() => {
 
-        await page.goto('https://testautomationpractice.blogspot.com/');
-
         const uploadSingleFile = page.locator('//input[@id="singleFileInput"]');
         await uploadSingleFile.scrollIntoViewIfNeeded();
         uploadSingleFile.setInputFiles("D:/Downloaded/Austronaut in plasma suite.jpeg");
@@ -124,8 +116,6 @@ import path from 'path';
 
 
     test('Upload multiple files', async() => {
-
-        await page.goto('https://testautomationpractice.blogspot.com/');
 
         const uploadMultiFiles = page.locator('//input[@id="multipleFilesInput"]');
         uploadMultiFiles.scrollIntoViewIfNeeded();
@@ -139,8 +129,151 @@ import path from 'path';
     }); // End of test 5
 
 
+
+    test('Handle alerts', async() => {
+
+        const playwrightPracticeSection : Locator = page.getByRole('link', {name: 'PlaywrightPractice'});
+        await playwrightPracticeSection.click();
+
+        await expect(page.url()).toBe('https://testautomationpractice.blogspot.com/p/playwrightpractice.html');
+        await page.waitForTimeout(2000);
+
+        await expect(page.getByRole('heading', {name: 'PlaywrightPractice'})).toBeVisible();
+        await page.waitForTimeout(2000);
+
+        page.once('dialog', async(alert) =>{
+
+            console.log(alert.type());
+            await page.waitForTimeout(2000);
+            alert.dismiss();
+        });
+
+        await page.locator('//button[@id="alertBtn"]').click();
+
+        page.once('dialog', async(alert) =>{
+
+            console.log(alert.type());
+            await page.waitForTimeout(2000);
+            alert.accept();
+        });
+        
+        await page.locator('//button[@id="confirmBtn"]').click();
+
+        page.once('dialog', async(alert) =>{
+
+            console.log(alert.type());
+            await page.waitForTimeout(2000);
+            console.log(alert.message());
+            alert.accept('Shut up! I know');
+        });
+        
+        await page.locator('//button[@id="promptBtn"]').click();
+
+
+    });  // End of test 6
+
+
+    test('Handle new window and popup', async() => {
+
+        const playwrightPracticeSection : Locator = page.getByRole('link', {name: 'PlaywrightPractice'});
+        await playwrightPracticeSection.click();
+
+        const newTabButton = page.getByRole('button', {name: 'New Tab'});
+
+        
+        await newTabButton.click();
+        const newTab : Page = await page.waitForEvent('popup');
+        console.log('new tab url is : ' + newTab.url());
+        await newTab.screenshot({path:'./kjhkjh.png'});
+        newTab.close();
+
+        await page.waitForTimeout(10000);
+
+        const newPopupButton = page.getByRole('button', {name: 'Popup Windows'});
+        await newPopupButton.click();
+
+        const popupPage : Page = await page.waitForEvent('popup');
+        console.log('new popup window url is : ' + popupPage.url());
+        // await expect(popupPage.getByRole('heading', {name: 'Getting Started'})).toBeVisible();
+        await popupPage.screenshot({path:'./lmnopq.png'});
+        popupPage.close();
+        
+
+    }); // End of test 7
+
+
+    test('Drag and drops', async() => {
+
+        const playwrightPracticeSection : Locator = page.getByRole('link', {name: 'PlaywrightPractice'});
+        await playwrightPracticeSection.click();
+
+        await page.getByText('Drag me to my target').scrollIntoViewIfNeeded();
+        await page.waitForTimeout(10000);
+
+        await page.locator('#draggable').hover();
+        await page.mouse.down();
+        await page.locator('#droppable').hover();
+        await page.mouse.up();
+
+        // await page.dragAndDrop('#draggable', '#droppable');
+        await page.waitForTimeout(5000);
+
+    }); // End of test 8
+
+
+    test('Copy Paste', async() => {
+
+        const playwrightPracticeSection : Locator = page.getByRole('link', {name: 'PlaywrightPractice'});
+        await playwrightPracticeSection.click();
+
+        const text =  page.locator('//p[contains(text(),"Double click on button")]');
+        text.scrollIntoViewIfNeeded();
+        text.click({clickCount: 3});
+        await page.waitForTimeout(2000);
+        await page.keyboard.press('Control+c');
+        await page.waitForTimeout(2000);
+        const emailbox =  page.locator('xpath=//input[@type="email"]');
+        emailbox.scrollIntoViewIfNeeded();
+        await emailbox.focus();
+        await page.keyboard.press('Control+v');
+        await page.waitForTimeout(2000);
+    });
+
+
+    test('Static Table', async() => {
+
+        const playwrightPracticeSection : Locator = page.getByRole('link', {name: 'PlaywrightPractice'});
+        await playwrightPracticeSection.click();
+
+        const staticTable = page.locator('//table[@name="BookTable"]');
+        await staticTable.scrollIntoViewIfNeeded();
+        const rows = staticTable.locator('//tr');
+        const rowCount = await staticTable.locator('//tr').count();
+        console.log('Number of rows : ' + rowCount);
+
+        for(let i=0; i<rowCount; i++){
+            console.log((await rows.nth(i).innerText()).toString());
+        }
+
+        const columnsHeaders = rows.locator('//th');
+        console.log('Number of columns : ' + (await columnsHeaders.count()).toString());
+
+        const columnData = rows.locator('//td');
+        const columnDataCount = await columnData.count();
+
+        for(let i=0; i<columnDataCount;i++){
+
+            const colValue = await columnData.nth(i).innerText();
+            if(colValue == '3000'){
+                const expensiveCourse = await columnData.nth(i-1).innerText();
+                console.log('Course having the price 3000 is : ' + expensiveCourse.toString());
+            }
+        }
+
+    });
+    
+
+
     }); // end of test description
 
-    function something(){
-        
-    }
+    
