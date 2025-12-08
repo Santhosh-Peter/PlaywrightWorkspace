@@ -1,0 +1,28 @@
+{
+  "id": 101,
+  "name": "Arun Kumar",
+  "email": "arun.kumar@example.com",
+  "age": 29,
+  "isMember": true,
+  "hobbies": ["reading", "cycling", "gaming"],
+  "address": {
+    "street": "12 Gandhi Road",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "postalCode": "600008"
+  },
+  "orders": [
+    {
+      "orderId": "ORD001",
+      "product": "Laptop",
+      "price": 55000,
+      "delivered": true
+    },
+    {
+      "orderId": "ORD002",
+      "product": "Headphones",
+      "price": 2500,
+      "delivered": false
+    }
+  ]
+}

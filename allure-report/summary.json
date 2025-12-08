@@ -1,0 +1,1 @@
+{"name":"Allure Report","stats":{"total":1,"new":1,"passed":1},"status":"passed","duration":27353,"createdAt":1765034262484,"withTestResultsLinks":true,"plugin":"Awesome","newTests":[{"id":"8e3ab15732636adb5079dbd055217e93","name":"Enter details into text boxes","status":"passed","duration":27353}],"flakyTests":[],"retryTests":[],"pullRequestHref":"","jobHref":""}

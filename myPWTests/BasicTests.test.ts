@@ -3,6 +3,7 @@
     import { chromium } from '@playwright/test'
 import { link } from 'fs';
     import path from 'path';
+    import testData from './testData.json'
 
 
     let browser : Browser;
@@ -237,7 +238,7 @@ import { link } from 'fs';
         await emailbox.focus();
         await page.keyboard.press('Control+v');
         await page.waitForTimeout(2000);
-    });
+    }); // End of test 9
 
 
     test('Static Table', async() => {
@@ -248,7 +249,7 @@ import { link } from 'fs';
         const staticTable = page.locator('//table[@name="BookTable"]');
         await staticTable.scrollIntoViewIfNeeded();
         const rows = staticTable.locator('//tr');
-        const rowCount = await staticTable.locator('//tr').count();
+        const rowCount = await rows.count();
         console.log('Number of rows : ' + rowCount);
 
         for(let i=0; i<rowCount; i++){
@@ -261,6 +262,9 @@ import { link } from 'fs';
         const columnData = rows.locator('//td');
         const columnDataCount = await columnData.count();
 
+        const cellsCount = await columnsHeaders.count() * rowCount;
+        console.log('Total cells of the tabe : ' + cellsCount);
+
         for(let i=0; i<columnDataCount;i++){
 
             const colValue = await columnData.nth(i).innerText();
@@ -270,7 +274,30 @@ import { link } from 'fs';
             }
         }
 
-    });
+    }); // End of test 10
+
+    test('Data from Json file', async() => {
+
+        const lastHobby = testData.hobbies[2];
+        console.log(lastHobby);
+
+        const secondOrderProduct = testData.orders[1].product;
+        console.log(secondOrderProduct);
+
+        expect(testData.orders[0].delivered).toBeTruthy();
+        
+    }); // End of test 11
+
+    test('Pagination table test', async() => {
+
+        const playwrightPracticeSection : Locator = page.getByRole('link', {name: 'PlaywrightPractice'});
+        await playwrightPracticeSection.click();
+
+        await page.waitForSelector('//table[@id="productTable"]');   // needs wait for the paginaion elemens to load
+        const tablePages = page.locator('//ul[@class="pagination"]//li');
+
+        console.log('total pages of table : ' + (await tablePages.count()).toString());
+    }); // End of test 12
     
 
 
