@@ -1,10 +1,10 @@
 
     import {test, expect, Browser, BrowserContext, Page, Locator, firefox } from '@playwright/test'
     import { chromium } from '@playwright/test'
-import { link } from 'fs';
+    import { link } from 'fs';
     import path from 'path';
-    import testData from './testData.json'
-
+    import testData from './testData.json';
+    import * as XLSX from 'xlsx';
 
     let browser : Browser;
     let browserContext : BrowserContext;
@@ -91,8 +91,12 @@ import { link } from 'fs';
         const countriesDropdown = page.locator('//select[@id="country"]');
         await countriesDropdown.scrollIntoViewIfNeeded();
         await countriesDropdown.click();
+        console.log((await countriesDropdown.allTextContents()).toString());
+        console.log("@@@@@@@@@@@");
 
         const dropdownOptions = page.locator('//select[@id="country"]//option');
+        console.log((await dropdownOptions.allTextContents()).toString());
+        console.log('--------------------');
         const dropdownOptionsCount : number = await dropdownOptions.count();
 
         for(let i = 0; i<dropdownOptionsCount; i++){
@@ -136,7 +140,7 @@ import { link } from 'fs';
         const playwrightPracticeSection : Locator = page.getByRole('link', {name: 'PlaywrightPractice'});
         await playwrightPracticeSection.click();
 
-        await expect(page.url()).toBe('https://testautomationpractice.blogspot.com/p/playwrightpractice.html');
+        expect(page.url()).toBe('https://testautomationpractice.blogspot.com/p/playwrightpractice.html');
         await page.waitForTimeout(2000);
 
         await expect(page.getByRole('heading', {name: 'PlaywrightPractice'})).toBeVisible();
@@ -162,13 +166,22 @@ import { link } from 'fs';
 
         page.once('dialog', async(alert) =>{
 
-            console.log(alert.type());
+            console.log('Aler type : ' + alert.type());
             await page.waitForTimeout(2000);
             console.log(alert.message());
             alert.accept('Shut up! I know');
         });
         
         await page.locator('//button[@id="promptBtn"]').click();
+
+
+        // const [mDialog] = await Promise.all([
+        //     page.waitForEvent('dialog'),
+        //     page.locator('//button[@id="promptBtn"]').click(),
+        // ]);
+
+        // console.log(mDialog.type());
+        // await mDialog.accept('Some text')
 
 
     });  // End of test 6
@@ -276,6 +289,7 @@ import { link } from 'fs';
 
     }); // End of test 10
 
+
     test('Data from Json file', async() => {
 
         const lastHobby = testData.hobbies[2];
@@ -288,6 +302,7 @@ import { link } from 'fs';
         
     }); // End of test 11
 
+
     test('Pagination table test', async() => {
 
         const playwrightPracticeSection : Locator = page.getByRole('link', {name: 'PlaywrightPractice'});
@@ -298,9 +313,54 @@ import { link } from 'fs';
 
         console.log('total pages of table : ' + (await tablePages.count()).toString());
     }); // End of test 12
+
+
+
+    test('Read from and write to excel', async() => {
+
+        const workbook = XLSX.readFile('C://Users//Santhosh Peter//Desktop//DummyData.xlsx');
+        const workSheet = workbook.Sheets["Sheet1"];
+
+        const tableRange = XLSX.utils.decode_range(workSheet['!ref']as string);
+        console.log(tableRange);
+        const rowCount = tableRange.e.r+1;
+
+        for(let i=2; i<=rowCount; i++){
+            const col1Data = workSheet['A'+i]?.v;
+            console.log(col1Data);
+
+            if(col1Data?.includes('@gmail.com')){
+                workSheet['C'+i] = {t : 's' , v : 'Gmail Account'}; // t for type and v for value
+            } else if(col1Data?.includes('@yahoo.com')){
+                workSheet['C'+i] = {t :'s' , v : 'Yahoo Account'}
+            } else{
+                workSheet['C'+i] = {t : 's' , v : 'Outlook Account'}
+            }            
+        }
+
+        workSheet['!ref'] = `A1:C${rowCount}`; // Use backticks; not qoutes. This is to force Excel to recognize new cells
+
+        try{
+                XLSX.writeFile(workbook, 'C://Users//Santhosh Peter//Desktop//DummyData.xlsx');
+                console.log('Column written');
+            } catch(error){
+                console.error('Write went wrong', error);
+            }
+    }); // End of test 13
+
+
+    test('Dynamic table', async() => {
+
+        const dyTable = page.locator('//table[@id="taskTable"]');
+        
+
+        findValueInDyTable(dyTable, 'Firefox', 'Memory (MB)');
+    });
     
 
 
     }); // end of test description
 
-    
+    function findValueInDyTable(table : Locator, rowValue: String, colValue: String) {
+        const dyTableRows = table.locator('//tr');
+    }

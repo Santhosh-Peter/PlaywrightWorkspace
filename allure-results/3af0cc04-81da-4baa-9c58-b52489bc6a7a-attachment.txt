@@ -1,0 +1,16 @@
+Write went wrong Error: Bad range (0): A1:C${rowCount}
+    at check_ws (D:\Automation WorkSpace\PlaywrightWorld\PlaywrightWorkspace\node_modules\xlsx\xlsx.js:14499:60)
+    at check_wb (D:\Automation WorkSpace\PlaywrightWorld\PlaywrightWorkspace\node_modules\xlsx\xlsx.js:16476:48)
+    at writeSync (D:\Automation WorkSpace\PlaywrightWorld\PlaywrightWorkspace\node_modules\xlsx\xlsx.js:23852:2)
+    at Object.writeFile [as writeFileSync] (D:\Automation WorkSpace\PlaywrightWorld\PlaywrightWorkspace\node_modules\xlsx\xlsx.js:23914:9)
+    at D:\Automation WorkSpace\PlaywrightWorld\PlaywrightWorkspace\myPWTests\BasicTests.test.ts:344:22
+    at D:\Automation WorkSpace\PlaywrightWorld\PlaywrightWorkspace\node_modules\playwright\lib\worker\workerMain.js:322:15
+    at D:\Automation WorkSpace\PlaywrightWorld\PlaywrightWorkspace\node_modules\playwright\lib\worker\testInfo.js:311:17
+    at TimeoutManager.withRunnable (D:\Automation WorkSpace\PlaywrightWorld\PlaywrightWorkspace\node_modules\playwright\lib\worker\timeoutManager.js:68:9)
+    at TestInfoImpl._runWithTimeout (D:\Automation WorkSpace\PlaywrightWorld\PlaywrightWorkspace\node_modules\playwright\lib\worker\testInfo.js:309:34)
+    at D:\Automation WorkSpace\PlaywrightWorld\PlaywrightWorkspace\node_modules\playwright\lib\worker\workerMain.js:320:22
+    at runNextTicks (node:internal/process/task_queues:64:5)
+    at processImmediate (node:internal/timers:472:9)
+    at WorkerMain._runTest (D:\Automation WorkSpace\PlaywrightWorld\PlaywrightWorkspace\node_modules\playwright\lib\worker\workerMain.js:295:5)
+    at WorkerMain.runTestGroup (D:\Automation WorkSpace\PlaywrightWorld\PlaywrightWorkspace\node_modules\playwright\lib\worker\workerMain.js:199:11)
+    at process.<anonymous> (D:\Automation WorkSpace\PlaywrightWorld\PlaywrightWorkspace\node_modules\playwright\lib\common\process.js:65:22)

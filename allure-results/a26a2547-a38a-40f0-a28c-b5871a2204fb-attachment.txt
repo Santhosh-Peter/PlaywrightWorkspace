@@ -1,0 +1,22 @@
+Write went wrong Error: EBUSY: resource busy or locked, open 'C:\Users\Santhosh Peter\Desktop\DummyData.xlsx'
+    at Object.openSync (node:fs:560:18)
+    at Object.writeFileSync (node:fs:2429:35)
+    at write_dl (D:\Automation WorkSpace\PlaywrightWorld\PlaywrightWorkspace\node_modules\xlsx\xlsx.js:3109:112)
+    at write_zip_denouement (D:\Automation WorkSpace\PlaywrightWorld\PlaywrightWorkspace\node_modules\xlsx\xlsx.js:23784:31)
+    at write_zip_type (D:\Automation WorkSpace\PlaywrightWorld\PlaywrightWorkspace\node_modules\xlsx\xlsx.js:23754:9)
+    at writeSync (D:\Automation WorkSpace\PlaywrightWorld\PlaywrightWorkspace\node_modules\xlsx\xlsx.js:23891:22)
+    at Object.writeFile [as writeFileSync] (D:\Automation WorkSpace\PlaywrightWorld\PlaywrightWorkspace\node_modules\xlsx\xlsx.js:23914:9)
+    at D:\Automation WorkSpace\PlaywrightWorld\PlaywrightWorkspace\myPWTests\BasicTests.test.ts:342:22
+    at D:\Automation WorkSpace\PlaywrightWorld\PlaywrightWorkspace\node_modules\playwright\lib\worker\workerMain.js:322:15
+    at D:\Automation WorkSpace\PlaywrightWorld\PlaywrightWorkspace\node_modules\playwright\lib\worker\testInfo.js:311:17
+    at TimeoutManager.withRunnable (D:\Automation WorkSpace\PlaywrightWorld\PlaywrightWorkspace\node_modules\playwright\lib\worker\timeoutManager.js:68:9)
+    at TestInfoImpl._runWithTimeout (D:\Automation WorkSpace\PlaywrightWorld\PlaywrightWorkspace\node_modules\playwright\lib\worker\testInfo.js:309:34)
+    at D:\Automation WorkSpace\PlaywrightWorld\PlaywrightWorkspace\node_modules\playwright\lib\worker\workerMain.js:320:22
+    at WorkerMain._runTest (D:\Automation WorkSpace\PlaywrightWorld\PlaywrightWorkspace\node_modules\playwright\lib\worker\workerMain.js:295:5)
+    at WorkerMain.runTestGroup (D:\Automation WorkSpace\PlaywrightWorld\PlaywrightWorkspace\node_modules\playwright\lib\worker\workerMain.js:199:11)
+    at process.<anonymous> (D:\Automation WorkSpace\PlaywrightWorld\PlaywrightWorkspace\node_modules\playwright\lib\common\process.js:65:22) {
+  errno: -4082,
+  code: 'EBUSY',
+  syscall: 'open',
+  path: 'C:\\Users\\Santhosh Peter\\Desktop\\DummyData.xlsx'
+}

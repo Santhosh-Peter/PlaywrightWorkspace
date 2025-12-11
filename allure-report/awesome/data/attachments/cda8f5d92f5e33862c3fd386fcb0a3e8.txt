@@ -1,0 +1,11 @@
+Promise { <pending> }
+UnitedStates
+Canada
+UnitedKingdom
+Germany
+France
+Australia
+Japan
+China
+Brazil
+India

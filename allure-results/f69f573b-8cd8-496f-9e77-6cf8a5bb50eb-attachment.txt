@@ -1,0 +1,6 @@
+email address : A1
+email address : A2
+email address : A3
+email address : A4
+{ s: { c: 0, r: 0 }, e: { c: 1, r: 3 } }
+4

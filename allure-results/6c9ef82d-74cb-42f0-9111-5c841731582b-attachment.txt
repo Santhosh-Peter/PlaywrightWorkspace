@@ -1,0 +1,4 @@
+alert
+confirm
+prompt
+Please enter your name:

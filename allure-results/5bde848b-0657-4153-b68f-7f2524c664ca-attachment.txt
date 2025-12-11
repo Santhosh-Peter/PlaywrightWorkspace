@@ -1,0 +1,6 @@
+email address : Email
+email address : 123@gmail.com
+email address : 456@yahoo.com
+email address : 789@outlook.com
+{ s: { c: 0, r: 0 }, e: { c: 1, r: 3 } }
+4

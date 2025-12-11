@@ -1,0 +1,4 @@
+alert
+confirm
+Aler type : prompt
+Please enter your name:

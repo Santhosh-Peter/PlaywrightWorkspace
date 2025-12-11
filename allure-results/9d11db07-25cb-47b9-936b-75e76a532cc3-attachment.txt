@@ -1,0 +1,70 @@
+{
+  '!ref': 'A1:B4',
+  A1: { t: 's', v: 'Email', r: '<t>Email</t>', h: 'Email', w: 'Email' },
+  B1: {
+    t: 's',
+    v: 'Password',
+    r: '<t>Password</t>',
+    h: 'Password',
+    w: 'Password'
+  },
+  A2: {
+    t: 's',
+    v: '123@gmail.com',
+    r: '<t>123@gmail.com</t>',
+    h: '123@gmail.com',
+    w: '123@gmail.com',
+    l: {
+      ref: 'A2',
+      id: 'rId1',
+      uid: '{C1AD87FB-7E87-41B1-A322-A004709FEB55}',
+      Target: 'mailto:123@gmail.com',
+      Rel: [Object]
+    }
+  },
+  B2: { t: 's', v: 'ABC', r: '<t>ABC</t>', h: 'ABC', w: 'ABC' },
+  A3: {
+    t: 's',
+    v: '456@yahoo.com',
+    r: '<t>456@yahoo.com</t>',
+    h: '456@yahoo.com',
+    w: '456@yahoo.com',
+    l: {
+      ref: 'A3',
+      id: 'rId2',
+      uid: '{90DF0F84-B3CE-427A-83B7-683AF95480D7}',
+      Target: 'mailto:456@yahoo.com',
+      Rel: [Object]
+    }
+  },
+  B3: { t: 'n', v: 123456789, w: '123456789' },
+  A4: {
+    t: 's',
+    v: '789@outlook.com',
+    r: '<t>789@outlook.com</t>',
+    h: '789@outlook.com',
+    w: '789@outlook.com',
+    l: {
+      ref: 'A4',
+      id: 'rId3',
+      uid: '{938B3B3E-FC0B-48C8-8F2B-D451526A9015}',
+      Target: 'mailto:789@outlook.com',
+      Rel: [Object]
+    }
+  },
+  B4: {
+    t: 's',
+    v: 'uyuyuyuyuyeqtryqkjh',
+    r: '<t>uyuyuyuyuyeqtryqkjh</t>',
+    h: 'uyuyuyuyuyeqtryqkjh',
+    w: 'uyuyuyuyuyeqtryqkjh'
+  },
+  '!margins': {
+    left: 0.7,
+    right: 0.7,
+    top: 0.75,
+    bottom: 0.75,
+    header: 0.3,
+    footer: 0.3
+  }
+}
