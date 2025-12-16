@@ -1,0 +1,3 @@
+first row : Internet Explorer	2.2%	70.5 MB	0.64 MB/s	9.7 Mbps
+string
+undefined

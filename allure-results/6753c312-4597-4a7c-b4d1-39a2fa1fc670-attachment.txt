@@ -1,0 +1,2 @@
+dyTableColCount 0
+result : undefined

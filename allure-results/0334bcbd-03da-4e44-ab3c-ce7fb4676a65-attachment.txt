@@ -1,0 +1,3 @@
+dyTableColCount 1
+j value : 1
+result : undefined

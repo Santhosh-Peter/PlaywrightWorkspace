@@ -1,0 +1,16 @@
+dyTableColCount 5
+i value : 1
+i value : 2
+i value : 3
+Firefox is available in row : 3
+j value : 1
+Header : CPU (%)
+j value : 2
+Header : Network (Mbps)
+j value : 3
+Header : Disk (MB/s)
+j value : 4
+Header : Memory (MB)
+saved col : 4
+0.39 MB/s
+result : 0.39 MB/s

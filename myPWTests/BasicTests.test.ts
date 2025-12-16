@@ -350,17 +350,43 @@
 
 
     test('Dynamic table', async() => {
+        const playwrightPracticeSection : Locator = page.getByRole('link', {name: 'PlaywrightPractice'});
+        await playwrightPracticeSection.click();
 
         const dyTable = page.locator('//table[@id="taskTable"]');
         
+        console.log(await findValueInDyTable(dyTable, 'Firefox', 'Memory (MB)'));
 
-        findValueInDyTable(dyTable, 'Firefox', 'Memory (MB)');
-    });
+    }); // End of test 14
     
 
 
     }); // end of test description
 
-    function findValueInDyTable(table : Locator, rowValue: String, colValue: String) {
+    async function findValueInDyTable(table : Locator, rowValue: String, colValue: String) {
         const dyTableRows = table.locator('//tr');
+        const dyTableCols = table.locator('//th');
+        const dyTableRowCount = await dyTableRows.count()+1;
+        const dyTableColCount = await dyTableCols.count()+1;
+
+        let requiredCell;
+
+        for(let i=2; i<dyTableRowCount; i++){
+            if(await dyTableRows.nth(i).innerText() === rowValue){
+                const savedRow = i;
+                console.log(savedRow);
+
+                for(let j=1; j<dyTableColCount; j++){
+                    if(await dyTableCols.nth(i).innerText() === colValue){
+                        const savedCol = j;
+                        console.log(savedCol);
+                        requiredCell = table.locator('tr[' + savedRow + ']//td[' + savedCol + ']');
+                        await requiredCell.screenshot({animations : 'allow', type : 'png', path : '.DynamicTableValue.png'})
+                            console.log((await requiredCell.innerText()).toString());
+                            await page.screenshot({fullPage : true, animations : 'allow', type : 'png', path : '.DynamicTable.png'})
+                    }
+                }
+            }
+        } return requiredCell;
+
     }
