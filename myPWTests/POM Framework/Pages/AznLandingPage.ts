@@ -1,6 +1,7 @@
 import {Page} from '@playwright/test';
 
 export class AnzLandingPage {
+    
 
     private readonly page : Page;
 

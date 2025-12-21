@@ -1,0 +1,7 @@
+leftFilterSection : false
+popularShoppingIdeasSection : true
+deliveryDateSection : true
+priceFilterSection : true
+reviewFilterSection : true
+brandFilterSection : true
+false

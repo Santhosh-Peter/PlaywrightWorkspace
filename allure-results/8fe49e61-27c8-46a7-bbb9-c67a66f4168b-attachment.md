@@ -1,0 +1,2951 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation "Shortcuts menu" [ref=e3]:
+    - heading "Skip to" [level=2] [ref=e4]
+    - list "Skip to" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "main content" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+      - listitem [ref=e8]:
+        - link "Results" [ref=e9] [cursor=pointer]:
+          - /url: .s-asin a:has(h2)
+    - separator [ref=e10]
+    - heading "Keyboard shortcuts" [level=2] [ref=e11]
+    - list "Keyboard shortcuts" [ref=e12]:
+      - listitem [ref=e13]:
+        - link "Search, alt, forward slash" [ref=e14] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e15]:
+            - generic [ref=e16]: Search
+            - generic [ref=e17]:
+              - generic [ref=e18]: alt
+              - generic [ref=e19]: +
+              - generic [ref=e20]: /
+      - listitem [ref=e21]:
+        - link "Cart, shift, alt, c" [ref=e22] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e23]:
+            - generic [ref=e24]: Cart
+            - generic [ref=e25]:
+              - generic [ref=e26]: shift
+              - generic [ref=e27]: +
+              - generic [ref=e28]: alt
+              - generic [ref=e29]: +
+              - generic [ref=e30]: C
+      - listitem [ref=e31]:
+        - link "Home, shift, alt, h" [ref=e32] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e33]:
+            - generic [ref=e34]: Home
+            - generic [ref=e35]:
+              - generic [ref=e36]: shift
+              - generic [ref=e37]: +
+              - generic [ref=e38]: alt
+              - generic [ref=e39]: +
+              - generic [ref=e40]: H
+      - listitem [ref=e41]:
+        - link "Your orders, shift, alt, o" [ref=e42] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [ref=e43]:
+            - generic [ref=e44]: Orders
+            - generic [ref=e45]:
+              - generic [ref=e46]: shift
+              - generic [ref=e47]: +
+              - generic [ref=e48]: alt
+              - generic [ref=e49]: +
+              - generic [ref=e50]: O
+      - listitem [ref=e51]:
+        - button "Show/hide shortcuts, shift, alt, z" [ref=e52] [cursor=pointer]:
+          - generic [ref=e53]:
+            - generic [ref=e54]: Show/Hide shortcuts
+            - generic [ref=e55]:
+              - generic [ref=e56]: shift
+              - generic [ref=e57]: +
+              - generic [ref=e58]: alt
+              - generic [ref=e59]: +
+              - generic [ref=e60]: Z
+    - generic [ref=e66]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=e67]:
+    - navigation "Primary" [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - link "Amazon.in" [ref=e72] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .in
+          - button "Delivering to Chennai 600009 Update location" [ref=e75] [cursor=pointer]:
+            - generic [ref=e77]:
+              - generic [ref=e78]: Delivering to Chennai 600009
+              - generic [ref=e79]: Update location
+        - search [ref=e82]:
+          - generic [ref=e85]:
+            - generic [ref=e87]: All
+            - combobox "Select the department you want to search in" [ref=e89] [cursor=pointer]:
+              - option "All Categories" [selected]
+              - option "Alexa Skills"
+              - option "Amazon Devices"
+              - option "Amazon Fashion"
+              - option "Amazon Fresh"
+              - option "Amazon Fresh Meat"
+              - option "Amazon Pharmacy"
+              - option "Appliances"
+              - option "Apps & Games"
+              - option "Audible Audiobooks"
+              - option "Baby"
+              - option "Beauty"
+              - option "Books"
+              - option "Car & Motorbike"
+              - option "Clothing & Accessories"
+              - option "Collectibles"
+              - option "Computers & Accessories"
+              - option "Deals"
+              - option "Electronics"
+              - option "Furniture"
+              - option "Garden & Outdoors"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Foods"
+              - option "Health & Personal Care"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Jewellery"
+              - option "Kindle Store"
+              - option "Luggage & Bags"
+              - option "Luxury Beauty"
+              - option "Movies & TV Shows"
+              - option "MP3 Music"
+              - option "Music"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Supplies"
+              - option "Prime Video"
+              - option "Shoes & Handbags"
+              - option "Software"
+              - option "Sports, Fitness & Outdoors"
+              - option "Subscribe & Save"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Under ₹500"
+              - option "Video Games"
+              - option "Watches"
+          - searchbox "Search Amazon.in" [ref=e92]: Bike
+          - generic "Go" [ref=e95] [cursor=pointer]:
+            - button "Go" [ref=e96]
+        - generic [ref=e98]:
+          - generic [ref=e99]:
+            - link "Choose a language for shopping in Amazon India. The current selection is English (EN)." [ref=e100] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+              - generic [ref=e103]:
+                - img "India" [ref=e104]
+                - generic [ref=e105]: EN
+            - button "Expand to Change Language or Country" [ref=e106] [cursor=pointer]
+          - generic [ref=e107]:
+            - link "Hello, sign in Account & Lists" [ref=e108] [cursor=pointer]:
+              - /url: https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fs%3Fk%3DBike%26crid%3D2RQ7YNOJ0P3OR%26sprefix%3Dbike%252Caps%252C480%26ref%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=e110]: Hello, sign in
+              - generic [ref=e111]: Account & Lists
+            - button "Expand Account and Lists" [ref=e112] [cursor=pointer]
+          - link "Returns & Orders" [ref=e113] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e114]: Returns
+            - generic [ref=e115]: "& Orders"
+          - link "0 items in cart" [ref=e116] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e118]: "0"
+            - generic [ref=e121]: Cart
+      - generic [ref=e122]:
+        - button "Open All Categories Menu" [ref=e124] [cursor=pointer]:
+          - generic [ref=e126]: All
+        - list [ref=e130]:
+          - listitem [ref=e131]:
+            - generic [ref=e132]:
+              - link "Fresh" [ref=e133] [cursor=pointer]:
+                - /url: /fresh?ref_=nav_cs_grocery
+              - button "Fresh Details" [ref=e134] [cursor=pointer]
+          - listitem [ref=e135]:
+            - link "MX Player" [ref=e137] [cursor=pointer]:
+              - /url: /minitv?ref_=nav_avod_desktop_topnav
+          - listitem [ref=e138]:
+            - link "Sell" [ref=e140] [cursor=pointer]:
+              - /url: /b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3
+          - listitem [ref=e141]:
+            - link "Bestsellers" [ref=e143] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e144]:
+            - link "Mobiles" [ref=e146] [cursor=pointer]:
+              - /url: /mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles
+          - listitem [ref=e147]:
+            - link "Today's Deals" [ref=e149] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e150]:
+            - link "Customer Service" [ref=e152] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help
+          - listitem [ref=e153]:
+            - generic [ref=e154]:
+              - link "Prime" [ref=e155] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Prime Details" [ref=e156] [cursor=pointer]
+          - listitem [ref=e157]:
+            - link "New Releases" [ref=e159] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=e160]:
+            - link "Amazon Pay" [ref=e162] [cursor=pointer]:
+              - /url: /gp/sva/dashboard?ref_=nav_cs_apay
+          - listitem [ref=e163]:
+            - link "Electronics" [ref=e165] [cursor=pointer]:
+              - /url: /electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics
+          - listitem [ref=e166]:
+            - link "Fashion" [ref=e168] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6648217031&ref_=nav_cs_fashion
+          - listitem [ref=e169]:
+            - link "Home & Kitchen" [ref=e171] [cursor=pointer]:
+              - /url: /Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home
+          - listitem [ref=e172]:
+            - link "Books" [ref=e174] [cursor=pointer]:
+              - /url: /Books/b/?ie=UTF8&node=976389031&ref_=nav_cs_books
+          - listitem [ref=e175]:
+            - link "Computers" [ref=e177] [cursor=pointer]:
+              - /url: /computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc
+          - listitem [ref=e178]:
+            - link "Gift Cards" [ref=e180] [cursor=pointer]:
+              - /url: /gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc
+          - listitem [ref=e181]:
+            - link "Beauty & Personal Care" [ref=e183] [cursor=pointer]:
+              - /url: /beauty/b/?ie=UTF8&node=1355016031&ref_=nav_cs_beauty
+          - listitem [ref=e184]:
+            - link "Car & Motorbike" [ref=e186] [cursor=pointer]:
+              - /url: /Car-Motorbike-Store/b/?ie=UTF8&node=4772060031&ref_=nav_cs_automotive
+          - listitem [ref=e187]:
+            - link "Home Improvement" [ref=e189] [cursor=pointer]:
+              - /url: /Home-Improvement/b/?ie=UTF8&node=4286640031&ref_=nav_cs_hi
+          - listitem [ref=e190]:
+            - link "Toys & Games" [ref=e192] [cursor=pointer]:
+              - /url: /Toys-Games/b/?ie=UTF8&node=1350380031&ref_=nav_cs_toys
+          - listitem [ref=e193]:
+            - link "Grocery & Gourmet Foods" [ref=e195] [cursor=pointer]:
+              - /url: /Gourmet-Specialty-Foods/b/?ie=UTF8&node=2454178031&ref_=nav_cs_grocery
+          - listitem [ref=e196]:
+            - link "Custom Products" [ref=e198] [cursor=pointer]:
+              - /url: /Amazon-Custom/b/?ie=UTF8&node=32615889031&ref_=nav_cs_custom
+          - listitem [ref=e199]:
+            - link "Sports, Fitness & Outdoors" [ref=e201] [cursor=pointer]:
+              - /url: /Sports/b/?ie=UTF8&node=1984443031&ref_=nav_cs_sports
+          - listitem [ref=e202]:
+            - link "Health, Household & Personal Care" [ref=e204] [cursor=pointer]:
+              - /url: /health-and-personal-care/b/?ie=UTF8&node=1350384031&ref_=nav_cs_hpc
+          - listitem [ref=e205]:
+            - link "Video Games" [ref=e207] [cursor=pointer]:
+              - /url: /video-games/b/?ie=UTF8&node=976460031&ref_=nav_cs_video_games
+          - listitem [ref=e208]:
+            - link "Baby" [ref=e210] [cursor=pointer]:
+              - /url: /Baby/b/?ie=UTF8&node=1571274031&ref_=nav_cs_baby
+          - listitem [ref=e211]:
+            - link "AmazonBasics" [ref=e213] [cursor=pointer]:
+              - /url: /b/?node=6637738031&ref_=nav_cs_amazonbasics
+          - listitem [ref=e214]:
+            - link "Pet Supplies" [ref=e216] [cursor=pointer]:
+              - /url: /Pet-Supplies/b/?ie=UTF8&node=2454181031&ref_=nav_cs_pets
+          - listitem [ref=e217]:
+            - link "Audible" [ref=e219] [cursor=pointer]:
+              - /url: /Audible-Books-and-Originals/b/?ie=UTF8&node=17941593031&ref_=nav_cs_audible
+          - listitem [ref=e220]:
+            - link "Subscribe & Save" [ref=e222] [cursor=pointer]:
+              - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+          - listitem [ref=e223]:
+            - link "Kindle eBooks" [ref=e225] [cursor=pointer]:
+              - /url: /Kindle-eBooks/b/?ie=UTF8&node=1634753031&ref_=nav_cs_kindle_books
+          - listitem [ref=e226]:
+            - link "Flights" [ref=e228] [cursor=pointer]:
+              - /url: /flights?ref_=nav_cs_apay_desktop_topnav_flights
+      - dialog [ref=e231]
+  - generic [ref=e233]:
+    - 'heading "1-48 of 514 results for \"Bike\" Sort by: Featured" [level=1] [ref=e236]':
+      - generic [ref=e237]:
+        - heading "1-48 of 514 results for \"Bike\"" [level=2] [ref=e242]
+        - generic [ref=e247]:
+          - generic [ref=e248]: "Sort by:"
+          - combobox "Sort by:" [ref=e249]:
+            - option "Featured" [selected]
+            - 'option "Price: Low to High"'
+            - 'option "Price: High to Low"'
+            - option "Avg. Customer Review"
+            - option "Newest Arrivals"
+            - option "Best Sellers"
+          - generic [ref=e252] [cursor=pointer]: Sort by:Featured
+    - generic [ref=e254]:
+      - generic [ref=e256]:
+        - generic [ref=e258]:
+          - generic [ref=e263]:
+            - img [ref=e266]:
+              - img "Filter results by your vehicle:" [ref=e268]
+            - generic [ref=e270]:
+              - 'link "Filter results by your vehicle: Enter a new vehicle to add it to Your Garage and filter the results below" [ref=e271] [cursor=pointer]':
+                - /url: "#"
+                - generic [ref=e272]: "Filter results by your vehicle:"
+                - generic [ref=e273]: Enter a new vehicle to add it to Your Garage and filter the results below
+              - list [ref=e274]:
+                - generic [ref=e278] [cursor=pointer]:
+                  - button "Enter a new vehicle" [ref=e279]
+                  - generic [ref=e280]: Enter a new vehicle
+          - generic [ref=e282]:
+            - generic [ref=e285]:
+              - heading "Results" [level=2] [ref=e286]
+              - generic [ref=e287]: Check each product page for other buying options. Price and other details may vary based on product size and colour.
+            - generic:
+              - list:
+                - listitem [ref=e288]:
+                  - generic [ref=e295]:
+                    - link [ref=e298] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfYXRmOjMwMDg2NzU3NDExMjUzMjo6MDo6&url=%2FSTARNOVA-KIDS-HyCruiser-Rechargeable-Bluetooth%2Fdp%2FB0FWJWGPXJ%2Fref%3Dsr_1_1_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-1-spons%26aref%3DY6ArF03rWi%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=Y6ArF03rWi&sp_cr=ZAZ
+                      - img [ref=e300]
+                    - generic [ref=e301]:
+                      - generic [ref=e302]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e305] [cursor=pointer]:
+                          - generic [ref=e306]: Sponsored
+                        - link "Sponsored Ad - HyCruiser EV Bike 6V Rechargeable Electric Ride-On | Kids Scooter Bike for 1-5 Years | Bluetooth Music, LED Lights, Safety Wheels| 100 Kg | 4.5-6Hr Ride Time | 1 Year Warranty" [ref=e308] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfYXRmOjMwMDg2NzU3NDExMjUzMjo6MDo6&url=%2FSTARNOVA-KIDS-HyCruiser-Rechargeable-Bluetooth%2Fdp%2FB0FWJWGPXJ%2Fref%3Dsr_1_1_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-1-spons%26aref%3DY6ArF03rWi%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=Y6ArF03rWi&sp_cr=ZAZ
+                          - heading "Sponsored Ad - HyCruiser EV Bike 6V Rechargeable Electric Ride-On | Kids Scooter Bike for 1-5 Years | Bluetooth Music, LED Lights, Safety Wheels| 100 Kg | 4.5-6Hr Ride Time | 1 Year Warranty" [level=2] [ref=e309]: HyCruiser EV Bike 6V Rechargeable Electric Ride-On | Kids Scooter Bike for 1-5 Years | Bluetooth Music, LED Lights, Safety Wheels| 100 Kg | 4.5-6Hr Ride Time | 1 Year Warranty
+                      - generic [ref=e311]:
+                        - text: "5.0"
+                        - button "5.0 out of 5 stars, rating details" [ref=e313] [cursor=pointer]:
+                          - generic [ref=e315]: 5.0 out of 5 stars
+                        - link "1 ratings" [ref=e317] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfYXRmOjMwMDg2NzU3NDExMjUzMjo6MDo6&url=%2FSTARNOVA-KIDS-HyCruiser-Rechargeable-Bluetooth%2Fdp%2FB0FWJWGPXJ%2Fref%3Dsr_1_1_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-1-spons%26aref%3DY6ArF03rWi%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=Y6ArF03rWi&sp_cr=ZAZ#customerReviews
+                          - text: (1)
+                      - generic [ref=e320]:
+                        - generic [ref=e321]: Price, product page
+                        - 'link "₹4,117 M.R.P: ₹11,999 M.R.P: ₹11,999" [ref=e322] [cursor=pointer]':
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfYXRmOjMwMDg2NzU3NDExMjUzMjo6MDo6&url=%2FSTARNOVA-KIDS-HyCruiser-Rechargeable-Bluetooth%2Fdp%2FB0FWJWGPXJ%2Fref%3Dsr_1_1_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-1-spons%26aref%3DY6ArF03rWi%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=Y6ArF03rWi&sp_cr=ZAZ
+                          - generic [ref=e323]:
+                            - generic [ref=e324]: ₹4,117
+                            - generic [ref=e325]: ₹4,117
+                          - generic [ref=e326]: "M.R.P: ₹11,999"
+                          - generic [ref=e327]:
+                            - text: "M.R.P:"
+                            - generic [ref=e328]:
+                              - generic [ref=e329]: ₹11,999
+                              - text: ₹11,999
+                        - text: (66% off)
+                      - generic [ref=e336]: FREE delivery Fri, 26 Dec
+                      - generic [ref=e342]: "Ages: 18 months and up"
+                      - button "Add to cart" [ref=e356] [cursor=pointer]
+                - listitem [ref=e357]:
+                  - generic [ref=e364]:
+                    - link [ref=e367] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfYXRmOjMwMDYyMDY0Njc3ODgzMjo6MDo6&url=%2FToyzone-Bike_Red-Rechargeable-Bluetoooth-Warranty%2Fdp%2FB0F5HTWY17%2Fref%3Dsr_1_2_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-2-spons%26aref%3DhclhxyEqGJ%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=hclhxyEqGJ&sp_cr=ZAZ
+                      - img [ref=e369]
+                    - generic [ref=e370]:
+                      - generic [ref=e371]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e374] [cursor=pointer]:
+                          - generic [ref=e375]: Sponsored
+                        - link "Sponsored Ad - Toyzone Ralph EV M Bike_Red | Rechargeable Bike 6V | Powered by 6.5 AH Battery | Music Player with Bluetoooth & USB | 6 Month Battery Warranty | Make in India | for Kids 2+ Years" [ref=e377] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfYXRmOjMwMDYyMDY0Njc3ODgzMjo6MDo6&url=%2FToyzone-Bike_Red-Rechargeable-Bluetoooth-Warranty%2Fdp%2FB0F5HTWY17%2Fref%3Dsr_1_2_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-2-spons%26aref%3DhclhxyEqGJ%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=hclhxyEqGJ&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Toyzone Ralph EV M Bike_Red | Rechargeable Bike 6V | Powered by 6.5 AH Battery | Music Player with Bluetoooth & USB | 6 Month Battery Warranty | Make in India | for Kids 2+ Years" [level=2] [ref=e378]: Toyzone Ralph EV M Bike_Red | Rechargeable Bike 6V | Powered by 6.5 AH Battery | Music Player with Bluetoooth & USB | 6 Month Battery Warranty | Make in India | for Kids 2+ Years
+                      - generic [ref=e380]:
+                        - text: "3.6"
+                        - button "3.6 out of 5 stars, rating details" [ref=e382] [cursor=pointer]:
+                          - generic [ref=e384]: 3.6 out of 5 stars
+                        - link "44 ratings" [ref=e386] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfYXRmOjMwMDYyMDY0Njc3ODgzMjo6MDo6&url=%2FToyzone-Bike_Red-Rechargeable-Bluetoooth-Warranty%2Fdp%2FB0F5HTWY17%2Fref%3Dsr_1_2_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-2-spons%26aref%3DhclhxyEqGJ%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=hclhxyEqGJ&sp_cr=ZAZ#customerReviews
+                          - text: (44)
+                      - generic [ref=e387]:
+                        - link "Limited time deal" [ref=e389] [cursor=pointer]:
+                          - /url: /deals
+                          - generic [ref=e392]: Limited time deal
+                        - generic [ref=e394]:
+                          - generic [ref=e395]: Price, product page
+                          - 'link "₹3,499 M.R.P: ₹9,999 M.R.P: ₹9,999" [ref=e396] [cursor=pointer]':
+                            - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfYXRmOjMwMDYyMDY0Njc3ODgzMjo6MDo6&url=%2FToyzone-Bike_Red-Rechargeable-Bluetoooth-Warranty%2Fdp%2FB0F5HTWY17%2Fref%3Dsr_1_2_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-2-spons%26aref%3DhclhxyEqGJ%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=hclhxyEqGJ&sp_cr=ZAZ
+                            - generic [ref=e397]:
+                              - generic [ref=e398]: ₹3,499
+                              - generic [ref=e399]: ₹3,499
+                            - generic [ref=e400]: "M.R.P: ₹9,999"
+                            - generic [ref=e401]:
+                              - text: "M.R.P:"
+                              - generic [ref=e402]:
+                                - generic [ref=e403]: ₹9,999
+                                - text: ₹9,999
+                          - text: (65% off)
+                      - generic [ref=e410]: FREE delivery as soon as Tue, 23 Dec, 7 am - 10 pm
+                      - generic [ref=e416]: "Ages: 24 months and up"
+                      - button "Add to cart" [ref=e430] [cursor=pointer]
+                - listitem [ref=e431]:
+                  - generic [ref=e438]:
+                    - link [ref=e441] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfYXRmOjMwMDgxNjQzNDI2NjczMjo6MDo6&url=%2FBSA-Bicycle-Assembled-Included-Pearlized%2Fdp%2FB0FNNFB6T5%2Fref%3Dsr_1_3_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-3-spons%26aref%3D2jL3lHpXOM%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=2jL3lHpXOM&sp_cr=ZAZ
+                      - img [ref=e443]
+                    - generic [ref=e444]:
+                      - group "colours available" [ref=e446]:
+                        - list
+                        - link "+1 other color/pattern" [ref=e448] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfYXRmOjMwMDgxNjQzNDI2NjczMjo6MDo6&url=%2FBSA-Bicycle-Assembled-Included-Pearlized%2Fdp%2FB0FNNFB6T5%2Fref%3Dsr_1_3_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-3-spons%26aref%3D2jL3lHpXOM%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=2jL3lHpXOM&sp_cr=ZAZ
+                      - generic [ref=e449]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e452] [cursor=pointer]:
+                          - generic [ref=e453]: Sponsored
+                        - link "Sponsored Ad - BSA Patrol 20T | Kids Bicycle | 85% Assembled | Single Speed | Tool kit Included | Ideal for 5-8 Years | Unisex -Pearlized Blue" [ref=e455] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfYXRmOjMwMDgxNjQzNDI2NjczMjo6MDo6&url=%2FBSA-Bicycle-Assembled-Included-Pearlized%2Fdp%2FB0FNNFB6T5%2Fref%3Dsr_1_3_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-3-spons%26aref%3D2jL3lHpXOM%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=2jL3lHpXOM&sp_cr=ZAZ
+                          - heading "Sponsored Ad - BSA Patrol 20T | Kids Bicycle | 85% Assembled | Single Speed | Tool kit Included | Ideal for 5-8 Years | Unisex -Pearlized Blue" [level=2] [ref=e456]: BSA Patrol 20T | Kids Bicycle | 85% Assembled | Single Speed | Tool kit Included | Ideal for 5-8 Years | Unisex -Pearlized Blue
+                      - generic [ref=e458]:
+                        - text: "3.1"
+                        - button "3.1 out of 5 stars, rating details" [ref=e460] [cursor=pointer]:
+                          - generic [ref=e462]: 3.1 out of 5 stars
+                        - link "9 ratings" [ref=e464] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfYXRmOjMwMDgxNjQzNDI2NjczMjo6MDo6&url=%2FBSA-Bicycle-Assembled-Included-Pearlized%2Fdp%2FB0FNNFB6T5%2Fref%3Dsr_1_3_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-3-spons%26aref%3D2jL3lHpXOM%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=2jL3lHpXOM&sp_cr=ZAZ#customerReviews
+                          - text: (9)
+                      - generic [ref=e467]:
+                        - generic [ref=e468]: Price, product page
+                        - 'link "₹5,249 M.R.P: ₹7,031 M.R.P: ₹7,031" [ref=e469] [cursor=pointer]':
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfYXRmOjMwMDgxNjQzNDI2NjczMjo6MDo6&url=%2FBSA-Bicycle-Assembled-Included-Pearlized%2Fdp%2FB0FNNFB6T5%2Fref%3Dsr_1_3_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-3-spons%26aref%3D2jL3lHpXOM%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=2jL3lHpXOM&sp_cr=ZAZ
+                          - generic [ref=e470]:
+                            - generic [ref=e471]: ₹5,249
+                            - generic [ref=e472]: ₹5,249
+                          - generic [ref=e473]: "M.R.P: ₹7,031"
+                          - generic [ref=e474]:
+                            - text: "M.R.P:"
+                            - generic [ref=e475]:
+                              - generic [ref=e476]: ₹7,031
+                              - text: ₹7,031
+                        - text: (25% off)
+                      - generic [ref=e483]: FREE delivery
+                      - generic [ref=e489]: "Service: Assembly"
+                      - button "Add to cart" [ref=e503] [cursor=pointer]
+                - listitem [ref=e504]:
+                  - generic [ref=e511]:
+                    - link [ref=e514] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfYXRmOjMwMDY0NDAyODQ4OTYzMjo6MDo6&url=%2FChicco-Pedal-Free-Anti-Puncture-Adjustable-Certified%2Fdp%2FB0FJXPNX7L%2Fref%3Dsr_1_4_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-4-spons%26aref%3D0c0ROQu0lW%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=0c0ROQu0lW&sp_cr=ZAZ
+                      - img [ref=e516]
+                    - generic [ref=e517]:
+                      - generic [ref=e518]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e521] [cursor=pointer]:
+                          - generic [ref=e522]: Sponsored
+                        - link "Sponsored Ad - Chicco Speedy Red Balance Bike | Pedal-Free Bike| Anti-Puncture EVA Wheels | Adjustable Seat Hieght | Adjustable Handle Bar Hieght | BIS Certified" [ref=e524] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfYXRmOjMwMDY0NDAyODQ4OTYzMjo6MDo6&url=%2FChicco-Pedal-Free-Anti-Puncture-Adjustable-Certified%2Fdp%2FB0FJXPNX7L%2Fref%3Dsr_1_4_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-4-spons%26aref%3D0c0ROQu0lW%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=0c0ROQu0lW&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Chicco Speedy Red Balance Bike | Pedal-Free Bike| Anti-Puncture EVA Wheels | Adjustable Seat Hieght | Adjustable Handle Bar Hieght | BIS Certified" [level=2] [ref=e525]: Chicco Speedy Red Balance Bike | Pedal-Free Bike| Anti-Puncture EVA Wheels | Adjustable Seat Hieght | Adjustable Handle Bar Hieght | BIS Certified
+                      - generic [ref=e527]:
+                        - text: "5.0"
+                        - button "5.0 out of 5 stars, rating details" [ref=e529] [cursor=pointer]:
+                          - generic [ref=e531]: 5.0 out of 5 stars
+                        - link "3 ratings" [ref=e533] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfYXRmOjMwMDY0NDAyODQ4OTYzMjo6MDo6&url=%2FChicco-Pedal-Free-Anti-Puncture-Adjustable-Certified%2Fdp%2FB0FJXPNX7L%2Fref%3Dsr_1_4_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-4-spons%26aref%3D0c0ROQu0lW%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=0c0ROQu0lW&sp_cr=ZAZ#customerReviews
+                          - text: (3)
+                      - generic [ref=e534]:
+                        - generic [ref=e536]:
+                          - generic [ref=e537]: Price, product page
+                          - 'link "₹3,390 M.R.P: ₹3,990 M.R.P: ₹3,990" [ref=e538] [cursor=pointer]':
+                            - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfYXRmOjMwMDY0NDAyODQ4OTYzMjo6MDo6&url=%2FChicco-Pedal-Free-Anti-Puncture-Adjustable-Certified%2Fdp%2FB0FJXPNX7L%2Fref%3Dsr_1_4_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-4-spons%26aref%3D0c0ROQu0lW%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1&aref=0c0ROQu0lW&sp_cr=ZAZ
+                            - generic [ref=e539]:
+                              - generic [ref=e540]: ₹3,390
+                              - generic [ref=e541]: ₹3,390
+                            - generic [ref=e542]: "M.R.P: ₹3,990"
+                            - generic [ref=e543]:
+                              - text: "M.R.P:"
+                              - generic [ref=e544]:
+                                - generic [ref=e545]: ₹3,990
+                                - text: ₹3,990
+                          - text: (15% off)
+                        - generic [ref=e549]:
+                          - generic [ref=e550]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e551]: Up to 5% back with Amazon Pay I...
+                      - generic [ref=e554]:
+                        - generic [ref=e558]: FREE delivery Wed, 24 Dec
+                        - generic [ref=e560]: Or fastest delivery Tue, 23 Dec
+                      - button "Add to cart" [ref=e576] [cursor=pointer]
+                - listitem [ref=e577]:
+                  - generic [ref=e582]:
+                    - link [ref=e585] [cursor=pointer]:
+                      - /url: /TRIUMPH-Gloss-Booking-Ex-Showroom-Price/dp/B0F539BQRQ/ref=sr_1_5?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-5
+                      - img [ref=e587]
+                    - generic [ref=e588]:
+                      - link "TRIUMPH T4 Bike Lava Red Gloss Booking for Ex-Showroom Price" [ref=e590] [cursor=pointer]:
+                        - /url: /TRIUMPH-Gloss-Booking-Ex-Showroom-Price/dp/B0F539BQRQ/ref=sr_1_5?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-5
+                        - heading "TRIUMPH T4 Bike Lava Red Gloss Booking for Ex-Showroom Price" [level=2] [ref=e591]
+                      - generic [ref=e593]:
+                        - text: "4.3"
+                        - button "4.3 out of 5 stars, rating details" [ref=e595] [cursor=pointer]:
+                          - generic [ref=e597]: 4.3 out of 5 stars
+                        - link "42 ratings" [ref=e599] [cursor=pointer]:
+                          - /url: /TRIUMPH-Gloss-Booking-Ex-Showroom-Price/dp/B0F539BQRQ/ref=sr_1_5?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-5#customerReviews
+                          - text: (42)
+                      - generic [ref=e600]:
+                        - generic [ref=e602]:
+                          - generic [ref=e603]: Price, product page
+                          - link "₹1,92,539" [ref=e604] [cursor=pointer]:
+                            - /url: /TRIUMPH-Gloss-Booking-Ex-Showroom-Price/dp/B0F539BQRQ/ref=sr_1_5?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-5
+                            - generic [ref=e605]:
+                              - generic [ref=e606]: ₹1,92,539
+                              - generic [ref=e607]: ₹1,92,539
+                        - generic [ref=e611]:
+                          - generic [ref=e612]: Flat INR 2500 Off on all cc dc cards
+                          - generic [ref=e613]: Flat INR 2500 Off on all cc dc cards
+                      - generic [ref=e620]: FREE delivery 6 - 8 Jan
+                      - button "Add to cart" [ref=e638] [cursor=pointer]
+                - listitem [ref=e639]:
+                  - generic [ref=e644]:
+                    - link [ref=e647] [cursor=pointer]:
+                      - /url: /KTM-Black-Booking-Ex-Showroom-Price/dp/B0F539PWVM/ref=sr_1_6?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-6
+                      - img [ref=e649]
+                    - generic [ref=e650]:
+                      - link "KTM Duke 250 Bike Blue Black Booking for Ex-Showroom Price" [ref=e652] [cursor=pointer]:
+                        - /url: /KTM-Black-Booking-Ex-Showroom-Price/dp/B0F539PWVM/ref=sr_1_6?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-6
+                        - heading "KTM Duke 250 Bike Blue Black Booking for Ex-Showroom Price" [level=2] [ref=e653]
+                      - generic [ref=e655]:
+                        - text: "4.5"
+                        - button "4.5 out of 5 stars, rating details" [ref=e657] [cursor=pointer]:
+                          - generic [ref=e659]: 4.5 out of 5 stars
+                        - link "30 ratings" [ref=e661] [cursor=pointer]:
+                          - /url: /KTM-Black-Booking-Ex-Showroom-Price/dp/B0F539PWVM/ref=sr_1_6?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-6#customerReviews
+                          - text: (30)
+                      - generic [ref=e662]:
+                        - generic [ref=e664]:
+                          - generic [ref=e665]: Price, product page
+                          - link "₹2,12,314" [ref=e666] [cursor=pointer]:
+                            - /url: /KTM-Black-Booking-Ex-Showroom-Price/dp/B0F539PWVM/ref=sr_1_6?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-6
+                            - generic [ref=e667]:
+                              - generic [ref=e668]: ₹2,12,314
+                              - generic [ref=e669]: ₹2,12,314
+                        - generic [ref=e673]:
+                          - generic [ref=e674]: Flat INR 2750 Off on all cc dc cards
+                          - generic [ref=e675]: Flat INR 2750 Off on all cc dc cards
+                      - generic [ref=e682]: FREE delivery 6 - 8 Jan
+                      - button "Add to cart" [ref=e700] [cursor=pointer]
+                - listitem [ref=e701]:
+                  - generic [ref=e706]:
+                    - link [ref=e709] [cursor=pointer]:
+                      - /url: /Hero-MotoCorp-Motorcycles-Booking-Ex-Showroom/dp/B0FGY7MNTK/ref=sr_1_7?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-7
+                      - img [ref=e711]
+                    - generic [ref=e712]:
+                      - link "Hero MotoCorp XTREME 125R ABS DSS (OBD2B) Motorcycles/Bike Black Booking for Ex-Showroom Price" [ref=e714] [cursor=pointer]:
+                        - /url: /Hero-MotoCorp-Motorcycles-Booking-Ex-Showroom/dp/B0FGY7MNTK/ref=sr_1_7?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-7
+                        - heading "Hero MotoCorp XTREME 125R ABS DSS (OBD2B) Motorcycles/Bike Black Booking for Ex-Showroom Price" [level=2] [ref=e715]
+                      - generic [ref=e717]:
+                        - text: "4.4"
+                        - button "4.4 out of 5 stars, rating details" [ref=e719] [cursor=pointer]:
+                          - generic [ref=e721]: 4.4 out of 5 stars
+                        - link "20 ratings" [ref=e723] [cursor=pointer]:
+                          - /url: /Hero-MotoCorp-Motorcycles-Booking-Ex-Showroom/dp/B0FGY7MNTK/ref=sr_1_7?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-7#customerReviews
+                          - text: (20)
+                      - generic [ref=e724]:
+                        - generic [ref=e726]:
+                          - generic [ref=e727]: Price, product page
+                          - link "₹97,000" [ref=e728] [cursor=pointer]:
+                            - /url: /Hero-MotoCorp-Motorcycles-Booking-Ex-Showroom/dp/B0FGY7MNTK/ref=sr_1_7?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-7
+                            - generic [ref=e729]:
+                              - generic [ref=e730]: ₹97,000
+                              - generic [ref=e731]: ₹97,000
+                        - generic [ref=e735]:
+                          - generic [ref=e736]: Flat INR 2000 Off on all cc dc cards
+                          - generic [ref=e737]: Flat INR 2000 Off on all cc dc cards
+                      - generic [ref=e744]: FREE delivery 27 - 30 Dec
+                      - button "Add to cart" [ref=e762] [cursor=pointer]
+                - listitem [ref=e763]:
+                  - generic [ref=e768]:
+                    - link [ref=e771] [cursor=pointer]:
+                      - /url: /Hero-Deluxe-Black-Grey-Booking-Ex-Showroom/dp/B0F7XD2387/ref=sr_1_8?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-8
+                      - img [ref=e773]
+                    - generic [ref=e774]:
+                      - link "Hero Hf Deluxe 24 BS6 Bike (DRS CS FI) Black-Grey Stripe Booking For Ex-Showroom Price" [ref=e776] [cursor=pointer]:
+                        - /url: /Hero-Deluxe-Black-Grey-Booking-Ex-Showroom/dp/B0F7XD2387/ref=sr_1_8?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-8
+                        - heading "Hero Hf Deluxe 24 BS6 Bike (DRS CS FI) Black-Grey Stripe Booking For Ex-Showroom Price" [level=2] [ref=e777]
+                      - generic [ref=e779]:
+                        - text: "4.5"
+                        - button "4.5 out of 5 stars, rating details" [ref=e781] [cursor=pointer]:
+                          - generic [ref=e783]: 4.5 out of 5 stars
+                        - link "37 ratings" [ref=e785] [cursor=pointer]:
+                          - /url: /Hero-Deluxe-Black-Grey-Booking-Ex-Showroom/dp/B0F7XD2387/ref=sr_1_8?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-8#customerReviews
+                          - text: (37)
+                      - generic [ref=e788]:
+                        - generic [ref=e789]: Price, product page
+                        - link "₹63,874" [ref=e790] [cursor=pointer]:
+                          - /url: /Hero-Deluxe-Black-Grey-Booking-Ex-Showroom/dp/B0F7XD2387/ref=sr_1_8?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-8
+                          - generic [ref=e791]:
+                            - generic [ref=e792]: ₹63,874
+                            - generic [ref=e793]: ₹63,874
+                      - generic [ref=e794]:
+                        - generic [ref=e800]: FREE delivery 26 - 29 Dec
+                        - generic "Only 1 left in stock." [ref=e806]
+                      - button "Add to cart" [ref=e820] [cursor=pointer]
+                - listitem [ref=e821]:
+                  - generic [ref=e826]:
+                    - link [ref=e829] [cursor=pointer]:
+                      - /url: /Royal-Enfield-Hunter-Dapper-Grey/dp/B0FRMS9B26/ref=sr_1_9?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-9
+                      - img [ref=e831]
+                    - generic [ref=e832]:
+                      - link "Royal Enfield Hunter 350 with Disc & Alloy Wheels Motorcycle (Dapper Grey) Booking for Ex-Showroom Price" [ref=e834] [cursor=pointer]:
+                        - /url: /Royal-Enfield-Hunter-Dapper-Grey/dp/B0FRMS9B26/ref=sr_1_9?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-9
+                        - heading "Royal Enfield Hunter 350 with Disc & Alloy Wheels Motorcycle (Dapper Grey) Booking for Ex-Showroom Price" [level=2] [ref=e835]
+                      - generic [ref=e837]:
+                        - text: "5.0"
+                        - button "5.0 out of 5 stars, rating details" [ref=e839] [cursor=pointer]:
+                          - generic [ref=e841]: 5.0 out of 5 stars
+                        - link "6 ratings" [ref=e843] [cursor=pointer]:
+                          - /url: /Royal-Enfield-Hunter-Dapper-Grey/dp/B0FRMS9B26/ref=sr_1_9?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-9#customerReviews
+                          - text: (6)
+                      - generic [ref=e846]:
+                        - generic [ref=e847]: Price, product page
+                        - link "₹1,62,292" [ref=e848] [cursor=pointer]:
+                          - /url: /Royal-Enfield-Hunter-Dapper-Grey/dp/B0FRMS9B26/ref=sr_1_9?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-9
+                          - generic [ref=e849]:
+                            - generic [ref=e850]: ₹1,62,292
+                            - generic [ref=e851]: ₹1,62,292
+                      - generic [ref=e858]: FREE delivery 17 - 20 Jan
+                      - button "Add to cart" [ref=e876] [cursor=pointer]
+                - listitem [ref=e877]:
+                  - generic [ref=e882]:
+                    - link [ref=e885] [cursor=pointer]:
+                      - /url: /TRIUMPH-Speed-Metallic-Booking-Ex-Showroom/dp/B0F53JB5QR/ref=sr_1_10?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-10
+                      - img [ref=e887]
+                    - generic [ref=e888]:
+                      - link "TRIUMPH Speed 400 MY25 Bike Pearl Metallic White Booking for Ex-Showroom Price" [ref=e890] [cursor=pointer]:
+                        - /url: /TRIUMPH-Speed-Metallic-Booking-Ex-Showroom/dp/B0F53JB5QR/ref=sr_1_10?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-10
+                        - heading "TRIUMPH Speed 400 MY25 Bike Pearl Metallic White Booking for Ex-Showroom Price" [level=2] [ref=e891]
+                      - generic [ref=e893]:
+                        - text: "4.7"
+                        - button "4.7 out of 5 stars, rating details" [ref=e895] [cursor=pointer]:
+                          - generic [ref=e897]: 4.7 out of 5 stars
+                        - link "45 ratings" [ref=e899] [cursor=pointer]:
+                          - /url: /TRIUMPH-Speed-Metallic-Booking-Ex-Showroom/dp/B0F53JB5QR/ref=sr_1_10?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-10#customerReviews
+                          - text: (45)
+                      - generic [ref=e900]:
+                        - generic [ref=e902]:
+                          - generic [ref=e903]: Price, product page
+                          - link "₹2,33,754" [ref=e904] [cursor=pointer]:
+                            - /url: /TRIUMPH-Speed-Metallic-Booking-Ex-Showroom/dp/B0F53JB5QR/ref=sr_1_10?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-10
+                            - generic [ref=e905]:
+                              - generic [ref=e906]: ₹2,33,754
+                              - generic [ref=e907]: ₹2,33,754
+                        - generic [ref=e911]:
+                          - generic [ref=e912]: Flat INR 3250 Off on all cc dc cards
+                          - generic [ref=e913]: Flat INR 3250 Off on all cc dc cards
+                      - generic [ref=e920]: FREE delivery 6 - 8 Jan
+                      - button "Add to cart" [ref=e938] [cursor=pointer]
+                - listitem [ref=e939]:
+                  - generic [ref=e944]:
+                    - link [ref=e947] [cursor=pointer]:
+                      - /url: /Motorcycle-Motorbike-Metallic-booking-Ex-Showroom/dp/B0DCK5Q7FJ/ref=sr_1_11?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-11
+                      - img [ref=e949]
+                    - generic [ref=e950]:
+                      - link "Bajaj Pulsar Ns 400Z Motorcycle/Motorbike - Pearl Metallic White - Ex-Showroom" [ref=e952] [cursor=pointer]:
+                        - /url: /Motorcycle-Motorbike-Metallic-booking-Ex-Showroom/dp/B0DCK5Q7FJ/ref=sr_1_11?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-11
+                        - heading "Bajaj Pulsar Ns 400Z Motorcycle/Motorbike - Pearl Metallic White - Ex-Showroom" [level=2] [ref=e953]
+                      - generic [ref=e955]:
+                        - text: "4.5"
+                        - button "4.5 out of 5 stars, rating details" [ref=e957] [cursor=pointer]:
+                          - generic [ref=e959]: 4.5 out of 5 stars
+                        - link "26 ratings" [ref=e961] [cursor=pointer]:
+                          - /url: /Motorcycle-Motorbike-Metallic-booking-Ex-Showroom/dp/B0DCK5Q7FJ/ref=sr_1_11?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-11#customerReviews
+                          - text: (26)
+                      - generic [ref=e962]:
+                        - generic [ref=e964]:
+                          - generic [ref=e965]: Price, product page
+                          - link "₹1,92,794" [ref=e966] [cursor=pointer]:
+                            - /url: /Motorcycle-Motorbike-Metallic-booking-Ex-Showroom/dp/B0DCK5Q7FJ/ref=sr_1_11?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-11
+                            - generic [ref=e967]:
+                              - generic [ref=e968]: ₹1,92,794
+                              - generic [ref=e969]: ₹1,92,794
+                        - generic [ref=e973]:
+                          - generic [ref=e974]: Flat INR 3000 Off on all cc dc cards
+                          - generic [ref=e975]: Flat INR 3000 Off on all cc dc cards
+                      - generic [ref=e982]: FREE delivery 6 - 8 Jan
+                      - button "Add to cart" [ref=e1000] [cursor=pointer]
+                      - generic [ref=e1002]:
+                        - text: More Buying Choices
+                        - text: ₹1,92,792.70
+                        - link "(9 new offers)" [ref=e1004] [cursor=pointer]:
+                          - /url: /gp/offer-listing/B0DCK5Q7FJ/ref=sr_1_11_olp?keywords=Bike&crid=2RQ7YNOJ0P3OR&sprefix=bike%2Caps%2C480&dib_tag=se&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&qid=1766330711&sr=8-11
+                - listitem [ref=e1005]:
+                  - generic [ref=e1010]:
+                    - link [ref=e1013] [cursor=pointer]:
+                      - /url: /Pulsar-Channel-Single-Motorcycle-Motorbike/dp/B0F63YF7Z1/ref=sr_1_12?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-12
+                      - img [ref=e1015]
+                    - generic [ref=e1016]:
+                      - link "Bajaj Pulsar N160 Twin Disc Dual Channel Single Seat Motorcycle/Motorbike - Ebony Black - Ex-Showroom" [ref=e1018] [cursor=pointer]:
+                        - /url: /Pulsar-Channel-Single-Motorcycle-Motorbike/dp/B0F63YF7Z1/ref=sr_1_12?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-12
+                        - heading "Bajaj Pulsar N160 Twin Disc Dual Channel Single Seat Motorcycle/Motorbike - Ebony Black - Ex-Showroom" [level=2] [ref=e1019]
+                      - generic [ref=e1021]:
+                        - text: "4.6"
+                        - button "4.6 out of 5 stars, rating details" [ref=e1023] [cursor=pointer]:
+                          - generic [ref=e1025]: 4.6 out of 5 stars
+                        - link "37 ratings" [ref=e1027] [cursor=pointer]:
+                          - /url: /Pulsar-Channel-Single-Motorcycle-Motorbike/dp/B0F63YF7Z1/ref=sr_1_12?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-12#customerReviews
+                          - text: (37)
+                      - generic [ref=e1028]:
+                        - generic [ref=e1030]:
+                          - generic [ref=e1031]: Price, product page
+                          - link "₹1,15,900" [ref=e1032] [cursor=pointer]:
+                            - /url: /Pulsar-Channel-Single-Motorcycle-Motorbike/dp/B0F63YF7Z1/ref=sr_1_12?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-12
+                            - generic [ref=e1033]:
+                              - generic [ref=e1034]: ₹1,15,900
+                              - generic [ref=e1035]: ₹1,15,900
+                        - generic [ref=e1039]:
+                          - generic [ref=e1040]: Flat INR 2000 Off on all cc dc cards
+                          - generic [ref=e1041]: Flat INR 2000 Off on all cc dc cards
+                      - generic [ref=e1048]: FREE delivery 6 - 8 Jan
+                      - button "Add to cart" [ref=e1066] [cursor=pointer]
+                      - generic [ref=e1068]:
+                        - text: More Buying Choices
+                        - text: ₹1,15,899.60
+                        - link "(9 new offers)" [ref=e1070] [cursor=pointer]:
+                          - /url: /gp/offer-listing/B0F63YF7Z1/ref=sr_1_12_olp?keywords=Bike&crid=2RQ7YNOJ0P3OR&sprefix=bike%2Caps%2C480&dib_tag=se&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&qid=1766330711&sr=8-12
+                - listitem [ref=e1071]:
+                  - generic [ref=e1076]:
+                    - link [ref=e1079] [cursor=pointer]:
+                      - /url: /Pulsar-Motorbike-Motorcycle-booking-Ex-Showroom/dp/B0D83VPSDC/ref=sr_1_13?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-13
+                      - img [ref=e1081]
+                    - generic [ref=e1082]:
+                      - link "Bajaj Pulsar 125 Neon Disc Motorcycle/Motorbike - Ebony Black Solar Red Decals - Ex-Showroom" [ref=e1084] [cursor=pointer]:
+                        - /url: /Pulsar-Motorbike-Motorcycle-booking-Ex-Showroom/dp/B0D83VPSDC/ref=sr_1_13?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-13
+                        - heading "Bajaj Pulsar 125 Neon Disc Motorcycle/Motorbike - Ebony Black Solar Red Decals - Ex-Showroom" [level=2] [ref=e1085]
+                      - generic [ref=e1087]:
+                        - text: "4.3"
+                        - button "4.3 out of 5 stars, rating details" [ref=e1089] [cursor=pointer]:
+                          - generic [ref=e1091]: 4.3 out of 5 stars
+                        - link "81 ratings" [ref=e1093] [cursor=pointer]:
+                          - /url: /Pulsar-Motorbike-Motorcycle-booking-Ex-Showroom/dp/B0D83VPSDC/ref=sr_1_13?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-13#customerReviews
+                          - text: (81)
+                      - generic [ref=e1094]:
+                        - generic [ref=e1096]:
+                          - generic [ref=e1097]: Price, product page
+                          - link "₹81,538" [ref=e1098] [cursor=pointer]:
+                            - /url: /Pulsar-Motorbike-Motorcycle-booking-Ex-Showroom/dp/B0D83VPSDC/ref=sr_1_13?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-13
+                            - generic [ref=e1099]:
+                              - generic [ref=e1100]: ₹81,538
+                              - generic [ref=e1101]: ₹81,538
+                        - generic [ref=e1105]:
+                          - generic [ref=e1106]: Flat INR 1500 Off on all cc dc cards
+                          - generic [ref=e1107]: Flat INR 1500 Off on all cc dc cards
+                      - generic [ref=e1114]: FREE delivery 6 - 8 Jan
+                      - button "Add to cart" [ref=e1132] [cursor=pointer]
+                - listitem [ref=e1133]:
+                  - generic [ref=e1138]:
+                    - link [ref=e1141] [cursor=pointer]:
+                      - /url: /Gigaglitz-50cc-Stroke-Super-Cross-Dirt/dp/B0CVKVHN41/ref=sr_1_14?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-14
+                      - img [ref=e1143]
+                    - generic [ref=e1144]:
+                      - link "50cc 2 Stroke Super-Cross Kids Dirt Bike - Best Mini Off-Road Motorcycle for Childrens, Affordable and Budget Friendly Bike" [ref=e1146] [cursor=pointer]:
+                        - /url: /Gigaglitz-50cc-Stroke-Super-Cross-Dirt/dp/B0CVKVHN41/ref=sr_1_14?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-14
+                        - heading "50cc 2 Stroke Super-Cross Kids Dirt Bike - Best Mini Off-Road Motorcycle for Childrens, Affordable and Budget Friendly Bike" [level=2] [ref=e1147]
+                      - generic [ref=e1149]:
+                        - text: "3.1"
+                        - button "3.1 out of 5 stars, rating details" [ref=e1151] [cursor=pointer]:
+                          - generic [ref=e1153]: 3.1 out of 5 stars
+                        - link "4 ratings" [ref=e1155] [cursor=pointer]:
+                          - /url: /Gigaglitz-50cc-Stroke-Super-Cross-Dirt/dp/B0CVKVHN41/ref=sr_1_14?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-14#customerReviews
+                          - text: (4)
+                      - generic [ref=e1158]:
+                        - generic [ref=e1159]: Price, product page
+                        - 'link "₹43,700 M.R.P: ₹48,700 M.R.P: ₹48,700" [ref=e1160] [cursor=pointer]':
+                          - /url: /Gigaglitz-50cc-Stroke-Super-Cross-Dirt/dp/B0CVKVHN41/ref=sr_1_14?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-14
+                          - generic [ref=e1161]:
+                            - generic [ref=e1162]: ₹43,700
+                            - generic [ref=e1163]: ₹43,700
+                          - generic [ref=e1164]: "M.R.P: ₹48,700"
+                          - generic [ref=e1165]:
+                            - text: "M.R.P:"
+                            - generic [ref=e1166]:
+                              - generic [ref=e1167]: ₹48,700
+                              - text: ₹48,700
+                        - text: (10% off)
+                      - generic [ref=e1174]: FREE delivery 1 - 3 Jan
+                      - button "Add to cart" [ref=e1192] [cursor=pointer]
+                - listitem [ref=e1193]:
+                  - generic [ref=e1198]:
+                    - link [ref=e1201] [cursor=pointer]:
+                      - /url: /KTM-Gunmetal-Metallic-Booking-Ex-Showroom/dp/B0F83362LK/ref=sr_1_15?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-15
+                      - img [ref=e1203]
+                    - generic [ref=e1204]:
+                      - link "KTM Duke 390 Bike Gunmetal Metallic Booking For Ex-Showroom Price" [ref=e1206] [cursor=pointer]:
+                        - /url: /KTM-Gunmetal-Metallic-Booking-Ex-Showroom/dp/B0F83362LK/ref=sr_1_15?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-15
+                        - heading "KTM Duke 390 Bike Gunmetal Metallic Booking For Ex-Showroom Price" [level=2] [ref=e1207]
+                      - generic [ref=e1209]:
+                        - text: "4.6"
+                        - button "4.6 out of 5 stars, rating details" [ref=e1211] [cursor=pointer]:
+                          - generic [ref=e1213]: 4.6 out of 5 stars
+                        - link "19 ratings" [ref=e1215] [cursor=pointer]:
+                          - /url: /KTM-Gunmetal-Metallic-Booking-Ex-Showroom/dp/B0F83362LK/ref=sr_1_15?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-15#customerReviews
+                          - text: (19)
+                      - generic [ref=e1216]:
+                        - generic [ref=e1218]:
+                          - generic [ref=e1219]: Price, product page
+                          - link "₹2,97,575" [ref=e1220] [cursor=pointer]:
+                            - /url: /KTM-Gunmetal-Metallic-Booking-Ex-Showroom/dp/B0F83362LK/ref=sr_1_15?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-15
+                            - generic [ref=e1221]:
+                              - generic [ref=e1222]: ₹2,97,575
+                              - generic [ref=e1223]: ₹2,97,575
+                        - generic [ref=e1227]:
+                          - generic [ref=e1228]: Flat INR 3750 Off on all cc dc cards
+                          - generic [ref=e1229]: Flat INR 3750 Off on all cc dc cards
+                      - generic [ref=e1236]: FREE delivery 6 - 8 Jan
+                      - button "Add to cart" [ref=e1254] [cursor=pointer]
+                - listitem [ref=e1255]:
+                  - generic [ref=e1260]:
+                    - link [ref=e1263] [cursor=pointer]:
+                      - /url: /Motorbike-Motorcycle-Brooklyn-booking-Ex-Showroom/dp/B0D8JGSXZW/ref=sr_1_16?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-16
+                      - img [ref=e1265]
+                    - generic [ref=e1266]:
+                      - link "Bajaj Pulsar N 250 Ug Motorcycle/Motorbike - Brooklyn Black - Ex-Showroom" [ref=e1268] [cursor=pointer]:
+                        - /url: /Motorbike-Motorcycle-Brooklyn-booking-Ex-Showroom/dp/B0D8JGSXZW/ref=sr_1_16?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-16
+                        - heading "Bajaj Pulsar N 250 Ug Motorcycle/Motorbike - Brooklyn Black - Ex-Showroom" [level=2] [ref=e1269]
+                      - generic [ref=e1271]:
+                        - text: "4.2"
+                        - button "4.2 out of 5 stars, rating details" [ref=e1273] [cursor=pointer]:
+                          - generic [ref=e1275]: 4.2 out of 5 stars
+                        - link "32 ratings" [ref=e1277] [cursor=pointer]:
+                          - /url: /Motorbike-Motorcycle-Brooklyn-booking-Ex-Showroom/dp/B0D8JGSXZW/ref=sr_1_16?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-16#customerReviews
+                          - text: (32)
+                      - generic [ref=e1278]:
+                        - generic [ref=e1280]:
+                          - generic [ref=e1281]: Price, product page
+                          - link "₹1,33,470" [ref=e1282] [cursor=pointer]:
+                            - /url: /Motorbike-Motorcycle-Brooklyn-booking-Ex-Showroom/dp/B0D8JGSXZW/ref=sr_1_16?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-16
+                            - generic [ref=e1283]:
+                              - generic [ref=e1284]: ₹1,33,470
+                              - generic [ref=e1285]: ₹1,33,470
+                        - generic [ref=e1289]:
+                          - generic [ref=e1290]: Flat INR 2500 Off on all cc dc cards
+                          - generic [ref=e1291]: Flat INR 2500 Off on all cc dc cards
+                      - generic [ref=e1298]: FREE delivery 6 - 8 Jan
+                      - button "Add to cart" [ref=e1316] [cursor=pointer]
+                      - generic [ref=e1318]:
+                        - text: More Buying Choices
+                        - text: ₹1,33,469.80
+                        - link "(6 new offers)" [ref=e1320] [cursor=pointer]:
+                          - /url: /gp/offer-listing/B0D8JGSXZW/ref=sr_1_16_olp?keywords=Bike&crid=2RQ7YNOJ0P3OR&sprefix=bike%2Caps%2C480&dib_tag=se&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&qid=1766330711&sr=8-16
+                - listitem [ref=e1321]:
+                  - generic [ref=e1326]:
+                    - link [ref=e1329] [cursor=pointer]:
+                      - /url: /Avenger-Motorcycle-Motorbike-booking-Ex-Showroom/dp/B0D987DGZH/ref=sr_1_17?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-17
+                      - img [ref=e1331]
+                    - generic [ref=e1332]:
+                      - link "Bajaj Avenger 160 Street Motorcycle/Motorbike - Ebony Black(Met) - Ex-Showroom" [ref=e1334] [cursor=pointer]:
+                        - /url: /Avenger-Motorcycle-Motorbike-booking-Ex-Showroom/dp/B0D987DGZH/ref=sr_1_17?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-17
+                        - heading "Bajaj Avenger 160 Street Motorcycle/Motorbike - Ebony Black(Met) - Ex-Showroom" [level=2] [ref=e1335]
+                      - generic [ref=e1337]:
+                        - text: "4.7"
+                        - button "4.7 out of 5 stars, rating details" [ref=e1339] [cursor=pointer]:
+                          - generic [ref=e1341]: 4.7 out of 5 stars
+                        - link "28 ratings" [ref=e1343] [cursor=pointer]:
+                          - /url: /Avenger-Motorcycle-Motorbike-booking-Ex-Showroom/dp/B0D987DGZH/ref=sr_1_17?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-17#customerReviews
+                          - text: (28)
+                      - generic [ref=e1344]:
+                        - generic [ref=e1346]:
+                          - generic [ref=e1347]: Price, product page
+                          - link "₹1,11,687" [ref=e1348] [cursor=pointer]:
+                            - /url: /Avenger-Motorcycle-Motorbike-booking-Ex-Showroom/dp/B0D987DGZH/ref=sr_1_17?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-17
+                            - generic [ref=e1349]:
+                              - generic [ref=e1350]: ₹1,11,687
+                              - generic [ref=e1351]: ₹1,11,687
+                        - generic [ref=e1355]:
+                          - generic [ref=e1356]: Flat INR 2000 Off on all cc dc cards
+                          - generic [ref=e1357]: Flat INR 2000 Off on all cc dc cards
+                      - generic [ref=e1364]: FREE delivery 6 - 8 Jan
+                      - button "Add to cart" [ref=e1382] [cursor=pointer]
+                - listitem [ref=e1383]:
+                  - generic [ref=e1388]:
+                    - link [ref=e1391] [cursor=pointer]:
+                      - /url: /Hero-Super-Splendor-Booking-Ex-Showroom/dp/B0F7XKVQ5T/ref=sr_1_18?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-18
+                      - img [ref=e1393]
+                    - generic [ref=e1394]:
+                      - link "Hero Super Splendor Xtec Fi Bike (DRSC) Matt Axis Gray Met Booking For Ex-Showroom Price" [ref=e1396] [cursor=pointer]:
+                        - /url: /Hero-Super-Splendor-Booking-Ex-Showroom/dp/B0F7XKVQ5T/ref=sr_1_18?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-18
+                        - heading "Hero Super Splendor Xtec Fi Bike (DRSC) Matt Axis Gray Met Booking For Ex-Showroom Price" [level=2] [ref=e1397]
+                      - generic [ref=e1399]:
+                        - text: "4.5"
+                        - button "4.5 out of 5 stars, rating details" [ref=e1401] [cursor=pointer]:
+                          - generic [ref=e1403]: 4.5 out of 5 stars
+                        - link "38 ratings" [ref=e1405] [cursor=pointer]:
+                          - /url: /Hero-Super-Splendor-Booking-Ex-Showroom/dp/B0F7XKVQ5T/ref=sr_1_18?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-18#customerReviews
+                          - text: (38)
+                      - generic [ref=e1406]:
+                        - generic [ref=e1408]:
+                          - generic [ref=e1409]: Price, product page
+                          - link "₹85,058" [ref=e1410] [cursor=pointer]:
+                            - /url: /Hero-Super-Splendor-Booking-Ex-Showroom/dp/B0F7XKVQ5T/ref=sr_1_18?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-18
+                            - generic [ref=e1411]:
+                              - generic [ref=e1412]: ₹85,058
+                              - generic [ref=e1413]: ₹85,058
+                        - generic [ref=e1417]:
+                          - generic [ref=e1418]: Flat INR 2500 Off on all cc dc cards
+                          - generic [ref=e1419]: Flat INR 2500 Off on all cc dc cards
+                      - generic [ref=e1426]: FREE delivery 26 - 29 Dec
+                      - button "Add to cart" [ref=e1444] [cursor=pointer]
+                      - generic [ref=e1446]:
+                        - text: More Buying Choices
+                        - text: ₹81,371
+                        - link "(2 new offers)" [ref=e1448] [cursor=pointer]:
+                          - /url: /gp/offer-listing/B0F7XKVQ5T/ref=sr_1_18_olp?keywords=Bike&crid=2RQ7YNOJ0P3OR&sprefix=bike%2Caps%2C480&dib_tag=se&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&qid=1766330711&sr=8-18
+                - listitem [ref=e1449]:
+                  - generic [ref=e1454]:
+                    - link [ref=e1457] [cursor=pointer]:
+                      - /url: /Pulsar-Motorbike-Motorcycle-booking-Ex-Showroom/dp/B0D8JHXKQJ/ref=sr_1_19?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-19
+                      - img [ref=e1459]
+                    - generic [ref=e1460]:
+                      - link "Bajaj Pulsar Ns 200 Ug Motorcycle/Motorbike - Glossy Ebony Black - Ex-Showroom" [ref=e1462] [cursor=pointer]:
+                        - /url: /Pulsar-Motorbike-Motorcycle-booking-Ex-Showroom/dp/B0D8JHXKQJ/ref=sr_1_19?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-19
+                        - heading "Bajaj Pulsar Ns 200 Ug Motorcycle/Motorbike - Glossy Ebony Black - Ex-Showroom" [level=2] [ref=e1463]
+                      - generic [ref=e1465]:
+                        - text: "4.5"
+                        - button "4.5 out of 5 stars, rating details" [ref=e1467] [cursor=pointer]:
+                          - generic [ref=e1469]: 4.5 out of 5 stars
+                        - link "19 ratings" [ref=e1471] [cursor=pointer]:
+                          - /url: /Pulsar-Motorbike-Motorcycle-booking-Ex-Showroom/dp/B0D8JHXKQJ/ref=sr_1_19?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-19#customerReviews
+                          - text: (19)
+                      - generic [ref=e1472]:
+                        - generic [ref=e1474]:
+                          - generic [ref=e1475]: Price, product page
+                          - link "₹1,32,496.30" [ref=e1476] [cursor=pointer]:
+                            - /url: /Pulsar-Motorbike-Motorcycle-booking-Ex-Showroom/dp/B0D8JHXKQJ/ref=sr_1_19?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-19
+                            - generic [ref=e1477]:
+                              - generic [ref=e1478]: ₹1,32,496.30
+                              - generic [ref=e1479]:
+                                - text: ₹
+                                - generic [ref=e1480]:
+                                  - text: 1,32,496
+                                  - generic [ref=e1481]: .
+                                - text: "30"
+                        - generic [ref=e1485]:
+                          - generic [ref=e1486]: Flat INR 2500 Off on all cc dc cards
+                          - generic [ref=e1487]: Flat INR 2500 Off on all cc dc cards
+                      - generic [ref=e1494]: FREE delivery 13 - 15 Jan
+                      - button "Add to cart" [ref=e1512] [cursor=pointer]
+                - listitem [ref=e1513]:
+                  - generic [ref=e1518]:
+                    - link [ref=e1521] [cursor=pointer]:
+                      - /url: /Platina-Motorcycle-Motorbike-booking-Ex-Showroom/dp/B0D8W8CTF1/ref=sr_1_20?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-20
+                      - img [ref=e1523]
+                    - generic [ref=e1524]:
+                      - link "Bajaj Platina 100 Es Drum Motorcycle/Motorbike - Black Silver - Ex-Showroom" [ref=e1526] [cursor=pointer]:
+                        - /url: /Platina-Motorcycle-Motorbike-booking-Ex-Showroom/dp/B0D8W8CTF1/ref=sr_1_20?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-20
+                        - heading "Bajaj Platina 100 Es Drum Motorcycle/Motorbike - Black Silver - Ex-Showroom" [level=2] [ref=e1527]
+                      - generic [ref=e1529]:
+                        - text: "4.7"
+                        - button "4.7 out of 5 stars, rating details" [ref=e1531] [cursor=pointer]:
+                          - generic [ref=e1533]: 4.7 out of 5 stars
+                        - link "14 ratings" [ref=e1535] [cursor=pointer]:
+                          - /url: /Platina-Motorcycle-Motorbike-booking-Ex-Showroom/dp/B0D8W8CTF1/ref=sr_1_20?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-20#customerReviews
+                          - text: (14)
+                      - generic [ref=e1536]:
+                        - generic [ref=e1538]:
+                          - generic [ref=e1539]: Price, product page
+                          - link "₹67,213" [ref=e1540] [cursor=pointer]:
+                            - /url: /Platina-Motorcycle-Motorbike-booking-Ex-Showroom/dp/B0D8W8CTF1/ref=sr_1_20?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-20
+                            - generic [ref=e1541]:
+                              - generic [ref=e1542]: ₹67,213
+                              - generic [ref=e1543]: ₹67,213
+                        - generic [ref=e1547]:
+                          - generic [ref=e1548]: Flat INR 1000 Off on all cc dc cards
+                          - generic [ref=e1549]: Flat INR 1000 Off on all cc dc cards
+                      - generic [ref=e1556]: FREE delivery 6 - 8 Jan
+                      - button "Add to cart" [ref=e1574] [cursor=pointer]
+                      - generic [ref=e1576]:
+                        - text: More Buying Choices
+                        - text: ₹67,212.80
+                        - link "(10 new offers)" [ref=e1578] [cursor=pointer]:
+                          - /url: /gp/offer-listing/B0D8W8CTF1/ref=sr_1_20_olp?keywords=Bike&crid=2RQ7YNOJ0P3OR&sprefix=bike%2Caps%2C480&dib_tag=se&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&qid=1766330711&sr=8-20
+                - listitem [ref=e1579]:
+                  - generic [ref=e1586]:
+                    - link [ref=e1589] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfbXRmOjMwMDUwNzkyNDI5NjkzMjo6MDo6&url=%2FAlloy-Motorcycle-Simulation-Display-Orange%2Fdp%2FB0DSV3LFD5%2Fref%3Dsr_1_21_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-21-spons%26aref%3DUmfIrQ36AW%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=UmfIrQ36AW&sp_cr=ZAZ
+                      - img [ref=e1591]
+                    - generic [ref=e1592]:
+                      - generic [ref=e1593]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e1596] [cursor=pointer]:
+                          - generic [ref=e1597]: Sponsored
+                        - link "Sponsored Ad - Mini Alloy Motorcycle Bike Simulation Model Toy (with Display Stand), Orange, 1:18 Scale w/Suspension, Alloy & PVC Material, Dirt Bike Collectible Present for Boys, Girls (Black)" [ref=e1599] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfbXRmOjMwMDUwNzkyNDI5NjkzMjo6MDo6&url=%2FAlloy-Motorcycle-Simulation-Display-Orange%2Fdp%2FB0DSV3LFD5%2Fref%3Dsr_1_21_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-21-spons%26aref%3DUmfIrQ36AW%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=UmfIrQ36AW&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Mini Alloy Motorcycle Bike Simulation Model Toy (with Display Stand), Orange, 1:18 Scale w/Suspension, Alloy & PVC Material, Dirt Bike Collectible Present for Boys, Girls (Black)" [level=2] [ref=e1600]: Mini Alloy Motorcycle Bike Simulation Model Toy (with Display Stand), Orange, 1:18 Scale w/Suspension, Alloy & PVC Material, Dirt Bike Collectible Present for Boys, Girls (Black)
+                      - generic [ref=e1603]:
+                        - generic [ref=e1604]: Price, product page
+                        - 'link "₹630 M.R.P: ₹2,999 M.R.P: ₹2,999" [ref=e1605] [cursor=pointer]':
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfbXRmOjMwMDUwNzkyNDI5NjkzMjo6MDo6&url=%2FAlloy-Motorcycle-Simulation-Display-Orange%2Fdp%2FB0DSV3LFD5%2Fref%3Dsr_1_21_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-21-spons%26aref%3DUmfIrQ36AW%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=UmfIrQ36AW&sp_cr=ZAZ
+                          - generic [ref=e1606]:
+                            - generic [ref=e1607]: ₹630
+                            - generic [ref=e1608]: ₹630
+                          - generic [ref=e1609]: "M.R.P: ₹2,999"
+                          - generic [ref=e1610]:
+                            - text: "M.R.P:"
+                            - generic [ref=e1611]:
+                              - generic [ref=e1612]: ₹2,999
+                              - text: ₹2,999
+                        - text: (79% off)
+                      - generic [ref=e1619]: FREE delivery Sat, 27 Dec
+                      - generic [ref=e1625]: "Ages: 15 months and up"
+                      - button "Add to cart" [ref=e1639] [cursor=pointer]
+                - listitem [ref=e1640]:
+                  - generic [ref=e1647]:
+                    - link [ref=e1650] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfbXRmOjMwMDczOTc0NTYzNjEzMjo6MDo6&url=%2FVGRASSP-Scooter-Foldable-Adjustable-Handlebar%2Fdp%2FB0FKN9WHR4%2Fref%3Dsr_1_22_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-22-spons%26aref%3D7y29k4XR0Y%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=7y29k4XR0Y&sp_cr=ZAZ
+                      - img [ref=e1652]
+                    - generic [ref=e1653]:
+                      - generic [ref=e1654]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e1657] [cursor=pointer]:
+                          - generic [ref=e1658]: Sponsored
+                        - link "Sponsored Ad - VGRASSP 3 Wheel Skate Scooter for Kids with PVC Wheels, Foldable & Height Adjustable Handlebar, Rear Brake - Outdoor Kick Cycle for Boys & Girls - (Broad Wheels)" [ref=e1660] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfbXRmOjMwMDczOTc0NTYzNjEzMjo6MDo6&url=%2FVGRASSP-Scooter-Foldable-Adjustable-Handlebar%2Fdp%2FB0FKN9WHR4%2Fref%3Dsr_1_22_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-22-spons%26aref%3D7y29k4XR0Y%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=7y29k4XR0Y&sp_cr=ZAZ
+                          - heading "Sponsored Ad - VGRASSP 3 Wheel Skate Scooter for Kids with PVC Wheels, Foldable & Height Adjustable Handlebar, Rear Brake - Outdoor Kick Cycle for Boys & Girls - (Broad Wheels)" [level=2] [ref=e1661]: VGRASSP 3 Wheel Skate Scooter for Kids with PVC Wheels, Foldable & Height Adjustable Handlebar, Rear Brake - Outdoor Kick Cycle for Boys & Girls - (Broad Wheels)
+                      - generic [ref=e1663]:
+                        - text: "5.0"
+                        - button "5.0 out of 5 stars, rating details" [ref=e1665] [cursor=pointer]:
+                          - generic [ref=e1667]: 5.0 out of 5 stars
+                        - link "4 ratings" [ref=e1669] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfbXRmOjMwMDczOTc0NTYzNjEzMjo6MDo6&url=%2FVGRASSP-Scooter-Foldable-Adjustable-Handlebar%2Fdp%2FB0FKN9WHR4%2Fref%3Dsr_1_22_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-22-spons%26aref%3D7y29k4XR0Y%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=7y29k4XR0Y&sp_cr=ZAZ#customerReviews
+                          - text: (4)
+                      - generic [ref=e1672]:
+                        - generic [ref=e1673]: Price, product page
+                        - 'link "₹930.17 M.R.P: ₹2,199 M.R.P: ₹2,199" [ref=e1674] [cursor=pointer]':
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfbXRmOjMwMDczOTc0NTYzNjEzMjo6MDo6&url=%2FVGRASSP-Scooter-Foldable-Adjustable-Handlebar%2Fdp%2FB0FKN9WHR4%2Fref%3Dsr_1_22_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-22-spons%26aref%3D7y29k4XR0Y%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=7y29k4XR0Y&sp_cr=ZAZ
+                          - generic [ref=e1675]:
+                            - generic [ref=e1676]: ₹930.17
+                            - generic [ref=e1677]:
+                              - text: ₹
+                              - generic [ref=e1678]:
+                                - text: "930"
+                                - generic [ref=e1679]: .
+                              - text: "17"
+                          - generic [ref=e1680]: "M.R.P: ₹2,199"
+                          - generic [ref=e1681]:
+                            - text: "M.R.P:"
+                            - generic [ref=e1682]:
+                              - generic [ref=e1683]: ₹2,199
+                              - text: ₹2,199
+                        - text: (58% off)
+                      - generic [ref=e1690]: FREE delivery Fri, 26 Dec
+                      - generic [ref=e1696]: "Ages: 6 - 18 years"
+                      - button "Add to cart" [ref=e1710] [cursor=pointer]
+                - listitem [ref=e1711]:
+                  - generic [ref=e1718]:
+                    - link [ref=e1721] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfbXRmOjIwMDQwMjAxMTk2MTk4OjowOjo&url=%2FRabbit-Scooter-Adjustable-Foldable-Capacity%2Fdp%2FB07XV5V2JJ%2Fref%3Dsr_1_23_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-23-spons%26aref%3DPtmjh8i4h5%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=Ptmjh8i4h5&sp_cr=ZAZ
+                      - img [ref=e1723]
+                    - generic [ref=e1724]:
+                      - group "colours available" [ref=e1726]:
+                        - list
+                        - link "+6 other colors/patterns" [ref=e1728] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfbXRmOjIwMDQwMjAxMTk2MTk4OjowOjo&url=%2FRabbit-Scooter-Adjustable-Foldable-Capacity%2Fdp%2FB07XV5V2JJ%2Fref%3Dsr_1_23_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-23-spons%26aref%3DPtmjh8i4h5%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=Ptmjh8i4h5&sp_cr=ZAZ
+                      - generic [ref=e1729]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e1732] [cursor=pointer]:
+                          - generic [ref=e1733]: Sponsored
+                        - link "Sponsored Ad - R for Rabbit Road Runner Scooter for Kids of 3 to 14 Years Age 4 Adjustable Height, Foldable, LED PU Wheels & Weight Capacity 75 kgs Kick Scooter with Brakes (Black)" [ref=e1735] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfbXRmOjIwMDQwMjAxMTk2MTk4OjowOjo&url=%2FRabbit-Scooter-Adjustable-Foldable-Capacity%2Fdp%2FB07XV5V2JJ%2Fref%3Dsr_1_23_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-23-spons%26aref%3DPtmjh8i4h5%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=Ptmjh8i4h5&sp_cr=ZAZ
+                          - heading "Sponsored Ad - R for Rabbit Road Runner Scooter for Kids of 3 to 14 Years Age 4 Adjustable Height, Foldable, LED PU Wheels & Weight Capacity 75 kgs Kick Scooter with Brakes (Black)" [level=2] [ref=e1736]: R for Rabbit Road Runner Scooter for Kids of 3 to 14 Years Age 4 Adjustable Height, Foldable, LED PU Wheels & Weight Capacity 75 kgs Kick Scooter with Brakes (Black)
+                      - generic [ref=e1737]:
+                        - generic [ref=e1738]:
+                          - text: "4.1"
+                          - button "4.1 out of 5 stars, rating details" [ref=e1740] [cursor=pointer]:
+                            - generic [ref=e1742]: 4.1 out of 5 stars
+                          - link "7,492 ratings" [ref=e1744] [cursor=pointer]:
+                            - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfbXRmOjIwMDQwMjAxMTk2MTk4OjowOjo&url=%2FRabbit-Scooter-Adjustable-Foldable-Capacity%2Fdp%2FB07XV5V2JJ%2Fref%3Dsr_1_23_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-23-spons%26aref%3DPtmjh8i4h5%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=Ptmjh8i4h5&sp_cr=ZAZ#customerReviews
+                            - text: (7.4K)
+                        - generic [ref=e1745]: 50+ bought in past month
+                      - generic [ref=e1746]:
+                        - link "Limited time deal" [ref=e1748] [cursor=pointer]:
+                          - /url: /deals
+                          - generic [ref=e1751]: Limited time deal
+                        - generic [ref=e1753]:
+                          - generic [ref=e1754]: Price, product page
+                          - 'link "₹3,496 M.R.P: ₹4,680 M.R.P: ₹4,680" [ref=e1755] [cursor=pointer]':
+                            - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfbXRmOjIwMDQwMjAxMTk2MTk4OjowOjo&url=%2FRabbit-Scooter-Adjustable-Foldable-Capacity%2Fdp%2FB07XV5V2JJ%2Fref%3Dsr_1_23_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-23-spons%26aref%3DPtmjh8i4h5%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=Ptmjh8i4h5&sp_cr=ZAZ
+                            - generic [ref=e1756]:
+                              - generic [ref=e1757]: ₹3,496
+                              - generic [ref=e1758]: ₹3,496
+                            - generic [ref=e1759]: "M.R.P: ₹4,680"
+                            - generic [ref=e1760]:
+                              - text: "M.R.P:"
+                              - generic [ref=e1761]:
+                                - generic [ref=e1762]: ₹4,680
+                                - text: ₹4,680
+                          - text: (25% off)
+                      - generic [ref=e1769]: FREE delivery Sat, 27 Dec
+                      - button "Add to cart" [ref=e1787] [cursor=pointer]
+                - listitem [ref=e1788]:
+                  - generic [ref=e1795]:
+                    - link [ref=e1798] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfbXRmOjMwMDY4MTAwNjA0NjgzMjo6MDo6&url=%2FGOCART-LOGO-Training-Balance-Without%2Fdp%2FB09ZTQM2ZY%2Fref%3Dsr_1_24_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-24-spons%26aref%3D7fwdF82Q6l%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=7fwdF82Q6l&sp_cr=ZAZ
+                      - img [ref=e1800]
+                    - generic [ref=e1801]:
+                      - group "colours available" [ref=e1803]:
+                        - list
+                        - link "+8 other colors/patterns" [ref=e1805] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfbXRmOjMwMDY4MTAwNjA0NjgzMjo6MDo6&url=%2FGOCART-LOGO-Training-Balance-Without%2Fdp%2FB09ZTQM2ZY%2Fref%3Dsr_1_24_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-24-spons%26aref%3D7fwdF82Q6l%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=7fwdF82Q6l&sp_cr=ZAZ
+                      - generic [ref=e1806]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e1809] [cursor=pointer]:
+                          - generic [ref=e1810]: Sponsored
+                        - link "Sponsored Ad - GOCART WITH G LOGO Kids Training Bicycle Without Pedal for 1.5 to 3 Year Old Kids (Blue (Black Spokes Wheel))" [ref=e1812] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfbXRmOjMwMDY4MTAwNjA0NjgzMjo6MDo6&url=%2FGOCART-LOGO-Training-Balance-Without%2Fdp%2FB09ZTQM2ZY%2Fref%3Dsr_1_24_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-24-spons%26aref%3D7fwdF82Q6l%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=7fwdF82Q6l&sp_cr=ZAZ
+                          - heading "Sponsored Ad - GOCART WITH G LOGO Kids Training Bicycle Without Pedal for 1.5 to 3 Year Old Kids (Blue (Black Spokes Wheel))" [level=2] [ref=e1813]: GOCART WITH G LOGO Kids Training Bicycle Without Pedal for 1.5 to 3 Year Old Kids (Blue (Black Spokes Wheel))
+                      - generic [ref=e1815]:
+                        - text: "3.7"
+                        - button "3.7 out of 5 stars, rating details" [ref=e1817] [cursor=pointer]:
+                          - generic [ref=e1819]: 3.7 out of 5 stars
+                        - link "14 ratings" [ref=e1821] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfbXRmOjMwMDY4MTAwNjA0NjgzMjo6MDo6&url=%2FGOCART-LOGO-Training-Balance-Without%2Fdp%2FB09ZTQM2ZY%2Fref%3Dsr_1_24_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-24-spons%26aref%3D7fwdF82Q6l%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=7fwdF82Q6l&sp_cr=ZAZ#customerReviews
+                          - text: (14)
+                      - generic [ref=e1822]:
+                        - link "Limited time deal" [ref=e1824] [cursor=pointer]:
+                          - /url: /deals
+                          - generic [ref=e1827]: Limited time deal
+                        - generic [ref=e1829]:
+                          - generic [ref=e1830]: Price, product page
+                          - 'link "₹2,479 M.R.P: ₹7,799 M.R.P: ₹7,799" [ref=e1831] [cursor=pointer]':
+                            - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfbXRmOjMwMDY4MTAwNjA0NjgzMjo6MDo6&url=%2FGOCART-LOGO-Training-Balance-Without%2Fdp%2FB09ZTQM2ZY%2Fref%3Dsr_1_24_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-24-spons%26aref%3D7fwdF82Q6l%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1&aref=7fwdF82Q6l&sp_cr=ZAZ
+                            - generic [ref=e1832]:
+                              - generic [ref=e1833]: ₹2,479
+                              - generic [ref=e1834]: ₹2,479
+                            - generic [ref=e1835]: "M.R.P: ₹7,799"
+                            - generic [ref=e1836]:
+                              - text: "M.R.P:"
+                              - generic [ref=e1837]:
+                                - generic [ref=e1838]: ₹7,799
+                                - text: ₹7,799
+                          - text: (68% off)
+                      - generic [ref=e1845]: FREE delivery Fri, 26 Dec
+                      - button "Add to cart" [ref=e1863] [cursor=pointer]
+                - listitem [ref=e1864]:
+                  - generic [ref=e1869]:
+                    - link [ref=e1872] [cursor=pointer]:
+                      - /url: /Hero-MotoCorp-GLAMOUR-Motorcycles-Ex-Showroom/dp/B0FGY88ZH7/ref=sr_1_25?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-25
+                      - img [ref=e1874]
+                    - generic [ref=e1875]:
+                      - link "Hero MotoCorp GLAMOUR 125 FI DRSC (OBD2B) Motorcycles/Bike Sports Red Booking for Ex-Showroom Price" [ref=e1877] [cursor=pointer]:
+                        - /url: /Hero-MotoCorp-GLAMOUR-Motorcycles-Ex-Showroom/dp/B0FGY88ZH7/ref=sr_1_25?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-25
+                        - heading "Hero MotoCorp GLAMOUR 125 FI DRSC (OBD2B) Motorcycles/Bike Sports Red Booking for Ex-Showroom Price" [level=2] [ref=e1878]
+                      - generic [ref=e1880]:
+                        - text: "4.2"
+                        - button "4.2 out of 5 stars, rating details" [ref=e1882] [cursor=pointer]:
+                          - generic [ref=e1884]: 4.2 out of 5 stars
+                        - link "36 ratings" [ref=e1886] [cursor=pointer]:
+                          - /url: /Hero-MotoCorp-GLAMOUR-Motorcycles-Ex-Showroom/dp/B0FGY88ZH7/ref=sr_1_25?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-25#customerReviews
+                          - text: (36)
+                      - link "See options" [ref=e1893] [cursor=pointer]:
+                        - /url: /Hero-MotoCorp-GLAMOUR-Motorcycles-Ex-Showroom/dp/B0FGY88ZH7/ref=sr_1_25_so_MOTORCYCLES?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-25
+                      - generic [ref=e1895]:
+                        - text: No featured offers available
+                        - text: ₹79,243
+                        - link "(125 new offers)" [ref=e1897] [cursor=pointer]:
+                          - /url: /gp/offer-listing/B0FGY88ZH7/ref=sr_1_25_olp?keywords=Bike&crid=2RQ7YNOJ0P3OR&sprefix=bike%2Caps%2C480&dib_tag=se&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&qid=1766330711&sr=8-25
+                - listitem [ref=e1898]:
+                  - generic [ref=e1903]:
+                    - link [ref=e1906] [cursor=pointer]:
+                      - /url: /Hero-Deluxe-Black-Red-Booking-Ex-Showroom/dp/B0F7XFD242/ref=sr_1_26?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-26
+                      - img [ref=e1908]
+                    - generic [ref=e1909]:
+                      - link "Hero Hf Deluxe 24 BS6 Bike (DRS CS FI) Black-Red Stripe Booking For Ex-Showroom Price" [ref=e1911] [cursor=pointer]:
+                        - /url: /Hero-Deluxe-Black-Red-Booking-Ex-Showroom/dp/B0F7XFD242/ref=sr_1_26?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-26
+                        - heading "Hero Hf Deluxe 24 BS6 Bike (DRS CS FI) Black-Red Stripe Booking For Ex-Showroom Price" [level=2] [ref=e1912]
+                      - generic [ref=e1914]:
+                        - text: "4.5"
+                        - button "4.5 out of 5 stars, rating details" [ref=e1916] [cursor=pointer]:
+                          - generic [ref=e1918]: 4.5 out of 5 stars
+                        - link "37 ratings" [ref=e1920] [cursor=pointer]:
+                          - /url: /Hero-Deluxe-Black-Red-Booking-Ex-Showroom/dp/B0F7XFD242/ref=sr_1_26?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-26#customerReviews
+                          - text: (37)
+                      - link "See options" [ref=e1927] [cursor=pointer]:
+                        - /url: /Hero-Deluxe-Black-Red-Booking-Ex-Showroom/dp/B0F7XFD242/ref=sr_1_26_so_MOTORCYCLES?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-26
+                      - generic [ref=e1929]:
+                        - text: No featured offers available
+                        - text: ₹61,200
+                        - link "(373 new offers)" [ref=e1931] [cursor=pointer]:
+                          - /url: /gp/offer-listing/B0F7XFD242/ref=sr_1_26_olp?keywords=Bike&crid=2RQ7YNOJ0P3OR&sprefix=bike%2Caps%2C480&dib_tag=se&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&qid=1766330711&sr=8-26
+                - listitem [ref=e1932]:
+                  - generic [ref=e1937]:
+                    - link [ref=e1940] [cursor=pointer]:
+                      - /url: /Royal-Enfield-Bullet-Battalion-Black/dp/B0FRMW2DQ8/ref=sr_1_27?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-27
+                      - img [ref=e1942]
+                    - generic [ref=e1943]:
+                      - link "Royal Enfield Bullet 350 Disc & Spoke Wheel Motorcycle (Battalion Black) Booking for Ex-Showroom Price" [ref=e1945] [cursor=pointer]:
+                        - /url: /Royal-Enfield-Bullet-Battalion-Black/dp/B0FRMW2DQ8/ref=sr_1_27?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-27
+                        - heading "Royal Enfield Bullet 350 Disc & Spoke Wheel Motorcycle (Battalion Black) Booking for Ex-Showroom Price" [level=2] [ref=e1946]
+                      - generic [ref=e1948]:
+                        - text: "5.0"
+                        - button "5.0 out of 5 stars, rating details" [ref=e1950] [cursor=pointer]:
+                          - generic [ref=e1952]: 5.0 out of 5 stars
+                        - link "1 ratings" [ref=e1954] [cursor=pointer]:
+                          - /url: /Royal-Enfield-Bullet-Battalion-Black/dp/B0FRMW2DQ8/ref=sr_1_27?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-27#customerReviews
+                          - text: (1)
+                      - generic [ref=e1957]:
+                        - generic [ref=e1958]: Price, product page
+                        - link "₹1,62,161" [ref=e1959] [cursor=pointer]:
+                          - /url: /Royal-Enfield-Bullet-Battalion-Black/dp/B0FRMW2DQ8/ref=sr_1_27?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-27
+                          - generic [ref=e1960]:
+                            - generic [ref=e1961]: ₹1,62,161
+                            - generic [ref=e1962]: ₹1,62,161
+                      - generic [ref=e1969]: FREE delivery 17 - 20 Jan
+                      - button "Add to cart" [ref=e1987] [cursor=pointer]
+                - listitem [ref=e1988]:
+                  - generic [ref=e1993]:
+                    - link [ref=e1996] [cursor=pointer]:
+                      - /url: /Electric-Rechargeable-Operated-Bluetooth-Capacity/dp/B0F3X4HNTS/ref=sr_1_28?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-28
+                      - img [ref=e1998]
+                    - generic [ref=e1999]:
+                      - link "RR Kids Electric Toy Ride-On Bike | 12V Rechargeable Battery Operated Bike for Kids | Bluetooth Music | 70kg Capacity | BIS/ISI Approved| Boys & Girls Age 5 to 12| 6-Month Warranty| Large| Red" [ref=e2001] [cursor=pointer]:
+                        - /url: /Electric-Rechargeable-Operated-Bluetooth-Capacity/dp/B0F3X4HNTS/ref=sr_1_28?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-28
+                        - heading "RR Kids Electric Toy Ride-On Bike | 12V Rechargeable Battery Operated Bike for Kids | Bluetooth Music | 70kg Capacity | BIS/ISI Approved| Boys & Girls Age 5 to 12| 6-Month Warranty| Large| Red" [level=2] [ref=e2002]
+                      - generic [ref=e2004]:
+                        - text: "4.3"
+                        - button "4.3 out of 5 stars, rating details" [ref=e2006] [cursor=pointer]:
+                          - generic [ref=e2008]: 4.3 out of 5 stars
+                        - link "147 ratings" [ref=e2010] [cursor=pointer]:
+                          - /url: /Electric-Rechargeable-Operated-Bluetooth-Capacity/dp/B0F3X4HNTS/ref=sr_1_28?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-28#customerReviews
+                          - text: (147)
+                      - generic [ref=e2013]:
+                        - generic [ref=e2014]: Price, product page
+                        - 'link "₹15,399 M.R.P: ₹35,999 M.R.P: ₹35,999" [ref=e2015] [cursor=pointer]':
+                          - /url: /Electric-Rechargeable-Operated-Bluetooth-Capacity/dp/B0F3X4HNTS/ref=sr_1_28?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-28
+                          - generic [ref=e2016]:
+                            - generic [ref=e2017]: ₹15,399
+                            - generic [ref=e2018]: ₹15,399
+                          - generic [ref=e2019]: "M.R.P: ₹35,999"
+                          - generic [ref=e2020]:
+                            - text: "M.R.P:"
+                            - generic [ref=e2021]:
+                              - generic [ref=e2022]: ₹35,999
+                              - text: ₹35,999
+                        - text: (57% off)
+                      - generic [ref=e2029]: FREE delivery 27 - 30 Dec
+                      - generic [ref=e2035]: "Ages: 5 years and up"
+                      - button "Add to cart" [ref=e2049] [cursor=pointer]
+                - listitem [ref=e2050]:
+                  - generic [ref=e2055]:
+                    - link [ref=e2058] [cursor=pointer]:
+                      - /url: /Hero-MotoCorp-Motorcycles-Booking-Ex-Showroom/dp/B0FGY739Q2/ref=sr_1_29?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-29
+                      - img [ref=e2060]
+                    - generic [ref=e2061]:
+                      - link "Hero MotoCorp XTREME 125R FI ABS SEAT DS (OBD2B) Motorcycles/Bike Black Booking for Ex-Showroom Price" [ref=e2063] [cursor=pointer]:
+                        - /url: /Hero-MotoCorp-Motorcycles-Booking-Ex-Showroom/dp/B0FGY739Q2/ref=sr_1_29?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-29
+                        - heading "Hero MotoCorp XTREME 125R FI ABS SEAT DS (OBD2B) Motorcycles/Bike Black Booking for Ex-Showroom Price" [level=2] [ref=e2064]
+                      - generic [ref=e2066]:
+                        - text: "4.6"
+                        - button "4.6 out of 5 stars, rating details" [ref=e2068] [cursor=pointer]:
+                          - generic [ref=e2070]: 4.6 out of 5 stars
+                        - link "37 ratings" [ref=e2072] [cursor=pointer]:
+                          - /url: /Hero-MotoCorp-Motorcycles-Booking-Ex-Showroom/dp/B0FGY739Q2/ref=sr_1_29?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-29#customerReviews
+                          - text: (37)
+                      - generic [ref=e2073]:
+                        - generic [ref=e2075]:
+                          - generic [ref=e2076]: Price, product page
+                          - link "₹97,000" [ref=e2077] [cursor=pointer]:
+                            - /url: /Hero-MotoCorp-Motorcycles-Booking-Ex-Showroom/dp/B0FGY739Q2/ref=sr_1_29?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-29
+                            - generic [ref=e2078]:
+                              - generic [ref=e2079]: ₹97,000
+                              - generic [ref=e2080]: ₹97,000
+                        - generic [ref=e2084]:
+                          - generic [ref=e2085]: Flat INR 2000 Off on all cc dc cards
+                          - generic [ref=e2086]: Flat INR 2000 Off on all cc dc cards
+                      - generic [ref=e2087]:
+                        - generic [ref=e2093]: FREE delivery 26 - 29 Dec
+                        - generic "Only 2 left in stock." [ref=e2099]
+                      - button "Add to cart" [ref=e2113] [cursor=pointer]
+                - listitem [ref=e2114]:
+                  - generic [ref=e2119]:
+                    - link [ref=e2122] [cursor=pointer]:
+                      - /url: /TRIUMPH-Scrambler-Phantom-Booking-Ex-Showroom/dp/B0F5359H24/ref=sr_1_30?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-30
+                      - img [ref=e2124]
+                    - generic [ref=e2125]:
+                      - link "TRIUMPH Scrambler 400 X Bike Phantom Black Booking for Ex-Showroom Price" [ref=e2127] [cursor=pointer]:
+                        - /url: /TRIUMPH-Scrambler-Phantom-Booking-Ex-Showroom/dp/B0F5359H24/ref=sr_1_30?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-30
+                        - heading "TRIUMPH Scrambler 400 X Bike Phantom Black Booking for Ex-Showroom Price" [level=2] [ref=e2128]
+                      - generic [ref=e2129]:
+                        - generic [ref=e2130]: Number 1 Top-Rated
+                        - generic [ref=e2131]:
+                          - text: "4.8"
+                          - button "4.8 out of 5 stars, rating details" [ref=e2133] [cursor=pointer]:
+                            - generic [ref=e2135]: 4.8 out of 5 stars
+                          - link "59 ratings" [ref=e2137] [cursor=pointer]:
+                            - /url: /TRIUMPH-Scrambler-Phantom-Booking-Ex-Showroom/dp/B0F5359H24/ref=sr_1_30?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-30#customerReviews
+                            - text: (59)
+                      - generic [ref=e2138]:
+                        - generic [ref=e2140]:
+                          - generic [ref=e2141]: Price, product page
+                          - link "₹2,67,731" [ref=e2142] [cursor=pointer]:
+                            - /url: /TRIUMPH-Scrambler-Phantom-Booking-Ex-Showroom/dp/B0F5359H24/ref=sr_1_30?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-30
+                            - generic [ref=e2143]:
+                              - generic [ref=e2144]: ₹2,67,731
+                              - generic [ref=e2145]: ₹2,67,731
+                        - generic [ref=e2149]:
+                          - generic [ref=e2150]: Flat INR 3250 Off on all cc dc cards
+                          - generic [ref=e2151]: Flat INR 3250 Off on all cc dc cards
+                      - generic [ref=e2158]: FREE delivery 6 - 8 Jan
+                      - button "Add to cart" [ref=e2176] [cursor=pointer]
+                - listitem [ref=e2177]:
+                  - generic [ref=e2182]:
+                    - link [ref=e2185] [cursor=pointer]:
+                      - /url: /Hero-Xtreme-Black-Booking-Ex-Showroom/dp/B0F7XHGTPK/ref=sr_1_31?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-31
+                      - img [ref=e2187]
+                    - generic [ref=e2188]:
+                      - link "Hero Xtreme 160R 2V Sd Fi (DSCS) Bike Matt Axis Grey Black St Booking For Ex-Showroom Price" [ref=e2190] [cursor=pointer]:
+                        - /url: /Hero-Xtreme-Black-Booking-Ex-Showroom/dp/B0F7XHGTPK/ref=sr_1_31?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-31
+                        - heading "Hero Xtreme 160R 2V Sd Fi (DSCS) Bike Matt Axis Grey Black St Booking For Ex-Showroom Price" [level=2] [ref=e2191]
+                      - generic [ref=e2193]:
+                        - text: "4.5"
+                        - button "4.5 out of 5 stars, rating details" [ref=e2195] [cursor=pointer]:
+                          - generic [ref=e2197]: 4.5 out of 5 stars
+                        - link "5 ratings" [ref=e2199] [cursor=pointer]:
+                          - /url: /Hero-Xtreme-Black-Booking-Ex-Showroom/dp/B0F7XHGTPK/ref=sr_1_31?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-31#customerReviews
+                          - text: (5)
+                      - link "See options" [ref=e2206] [cursor=pointer]:
+                        - /url: /Hero-Xtreme-Black-Booking-Ex-Showroom/dp/B0F7XHGTPK/ref=sr_1_31_so_MOTORCYCLES?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-31
+                      - generic [ref=e2208]:
+                        - text: No featured offers available
+                        - text: ₹1,02,888
+                        - link "(243 new offers)" [ref=e2210] [cursor=pointer]:
+                          - /url: /gp/offer-listing/B0F7XHGTPK/ref=sr_1_31_olp?keywords=Bike&crid=2RQ7YNOJ0P3OR&sprefix=bike%2Caps%2C480&dib_tag=se&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&qid=1766330711&sr=8-31
+                - listitem [ref=e2211]:
+                  - generic [ref=e2216]:
+                    - link [ref=e2219] [cursor=pointer]:
+                      - /url: /Jack-Royal-Unbreakable-Motorcycle-availibility/dp/B0F9NZXBXF/ref=sr_1_32?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-32
+                      - img [ref=e2221]
+                    - generic [ref=e2222]:
+                      - link "Jack Royal Metallic Finish Unbreakable Super Sports Bike Friction Powered Racing Vehicle Motorcycle Toy for Kids (Pack of 1) (Color as per availibility)" [ref=e2224] [cursor=pointer]:
+                        - /url: /Jack-Royal-Unbreakable-Motorcycle-availibility/dp/B0F9NZXBXF/ref=sr_1_32?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-32
+                        - heading "Jack Royal Metallic Finish Unbreakable Super Sports Bike Friction Powered Racing Vehicle Motorcycle Toy for Kids (Pack of 1) (Color as per availibility)" [level=2] [ref=e2225]
+                      - generic [ref=e2226]:
+                        - generic [ref=e2227]:
+                          - text: "3.9"
+                          - button "3.9 out of 5 stars, rating details" [ref=e2229] [cursor=pointer]:
+                            - generic [ref=e2231]: 3.9 out of 5 stars
+                          - link "147 ratings" [ref=e2233] [cursor=pointer]:
+                            - /url: /Jack-Royal-Unbreakable-Motorcycle-availibility/dp/B0F9NZXBXF/ref=sr_1_32?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-32#customerReviews
+                            - text: (147)
+                        - generic [ref=e2234]: 400+ bought in past month
+                      - generic [ref=e2235]:
+                        - link "Limited time deal" [ref=e2237] [cursor=pointer]:
+                          - /url: /deals
+                          - generic [ref=e2240]: Limited time deal
+                        - generic [ref=e2242]:
+                          - generic [ref=e2243]: Price, product page
+                          - 'link "₹158 M.R.P: ₹699 M.R.P: ₹699" [ref=e2244] [cursor=pointer]':
+                            - /url: /Jack-Royal-Unbreakable-Motorcycle-availibility/dp/B0F9NZXBXF/ref=sr_1_32?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-32
+                            - generic [ref=e2245]:
+                              - generic [ref=e2246]: ₹158
+                              - generic [ref=e2247]: ₹158
+                            - generic [ref=e2248]: "M.R.P: ₹699"
+                            - generic [ref=e2249]:
+                              - text: "M.R.P:"
+                              - generic [ref=e2250]:
+                                - generic [ref=e2251]: ₹699
+                                - text: ₹699
+                          - text: (77% off)
+                      - generic [ref=e2254]:
+                        - generic [ref=e2258]: FREE delivery Wed, 24 Dec on first order
+                        - generic [ref=e2260]: Or fastest delivery Tomorrow, 22 Dec
+                      - generic [ref=e2264]: "Ages: 12 months and up"
+                      - button "Add to cart" [ref=e2278] [cursor=pointer]
+                - listitem [ref=e2279]:
+                  - generic [ref=e2284]:
+                    - link [ref=e2287] [cursor=pointer]:
+                      - /url: /Bajaj-Pulsar-125-Motorcycle-Motorbike/dp/B0F5XZDCPR/ref=sr_1_33?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-33
+                      - img [ref=e2289]
+                    - generic [ref=e2290]:
+                      - link "Bajaj Pulsar Ns 125 Motorcycle/Motorbike - Fiery Orange - Ex-Showroom" [ref=e2292] [cursor=pointer]:
+                        - /url: /Bajaj-Pulsar-125-Motorcycle-Motorbike/dp/B0F5XZDCPR/ref=sr_1_33?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-33
+                        - heading "Bajaj Pulsar Ns 125 Motorcycle/Motorbike - Fiery Orange - Ex-Showroom" [level=2] [ref=e2293]
+                      - generic [ref=e2294]:
+                        - generic [ref=e2296]:
+                          - generic [ref=e2297]: Price, product page
+                          - link "₹92,182" [ref=e2298] [cursor=pointer]:
+                            - /url: /Bajaj-Pulsar-125-Motorcycle-Motorbike/dp/B0F5XZDCPR/ref=sr_1_33?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-33
+                            - generic [ref=e2299]:
+                              - generic [ref=e2300]: ₹92,182
+                              - generic [ref=e2301]: ₹92,182
+                        - generic [ref=e2305]:
+                          - generic [ref=e2306]: Flat INR 1500 Off on all cc dc cards
+                          - generic [ref=e2307]: Flat INR 1500 Off on all cc dc cards
+                      - generic [ref=e2314]: FREE delivery 6 - 8 Jan
+                      - button "Add to cart" [ref=e2332] [cursor=pointer]
+                      - generic [ref=e2334]:
+                        - text: More Buying Choices
+                        - text: ₹92,181.60
+                        - link "(7 new offers)" [ref=e2336] [cursor=pointer]:
+                          - /url: /gp/offer-listing/B0F5XZDCPR/ref=sr_1_33_olp?keywords=Bike&crid=2RQ7YNOJ0P3OR&sprefix=bike%2Caps%2C480&dib_tag=se&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&qid=1766330711&sr=8-33
+                - listitem [ref=e2337]:
+                  - generic [ref=e2342]:
+                    - link [ref=e2345] [cursor=pointer]:
+                      - /url: /Hero-PASSION-Motorcycles-Booking-Ex-Showroom/dp/B0FGY5NSVN/ref=sr_1_34?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-34
+                      - img [ref=e2347]
+                    - generic [ref=e2348]:
+                      - link "Hero PASSION+ i3S DRSC FI (OBD2B) Motorcycles/Bike Heavy Grey Booking for Ex-Showroom Price" [ref=e2350] [cursor=pointer]:
+                        - /url: /Hero-PASSION-Motorcycles-Booking-Ex-Showroom/dp/B0FGY5NSVN/ref=sr_1_34?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-34
+                        - heading "Hero PASSION+ i3S DRSC FI (OBD2B) Motorcycles/Bike Heavy Grey Booking for Ex-Showroom Price" [level=2] [ref=e2351]
+                      - generic [ref=e2353]:
+                        - text: "4.7"
+                        - button "4.7 out of 5 stars, rating details" [ref=e2355] [cursor=pointer]:
+                          - generic [ref=e2357]: 4.7 out of 5 stars
+                        - link "28 ratings" [ref=e2359] [cursor=pointer]:
+                          - /url: /Hero-PASSION-Motorcycles-Booking-Ex-Showroom/dp/B0FGY5NSVN/ref=sr_1_34?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-34#customerReviews
+                          - text: (28)
+                      - generic [ref=e2362]:
+                        - generic [ref=e2363]: Price, product page
+                        - link "₹76,127" [ref=e2364] [cursor=pointer]:
+                          - /url: /Hero-PASSION-Motorcycles-Booking-Ex-Showroom/dp/B0FGY5NSVN/ref=sr_1_34?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-34
+                          - generic [ref=e2365]:
+                            - generic [ref=e2366]: ₹76,127
+                            - generic [ref=e2367]: ₹76,127
+                      - generic [ref=e2374]: FREE delivery 26 - 29 Dec
+                      - button "Add to cart" [ref=e2392] [cursor=pointer]
+                - listitem [ref=e2393]:
+                  - generic [ref=e2398]:
+                    - link [ref=e2401] [cursor=pointer]:
+                      - /url: /CT-Motorcycle-Motorbike-booking-Ex-Showroom/dp/B0D8W7DHBC/ref=sr_1_35?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-35
+                      - img [ref=e2403]
+                    - generic [ref=e2404]:
+                      - link "Bajaj Ct 110 X Es Motorcycle/Motorbike - Blue Black - Ex-Showroom" [ref=e2406] [cursor=pointer]:
+                        - /url: /CT-Motorcycle-Motorbike-booking-Ex-Showroom/dp/B0D8W7DHBC/ref=sr_1_35?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-35
+                        - heading "Bajaj Ct 110 X Es Motorcycle/Motorbike - Blue Black - Ex-Showroom" [level=2] [ref=e2407]
+                      - generic [ref=e2409]:
+                        - text: "3.9"
+                        - button "3.9 out of 5 stars, rating details" [ref=e2411] [cursor=pointer]:
+                          - generic [ref=e2413]: 3.9 out of 5 stars
+                        - link "19 ratings" [ref=e2415] [cursor=pointer]:
+                          - /url: /CT-Motorcycle-Motorbike-booking-Ex-Showroom/dp/B0D8W7DHBC/ref=sr_1_35?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-35#customerReviews
+                          - text: (19)
+                      - generic [ref=e2416]:
+                        - generic [ref=e2418]:
+                          - generic [ref=e2419]: Price, product page
+                          - link "₹67,213" [ref=e2420] [cursor=pointer]:
+                            - /url: /CT-Motorcycle-Motorbike-booking-Ex-Showroom/dp/B0D8W7DHBC/ref=sr_1_35?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-35
+                            - generic [ref=e2421]:
+                              - generic [ref=e2422]: ₹67,213
+                              - generic [ref=e2423]: ₹67,213
+                        - generic [ref=e2427]:
+                          - generic [ref=e2428]: Flat INR 1000 Off on all cc dc cards
+                          - generic [ref=e2429]: Flat INR 1000 Off on all cc dc cards
+                      - generic [ref=e2436]: FREE delivery 6 - 8 Jan
+                      - button "Add to cart" [ref=e2454] [cursor=pointer]
+                      - generic [ref=e2456]:
+                        - text: More Buying Choices
+                        - text: ₹67,212.80
+                        - link "(9 new offers)" [ref=e2458] [cursor=pointer]:
+                          - /url: /gp/offer-listing/B0D8W7DHBC/ref=sr_1_35_olp?keywords=Bike&crid=2RQ7YNOJ0P3OR&sprefix=bike%2Caps%2C480&dib_tag=se&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&qid=1766330711&sr=8-35
+                - listitem [ref=e2459]:
+                  - generic [ref=e2464]:
+                    - link [ref=e2467] [cursor=pointer]:
+                      - /url: /Motorbike-Motorcycle-Platinum-booking-Ex-Showroom/dp/B0D83ZMCTM/ref=sr_1_36?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-36
+                      - img [ref=e2469]
+                    - generic [ref=e2470]:
+                      - link "Bajaj Pulsar 125 Neon Disc Motorcycle/Motorbike - Ebony Black With Platinum Silver Decals - Ex-Showroom" [ref=e2472] [cursor=pointer]:
+                        - /url: /Motorbike-Motorcycle-Platinum-booking-Ex-Showroom/dp/B0D83ZMCTM/ref=sr_1_36?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-36
+                        - heading "Bajaj Pulsar 125 Neon Disc Motorcycle/Motorbike - Ebony Black With Platinum Silver Decals - Ex-Showroom" [level=2] [ref=e2473]
+                      - generic [ref=e2475]:
+                        - text: "4.3"
+                        - button "4.3 out of 5 stars, rating details" [ref=e2477] [cursor=pointer]:
+                          - generic [ref=e2479]: 4.3 out of 5 stars
+                        - link "51 ratings" [ref=e2481] [cursor=pointer]:
+                          - /url: /Motorbike-Motorcycle-Platinum-booking-Ex-Showroom/dp/B0D83ZMCTM/ref=sr_1_36?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-36#customerReviews
+                          - text: (51)
+                      - generic [ref=e2482]:
+                        - generic [ref=e2484]:
+                          - generic [ref=e2485]: Price, product page
+                          - link "₹81,538" [ref=e2486] [cursor=pointer]:
+                            - /url: /Motorbike-Motorcycle-Platinum-booking-Ex-Showroom/dp/B0D83ZMCTM/ref=sr_1_36?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-36
+                            - generic [ref=e2487]:
+                              - generic [ref=e2488]: ₹81,538
+                              - generic [ref=e2489]: ₹81,538
+                        - generic [ref=e2493]:
+                          - generic [ref=e2494]: Flat INR 1500 Off on all cc dc cards
+                          - generic [ref=e2495]: Flat INR 1500 Off on all cc dc cards
+                      - generic [ref=e2502]: FREE delivery 6 - 8 Jan
+                      - button "Add to cart" [ref=e2520] [cursor=pointer]
+                - listitem [ref=e2521]:
+                  - generic [ref=e2526]:
+                    - group "Best sellerin Balaclavas" [ref=e2531]:
+                      - generic "Best seller" [ref=e2533]
+                    - link [ref=e2536] [cursor=pointer]:
+                      - /url: /Boldfit-Balaclava-Accessories-Cycling-Stylish/dp/B0BRY84H2H/ref=sr_1_37?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-37
+                      - img [ref=e2538]
+                    - generic [ref=e2539]:
+                      - link "Boldfit Full Face Helmet Mask for Bikers in Riding UV Protected, Balaclava, Black Mask for Bike Riding and Cycling Accessories for Men & Women" [ref=e2541] [cursor=pointer]:
+                        - /url: /Boldfit-Balaclava-Accessories-Cycling-Stylish/dp/B0BRY84H2H/ref=sr_1_37?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-37
+                        - heading "Boldfit Full Face Helmet Mask for Bikers in Riding UV Protected, Balaclava, Black Mask for Bike Riding and Cycling Accessories for Men & Women" [level=2] [ref=e2542]
+                      - generic [ref=e2543]:
+                        - generic [ref=e2544]:
+                          - text: "4.0"
+                          - button "4.0 out of 5 stars, rating details" [ref=e2546] [cursor=pointer]:
+                            - generic [ref=e2548]: 4.0 out of 5 stars
+                          - link "9,200 ratings" [ref=e2550] [cursor=pointer]:
+                            - /url: /Boldfit-Balaclava-Accessories-Cycling-Stylish/dp/B0BRY84H2H/ref=sr_1_37?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-37#customerReviews
+                            - text: (9.2K)
+                        - generic [ref=e2551]: 10K+ bought in past month
+                      - generic [ref=e2552]:
+                        - generic [ref=e2554]:
+                          - generic [ref=e2555]: Price, product page
+                          - 'link "₹220 ( ₹220 /count) M.R.P: ₹499 M.R.P: ₹499" [ref=e2556] [cursor=pointer]':
+                            - /url: /Boldfit-Balaclava-Accessories-Cycling-Stylish/dp/B0BRY84H2H/ref=sr_1_37?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-37
+                            - generic [ref=e2557]:
+                              - generic [ref=e2558]: ₹220
+                              - generic [ref=e2559]: ₹220
+                            - generic [ref=e2560]:
+                              - text: (
+                              - generic [ref=e2561]:
+                                - generic [ref=e2562]: ₹220
+                                - text: ₹220
+                              - text: /count)
+                            - generic [ref=e2563]: "M.R.P: ₹499"
+                            - generic [ref=e2564]:
+                              - text: "M.R.P:"
+                              - generic [ref=e2565]:
+                                - generic [ref=e2566]: ₹499
+                                - text: ₹499
+                          - text: (56% off)
+                        - generic [ref=e2570]:
+                          - generic [ref=e2571]: Up to 5% back with Amazon Pay ICICI card
+                          - generic [ref=e2572]: Up to 5% back with Amazon Pay I...
+                      - generic [ref=e2575]:
+                        - generic [ref=e2579]: FREE delivery Wed, 24 Dec on first order
+                        - generic [ref=e2581]: Or fastest delivery Tue, 23 Dec
+                      - button "Add to cart" [ref=e2597] [cursor=pointer]
+                - listitem [ref=e2598]:
+                  - generic [ref=e2603]:
+                    - link [ref=e2606] [cursor=pointer]:
+                      - /url: /Portronics-Rotational-Bicycle-Motorcycle-Compatible/dp/B0CNYNX7LF/ref=sr_1_38?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-38
+                      - img [ref=e2608]
+                    - generic [ref=e2609]:
+                      - link "Portronics Mobike 4 Bike Phone Mount with 360° Rotational, Strong Hold for Bicycle, Motorcycle Compatible with 4.7 to 6.8 inch Devices(Black)" [ref=e2611] [cursor=pointer]:
+                        - /url: /Portronics-Rotational-Bicycle-Motorcycle-Compatible/dp/B0CNYNX7LF/ref=sr_1_38?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-38
+                        - heading "Portronics Mobike 4 Bike Phone Mount with 360° Rotational, Strong Hold for Bicycle, Motorcycle Compatible with 4.7 to 6.8 inch Devices(Black)" [level=2] [ref=e2612]
+                      - generic [ref=e2613]:
+                        - generic [ref=e2614]:
+                          - text: "4.1"
+                          - button "4.1 out of 5 stars, rating details" [ref=e2616] [cursor=pointer]:
+                            - generic [ref=e2618]: 4.1 out of 5 stars
+                          - link "1,455 ratings" [ref=e2620] [cursor=pointer]:
+                            - /url: /Portronics-Rotational-Bicycle-Motorcycle-Compatible/dp/B0CNYNX7LF/ref=sr_1_38?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-38#customerReviews
+                            - text: (1.4K)
+                        - generic [ref=e2621]: 3K+ bought in past month
+                      - generic [ref=e2624]:
+                        - generic [ref=e2625]: Price, product page
+                        - 'link "₹283 M.R.P: ₹699 M.R.P: ₹699" [ref=e2626] [cursor=pointer]':
+                          - /url: /Portronics-Rotational-Bicycle-Motorcycle-Compatible/dp/B0CNYNX7LF/ref=sr_1_38?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-38
+                          - generic [ref=e2627]:
+                            - generic [ref=e2628]: ₹283
+                            - generic [ref=e2629]: ₹283
+                          - generic [ref=e2630]: "M.R.P: ₹699"
+                          - generic [ref=e2631]:
+                            - text: "M.R.P:"
+                            - generic [ref=e2632]:
+                              - generic [ref=e2633]: ₹699
+                              - text: ₹699
+                        - text: (60% off)
+                      - generic [ref=e2636]:
+                        - generic [ref=e2640]: FREE delivery Wed, 24 Dec on first order
+                        - generic [ref=e2642]: Or fastest delivery Tue, 23 Dec
+                      - button "Add to cart" [ref=e2658] [cursor=pointer]
+                - listitem [ref=e2659]:
+                  - generic [ref=e2664]:
+                    - link [ref=e2667] [cursor=pointer]:
+                      - /url: /BAJAJ-Freedom-Motorcycle-Motorbike-Ex-Showroom/dp/B0DKXZVB6L/ref=sr_1_39?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-39
+                      - img [ref=e2669]
+                    - generic [ref=e2670]:
+                      - link "Bajaj Freedom Cng 125 Drum Motorcycle/Motorbike - Ebony Black - Ex-Showroom" [ref=e2672] [cursor=pointer]:
+                        - /url: /BAJAJ-Freedom-Motorcycle-Motorbike-Ex-Showroom/dp/B0DKXZVB6L/ref=sr_1_39?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-39
+                        - heading "Bajaj Freedom Cng 125 Drum Motorcycle/Motorbike - Ebony Black - Ex-Showroom" [level=2] [ref=e2673]
+                      - generic [ref=e2675]:
+                        - text: "3.4"
+                        - button "3.4 out of 5 stars, rating details" [ref=e2677] [cursor=pointer]:
+                          - generic [ref=e2679]: 3.4 out of 5 stars
+                        - link "12 ratings" [ref=e2681] [cursor=pointer]:
+                          - /url: /BAJAJ-Freedom-Motorcycle-Motorbike-Ex-Showroom/dp/B0DKXZVB6L/ref=sr_1_39?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-39#customerReviews
+                          - text: (12)
+                      - generic [ref=e2682]:
+                        - generic [ref=e2684]:
+                          - generic [ref=e2685]: Price, product page
+                          - link "₹90,976" [ref=e2686] [cursor=pointer]:
+                            - /url: /BAJAJ-Freedom-Motorcycle-Motorbike-Ex-Showroom/dp/B0DKXZVB6L/ref=sr_1_39?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-39
+                            - generic [ref=e2687]:
+                              - generic [ref=e2688]: ₹90,976
+                              - generic [ref=e2689]: ₹90,976
+                        - generic [ref=e2693]:
+                          - generic [ref=e2694]: Flat INR 1500 Off on all cc dc cards
+                          - generic [ref=e2695]: Flat INR 1500 Off on all cc dc cards
+                      - generic [ref=e2702]: FREE delivery 6 - 8 Jan
+                      - button "Add to cart" [ref=e2720] [cursor=pointer]
+                - listitem [ref=e2721]:
+                  - generic [ref=e2726]:
+                    - link [ref=e2729] [cursor=pointer]:
+                      - /url: /Pulsar-Motorbike-Motorcycle-booking-Ex-Showroom/dp/B0D842QBMB/ref=sr_1_40?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-40
+                      - img [ref=e2731]
+                    - generic [ref=e2732]:
+                      - link "Bajaj Pulsar Rs 200 Motorcycle/Motorbike - Brooklyn Black - Ex-Showroom" [ref=e2734] [cursor=pointer]:
+                        - /url: /Pulsar-Motorbike-Motorcycle-booking-Ex-Showroom/dp/B0D842QBMB/ref=sr_1_40?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-40
+                        - heading "Bajaj Pulsar Rs 200 Motorcycle/Motorbike - Brooklyn Black - Ex-Showroom" [level=2] [ref=e2735]
+                      - generic [ref=e2737]:
+                        - text: "4.2"
+                        - button "4.2 out of 5 stars, rating details" [ref=e2739] [cursor=pointer]:
+                          - generic [ref=e2741]: 4.2 out of 5 stars
+                        - link "5 ratings" [ref=e2743] [cursor=pointer]:
+                          - /url: /Pulsar-Motorbike-Motorcycle-booking-Ex-Showroom/dp/B0D842QBMB/ref=sr_1_40?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-40#customerReviews
+                          - text: (5)
+                      - generic [ref=e2744]:
+                        - generic [ref=e2746]:
+                          - generic [ref=e2747]: Price, product page
+                          - link "₹1,71,330" [ref=e2748] [cursor=pointer]:
+                            - /url: /Pulsar-Motorbike-Motorcycle-booking-Ex-Showroom/dp/B0D842QBMB/ref=sr_1_40?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-40
+                            - generic [ref=e2749]:
+                              - generic [ref=e2750]: ₹1,71,330
+                              - generic [ref=e2751]: ₹1,71,330
+                        - generic [ref=e2755]:
+                          - generic [ref=e2756]: Flat INR 2500 Off on all cc dc cards
+                          - generic [ref=e2757]: Flat INR 2500 Off on all cc dc cards
+                      - generic [ref=e2764]: FREE delivery 3 - 6 Jan
+                      - button "Add to cart" [ref=e2782] [cursor=pointer]
+                - listitem [ref=e2783]:
+                  - generic [ref=e2788]:
+                    - link [ref=e2791] [cursor=pointer]:
+                      - /url: /Avenger-Motorcycle-Motorbike-booking-Ex-Showroom/dp/B0D988K4ZK/ref=sr_1_41?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-41
+                      - img [ref=e2793]
+                    - generic [ref=e2794]:
+                      - link "Bajaj Avenger 220 Cruise Motorcycle/Motorbike - Moon White - Ex-Showroom" [ref=e2796] [cursor=pointer]:
+                        - /url: /Avenger-Motorcycle-Motorbike-booking-Ex-Showroom/dp/B0D988K4ZK/ref=sr_1_41?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-41
+                        - heading "Bajaj Avenger 220 Cruise Motorcycle/Motorbike - Moon White - Ex-Showroom" [level=2] [ref=e2797]
+                      - generic [ref=e2799]:
+                        - text: "4.8"
+                        - button "4.8 out of 5 stars, rating details" [ref=e2801] [cursor=pointer]:
+                          - generic [ref=e2803]: 4.8 out of 5 stars
+                        - link "14 ratings" [ref=e2805] [cursor=pointer]:
+                          - /url: /Avenger-Motorcycle-Motorbike-booking-Ex-Showroom/dp/B0D988K4ZK/ref=sr_1_41?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-41#customerReviews
+                          - text: (14)
+                      - generic [ref=e2806]:
+                        - generic [ref=e2808]:
+                          - generic [ref=e2809]: Price, product page
+                          - link "₹1,36,809" [ref=e2810] [cursor=pointer]:
+                            - /url: /Avenger-Motorcycle-Motorbike-booking-Ex-Showroom/dp/B0D988K4ZK/ref=sr_1_41?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-41
+                            - generic [ref=e2811]:
+                              - generic [ref=e2812]: ₹1,36,809
+                              - generic [ref=e2813]: ₹1,36,809
+                        - generic [ref=e2817]:
+                          - generic [ref=e2818]: Flat INR 2500 Off on all cc dc cards
+                          - generic [ref=e2819]: Flat INR 2500 Off on all cc dc cards
+                      - generic [ref=e2826]: FREE delivery 3 - 6 Jan
+                      - button "Add to cart" [ref=e2844] [cursor=pointer]
+                - listitem [ref=e2845]:
+                  - generic [ref=e2850]:
+                    - link [ref=e2853] [cursor=pointer]:
+                      - /url: /Hero-MAVRICK-Phantom-Booking-Ex-Showroom/dp/B0D1VSR49D/ref=sr_1_42?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-42
+                      - img [ref=e2855]
+                    - generic [ref=e2856]:
+                      - link "Hero MAVRICK 440 Bike(Top) Phantom Black Booking for Ex-Showroom Price" [ref=e2858] [cursor=pointer]:
+                        - /url: /Hero-MAVRICK-Phantom-Booking-Ex-Showroom/dp/B0D1VSR49D/ref=sr_1_42?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-42
+                        - heading "Hero MAVRICK 440 Bike(Top) Phantom Black Booking for Ex-Showroom Price" [level=2] [ref=e2859]
+                      - generic [ref=e2861]:
+                        - text: "4.7"
+                        - button "4.7 out of 5 stars, rating details" [ref=e2863] [cursor=pointer]:
+                          - generic [ref=e2865]: 4.7 out of 5 stars
+                        - link "9 ratings" [ref=e2867] [cursor=pointer]:
+                          - /url: /Hero-MAVRICK-Phantom-Booking-Ex-Showroom/dp/B0D1VSR49D/ref=sr_1_42?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-42#customerReviews
+                          - text: (9)
+                      - generic [ref=e2870]:
+                        - generic [ref=e2871]: Price, product page
+                        - link "₹2,39,500" [ref=e2872] [cursor=pointer]:
+                          - /url: /Hero-MAVRICK-Phantom-Booking-Ex-Showroom/dp/B0D1VSR49D/ref=sr_1_42?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-42
+                          - generic [ref=e2873]:
+                            - generic [ref=e2874]: ₹2,39,500
+                            - generic [ref=e2875]: ₹2,39,500
+                      - generic [ref=e2882]: FREE delivery 3 - 6 Jan
+                      - button "Add to cart" [ref=e2900] [cursor=pointer]
+                - listitem [ref=e2901]:
+                  - generic [ref=e2906]:
+                    - group "Best sellerin Tyre Inflators" [ref=e2911]:
+                      - generic "Best seller" [ref=e2913]
+                    - link [ref=e2916] [cursor=pointer]:
+                      - /url: /AGARO-Cordless-Inflator-Shut-Off-Inflatables/dp/B0FPQSN47V/ref=sr_1_43?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-43
+                      - img [ref=e2918]
+                    - generic [ref=e2919]:
+                      - link "AGARO Atom Cordless Tyre Inflator, 150 PSI, 4500mAh Battery, Auto Shut-Off, Digital Display, LED Light, USB-C Charging, 12V DC Output, for Cars, Bikes, Balls & Inflatables" [ref=e2921] [cursor=pointer]:
+                        - /url: /AGARO-Cordless-Inflator-Shut-Off-Inflatables/dp/B0FPQSN47V/ref=sr_1_43?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-43
+                        - heading "AGARO Atom Cordless Tyre Inflator, 150 PSI, 4500mAh Battery, Auto Shut-Off, Digital Display, LED Light, USB-C Charging, 12V DC Output, for Cars, Bikes, Balls & Inflatables" [level=2] [ref=e2922]
+                      - generic [ref=e2923]:
+                        - generic [ref=e2924]:
+                          - text: "4.2"
+                          - button "4.2 out of 5 stars, rating details" [ref=e2926] [cursor=pointer]:
+                            - generic [ref=e2928]: 4.2 out of 5 stars
+                          - link "2,672 ratings" [ref=e2930] [cursor=pointer]:
+                            - /url: /AGARO-Cordless-Inflator-Shut-Off-Inflatables/dp/B0FPQSN47V/ref=sr_1_43?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-43#customerReviews
+                            - text: (2.6K)
+                        - generic [ref=e2931]: 2K+ bought in past month
+                      - generic [ref=e2934]:
+                        - generic [ref=e2935]: Price, product page
+                        - 'link "₹1,459 M.R.P: ₹3,999 M.R.P: ₹3,999" [ref=e2936] [cursor=pointer]':
+                          - /url: /AGARO-Cordless-Inflator-Shut-Off-Inflatables/dp/B0FPQSN47V/ref=sr_1_43?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-43
+                          - generic [ref=e2937]:
+                            - generic [ref=e2938]: ₹1,459
+                            - generic [ref=e2939]: ₹1,459
+                          - generic [ref=e2940]: "M.R.P: ₹3,999"
+                          - generic [ref=e2941]:
+                            - text: "M.R.P:"
+                            - generic [ref=e2942]:
+                              - generic [ref=e2943]: ₹3,999
+                              - text: ₹3,999
+                        - text: (64% off)
+                      - generic [ref=e2946]:
+                        - generic [ref=e2950]: FREE delivery Wed, 24 Dec
+                        - generic [ref=e2952]: Or fastest delivery Tomorrow, 22 Dec
+                      - button "Add to cart" [ref=e2968] [cursor=pointer]
+                - listitem [ref=e2969]:
+                  - generic [ref=e2974]:
+                    - link [ref=e2977] [cursor=pointer]:
+                      - /url: /Kidsmate-Hyrider-Electric-Kids-Bike/dp/B0D6G8G749/ref=sr_1_44?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-44
+                      - img [ref=e2979]
+                    - generic [ref=e2980]:
+                      - group "colours available" [ref=e2982]:
+                        - list
+                        - link "+3 other colors/patterns" [ref=e2984] [cursor=pointer]:
+                          - /url: /Kidsmate-Hyrider-Electric-Kids-Bike/dp/B0D6G8G749/ref=cs_sr_dp?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-44
+                      - link "Kidsmate Hyrider 6V Electric Kids Bike with Rechargeable 6.5 Ah Battery Inbuilt Imported Motor Drive | Music Player, Front LED Light & Foot Accelerator Pedal Bike for Ages 1-4 Years" [ref=e2986] [cursor=pointer]:
+                        - /url: /Kidsmate-Hyrider-Electric-Kids-Bike/dp/B0D6G8G749/ref=sr_1_44?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-44
+                        - heading "Kidsmate Hyrider 6V Electric Kids Bike with Rechargeable 6.5 Ah Battery Inbuilt Imported Motor Drive | Music Player, Front LED Light & Foot Accelerator Pedal Bike for Ages 1-4 Years" [level=2] [ref=e2987]
+                      - generic [ref=e2988]:
+                        - generic [ref=e2989]:
+                          - text: "3.7"
+                          - button "3.7 out of 5 stars, rating details" [ref=e2991] [cursor=pointer]:
+                            - generic [ref=e2993]: 3.7 out of 5 stars
+                          - link "1,476 ratings" [ref=e2995] [cursor=pointer]:
+                            - /url: /Kidsmate-Hyrider-Electric-Kids-Bike/dp/B0D6G8G749/ref=sr_1_44?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-44#customerReviews
+                            - text: (1.4K)
+                        - generic [ref=e2996]: 100+ bought in past month
+                      - generic [ref=e2997]:
+                        - link "Limited time deal" [ref=e2999] [cursor=pointer]:
+                          - /url: /deals
+                          - generic [ref=e3002]: Limited time deal
+                        - generic [ref=e3004]:
+                          - generic [ref=e3005]: Price, product page
+                          - 'link "₹3,699 M.R.P: ₹11,999 M.R.P: ₹11,999" [ref=e3006] [cursor=pointer]':
+                            - /url: /Kidsmate-Hyrider-Electric-Kids-Bike/dp/B0D6G8G749/ref=sr_1_44?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-44
+                            - generic [ref=e3007]:
+                              - generic [ref=e3008]: ₹3,699
+                              - generic [ref=e3009]: ₹3,699
+                            - generic [ref=e3010]: "M.R.P: ₹11,999"
+                            - generic [ref=e3011]:
+                              - text: "M.R.P:"
+                              - generic [ref=e3012]:
+                                - generic [ref=e3013]: ₹11,999
+                                - text: ₹11,999
+                          - text: (69% off)
+                      - generic [ref=e3020]: FREE delivery Fri, 26 Dec
+                      - generic [ref=e3026]: "Service: Assembly"
+                      - button "Add to cart" [ref=e3040] [cursor=pointer]
+                - listitem [ref=e3041]:
+                  - generic [ref=e3046]:
+                    - link [ref=e3049] [cursor=pointer]:
+                      - /url: /Kratos-B4-Cushioning-Protection-Navigation/dp/B0FH9L7Q86/ref=sr_1_45?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-45
+                      - img [ref=e3051]
+                    - generic [ref=e3052]:
+                      - link "Kratos B4 Mobile Holder for Bike with One Click Locking, 360° Rotation, Secure Grip Design, Shock Proof Cushioning Pad Protection for Devices, Bike Mobile Holder for GPS Navigation Devices Support" [ref=e3054] [cursor=pointer]:
+                        - /url: /Kratos-B4-Cushioning-Protection-Navigation/dp/B0FH9L7Q86/ref=sr_1_45?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-45
+                        - heading "Kratos B4 Mobile Holder for Bike with One Click Locking, 360° Rotation, Secure Grip Design, Shock Proof Cushioning Pad Protection for Devices, Bike Mobile Holder for GPS Navigation Devices Support" [level=2] [ref=e3055]
+                      - generic [ref=e3056]:
+                        - generic [ref=e3057]:
+                          - text: "4.7"
+                          - button "4.7 out of 5 stars, rating details" [ref=e3059] [cursor=pointer]:
+                            - generic [ref=e3061]: 4.7 out of 5 stars
+                          - link "364 ratings" [ref=e3063] [cursor=pointer]:
+                            - /url: /Kratos-B4-Cushioning-Protection-Navigation/dp/B0FH9L7Q86/ref=sr_1_45?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-45#customerReviews
+                            - text: (364)
+                        - generic [ref=e3064]: 1K+ bought in past month
+                      - generic [ref=e3065]:
+                        - generic [ref=e3067]:
+                          - generic [ref=e3068]: Price, product page
+                          - 'link "₹599 ( ₹59,900 /100 g) M.R.P: ₹1,999 M.R.P: ₹1,999" [ref=e3069] [cursor=pointer]':
+                            - /url: /Kratos-B4-Cushioning-Protection-Navigation/dp/B0FH9L7Q86/ref=sr_1_45?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-45
+                            - generic [ref=e3070]:
+                              - generic [ref=e3071]: ₹599
+                              - generic [ref=e3072]: ₹599
+                            - generic [ref=e3073]:
+                              - text: (
+                              - generic [ref=e3074]:
+                                - generic [ref=e3075]: ₹59,900
+                                - text: ₹59,900
+                              - text: /100 g)
+                            - generic [ref=e3076]: "M.R.P: ₹1,999"
+                            - generic [ref=e3077]:
+                              - text: "M.R.P:"
+                              - generic [ref=e3078]:
+                                - generic [ref=e3079]: ₹1,999
+                                - text: ₹1,999
+                          - text: (70% off)
+                        - generic [ref=e3082]:
+                          - generic [ref=e3083]: Save 5%
+                          - text: with coupon
+                      - generic [ref=e3086]:
+                        - generic [ref=e3090]: FREE delivery Wed, 24 Dec
+                        - generic [ref=e3092]: Or fastest delivery Tomorrow, 22 Dec
+                      - button "Add to cart" [ref=e3108] [cursor=pointer]
+                - listitem [ref=e3109]:
+                  - generic [ref=e3114]:
+                    - link [ref=e3117] [cursor=pointer]:
+                      - /url: /TRIUMPH-Scrambler-Granite-Booking-Ex-Showroom/dp/B0FD7W1LXH/ref=sr_1_46?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-46
+                      - img [ref=e3119]
+                    - generic [ref=e3120]:
+                      - group "colours available" [ref=e3122]:
+                        - list [ref=e3123]:
+                          - generic [ref=e3124]:
+                            - listitem:
+                              - link "Granite":
+                                - /url: /TRIUMPH-Scrambler-Granite-Booking-Ex-Showroom/dp/B0FD7W1LXH/ref=cs_sr_dp_1?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-46
+                          - generic [ref=e3127]:
+                            - listitem:
+                              - link "Racing Yellow":
+                                - /url: /TRIUMPH-Scrambler-Granite-Booking-Ex-Showroom/dp/B0FD7T1NP1/ref=cs_sr_dp_2?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-46
+                          - generic [ref=e3130]:
+                            - listitem:
+                              - link "Vanilla White":
+                                - /url: /TRIUMPH-Scrambler-Granite-Booking-Ex-Showroom/dp/B0FD7S4FVG/ref=cs_sr_dp_3?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-46
+                      - link "TRIUMPH Scrambler 400 XC Bike Matt Granite Booking for Ex-Showroom Price" [ref=e3134] [cursor=pointer]:
+                        - /url: /TRIUMPH-Scrambler-Granite-Booking-Ex-Showroom/dp/B0FD7W1LXH/ref=sr_1_46?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-46
+                        - heading "TRIUMPH Scrambler 400 XC Bike Matt Granite Booking for Ex-Showroom Price" [level=2] [ref=e3135]
+                      - generic [ref=e3137]:
+                        - text: "4.6"
+                        - button "4.6 out of 5 stars, rating details" [ref=e3139] [cursor=pointer]:
+                          - generic [ref=e3141]: 4.6 out of 5 stars
+                        - link "12 ratings" [ref=e3143] [cursor=pointer]:
+                          - /url: /TRIUMPH-Scrambler-Granite-Booking-Ex-Showroom/dp/B0FD7W1LXH/ref=sr_1_46?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-46#customerReviews
+                          - text: (12)
+                      - generic [ref=e3144]:
+                        - generic [ref=e3146]:
+                          - generic [ref=e3147]: Price, product page
+                          - link "₹2,94,670" [ref=e3148] [cursor=pointer]:
+                            - /url: /TRIUMPH-Scrambler-Granite-Booking-Ex-Showroom/dp/B0FD7W1LXH/ref=sr_1_46?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-46
+                            - generic [ref=e3149]:
+                              - generic [ref=e3150]: ₹2,94,670
+                              - generic [ref=e3151]: ₹2,94,670
+                        - generic [ref=e3155]:
+                          - generic [ref=e3156]: Flat INR 3250 Off on all cc dc cards
+                          - generic [ref=e3157]: Flat INR 3250 Off on all cc dc cards
+                      - generic [ref=e3164]: FREE delivery 6 - 8 Jan
+                      - button "Add to cart" [ref=e3182] [cursor=pointer]
+                - listitem [ref=e3183]:
+                  - generic [ref=e3188]:
+                    - group "Best sellerin Cell Phone Handlebar Mounts" [ref=e3193]:
+                      - generic "Best seller" [ref=e3195]
+                    - link [ref=e3198] [cursor=pointer]:
+                      - /url: /STRIFF-MoRide-nevigation-Locking-Rotation/dp/B0DT4HXKMB/ref=sr_1_47?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-47
+                      - img [ref=e3200]
+                    - generic [ref=e3201]:
+                      - link "STRIFF MoRide 1 Mobile Holder for Bikes, Bike Smartphone Holder, Mobile Stand for Bike, Phone Holder for Bikes GPS nevigation Firm Locking Anti Shake,360 Degree Rotation, bycle (Black)" [ref=e3203] [cursor=pointer]:
+                        - /url: /STRIFF-MoRide-nevigation-Locking-Rotation/dp/B0DT4HXKMB/ref=sr_1_47?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-47
+                        - heading "STRIFF MoRide 1 Mobile Holder for Bikes, Bike Smartphone Holder, Mobile Stand for Bike, Phone Holder for Bikes GPS nevigation Firm Locking Anti Shake,360 Degree Rotation, bycle (Black)" [level=2] [ref=e3204]
+                      - generic [ref=e3205]:
+                        - generic [ref=e3206]:
+                          - text: "4.2"
+                          - button "4.2 out of 5 stars, rating details" [ref=e3208] [cursor=pointer]:
+                            - generic [ref=e3210]: 4.2 out of 5 stars
+                          - link "551 ratings" [ref=e3212] [cursor=pointer]:
+                            - /url: /STRIFF-MoRide-nevigation-Locking-Rotation/dp/B0DT4HXKMB/ref=sr_1_47?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-47#customerReviews
+                            - text: (551)
+                        - generic [ref=e3213]: 2K+ bought in past month
+                      - generic [ref=e3214]:
+                        - link "Limited time deal" [ref=e3216] [cursor=pointer]:
+                          - /url: /deals
+                          - generic [ref=e3219]: Limited time deal
+                        - generic [ref=e3221]:
+                          - generic [ref=e3222]: Price, product page
+                          - 'link "₹199 M.R.P: ₹999 M.R.P: ₹999" [ref=e3223] [cursor=pointer]':
+                            - /url: /STRIFF-MoRide-nevigation-Locking-Rotation/dp/B0DT4HXKMB/ref=sr_1_47?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-47
+                            - generic [ref=e3224]:
+                              - generic [ref=e3225]: ₹199
+                              - generic [ref=e3226]: ₹199
+                            - generic [ref=e3227]: "M.R.P: ₹999"
+                            - generic [ref=e3228]:
+                              - text: "M.R.P:"
+                              - generic [ref=e3229]:
+                                - generic [ref=e3230]: ₹999
+                                - text: ₹999
+                          - text: (80% off)
+                      - generic [ref=e3233]:
+                        - generic [ref=e3237]: FREE delivery Wed, 24 Dec on first order
+                        - generic [ref=e3239]: Or fastest delivery Tue, 23 Dec
+                      - button "Add to cart" [ref=e3255] [cursor=pointer]
+                - listitem [ref=e3256]:
+                  - generic [ref=e3261]:
+                    - group "Best sellerin Kids' Play Motorcycles" [ref=e3266]:
+                      - generic "Best seller" [ref=e3268]
+                    - link [ref=e3271] [cursor=pointer]:
+                      - /url: /PLUSPOINT-Motorcycle-Simulation-Superbike-Dashboard/dp/B0CLSB5L85/ref=sr_1_48?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-48
+                      - img [ref=e3273]
+                    - generic [ref=e3274]:
+                      - link "PLUSPOINT Diecast Motorcycle Toy Ducati Bike Scale Model,Pull Back Vehicles Alloy Simulation Superbike with Lights and Sound Also for Car Dashboard,Kids Adult" [ref=e3276] [cursor=pointer]:
+                        - /url: /PLUSPOINT-Motorcycle-Simulation-Superbike-Dashboard/dp/B0CLSB5L85/ref=sr_1_48?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-48
+                        - heading "PLUSPOINT Diecast Motorcycle Toy Ducati Bike Scale Model,Pull Back Vehicles Alloy Simulation Superbike with Lights and Sound Also for Car Dashboard,Kids Adult" [level=2] [ref=e3277]
+                      - generic [ref=e3278]:
+                        - generic [ref=e3279]:
+                          - text: "4.0"
+                          - button "4.0 out of 5 stars, rating details" [ref=e3281] [cursor=pointer]:
+                            - generic [ref=e3283]: 4.0 out of 5 stars
+                          - link "652 ratings" [ref=e3285] [cursor=pointer]:
+                            - /url: /PLUSPOINT-Motorcycle-Simulation-Superbike-Dashboard/dp/B0CLSB5L85/ref=sr_1_48?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-48#customerReviews
+                            - text: (652)
+                        - generic [ref=e3286]: 50+ bought in past month
+                      - generic [ref=e3289]:
+                        - generic [ref=e3290]: Price, product page
+                        - 'link "₹490 M.R.P: ₹1,999 M.R.P: ₹1,999" [ref=e3291] [cursor=pointer]':
+                          - /url: /PLUSPOINT-Motorcycle-Simulation-Superbike-Dashboard/dp/B0CLSB5L85/ref=sr_1_48?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-48
+                          - generic [ref=e3292]:
+                            - generic [ref=e3293]: ₹490
+                            - generic [ref=e3294]: ₹490
+                          - generic [ref=e3295]: "M.R.P: ₹1,999"
+                          - generic [ref=e3296]:
+                            - text: "M.R.P:"
+                            - generic [ref=e3297]:
+                              - generic [ref=e3298]: ₹1,999
+                              - text: ₹1,999
+                        - text: (75% off)
+                      - generic [ref=e3301]:
+                        - generic [ref=e3305]: FREE delivery Wed, 24 Dec on first order
+                        - generic [ref=e3307]: Or fastest delivery Tue, 23 Dec
+                      - generic [ref=e3311]: "Ages: 3 years and up"
+                      - button "Add to cart" [ref=e3325] [cursor=pointer]
+                - listitem [ref=e3326]:
+                  - generic [ref=e3331]:
+                    - link [ref=e3334] [cursor=pointer]:
+                      - /url: /Hero-Deluxe-Accent-Booking-Ex-Showroom/dp/B0D9DKN8SD/ref=sr_1_49?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-49
+                      - img [ref=e3336]
+                    - generic [ref=e3337]:
+                      - link "Hero Hf Deluxe Drsc Fi Drs Bike Black And Accent Booking for Ex-Showroom Price" [ref=e3339] [cursor=pointer]:
+                        - /url: /Hero-Deluxe-Accent-Booking-Ex-Showroom/dp/B0D9DKN8SD/ref=sr_1_49?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-49
+                        - heading "Hero Hf Deluxe Drsc Fi Drs Bike Black And Accent Booking for Ex-Showroom Price" [level=2] [ref=e3340]
+                      - generic [ref=e3342]:
+                        - text: "4.5"
+                        - button "4.5 out of 5 stars, rating details" [ref=e3344] [cursor=pointer]:
+                          - generic [ref=e3346]: 4.5 out of 5 stars
+                        - link "47 ratings" [ref=e3348] [cursor=pointer]:
+                          - /url: /Hero-Deluxe-Accent-Booking-Ex-Showroom/dp/B0D9DKN8SD/ref=sr_1_49?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-49#customerReviews
+                          - text: (47)
+                      - link "See options" [ref=e3355] [cursor=pointer]:
+                        - /url: /Hero-Deluxe-Accent-Booking-Ex-Showroom/dp/B0D9DKN8SD/ref=sr_1_49_so_MOTORCYCLES?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-49
+                      - generic [ref=e3357]:
+                        - text: No featured offers available
+                        - text: ₹61,295
+                        - link "(10 new offers)" [ref=e3359] [cursor=pointer]:
+                          - /url: /gp/offer-listing/B0D9DKN8SD/ref=sr_1_49_olp?keywords=Bike&crid=2RQ7YNOJ0P3OR&sprefix=bike%2Caps%2C480&dib_tag=se&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&qid=1766330711&sr=8-49
+                - listitem [ref=e3360]:
+                  - generic [ref=e3365]:
+                    - link [ref=e3368] [cursor=pointer]:
+                      - /url: /Motul-Combo-C2-Chain-C1/dp/B01ESPB2WM/ref=sr_1_50?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-50
+                      - img [ref=e3370]
+                    - generic [ref=e3371]:
+                      - link "Motul Combo of C2 Chain Lube (150 ml) and C1 Chain Clean for All Bikes (150 ml) (LBCH001)" [ref=e3373] [cursor=pointer]:
+                        - /url: /Motul-Combo-C2-Chain-C1/dp/B01ESPB2WM/ref=sr_1_50?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-50
+                        - heading "Motul Combo of C2 Chain Lube (150 ml) and C1 Chain Clean for All Bikes (150 ml) (LBCH001)" [level=2] [ref=e3374]
+                      - generic [ref=e3375]:
+                        - generic [ref=e3376]:
+                          - text: "4.4"
+                          - button "4.4 out of 5 stars, rating details" [ref=e3378] [cursor=pointer]:
+                            - generic [ref=e3380]: 4.4 out of 5 stars
+                          - link "21,672 ratings" [ref=e3382] [cursor=pointer]:
+                            - /url: /Motul-Combo-C2-Chain-C1/dp/B01ESPB2WM/ref=sr_1_50?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-50#customerReviews
+                            - text: (21.6K)
+                        - generic [ref=e3383]: 5K+ bought in past month
+                      - generic [ref=e3384]:
+                        - generic [ref=e3386]:
+                          - generic [ref=e3387]: Price, product page
+                          - 'link "₹395 ( ₹131.67 /100 ml) M.R.P: ₹480 M.R.P: ₹480" [ref=e3388] [cursor=pointer]':
+                            - /url: /Motul-Combo-C2-Chain-C1/dp/B01ESPB2WM/ref=sr_1_50?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-50
+                            - generic [ref=e3389]:
+                              - generic [ref=e3390]: ₹395
+                              - generic [ref=e3391]: ₹395
+                            - generic [ref=e3392]:
+                              - text: (
+                              - generic [ref=e3393]:
+                                - generic [ref=e3394]: ₹131.67
+                                - text: ₹131.67
+                              - text: /100 ml)
+                            - generic [ref=e3395]: "M.R.P: ₹480"
+                            - generic [ref=e3396]:
+                              - text: "M.R.P:"
+                              - generic [ref=e3397]:
+                                - generic [ref=e3398]: ₹480
+                                - text: ₹480
+                          - text: (18% off)
+                        - generic [ref=e3399]: Buy 2 items, get 2% off
+                      - generic [ref=e3402]:
+                        - generic [ref=e3406]: FREE delivery Wed, 24 Dec on first order
+                        - generic [ref=e3408]: Or fastest delivery Tomorrow, 22 Dec
+                      - button "Add to cart" [ref=e3424] [cursor=pointer]
+                - listitem [ref=e3425]:
+                  - generic [ref=e3430]:
+                    - link [ref=e3433] [cursor=pointer]:
+                      - /url: /Hero-Splendor-Glossy-Booking-Ex-Showroom/dp/B0F7XDZHST/ref=sr_1_51?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-51
+                      - img [ref=e3435]
+                    - generic [ref=e3436]:
+                      - link "Hero Super Splendor Xtec Fi Bike (DRSC) Glossy Black Booking For Ex-Showroom Price" [ref=e3438] [cursor=pointer]:
+                        - /url: /Hero-Splendor-Glossy-Booking-Ex-Showroom/dp/B0F7XDZHST/ref=sr_1_51?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-51
+                        - heading "Hero Super Splendor Xtec Fi Bike (DRSC) Glossy Black Booking For Ex-Showroom Price" [level=2] [ref=e3439]
+                      - generic [ref=e3441]:
+                        - text: "4.5"
+                        - button "4.5 out of 5 stars, rating details" [ref=e3443] [cursor=pointer]:
+                          - generic [ref=e3445]: 4.5 out of 5 stars
+                        - link "38 ratings" [ref=e3447] [cursor=pointer]:
+                          - /url: /Hero-Splendor-Glossy-Booking-Ex-Showroom/dp/B0F7XDZHST/ref=sr_1_51?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-51#customerReviews
+                          - text: (38)
+                      - generic [ref=e3448]:
+                        - generic [ref=e3450]:
+                          - generic [ref=e3451]: Price, product page
+                          - link "₹81,371" [ref=e3452] [cursor=pointer]:
+                            - /url: /Hero-Splendor-Glossy-Booking-Ex-Showroom/dp/B0F7XDZHST/ref=sr_1_51?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-51
+                            - generic [ref=e3453]:
+                              - generic [ref=e3454]: ₹81,371
+                              - generic [ref=e3455]: ₹81,371
+                        - generic [ref=e3459]:
+                          - generic [ref=e3460]: Flat INR 2500 Off on all cc dc cards
+                          - generic [ref=e3461]: Flat INR 2500 Off on all cc dc cards
+                      - generic [ref=e3462]:
+                        - generic [ref=e3468]: FREE delivery 26 - 29 Dec
+                        - generic "Only 2 left in stock." [ref=e3474]
+                      - button "Add to cart" [ref=e3488] [cursor=pointer]
+                - listitem [ref=e3489]:
+                  - generic [ref=e3494]:
+                    - group "Best sellerin Model Car & Vehicle Kits" [ref=e3499]:
+                      - generic "Best seller" [ref=e3501]
+                    - link [ref=e3504] [cursor=pointer]:
+                      - /url: /Royal-Enfield-Classic-Scale-Stealth/dp/B0BYN58LXW/ref=sr_1_52?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-52
+                      - img [ref=e3506]
+                    - generic [ref=e3507]:
+                      - 'link "Royal Enfield J1A Matt Scale Model 1: 12" [ref=e3509] [cursor=pointer]':
+                        - /url: /Royal-Enfield-Classic-Scale-Stealth/dp/B0BYN58LXW/ref=sr_1_52?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-52
+                        - 'heading "Royal Enfield J1A Matt Scale Model 1: 12" [level=2] [ref=e3510]'
+                      - generic [ref=e3511]:
+                        - generic [ref=e3512]:
+                          - text: "4.2"
+                          - button "4.2 out of 5 stars, rating details" [ref=e3514] [cursor=pointer]:
+                            - generic [ref=e3516]: 4.2 out of 5 stars
+                          - link "306 ratings" [ref=e3518] [cursor=pointer]:
+                            - /url: /Royal-Enfield-Classic-Scale-Stealth/dp/B0BYN58LXW/ref=sr_1_52?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-52#customerReviews
+                            - text: (306)
+                        - generic [ref=e3519]: 100+ bought in past month
+                      - generic [ref=e3522]:
+                        - generic [ref=e3523]: Price, product page
+                        - 'link "₹1,610 M.R.P: ₹1,750 M.R.P: ₹1,750" [ref=e3524] [cursor=pointer]':
+                          - /url: /Royal-Enfield-Classic-Scale-Stealth/dp/B0BYN58LXW/ref=sr_1_52?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-52
+                          - generic [ref=e3525]:
+                            - generic [ref=e3526]: ₹1,610
+                            - generic [ref=e3527]: ₹1,610
+                          - generic [ref=e3528]: "M.R.P: ₹1,750"
+                          - generic [ref=e3529]:
+                            - text: "M.R.P:"
+                            - generic [ref=e3530]:
+                              - generic [ref=e3531]: ₹1,750
+                              - text: ₹1,750
+                        - text: (8% off)
+                      - generic [ref=e3534]:
+                        - generic [ref=e3538]: FREE delivery Wed, 24 Dec
+                        - generic [ref=e3540]: Or fastest delivery Tomorrow, 22 Dec
+                      - button "Add to cart" [ref=e3556] [cursor=pointer]
+                - listitem [ref=e3557]:
+                  - generic [ref=e3562]:
+                    - link [ref=e3565] [cursor=pointer]:
+                      - /url: /WeCool-Navigation-Locking-Gripping-Rotation/dp/B0B2DJ5RVQ/ref=sr_1_53?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-53
+                      - img [ref=e3567]
+                    - generic [ref=e3568]:
+                      - link "WeCool B1 360° Rotational Mobile Holder for Bikes,Motorcycle Handlebar Mounts for Maps and GPS Navigation,Bike Mobile Holder with One Click Locking, Firm Gripping, Anti Shake and Stable Phone Mount" [ref=e3570] [cursor=pointer]:
+                        - /url: /WeCool-Navigation-Locking-Gripping-Rotation/dp/B0B2DJ5RVQ/ref=sr_1_53?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-53
+                        - heading "WeCool B1 360° Rotational Mobile Holder for Bikes,Motorcycle Handlebar Mounts for Maps and GPS Navigation,Bike Mobile Holder with One Click Locking, Firm Gripping, Anti Shake and Stable Phone Mount" [level=2] [ref=e3571]
+                      - generic [ref=e3572]:
+                        - generic [ref=e3573]:
+                          - text: "4.2"
+                          - button "4.2 out of 5 stars, rating details" [ref=e3575] [cursor=pointer]:
+                            - generic [ref=e3577]: 4.2 out of 5 stars
+                          - link "7,475 ratings" [ref=e3579] [cursor=pointer]:
+                            - /url: /WeCool-Navigation-Locking-Gripping-Rotation/dp/B0B2DJ5RVQ/ref=sr_1_53?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-53#customerReviews
+                            - text: (7.4K)
+                        - generic [ref=e3580]: 500+ bought in past month
+                      - generic [ref=e3581]:
+                        - link "Limited time deal" [ref=e3583] [cursor=pointer]:
+                          - /url: /deals
+                          - generic [ref=e3586]: Limited time deal
+                        - generic [ref=e3588]:
+                          - generic [ref=e3589]: Price, product page
+                          - 'link "₹599 M.R.P: ₹1,999 M.R.P: ₹1,999" [ref=e3590] [cursor=pointer]':
+                            - /url: /WeCool-Navigation-Locking-Gripping-Rotation/dp/B0B2DJ5RVQ/ref=sr_1_53?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-53
+                            - generic [ref=e3591]:
+                              - generic [ref=e3592]: ₹599
+                              - generic [ref=e3593]: ₹599
+                            - generic [ref=e3594]: "M.R.P: ₹1,999"
+                            - generic [ref=e3595]:
+                              - text: "M.R.P:"
+                              - generic [ref=e3596]:
+                                - generic [ref=e3597]: ₹1,999
+                                - text: ₹1,999
+                          - text: (70% off)
+                      - generic [ref=e3600]:
+                        - generic [ref=e3604]: FREE delivery Wed, 24 Dec
+                        - generic [ref=e3606]: Or fastest delivery Tomorrow, 22 Dec
+                      - button "Add to cart" [ref=e3622] [cursor=pointer]
+                - listitem [ref=e3623]:
+                  - generic [ref=e3628]:
+                    - link [ref=e3631] [cursor=pointer]:
+                      - /url: /Platina-Motorcycle-Motorbike-booking-Ex-Showroom/dp/B0D8W81LQR/ref=sr_1_54?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-54
+                      - img [ref=e3633]
+                    - generic [ref=e3634]:
+                      - link "Bajaj Platina 110 Es Drum Motorcycle/Motorbike - Black Red - Ex-Showroom" [ref=e3636] [cursor=pointer]:
+                        - /url: /Platina-Motorcycle-Motorbike-booking-Ex-Showroom/dp/B0D8W81LQR/ref=sr_1_54?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-54
+                        - heading "Bajaj Platina 110 Es Drum Motorcycle/Motorbike - Black Red - Ex-Showroom" [level=2] [ref=e3637]
+                      - generic [ref=e3639]:
+                        - text: "4.3"
+                        - button "4.3 out of 5 stars, rating details" [ref=e3641] [cursor=pointer]:
+                          - generic [ref=e3643]: 4.3 out of 5 stars
+                        - link "37 ratings" [ref=e3645] [cursor=pointer]:
+                          - /url: /Platina-Motorcycle-Motorbike-booking-Ex-Showroom/dp/B0D8W81LQR/ref=sr_1_54?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-54#customerReviews
+                          - text: (37)
+                      - generic [ref=e3646]:
+                        - generic [ref=e3648]:
+                          - generic [ref=e3649]: Price, product page
+                          - link "₹69,526" [ref=e3650] [cursor=pointer]:
+                            - /url: /Platina-Motorcycle-Motorbike-booking-Ex-Showroom/dp/B0D8W81LQR/ref=sr_1_54?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-54
+                            - generic [ref=e3651]:
+                              - generic [ref=e3652]: ₹69,526
+                              - generic [ref=e3653]: ₹69,526
+                        - generic [ref=e3657]:
+                          - generic [ref=e3658]: Flat INR 1000 Off on all cc dc cards
+                          - generic [ref=e3659]: Flat INR 1000 Off on all cc dc cards
+                      - generic [ref=e3666]: FREE delivery 6 - 8 Jan
+                      - button "Add to cart" [ref=e3684] [cursor=pointer]
+                      - generic [ref=e3686]:
+                        - text: More Buying Choices
+                        - text: ₹69,525.60
+                        - link "(9 new offers)" [ref=e3688] [cursor=pointer]:
+                          - /url: /gp/offer-listing/B0D8W81LQR/ref=sr_1_54_olp?keywords=Bike&crid=2RQ7YNOJ0P3OR&sprefix=bike%2Caps%2C480&dib_tag=se&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&qid=1766330711&sr=8-54
+                - listitem [ref=e3689]:
+                  - generic [ref=e3694]:
+                    - link [ref=e3697] [cursor=pointer]:
+                      - /url: /Portronics-Portable-Rechargeable-Inflator-Cordless/dp/B0FW4WKL5X/ref=sr_1_55?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-55
+                      - img [ref=e3699]
+                    - generic [ref=e3700]:
+                      - link "Portronics Vayu 9.0 Portable & Rechargeable Tyre Inflator with 2-in-1 Cordless & Corded Modes, 3×2000 mAh Battery, LED Display, Auto Shut-Off, Type-C Fast Charging,150 PSI for Car, Bike & Sports Balls" [ref=e3702] [cursor=pointer]:
+                        - /url: /Portronics-Portable-Rechargeable-Inflator-Cordless/dp/B0FW4WKL5X/ref=sr_1_55?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-55
+                        - heading "Portronics Vayu 9.0 Portable & Rechargeable Tyre Inflator with 2-in-1 Cordless & Corded Modes, 3×2000 mAh Battery, LED Display, Auto Shut-Off, Type-C Fast Charging,150 PSI for Car, Bike & Sports Balls" [level=2] [ref=e3703]
+                      - generic [ref=e3704]:
+                        - generic [ref=e3705]:
+                          - text: "4.5"
+                          - button "4.5 out of 5 stars, rating details" [ref=e3707] [cursor=pointer]:
+                            - generic [ref=e3709]: 4.5 out of 5 stars
+                          - link "61 ratings" [ref=e3711] [cursor=pointer]:
+                            - /url: /Portronics-Portable-Rechargeable-Inflator-Cordless/dp/B0FW4WKL5X/ref=sr_1_55?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-55#customerReviews
+                            - text: (61)
+                        - generic [ref=e3712]: 2K+ bought in past month
+                      - generic [ref=e3715]:
+                        - generic [ref=e3716]: Price, product page
+                        - 'link "₹1,999 M.R.P: ₹3,999 M.R.P: ₹3,999" [ref=e3717] [cursor=pointer]':
+                          - /url: /Portronics-Portable-Rechargeable-Inflator-Cordless/dp/B0FW4WKL5X/ref=sr_1_55?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-55
+                          - generic [ref=e3718]:
+                            - generic [ref=e3719]: ₹1,999
+                            - generic [ref=e3720]: ₹1,999
+                          - generic [ref=e3721]: "M.R.P: ₹3,999"
+                          - generic [ref=e3722]:
+                            - text: "M.R.P:"
+                            - generic [ref=e3723]:
+                              - generic [ref=e3724]: ₹3,999
+                              - text: ₹3,999
+                        - text: (50% off)
+                      - generic [ref=e3727]:
+                        - generic [ref=e3731]: FREE delivery Wed, 24 Dec
+                        - generic [ref=e3733]: Or fastest delivery Tomorrow, 22 Dec
+                      - button "Add to cart" [ref=e3749] [cursor=pointer]
+                - listitem [ref=e3750]:
+                  - generic [ref=e3755]:
+                    - link [ref=e3758] [cursor=pointer]:
+                      - /url: /Bajaj-Pulsar-Metallic-Booking-Ex-Showroom/dp/B0FWKV3SGR/ref=sr_1_56?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-56
+                      - img [ref=e3760]
+                    - generic [ref=e3761]:
+                      - link "Bajaj Pulsar NS 125 UG ABS Bike with Ride Modes Pearl Metallic White & Satin Black Booking for Ex-Showroom Price" [ref=e3763] [cursor=pointer]:
+                        - /url: /Bajaj-Pulsar-Metallic-Booking-Ex-Showroom/dp/B0FWKV3SGR/ref=sr_1_56?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-56
+                        - heading "Bajaj Pulsar NS 125 UG ABS Bike with Ride Modes Pearl Metallic White & Satin Black Booking for Ex-Showroom Price" [level=2] [ref=e3764]
+                      - generic [ref=e3767]:
+                        - generic [ref=e3768]: Price, product page
+                        - link "₹1,03,887" [ref=e3769] [cursor=pointer]:
+                          - /url: /Bajaj-Pulsar-Metallic-Booking-Ex-Showroom/dp/B0FWKV3SGR/ref=sr_1_56?crid=2RQ7YNOJ0P3OR&dib=eyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ&dib_tag=se&keywords=Bike&qid=1766330711&sprefix=bike%2Caps%2C480&sr=8-56
+                          - generic [ref=e3770]:
+                            - generic [ref=e3771]: ₹1,03,887
+                            - generic [ref=e3772]: ₹1,03,887
+                      - generic [ref=e3779]: FREE delivery 6 - 8 Jan
+                      - button "Add to cart" [ref=e3797] [cursor=pointer]
+                - listitem [ref=e3798]:
+                  - generic [ref=e3805]:
+                    - link [ref=e3808] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfYnRmOjMwMDczNzgyOTk1NDYzMjo6MDo6&url=%2FVSHISHX-Friction-Unbreakable-Toddlers-Multicolor%2Fdp%2FB0FRSLYMZK%2Fref%3Dsr_1_57_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-57-spons%26aref%3Dkwi8uKiRPN%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=kwi8uKiRPN&sp_cr=ZAZ
+                      - img [ref=e3810]
+                    - generic [ref=e3811]:
+                      - generic [ref=e3812]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e3815] [cursor=pointer]:
+                          - generic [ref=e3816]: Sponsored
+                        - link "Sponsored Ad - Inertia Friction Powered Cartoon Scooter with Cute Girl Doll Rider, Unbreakable Push and Go Bike Toy for Toddlers Kids Boys Girls 4 Inches Scooty (Pack of 1, Multicolor)" [ref=e3818] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfYnRmOjMwMDczNzgyOTk1NDYzMjo6MDo6&url=%2FVSHISHX-Friction-Unbreakable-Toddlers-Multicolor%2Fdp%2FB0FRSLYMZK%2Fref%3Dsr_1_57_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-57-spons%26aref%3Dkwi8uKiRPN%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=kwi8uKiRPN&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Inertia Friction Powered Cartoon Scooter with Cute Girl Doll Rider, Unbreakable Push and Go Bike Toy for Toddlers Kids Boys Girls 4 Inches Scooty (Pack of 1, Multicolor)" [level=2] [ref=e3819]: Inertia Friction Powered Cartoon Scooter with Cute Girl Doll Rider, Unbreakable Push and Go Bike Toy for Toddlers Kids Boys Girls 4 Inches Scooty (Pack of 1, Multicolor)
+                      - generic [ref=e3822]:
+                        - generic [ref=e3823]: Price, product page
+                        - 'link "₹248 M.R.P: ₹499 M.R.P: ₹499" [ref=e3824] [cursor=pointer]':
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfYnRmOjMwMDczNzgyOTk1NDYzMjo6MDo6&url=%2FVSHISHX-Friction-Unbreakable-Toddlers-Multicolor%2Fdp%2FB0FRSLYMZK%2Fref%3Dsr_1_57_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-57-spons%26aref%3Dkwi8uKiRPN%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=kwi8uKiRPN&sp_cr=ZAZ
+                          - generic [ref=e3825]:
+                            - generic [ref=e3826]: ₹248
+                            - generic [ref=e3827]: ₹248
+                          - generic [ref=e3828]: "M.R.P: ₹499"
+                          - generic [ref=e3829]:
+                            - text: "M.R.P:"
+                            - generic [ref=e3830]:
+                              - generic [ref=e3831]: ₹499
+                              - text: ₹499
+                        - text: (50% off)
+                      - generic [ref=e3832]:
+                        - generic [ref=e3838]: FREE delivery Sun, 28 Dec
+                        - generic "Only 2 left in stock." [ref=e3844]
+                      - generic [ref=e3846]: "Ages: 24 months and up"
+                      - button "Add to cart" [ref=e3860] [cursor=pointer]
+                - listitem [ref=e3861]:
+                  - generic [ref=e3868]:
+                    - link [ref=e3871] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfYnRmOjMwMDc3MTcyMjgxNTAzMjo6MDo6&url=%2FPRETEENS_Kids-Ride-Car-Comfort-Capacity%2Fdp%2FB0DV3JCLWD%2Fref%3Dsr_1_58_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-58-spons%26aref%3DcJaBNe71Hd%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=cJaBNe71Hd&sp_cr=ZAZ
+                      - img [ref=e3873]
+                    - generic [ref=e3874]:
+                      - generic [ref=e3875]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e3878] [cursor=pointer]:
+                          - generic [ref=e3879]: Sponsored
+                        - link "Sponsored Ad - PRETEENS_Kids Ride on Car with Music, Comfort Seat with Storage, Big Wheels Rider Toy for Boys and Girls, Back Support for Kids Safety Maximum Weight Capacity up to 25 kgs (Green)" [ref=e3881] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfYnRmOjMwMDc3MTcyMjgxNTAzMjo6MDo6&url=%2FPRETEENS_Kids-Ride-Car-Comfort-Capacity%2Fdp%2FB0DV3JCLWD%2Fref%3Dsr_1_58_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-58-spons%26aref%3DcJaBNe71Hd%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=cJaBNe71Hd&sp_cr=ZAZ
+                          - heading "Sponsored Ad - PRETEENS_Kids Ride on Car with Music, Comfort Seat with Storage, Big Wheels Rider Toy for Boys and Girls, Back Support for Kids Safety Maximum Weight Capacity up to 25 kgs (Green)" [level=2] [ref=e3882]: PRETEENS_Kids Ride on Car with Music, Comfort Seat with Storage, Big Wheels Rider Toy for Boys and Girls, Back Support for Kids Safety Maximum Weight Capacity up to 25 kgs (Green)
+                      - generic [ref=e3884]:
+                        - text: "4.0"
+                        - button "4.0 out of 5 stars, rating details" [ref=e3886] [cursor=pointer]:
+                          - generic [ref=e3888]: 4.0 out of 5 stars
+                        - link "1 ratings" [ref=e3890] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfYnRmOjMwMDc3MTcyMjgxNTAzMjo6MDo6&url=%2FPRETEENS_Kids-Ride-Car-Comfort-Capacity%2Fdp%2FB0DV3JCLWD%2Fref%3Dsr_1_58_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-58-spons%26aref%3DcJaBNe71Hd%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=cJaBNe71Hd&sp_cr=ZAZ#customerReviews
+                          - text: (1)
+                      - generic [ref=e3893]:
+                        - generic [ref=e3894]: Price, product page
+                        - 'link "₹1,599 M.R.P: ₹4,999 M.R.P: ₹4,999" [ref=e3895] [cursor=pointer]':
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfYnRmOjMwMDc3MTcyMjgxNTAzMjo6MDo6&url=%2FPRETEENS_Kids-Ride-Car-Comfort-Capacity%2Fdp%2FB0DV3JCLWD%2Fref%3Dsr_1_58_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-58-spons%26aref%3DcJaBNe71Hd%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=cJaBNe71Hd&sp_cr=ZAZ
+                          - generic [ref=e3896]:
+                            - generic [ref=e3897]: ₹1,599
+                            - generic [ref=e3898]: ₹1,599
+                          - generic [ref=e3899]: "M.R.P: ₹4,999"
+                          - generic [ref=e3900]:
+                            - text: "M.R.P:"
+                            - generic [ref=e3901]:
+                              - generic [ref=e3902]: ₹4,999
+                              - text: ₹4,999
+                        - text: (68% off)
+                      - generic [ref=e3909]: FREE delivery Fri, 26 Dec
+                      - generic [ref=e3915]: "Ages: 36 months - 10 years"
+                      - button "Add to cart" [ref=e3929] [cursor=pointer]
+                - listitem [ref=e3930]:
+                  - generic [ref=e3937]:
+                    - link [ref=e3940] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfYnRmOjMwMDg2Nzc5ODEzOTgzMjo6MDo6&url=%2FCrazykart-Birthday-Decoration-Decorations-Multicolor%2Fdp%2FB0DRSMQPLF%2Fref%3Dsr_1_59_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-59-spons%26aref%3DtWWhvW116L%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=tWWhvW116L&sp_cr=ZAZ
+                      - img [ref=e3942]
+                    - generic [ref=e3943]:
+                      - group "colours available" [ref=e3945]:
+                        - list
+                        - link "+6 other colors/patterns" [ref=e3947] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfYnRmOjMwMDg2Nzc5ODEzOTgzMjo6MDo6&url=%2FCrazykart-Birthday-Decoration-Decorations-Multicolor%2Fdp%2FB0DRSMQPLF%2Fref%3Dsr_1_59_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-59-spons%26aref%3DtWWhvW116L%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=tWWhvW116L&sp_cr=ZAZ
+                      - generic [ref=e3948]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e3951] [cursor=pointer]:
+                          - generic [ref=e3952]: Sponsored
+                        - link "Sponsored Ad - Racing Bike Theme 5th Happy Birthday Decoration Items For Boys Party Decoration Kit Balloon Combo Pack Of 37 Pcs Blue" [ref=e3954] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfYnRmOjMwMDg2Nzc5ODEzOTgzMjo6MDo6&url=%2FCrazykart-Birthday-Decoration-Decorations-Multicolor%2Fdp%2FB0DRSMQPLF%2Fref%3Dsr_1_59_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-59-spons%26aref%3DtWWhvW116L%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=tWWhvW116L&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Racing Bike Theme 5th Happy Birthday Decoration Items For Boys Party Decoration Kit Balloon Combo Pack Of 37 Pcs Blue" [level=2] [ref=e3955]: Racing Bike Theme 5th Happy Birthday Decoration Items For Boys Party Decoration Kit Balloon Combo Pack Of 37 Pcs Blue
+                      - generic [ref=e3958]:
+                        - generic [ref=e3959]: Price, product page
+                        - 'link "₹275 ( ₹7.43 /piece) M.R.P: ₹599 M.R.P: ₹599" [ref=e3960] [cursor=pointer]':
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfYnRmOjMwMDg2Nzc5ODEzOTgzMjo6MDo6&url=%2FCrazykart-Birthday-Decoration-Decorations-Multicolor%2Fdp%2FB0DRSMQPLF%2Fref%3Dsr_1_59_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-59-spons%26aref%3DtWWhvW116L%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=tWWhvW116L&sp_cr=ZAZ
+                          - generic [ref=e3961]:
+                            - generic [ref=e3962]: ₹275
+                            - generic [ref=e3963]: ₹275
+                          - generic [ref=e3964]:
+                            - text: (
+                            - generic [ref=e3965]:
+                              - generic [ref=e3966]: ₹7.43
+                              - text: ₹7.43
+                            - text: /piece)
+                          - generic [ref=e3967]: "M.R.P: ₹599"
+                          - generic [ref=e3968]:
+                            - text: "M.R.P:"
+                            - generic [ref=e3969]:
+                              - generic [ref=e3970]: ₹599
+                              - text: ₹599
+                        - text: (54% off)
+                      - generic [ref=e3977]: FREE delivery Fri, 26 Dec
+                      - generic [ref=e3983]: "Ages: 6 years and up"
+                      - button "Add to cart" [ref=e3997] [cursor=pointer]
+                - listitem [ref=e3998]:
+                  - generic [ref=e4005]:
+                    - link [ref=e4008] [cursor=pointer]:
+                      - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfYnRmOjMwMDcyOTQ0MTU3MTEzMjo6MDo6&url=%2FToyzone-Doreamon-Baby-Tricycle%2Fdp%2FB084K4J6Y4%2Fref%3Dsr_1_60_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-60-spons%26aref%3D4nkzqtMNSr%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=4nkzqtMNSr&sp_cr=ZAZ
+                      - img [ref=e4010]
+                    - generic [ref=e4011]:
+                      - generic [ref=e4012]:
+                        - button "View Sponsored information or leave ad feedback" [ref=e4015] [cursor=pointer]:
+                          - generic [ref=e4016]: Sponsored
+                        - link "Sponsored Ad - Toyzone Tricycle | with Parental Control | Cushion seat & seat Belt | 12 Months to 48 Months Boys/Girls | Carrying Capacity Upto 30kgs | with Water Bottle (Toyzone Doreamon Tricycle -92599)" [ref=e4018] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfYnRmOjMwMDcyOTQ0MTU3MTEzMjo6MDo6&url=%2FToyzone-Doreamon-Baby-Tricycle%2Fdp%2FB084K4J6Y4%2Fref%3Dsr_1_60_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-60-spons%26aref%3D4nkzqtMNSr%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=4nkzqtMNSr&sp_cr=ZAZ
+                          - heading "Sponsored Ad - Toyzone Tricycle | with Parental Control | Cushion seat & seat Belt | 12 Months to 48 Months Boys/Girls | Carrying Capacity Upto 30kgs | with Water Bottle (Toyzone Doreamon Tricycle -92599)" [level=2] [ref=e4019]: Toyzone Tricycle | with Parental Control | Cushion seat & seat Belt | 12 Months to 48 Months Boys/Girls | Carrying Capacity Upto 30kgs | with Water Bottle (Toyzone Doreamon Tricycle -92599)
+                      - generic [ref=e4021]:
+                        - text: "3.0"
+                        - button "3.0 out of 5 stars, rating details" [ref=e4023] [cursor=pointer]:
+                          - generic [ref=e4025]: 3.0 out of 5 stars
+                        - link "340 ratings" [ref=e4027] [cursor=pointer]:
+                          - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfYnRmOjMwMDcyOTQ0MTU3MTEzMjo6MDo6&url=%2FToyzone-Doreamon-Baby-Tricycle%2Fdp%2FB084K4J6Y4%2Fref%3Dsr_1_60_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-60-spons%26aref%3D4nkzqtMNSr%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=4nkzqtMNSr&sp_cr=ZAZ#customerReviews
+                          - text: (340)
+                      - generic [ref=e4028]:
+                        - link "Limited time deal" [ref=e4030] [cursor=pointer]:
+                          - /url: /deals
+                          - generic [ref=e4033]: Limited time deal
+                        - generic [ref=e4035]:
+                          - generic [ref=e4036]: Price, product page
+                          - 'link "₹1,865 M.R.P: ₹3,699 M.R.P: ₹3,699" [ref=e4037] [cursor=pointer]':
+                            - /url: /sspa/click?ie=UTF8&spc=MTo1NTUyNjc4NTA0NDgwNjQwOjE3NjYzMzA3MTE6c3BfYnRmOjMwMDcyOTQ0MTU3MTEzMjo6MDo6&url=%2FToyzone-Doreamon-Baby-Tricycle%2Fdp%2FB084K4J6Y4%2Fref%3Dsr_1_60_sspa%3Fcrid%3D2RQ7YNOJ0P3OR%26dib%3DeyJ2IjoiMSJ9.Bb4-7S_dKH0epcO4ZSqAosSugs-4Xns5y-eH3AqaWYPwhLKQm5U2l-TIX4ynXM-ElhhetTH6jyb4vzj9LWHmSzdjdnwKH1erasK5BdtEhbBNTpqYvEEstifUp1bt-PD8XCMztxn501EWirHdS_4nWiYvF5BBUErapuDBtJFmEbZbufprjAd71Ei-fmvX85duFjNMJyV8m_unOlQGBtCRkXYgd4yJoeKtFCBUyhlyu4UTDPyvzax6nuiZ2pca5ewXYrydAAmQV6UwvQCW-6kiEHQrUL-S3CQ-QnS9QXcFSzw.EXkAHT7kKmw4_yji6LMVaAGLzvSI7enuRbvQtiQevJQ%26dib_tag%3Dse%26keywords%3DBike%26qid%3D1766330711%26sprefix%3Dbike%252Caps%252C480%26sr%3D8-60-spons%26aref%3D4nkzqtMNSr%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9idGY%26psc%3D1&aref=4nkzqtMNSr&sp_cr=ZAZ
+                            - generic [ref=e4038]:
+                              - generic [ref=e4039]: ₹1,865
+                              - generic [ref=e4040]: ₹1,865
+                            - generic [ref=e4041]: "M.R.P: ₹3,699"
+                            - generic [ref=e4042]:
+                              - text: "M.R.P:"
+                              - generic [ref=e4043]:
+                                - generic [ref=e4044]: ₹3,699
+                                - text: ₹3,699
+                          - text: (50% off)
+                      - generic [ref=e4051]: FREE delivery Sat, 27 Dec
+                      - generic [ref=e4057]: "Ages: 12 months - 6 years"
+                      - generic [ref=e4059]: "Service: Installation"
+                      - button "Add to cart" [ref=e4073] [cursor=pointer]
+          - generic [ref=e4081]:
+            - link "Sponsored video; click to navigate to featured product page. Metal Car Dent Remover Suction Cup Puller with Handle – Heavy Duty Dent Lifter for Vehicle Body Repair, Glass, Tiles (Multi)" [ref=e4085] [cursor=pointer]:
+              - /url: https://aax-eu-zaz.amazon.in/x/c/JJCLRXVoGcKWSSMpMOL5tacAAAGbQYO-6woAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICAAErFg/clv1_CEuOPUxokZA0iHrVY8Zw0SGAYHRSSqZtjK0g5w679-pV139qgRG8If018HHz9hvVjq0yzpNb3X7OfU0BBWcABGl_GS2uGfjsC3MvR1ByVAe_Gd9kokfB8IkGXCQDVeW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7ud9ZD9aKUiL2Wf1aK1xkuNcA7FBIOT3_cq0eVrbNPflpKBCqGODP9H57huBTIct40i6tBzHIhmsmVEIFao_yWr3JYqfnqDdhxLjmOcuEwD_hDmIeqsdk4Cf6rJhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2KifChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajwi85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGY95vhMZ2Kf7YSR6eWgkl85s9LYrN2sdTTKGqWxFkSHaXMBe7F8H-H114PQb68kMDHWULXsD2ojWJMnw86DxNU0IKj3Q2zbPbopC_BBWzfQUF_6tvKFcMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjEYnzP6yFOOEm8C7vGmRxFXhynMh-1XVvGCUvTL5rqIvkfwinyTmQ_ALU7ssEdOE4MyY9TJfJi0RDlbZoRTQlDtxI3YcZk9rYym_92iaxW-OX_qawqXr8sHz8j-aX6pPOeCBabTk_XSiZw1dAOsrQjF9a1d_ZIvJ6yHNZVkgKDei9IJf_gsQeLMP37yo8xZ9vDBSBM-YpkFf4IFikyJ3DmSSVJ-NJxL7TJJPOOVsSXOpRIvkGgxWT7e-Z5ahneu6fyHQnqFsaskCPlo3D4e6FUecF9pYmH9dDKGXhOHtuMwqdsrzqwwhR-J18Ec2S3B7eeCYGV7zDYgGjtCgnby99CyexlDH3LYrhU1RZ8ASOyGFEmnS1me8XioshF3RP-OSyMBZoIlI0yGY9L5eI0XNI2UIQniE1Ua_vC1zIa3-Qogtleujb3zCTpBdQZowrFsp1rpZi6aWzguYzGWoMsDcadIxFO3Qn_B4kBio7LYHCKoYfwa8_Gjqju8LbUkW36T23tl0819YS55lFcZJsts3l2-4OFmWvs68LnisY4c5FzjgflCzSg7cWSgsZJOLNL2tuUG1Nklx2qg2-qH0mFtkVDUhr44nFNMDHh_cLDKL0zAJOEL-tL-8nTvrEjb6SEDN0jSpQugf4LsS6vcr1lIKhGHkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8OXFyKsSNs_J8WdAXUaGkWFLt7_fdmZKqUNe1-6pTmaUMqzei8vvW9_vtHQouDvTQMp02lk5cdKx387xZ1sC6i8d94AxOH8wL-luX0-PwAQcdq_kb2MeF6qok34hS9q-9FP8JQQ4VwhlYKLufqwnTRVOWCDxfXpM25E5a1yroH78YJT9Dxr_F9owYpe9ldGKgXp8PzAHLlCrSGjbMPI-inHNhxbT1rtkZRiuDkD6m8u38FcKm01voNjoLydwMEgNuOjy9IbgrMKsyVqi1_0NE5WOHzjawRl0prNDFBxJDuep4kxgODFS1znIDHSnw6LOeU4aTbf42kGRqEvPIdA2y2ZK81EivBENbsESsaUOaSTbT7oCKmhU8GM_5CbjxsZLc6jWlfoNL6iea8tethPfqhb7MKe7U4ZqMKzKZIJ1suSs8s00p9QJ-413AMQGVFAc38YFGyMGbHaDk3DquYhdjzBv13yG0SLcujIuB3ZDXoSq8avrU2nGSODzg-sX14NgJX_sRMrWuIOLU44lpl-EGXWfAyln58CW643Wl9ZAK7FJIeIW5fH3Js_PPvV_m7-ciZ5aVBOrli2-icqpEWlwAj_urnOBZA2OYDYJsBe0Sz0ZLoc_f1jYN6V2eURf6osXrxy0koEqwbUO_gZfHm-R1DVPPRRM9zA32D_9B9OSE4Z2Xc5OfwPv4xwgfyuPcQ61n4hgjZD-mXN8MJoHwPnue9Np4wILEES0srTUtdYbkGBal3YfN8AG9girPEo6upv7N6_3gFFEQwQXQbmP_8nbVDKB80PWqYhGJ-xoXIHCBrdONvsDaCg5tzf4_KXgnQpmQov2aONBEkJVy5NrHYprroTCmIQ3o/https://www.amazon.in/dp/B0G6T6HV3N?aref=iymnNLzNPc&pd_rd_i=B0G6T6HV3N&pf_rd_p=fa654091-9aaa-43a3-ac17-a2ad95526fd2&pf_rd_r=VGCT0N92F1AD70CZ7Y2T&pd_rd_wg=XDkvG&pd_rd_w=A9X1b&pd_rd_r=27cc1b93-cb35-46d8-8539-63a9ce0d3490
+              - generic "Sponsored video; click to navigate to featured product page. Metal Car Dent Remover Suction Cup Puller with Handle – Heavy Duty Dent Lifter for Vehicle Body Repair, Glass, Tiles (Multi)" [ref=e4086]
+            - generic [ref=e4094]:
+              - link [ref=e4100] [cursor=pointer]:
+                - /url: https://aax-eu-zaz.amazon.in/x/c/JJCLRXVoGcKWSSMpMOL5tacAAAGbQYO-6woAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICAAErFg/clv1_CEuOPUxokZA0iHrVY8Zw0SGAYHRSSqZtjK0g5w679-pV139qgRG8If018HHz9hvVjq0yzpNb3X7OfU0BBWcABGl_GS2uGfjsC3MvR1ByVAe_Gd9kokfB8IkGXCQDVeW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7ud9ZD9aKUiL2Wf1aK1xkuNcA7FBIOT3_cq0eVrbNPflpKBCqGODP9H57huBTIct40i6tBzHIhmsmVEIFao_yWr3JYqfnqDdhxLjmOcuEwD_hDmIeqsdk4Cf6rJhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2KifChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajwi85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGY95vhMZ2Kf7YSR6eWgkl85s9LYrN2sdTTKGqWxFkSHaXMBe7F8H-H114PQb68kMDHWULXsD2ojWJMnw86DxNU0IKj3Q2zbPbopC_BBWzfQUF_6tvKFcMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjEYnzP6yFOOEm8C7vGmRxFXhynMh-1XVvGCUvTL5rqIvkfwinyTmQ_ALU7ssEdOE4MyY9TJfJi0RDlbZoRTQlDtxI3YcZk9rYym_92iaxW-OX_qawqXr8sHz8j-aX6pPOeCBabTk_XSiZw1dAOsrQjF9a1d_ZIvJ6yHNZVkgKDei9IJf_gsQeLMP37yo8xZ9vDBSBM-YpkFf4IFikyJ3DmSSVJ-NJxL7TJJPOOVsSXOpRIvkGgxWT7e-Z5ahneu6fyHQnqFsaskCPlo3D4e6FUecF9pYmH9dDKGXhOHtuMwqdsrzqwwhR-J18Ec2S3B7eeCYGV7zDYgGjtCgnby99CyexlDH3LYrhU1RZ8ASOyGFEmnS1me8XioshF3RP-OSyMBZoIlI0yGY9L5eI0XNI2UIQniE1Ua_vC1zIa3-Qogtleujb3zCTpBdQZowrFsp1rpZi6aWzguYzGWoMsDcadIxFO3Qn_B4kBio7LYHCKoYfwa8_Gjqju8LbUkW36T23tl0819YS55lFcZJsts3l2-4OFmWvs68LnisY4c5FzjgflCzSg7cWSgsZJOLNL2tuUG1Nklx2qg2-qH0mFtkVDUhr44nFNMDHh_cLDKL0zAJOEL-tL-8nTvrEjb6SEDN0jSpQugf4LsS6vcr1lIKhGHkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8OXFyKsSNs_J8WdAXUaGkWFLt7_fdmZKqUNe1-6pTmaUMqzei8vvW9_vtHQouDvTQMp02lk5cdKx387xZ1sC6i8d94AxOH8wL-luX0-PwAQcdq_kb2MeF6qok34hS9q-9FP8JQQ4VwhlYKLufqwnTRVOWCDxfXpM25E5a1yroH78YJT9Dxr_F9owYpe9ldGKgXp8PzAHLlCrSGjbMPI-inHNhxbT1rtkZRiuDkD6m8u38FcKm01voNjoLydwMEgNuOjy9IbgrMKsyVqi1_0NE5WOHzjawRl0prNDFBxJDuep4kxgODFS1znIDHSnw6LOeU4aTbf42kGRqEvPIdA2y2ZK81EivBENbsESsaUOaSTbT7oCKmhU8GM_5CbjxsZLc6jWlfoNL6iea8tethPfqhb7MKe7U4ZqMKzKZIJ1suSs8s00p9QJ-413AMQGVFAc38YFGyMGbHaDk3DquYhdjzBv13yG0SLcujIuB3ZDXoSq8avrU2nGSODzg-sX14NgJX_sRMrWuIOLU44lpl-EGXWfAyln58CW643Wl9ZAK7FJIeIW5fH3Js_PPvV_m7-ciZ5aVBOrli2-icqpEWlwAj_urnOBZA2OYDYJsBe0Sz0ZLoc_f1jYN6V2eURf6osXrxy0koEqwbUO_gZfHm-R1DVPPRRM9zA32D_9B9OSE4Z2Xc5OfwPv4xwgfyuPcQ61n4hgjZD-mXN8MJoHwPnue9Np4wILEES0srTUtdYbkGBal3YfN8AG9girPEo6upv7N6_3gFFEQwQXQbmP_8nbVDKB80PWqYhGJ-xoXIHCBrdONvsDaCg5tzf4_KXgnQpmQov2aONBEkJVy5NrHYprroTCmIQ3o/https://www.amazon.in/Metal-Remover-Suction-Puller-Handle/dp/B0G6T6HV3N/ref=sxbs_sbv_search_btf?content-id=amzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2%3Aamzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2&crid=2RQ7YNOJ0P3OR&cv_ct_cx=Bike&keywords=Bike&pd_rd_i=B0G6T6HV3N&pd_rd_r=27cc1b93-cb35-46d8-8539-63a9ce0d3490&pd_rd_w=A9X1b&pd_rd_wg=XDkvG&pf_rd_p=fa654091-9aaa-43a3-ac17-a2ad95526fd2&pf_rd_r=VGCT0N92F1AD70CZ7Y2T&qid=1766330711&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=bike%2Caps%2C480&sr=1-1-f1821008-9dea-4812-b2b6-4a6e4a4f2d55
+                - img [ref=e4102]
+              - generic [ref=e4105]:
+                - generic [ref=e4106]:
+                  - generic [ref=e4109] [cursor=pointer]: Sponsored
+                  - link "Metal Car Dent Remover Suction Cup Puller with Handle – Heavy Duty Dent Lifter for Vehicle Body Repair, Glass, Tiles (Multi)" [ref=e4111] [cursor=pointer]:
+                    - /url: https://aax-eu-zaz.amazon.in/x/c/JJCLRXVoGcKWSSMpMOL5tacAAAGbQYO-6woAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICAAErFg/clv1_CEuOPUxokZA0iHrVY8Zw0SGAYHRSSqZtjK0g5w679-pV139qgRG8If018HHz9hvVjq0yzpNb3X7OfU0BBWcABGl_GS2uGfjsC3MvR1ByVAe_Gd9kokfB8IkGXCQDVeW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7ud9ZD9aKUiL2Wf1aK1xkuNcA7FBIOT3_cq0eVrbNPflpKBCqGODP9H57huBTIct40i6tBzHIhmsmVEIFao_yWr3JYqfnqDdhxLjmOcuEwD_hDmIeqsdk4Cf6rJhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2KifChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajwi85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGY95vhMZ2Kf7YSR6eWgkl85s9LYrN2sdTTKGqWxFkSHaXMBe7F8H-H114PQb68kMDHWULXsD2ojWJMnw86DxNU0IKj3Q2zbPbopC_BBWzfQUF_6tvKFcMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjEYnzP6yFOOEm8C7vGmRxFXhynMh-1XVvGCUvTL5rqIvkfwinyTmQ_ALU7ssEdOE4MyY9TJfJi0RDlbZoRTQlDtxI3YcZk9rYym_92iaxW-OX_qawqXr8sHz8j-aX6pPOeCBabTk_XSiZw1dAOsrQjF9a1d_ZIvJ6yHNZVkgKDei9IJf_gsQeLMP37yo8xZ9vDBSBM-YpkFf4IFikyJ3DmSSVJ-NJxL7TJJPOOVsSXOpRIvkGgxWT7e-Z5ahneu6fyHQnqFsaskCPlo3D4e6FUecF9pYmH9dDKGXhOHtuMwqdsrzqwwhR-J18Ec2S3B7eeCYGV7zDYgGjtCgnby99CyexlDH3LYrhU1RZ8ASOyGFEmnS1me8XioshF3RP-OSyMBZoIlI0yGY9L5eI0XNI2UIQniE1Ua_vC1zIa3-Qogtleujb3zCTpBdQZowrFsp1rpZi6aWzguYzGWoMsDcadIxFO3Qn_B4kBio7LYHCKoYfwa8_Gjqju8LbUkW36T23tl0819YS55lFcZJsts3l2-4OFmWvs68LnisY4c5FzjgflCzSg7cWSgsZJOLNL2tuUG1Nklx2qg2-qH0mFtkVDUhr44nFNMDHh_cLDKL0zAJOEL-tL-8nTvrEjb6SEDN0jSpQugf4LsS6vcr1lIKhGHkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8OXFyKsSNs_J8WdAXUaGkWFLt7_fdmZKqUNe1-6pTmaUMqzei8vvW9_vtHQouDvTQMp02lk5cdKx387xZ1sC6i8d94AxOH8wL-luX0-PwAQcdq_kb2MeF6qok34hS9q-9FP8JQQ4VwhlYKLufqwnTRVOWCDxfXpM25E5a1yroH78YJT9Dxr_F9owYpe9ldGKgXp8PzAHLlCrSGjbMPI-inHNhxbT1rtkZRiuDkD6m8u38FcKm01voNjoLydwMEgNuOjy9IbgrMKsyVqi1_0NE5WOHzjawRl0prNDFBxJDuep4kxgODFS1znIDHSnw6LOeU4aTbf42kGRqEvPIdA2y2ZK81EivBENbsESsaUOaSTbT7oCKmhU8GM_5CbjxsZLc6jWlfoNL6iea8tethPfqhb7MKe7U4ZqMKzKZIJ1suSs8s00p9QJ-413AMQGVFAc38YFGyMGbHaDk3DquYhdjzBv13yG0SLcujIuB3ZDXoSq8avrU2nGSODzg-sX14NgJX_sRMrWuIOLU44lpl-EGXWfAyln58CW643Wl9ZAK7FJIeIW5fH3Js_PPvV_m7-ciZ5aVBOrli2-icqpEWlwAj_urnOBZA2OYDYJsBe0Sz0ZLoc_f1jYN6V2eURf6osXrxy0koEqwbUO_gZfHm-R1DVPPRRM9zA32D_9B9OSE4Z2Xc5OfwPv4xwgfyuPcQ61n4hgjZD-mXN8MJoHwPnue9Np4wILEES0srTUtdYbkGBal3YfN8AG9girPEo6upv7N6_3gFFEQwQXQbmP_8nbVDKB80PWqYhGJ-xoXIHCBrdONvsDaCg5tzf4_KXgnQpmQov2aONBEkJVy5NrHYprroTCmIQ3o/https://www.amazon.in/Metal-Remover-Suction-Puller-Handle/dp/B0G6T6HV3N/ref=sxbs_sbv_search_btf?content-id=amzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2%3Aamzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2&crid=2RQ7YNOJ0P3OR&cv_ct_cx=Bike&keywords=Bike&pd_rd_i=B0G6T6HV3N&pd_rd_r=27cc1b93-cb35-46d8-8539-63a9ce0d3490&pd_rd_w=A9X1b&pd_rd_wg=XDkvG&pf_rd_p=fa654091-9aaa-43a3-ac17-a2ad95526fd2&pf_rd_r=VGCT0N92F1AD70CZ7Y2T&qid=1766330711&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=bike%2Caps%2C480&sr=1-1-f1821008-9dea-4812-b2b6-4a6e4a4f2d55
+                    - heading "Metal Car Dent Remover Suction Cup Puller with Handle – Heavy Duty Dent Lifter for Vehicle Body Repair, Glass, Tiles (Multi)" [level=2] [ref=e4112]
+                - generic [ref=e4114]:
+                  - text: "5.0"
+                  - button "5.0 out of 5 stars, rating details" [ref=e4116] [cursor=pointer]:
+                    - generic [ref=e4118]: 5.0 out of 5 stars
+                  - link "87 ratings" [ref=e4120] [cursor=pointer]:
+                    - /url: https://aax-eu-zaz.amazon.in/x/c/JJCLRXVoGcKWSSMpMOL5tacAAAGbQYO-6woAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICAAErFg/clv1_CEuOPUxokZA0iHrVY8Zw0SGAYHRSSqZtjK0g5w679-pV139qgRG8If018HHz9hvVjq0yzpNb3X7OfU0BBWcABGl_GS2uGfjsC3MvR1ByVAe_Gd9kokfB8IkGXCQDVeW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7ud9ZD9aKUiL2Wf1aK1xkuNcA7FBIOT3_cq0eVrbNPflpKBCqGODP9H57huBTIct40i6tBzHIhmsmVEIFao_yWr3JYqfnqDdhxLjmOcuEwD_hDmIeqsdk4Cf6rJhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2KifChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajwi85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGY95vhMZ2Kf7YSR6eWgkl85s9LYrN2sdTTKGqWxFkSHaXMBe7F8H-H114PQb68kMDHWULXsD2ojWJMnw86DxNU0IKj3Q2zbPbopC_BBWzfQUF_6tvKFcMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjEYnzP6yFOOEm8C7vGmRxFXhynMh-1XVvGCUvTL5rqIvkfwinyTmQ_ALU7ssEdOE4MyY9TJfJi0RDlbZoRTQlDtxI3YcZk9rYym_92iaxW-OX_qawqXr8sHz8j-aX6pPOeCBabTk_XSiZw1dAOsrQjF9a1d_ZIvJ6yHNZVkgKDei9IJf_gsQeLMP37yo8xZ9vDBSBM-YpkFf4IFikyJ3DmSSVJ-NJxL7TJJPOOVsSXOpRIvkGgxWT7e-Z5ahneu6fyHQnqFsaskCPlo3D4e6FUecF9pYmH9dDKGXhOHtuMwqdsrzqwwhR-J18Ec2S3B7eeCYGV7zDYgGjtCgnby99CyexlDH3LYrhU1RZ8ASOyGFEmnS1me8XioshF3RP-OSyMBZoIlI0yGY9L5eI0XNI2UIQniE1Ua_vC1zIa3-Qogtleujb3zCTpBdQZowrFsp1rpZi6aWzguYzGWoMsDcadIxFO3Qn_B4kBio7LYHCKoYfwa8_Gjqju8LbUkW36T23tl0819YS55lFcZJsts3l2-4OFmWvs68LnisY4c5FzjgflCzSg7cWSgsZJOLNL2tuUG1Nklx2qg2-qH0mFtkVDUhr44nFNMDHh_cLDKL0zAJOEL-tL-8nTvrEjb6SEDN0jSpQugf4LsS6vcr1lIKhGHkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8OXFyKsSNs_J8WdAXUaGkWFLt7_fdmZKqUNe1-6pTmaUMqzei8vvW9_vtHQouDvTQMp02lk5cdKx387xZ1sC6i8d94AxOH8wL-luX0-PwAQcdq_kb2MeF6qok34hS9q-9FP8JQQ4VwhlYKLufqwnTRVOWCDxfXpM25E5a1yroH78YJT9Dxr_F9owYpe9ldGKgXp8PzAHLlCrSGjbMPI-inHNhxbT1rtkZRiuDkD6m8u38FcKm01voNjoLydwMEgNuOjy9IbgrMKsyVqi1_0NE5WOHzjawRl0prNDFBxJDuep4kxgODFS1znIDHSnw6LOeU4aTbf42kGRqEvPIdA2y2ZK81EivBENbsESsaUOaSTbT7oCKmhU8GM_5CbjxsZLc6jWlfoNL6iea8tethPfqhb7MKe7U4ZqMKzKZIJ1suSs8s00p9QJ-413AMQGVFAc38YFGyMGbHaDk3DquYhdjzBv13yG0SLcujIuB3ZDXoSq8avrU2nGSODzg-sX14NgJX_sRMrWuIOLU44lpl-EGXWfAyln58CW643Wl9ZAK7FJIeIW5fH3Js_PPvV_m7-ciZ5aVBOrli2-icqpEWlwAj_urnOBZA2OYDYJsBe0Sz0ZLoc_f1jYN6V2eURf6osXrxy0koEqwbUO_gZfHm-R1DVPPRRM9zA32D_9B9OSE4Z2Xc5OfwPv4xwgfyuPcQ61n4hgjZD-mXN8MJoHwPnue9Np4wILEES0srTUtdYbkGBal3YfN8AG9girPEo6upv7N6_3gFFEQwQXQbmP_8nbVDKB80PWqYhGJ-xoXIHCBrdONvsDaCg5tzf4_KXgnQpmQov2aONBEkJVy5NrHYprroTCmIQ3o/https://www.amazon.in/Metal-Remover-Suction-Puller-Handle/dp/B0G6T6HV3N/ref=sxbs_sbv_search_btf?content-id=amzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2%3Aamzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2&crid=2RQ7YNOJ0P3OR&cv_ct_cx=Bike&keywords=Bike&pd_rd_i=B0G6T6HV3N&pd_rd_r=27cc1b93-cb35-46d8-8539-63a9ce0d3490&pd_rd_w=A9X1b&pd_rd_wg=XDkvG&pf_rd_p=fa654091-9aaa-43a3-ac17-a2ad95526fd2&pf_rd_r=VGCT0N92F1AD70CZ7Y2T&qid=1766330711&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=bike%2Caps%2C480&sr=1-1-f1821008-9dea-4812-b2b6-4a6e4a4f2d55#customerReviews
+                    - text: (87)
+                - generic [ref=e4123]:
+                  - generic [ref=e4124]:
+                    - generic [ref=e4126]:
+                      - generic [ref=e4127]: Price, product page
+                      - 'link "₹449 M.R.P: ₹949 M.R.P: ₹949" [ref=e4128] [cursor=pointer]':
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JJCLRXVoGcKWSSMpMOL5tacAAAGbQYO-6woAAAH2AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDEgICAAErFg/clv1_CEuOPUxokZA0iHrVY8Zw0SGAYHRSSqZtjK0g5w679-pV139qgRG8If018HHz9hvVjq0yzpNb3X7OfU0BBWcABGl_GS2uGfjsC3MvR1ByVAe_Gd9kokfB8IkGXCQDVeW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7ud9ZD9aKUiL2Wf1aK1xkuNcA7FBIOT3_cq0eVrbNPflpKBCqGODP9H57huBTIct40i6tBzHIhmsmVEIFao_yWr3JYqfnqDdhxLjmOcuEwD_hDmIeqsdk4Cf6rJhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2KifChiJ4snkeH1E39g8pKg8xPmTmFjVYOMr_VkwTthKoxWmj2Ajwi85x_bWgR-Y2A4Ly61XW_0GbfWKhOMGTd0mEAZAg3OfkfrU_0Pj89oQgyJhpZTgsU3XVSZOi98lgp6zP47jZipuW8Vvb-f_ZYgVnHu5zjScpWFM2scS8o1ABhn481pGY95vhMZ2Kf7YSR6eWgkl85s9LYrN2sdTTKGqWxFkSHaXMBe7F8H-H114PQb68kMDHWULXsD2ojWJMnw86DxNU0IKj3Q2zbPbopC_BBWzfQUF_6tvKFcMhLTn2TR5RPMYAbeH3RllibLAkpWt8pDeNEBQSWC8nkvH_B8gRhjnKuSSVOtVuWyajNb6VDKpuVsRc5qk4SjjEYnzP6yFOOEm8C7vGmRxFXhynMh-1XVvGCUvTL5rqIvkfwinyTmQ_ALU7ssEdOE4MyY9TJfJi0RDlbZoRTQlDtxI3YcZk9rYym_92iaxW-OX_qawqXr8sHz8j-aX6pPOeCBabTk_XSiZw1dAOsrQjF9a1d_ZIvJ6yHNZVkgKDei9IJf_gsQeLMP37yo8xZ9vDBSBM-YpkFf4IFikyJ3DmSSVJ-NJxL7TJJPOOVsSXOpRIvkGgxWT7e-Z5ahneu6fyHQnqFsaskCPlo3D4e6FUecF9pYmH9dDKGXhOHtuMwqdsrzqwwhR-J18Ec2S3B7eeCYGV7zDYgGjtCgnby99CyexlDH3LYrhU1RZ8ASOyGFEmnS1me8XioshF3RP-OSyMBZoIlI0yGY9L5eI0XNI2UIQniE1Ua_vC1zIa3-Qogtleujb3zCTpBdQZowrFsp1rpZi6aWzguYzGWoMsDcadIxFO3Qn_B4kBio7LYHCKoYfwa8_Gjqju8LbUkW36T23tl0819YS55lFcZJsts3l2-4OFmWvs68LnisY4c5FzjgflCzSg7cWSgsZJOLNL2tuUG1Nklx2qg2-qH0mFtkVDUhr44nFNMDHh_cLDKL0zAJOEL-tL-8nTvrEjb6SEDN0jSpQugf4LsS6vcr1lIKhGHkO1uRG3gm7okpw-6HsG78eRdbf-13N7bZRt42JRDit-PZLUuxHVWJKPUeu8Kq58bL5f69XaRjAtBTq_9CX8PzGFzn45flF__pHEcrSTBK5Mv9wrMI0p3E92zrxfO4fVyxKgqOkj9Ji3ZEQraCVCzPPUfC4r8OXFyKsSNs_J8WdAXUaGkWFLt7_fdmZKqUNe1-6pTmaUMqzei8vvW9_vtHQouDvTQMp02lk5cdKx387xZ1sC6i8d94AxOH8wL-luX0-PwAQcdq_kb2MeF6qok34hS9q-9FP8JQQ4VwhlYKLufqwnTRVOWCDxfXpM25E5a1yroH78YJT9Dxr_F9owYpe9ldGKgXp8PzAHLlCrSGjbMPI-inHNhxbT1rtkZRiuDkD6m8u38FcKm01voNjoLydwMEgNuOjy9IbgrMKsyVqi1_0NE5WOHzjawRl0prNDFBxJDuep4kxgODFS1znIDHSnw6LOeU4aTbf42kGRqEvPIdA2y2ZK81EivBENbsESsaUOaSTbT7oCKmhU8GM_5CbjxsZLc6jWlfoNL6iea8tethPfqhb7MKe7U4ZqMKzKZIJ1suSs8s00p9QJ-413AMQGVFAc38YFGyMGbHaDk3DquYhdjzBv13yG0SLcujIuB3ZDXoSq8avrU2nGSODzg-sX14NgJX_sRMrWuIOLU44lpl-EGXWfAyln58CW643Wl9ZAK7FJIeIW5fH3Js_PPvV_m7-ciZ5aVBOrli2-icqpEWlwAj_urnOBZA2OYDYJsBe0Sz0ZLoc_f1jYN6V2eURf6osXrxy0koEqwbUO_gZfHm-R1DVPPRRM9zA32D_9B9OSE4Z2Xc5OfwPv4xwgfyuPcQ61n4hgjZD-mXN8MJoHwPnue9Np4wILEES0srTUtdYbkGBal3YfN8AG9girPEo6upv7N6_3gFFEQwQXQbmP_8nbVDKB80PWqYhGJ-xoXIHCBrdONvsDaCg5tzf4_KXgnQpmQov2aONBEkJVy5NrHYprroTCmIQ3o/https://www.amazon.in/Metal-Remover-Suction-Puller-Handle/dp/B0G6T6HV3N/ref=sxbs_sbv_search_btf?content-id=amzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2%3Aamzn1.sym.fa654091-9aaa-43a3-ac17-a2ad95526fd2&crid=2RQ7YNOJ0P3OR&cv_ct_cx=Bike&keywords=Bike&pd_rd_i=B0G6T6HV3N&pd_rd_r=27cc1b93-cb35-46d8-8539-63a9ce0d3490&pd_rd_w=A9X1b&pd_rd_wg=XDkvG&pf_rd_p=fa654091-9aaa-43a3-ac17-a2ad95526fd2&pf_rd_r=VGCT0N92F1AD70CZ7Y2T&qid=1766330711&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=bike%2Caps%2C480&sr=1-1-f1821008-9dea-4812-b2b6-4a6e4a4f2d55
+                        - generic [ref=e4129]:
+                          - generic [ref=e4130]: ₹449
+                          - generic [ref=e4131]: ₹449
+                        - generic [ref=e4132]: "M.R.P: ₹949"
+                        - generic [ref=e4133]:
+                          - text: "M.R.P:"
+                          - generic [ref=e4134]:
+                            - generic [ref=e4135]: ₹949
+                            - text: ₹949
+                      - text: (53% off)
+                    - generic [ref=e4136]: Buy 2 items, get 5% off
+                  - generic [ref=e4143]: FREE delivery Sat, 27 Dec on first order
+          - generic [ref=e4153]:
+            - generic "Related searches in Bike" [ref=e4154]:
+              - heading "Related searches" [level=2] [ref=e4157]
+            - list [ref=e4159]:
+              - generic [ref=e4160]:
+                - listitem [ref=e4161]:
+                  - link "car" [ref=e4163] [cursor=pointer]:
+                    - /url: /s?k=car&ref=rsl_sug_0_0&pd_rd_w=a0ood&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=VGCT0N92F1AD70CZ7Y2T&pd_rd_wg=XDkvG&pd_rd_r=27cc1b93-cb35-46d8-8539-63a9ce0d3490&qid=1766330711
+                    - generic [ref=e4168]: car
+                - listitem [ref=e4169]:
+                  - link "bike for kids" [ref=e4171] [cursor=pointer]:
+                    - /url: /s?k=bike+for+kids&ref=rsl_sug_0_3&pd_rd_w=a0ood&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=VGCT0N92F1AD70CZ7Y2T&pd_rd_wg=XDkvG&pd_rd_r=27cc1b93-cb35-46d8-8539-63a9ce0d3490&qid=1766330711
+                    - generic [ref=e4176]: bike for kids
+              - generic [ref=e4177]:
+                - listitem [ref=e4178]:
+                  - link "bike accessories" [ref=e4180] [cursor=pointer]:
+                    - /url: /s?k=bike+accessories&ref=rsl_sug_0_1&pd_rd_w=a0ood&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=VGCT0N92F1AD70CZ7Y2T&pd_rd_wg=XDkvG&pd_rd_r=27cc1b93-cb35-46d8-8539-63a9ce0d3490&qid=1766330711
+                    - generic [ref=e4185]: bike accessories
+                - listitem [ref=e4186]:
+                  - link "cycle" [ref=e4188] [cursor=pointer]:
+                    - /url: /s?k=cycle&ref=rsl_sug_0_4&pd_rd_w=a0ood&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=VGCT0N92F1AD70CZ7Y2T&pd_rd_wg=XDkvG&pd_rd_r=27cc1b93-cb35-46d8-8539-63a9ce0d3490&qid=1766330711
+                    - generic [ref=e4193]: cycle
+              - generic [ref=e4194]:
+                - listitem [ref=e4195]:
+                  - link "hero bike" [ref=e4197] [cursor=pointer]:
+                    - /url: /s?k=hero+bike&ref=rsl_sug_0_2&pd_rd_w=a0ood&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=VGCT0N92F1AD70CZ7Y2T&pd_rd_wg=XDkvG&pd_rd_r=27cc1b93-cb35-46d8-8539-63a9ce0d3490&qid=1766330711
+                    - generic [ref=e4202]: hero bike
+                - listitem [ref=e4203]:
+                  - link "bike toy" [ref=e4205] [cursor=pointer]:
+                    - /url: /s?k=bike+toy&ref=rsl_sug_0_5&pd_rd_w=a0ood&content-id=amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01:amzn1.sym.c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_p=c6a4c27a-40f0-4447-9435-8e917ffa1d01&pf_rd_r=VGCT0N92F1AD70CZ7Y2T&pd_rd_wg=XDkvG&pd_rd_r=27cc1b93-cb35-46d8-8539-63a9ce0d3490&qid=1766330711
+                    - generic [ref=e4210]: bike toy
+          - navigation "pagination" [ref=e4213]:
+            - list [ref=e4215]:
+              - listitem [ref=e4216]:
+                - button "Previous" [disabled] [ref=e4218]:
+                  - img [ref=e4219]
+                  - text: Previous
+              - listitem [ref=e4221]:
+                - button "Page 1" [ref=e4223]: "1"
+              - listitem [ref=e4224]:
+                - button "Go to page 2" [ref=e4226] [cursor=pointer]: "2"
+              - listitem [ref=e4227]:
+                - button "Go to page 3" [ref=e4229] [cursor=pointer]: "3"
+              - button [disabled] [ref=e4230]:
+                - img [ref=e4231]: ...
+              - button "7" [disabled] [ref=e4233]
+              - listitem [ref=e4234]:
+                - button "Go to next page, page 2" [ref=e4236] [cursor=pointer]:
+                  - text: Next
+                  - img [ref=e4237]
+          - generic [ref=e4241]:
+            - generic [ref=e4242]:
+              - heading "Brands related to your search" [ref=e4243]
+              - button "Leave feedback on Sponsored ad" [ref=e4248] [cursor=pointer]: Sponsored
+            - list [ref=e4253]:
+              - listitem [ref=e4254]:
+                - generic [ref=e4255]:
+                  - link [ref=e4256] [cursor=pointer]:
+                    - /url: https://aax-eu-zaz.amazon.in/x/c/JHHsdGuqpfwBZiXpX6Jq-0YAAAGbQYO_kQoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICDMCJ9Y/clv1_CEuOPUxokZA0iHrVX94m5SHSYXpCWaYUkLcnyQCLr89t4X8KghG8If018HHz9hvVjq0yzpNb3X7OfU0WBWcADEVzbyjPD861Om8IREx1RVykBtlGskfB8IkGXCQRVeW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7ud9ZD9aKUiL2Wf1aK1xkuNcA7FBIOT3_cq0eVrbNPflqqDMKWRJugt3t5pQwAPnbIi3-pyIp8N9GR6AnKW_yWr3JYqfnqDdhxLjmOcuEwD_BPINemvWEIDfbrBhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2CYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuApU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M15HpV64RRC2YnwPSRDcWUwqsol4KU3Nn8gQTKEqW8bhwzzTddn7FoFxnE34soX5MofAymAPmsM2ab_N93d76fnCGMIPD3Y2TXfR9JV7BwYzOQqE-qtpKhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsFGuKGPvEAZk_nvDLy6xr-ktkaexkPk93A06hPLhgXB4jP_rv8ZzeAmniTmGfofL-MVBayi7OOboCN1FDcCOz3ZoRTi1gBLHWYEYltjexO_6WiKvjCMS-Hg176z9e25wDeFeoBTB9ugeZ_P5meuei9RDvgKSDd-WkN4TZzWxz3oOXUjLzq-rqxF1AsIZYhk8beAzgJrpgxsKNOevlJe4rd8v3t4TnDkU52ZCifPYL9ECd94OiuqfYvFMTEAB5m6fIyksfPnahzln7dyV5ACMSFrNrScC0aIJrhPtVYZI4iurM3ElZU9d9n5qhglHdp1-EU3X1UjVsjABUr2M9cqo6TniqCitDqN7y_T0JMaqzpOJe4DCniGKFf_413bXSo9-wXtO_zHzPkC5Yhb6jGJ2phRJkXdI10yVlqzoFa_hEh3JprYWqgQyuudb3zoT65MWoUdrXYo-5hWlLKT8xKjkHGwMuqvcepGEMHX6egyoheo77UJLa8NUBH9_nyV0t8ueQAV3L_qy94M405xcdNcEcpDir4rrm-4KFCFg4-zBXuoRrtkLQ7bUHWrSBvhWz0ZZIuwTqWRoDa1Nl8v67UD6NLXkDwfQAUi1PQmN-kxHAriNiWi2DUyFmT-s5m8jAb5EjXCSQ7H1DKuHOQZ7IcinvcH5UMeoXDNAkuANWRj7OELvOOpr2XAbQtKQfNaLqCGSuYBXCnntMnZLXy8Zle4EIIgip_J1_KS34m_SKN6Of4g6MdfW5_CMkz8zqrDXfjBPUIoYh1L58T116UGwZzGwnT-xNnHaVztCxmiyhIIiWNARYy4IzPJMEPNz5I4XFyOj3pDypMKYgT1d0QJELtDh8E_XvSTBdYLlZ3nH2Ip5sWRu8-Xhf1ETYudvTt7s0iYsoUwPzfl6iB56CyYgt94DD7G-WeVgMjZ3uotapZH9ECVDu8ck5YZ81K4qrFFLv9PfZ9I3As6LvnXmVrsX_GCES7Sn6e5FJOutbk68M4GXPy4pNt97gMXXc1UGM0f-8rzAF_1OJGMmrNsbcOOasFiVhtstDZOz_ToG-a5hll2Xoek2ekwmoTZXQMFu5GNjDV0FQn7Bunhmj9z_Oc7crzrsawXnS8dFyxUxL7aApkExiucPyV_-s7HSWQ6JPq2k7yCTf2-J2yGjulhdkaFcJQHHyPOIerjJwNBXJmaWbDPji3Rv30LM9JCY09tYLUxuGtwoOT6iebTtdNDUvqYb9wKRbVXZpsoo5FODlwEYs8O13YGM52U23cIbHl6K8nnO2myTyfyAlIqM4G23en4BbtazmUWGsaFHNF3bDPcVZI3pp8Ii3P6aWUK2TxzFS8ZdC79KhjN4gbYMJbghT8KiQC65WeN7SexuA14YLgt6AGyqa02NvavJUcw-Iy2A0QHIU81vcx2vLed944JxEJ8ubKmaxUYgaJId4BNZDHixJu9MrzklIt4D3yfBLqloHPvlRppePoVVbr2da7j8xoaU7CMS4pXLkngqI97LjxzBEH-mrvaHtk2mkG4seQ0x2v0mCHuKYT2JuY164tcmirODewPMbM1UmUNZHpIStUOXJQj7s8Q5itu09PBjcPmuYdO7UgdJm1qYiNn3IbpvMRLaTQ8URyYu2FO9rX4LBBbUuNvsACf8YE8UI_1XS_vpULD-CXHdGwuV4xGNwAxKcZER64Cxc4S_LjORM_5SbxFt1UBUEhoN3cVUc-T0A/https://www.amazon.in/stores/page/D35B788D-6372-42E8-B72F-D2A55CFCB33A/?_encoding=UTF8&store_ref=SB_A09848373JCYS1E8NEKN5-A0215452FHWDNPDBR4Y2&pd_rd_plhdr=t&aaxitk=9998e82b5d5871455782e64f6a95a0e6&hsa_cr_id=0&lp_asins=B0G5211D54%2CB0BDV83LQK%2CB0CKHZW14B&lp_query=Bike&lp_slot=desktop-hsa-3psl&aref=CsKCRd9J4d&ref_=sbx_be_s_3psl_mbd_mb0_bkgd&pd_rd_w=tEYl9&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=VGCT0N92F1AD70CZ7Y2T&pd_rd_wg=7ea1z&pd_rd_r=f7098325-b6f3-4ac4-9db4-48bea3e0c6ec
+                  - generic:
+                    - generic:
+                      - link "Sponsored ad from Chota Kingdom. \"Explore wide range of toys from Mittimate.\" Shop Chota Kingdom." [ref=e4257] [cursor=pointer]:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JHHsdGuqpfwBZiXpX6Jq-0YAAAGbQYO_kQoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICDMCJ9Y/clv1_CEuOPUxokZA0iHrVX94m5SHSYXpCWaYUkLcnyQCLr89t4X8KghG8If018HHz9hvVjq0yzpNb3X7OfU0WBWcADEVzbyjPD861Om8IREx1RVykBtlGskfB8IkGXCQRVeW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7ud9ZD9aKUiL2Wf1aK1xkuNcA7FBIOT3_cq0eVrbNPflqqDMKWRJugt3t5pQwAPnbIi3-pyIp8N9GR6AnKW_yWr3JYqfnqDdhxLjmOcuEwD_BPINemvWEIDfbrBhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2CYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuApU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M15HpV64RRC2YnwPSRDcWUwqsol4KU3Nn8gQTKEqW8bhwzzTddn7FoFxnE34soX5MofAymAPmsM2ab_N93d76fnCGMIPD3Y2TXfR9JV7BwYzOQqE-qtpKhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsFGuKGPvEAZk_nvDLy6xr-ktkaexkPk93A06hPLhgXB4jP_rv8ZzeAmniTmGfofL-MVBayi7OOboCN1FDcCOz3ZoRTi1gBLHWYEYltjexO_6WiKvjCMS-Hg176z9e25wDeFeoBTB9ugeZ_P5meuei9RDvgKSDd-WkN4TZzWxz3oOXUjLzq-rqxF1AsIZYhk8beAzgJrpgxsKNOevlJe4rd8v3t4TnDkU52ZCifPYL9ECd94OiuqfYvFMTEAB5m6fIyksfPnahzln7dyV5ACMSFrNrScC0aIJrhPtVYZI4iurM3ElZU9d9n5qhglHdp1-EU3X1UjVsjABUr2M9cqo6TniqCitDqN7y_T0JMaqzpOJe4DCniGKFf_413bXSo9-wXtO_zHzPkC5Yhb6jGJ2phRJkXdI10yVlqzoFa_hEh3JprYWqgQyuudb3zoT65MWoUdrXYo-5hWlLKT8xKjkHGwMuqvcepGEMHX6egyoheo77UJLa8NUBH9_nyV0t8ueQAV3L_qy94M405xcdNcEcpDir4rrm-4KFCFg4-zBXuoRrtkLQ7bUHWrSBvhWz0ZZIuwTqWRoDa1Nl8v67UD6NLXkDwfQAUi1PQmN-kxHAriNiWi2DUyFmT-s5m8jAb5EjXCSQ7H1DKuHOQZ7IcinvcH5UMeoXDNAkuANWRj7OELvOOpr2XAbQtKQfNaLqCGSuYBXCnntMnZLXy8Zle4EIIgip_J1_KS34m_SKN6Of4g6MdfW5_CMkz8zqrDXfjBPUIoYh1L58T116UGwZzGwnT-xNnHaVztCxmiyhIIiWNARYy4IzPJMEPNz5I4XFyOj3pDypMKYgT1d0QJELtDh8E_XvSTBdYLlZ3nH2Ip5sWRu8-Xhf1ETYudvTt7s0iYsoUwPzfl6iB56CyYgt94DD7G-WeVgMjZ3uotapZH9ECVDu8ck5YZ81K4qrFFLv9PfZ9I3As6LvnXmVrsX_GCES7Sn6e5FJOutbk68M4GXPy4pNt97gMXXc1UGM0f-8rzAF_1OJGMmrNsbcOOasFiVhtstDZOz_ToG-a5hll2Xoek2ekwmoTZXQMFu5GNjDV0FQn7Bunhmj9z_Oc7crzrsawXnS8dFyxUxL7aApkExiucPyV_-s7HSWQ6JPq2k7yCTf2-J2yGjulhdkaFcJQHHyPOIerjJwNBXJmaWbDPji3Rv30LM9JCY09tYLUxuGtwoOT6iebTtdNDUvqYb9wKRbVXZpsoo5FODlwEYs8O13YGM52U23cIbHl6K8nnO2myTyfyAlIqM4G23en4BbtazmUWGsaFHNF3bDPcVZI3pp8Ii3P6aWUK2TxzFS8ZdC79KhjN4gbYMJbghT8KiQC65WeN7SexuA14YLgt6AGyqa02NvavJUcw-Iy2A0QHIU81vcx2vLed944JxEJ8ubKmaxUYgaJId4BNZDHixJu9MrzklIt4D3yfBLqloHPvlRppePoVVbr2da7j8xoaU7CMS4pXLkngqI97LjxzBEH-mrvaHtk2mkG4seQ0x2v0mCHuKYT2JuY164tcmirODewPMbM1UmUNZHpIStUOXJQj7s8Q5itu09PBjcPmuYdO7UgdJm1qYiNn3IbpvMRLaTQ8URyYu2FO9rX4LBBbUuNvsACf8YE8UI_1XS_vpULD-CXHdGwuV4xGNwAxKcZER64Cxc4S_LjORM_5SbxFt1UBUEhoN3cVUc-T0A/https://www.amazon.in/stores/page/D35B788D-6372-42E8-B72F-D2A55CFCB33A/?_encoding=UTF8&store_ref=SB_A09848373JCYS1E8NEKN5-A0215452FHWDNPDBR4Y2&pd_rd_plhdr=t&aaxitk=9998e82b5d5871455782e64f6a95a0e6&hsa_cr_id=0&lp_asins=B0G5211D54%2CB0BDV83LQK%2CB0CKHZW14B&lp_query=Bike&lp_slot=desktop-hsa-3psl&aref=CsKCRd9J4d&ref_=sbx_be_s_3psl_mbd_mb0_asin&pd_rd_w=tEYl9&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=VGCT0N92F1AD70CZ7Y2T&pd_rd_wg=7ea1z&pd_rd_r=f7098325-b6f3-4ac4-9db4-48bea3e0c6ec
+                        - img "Sponsored ad from Chota Kingdom. \"Explore wide range of toys from Mittimate.\" Shop Chota Kingdom." [ref=e4258]
+                      - generic:
+                        - link:
+                          - /url: https://aax-eu-zaz.amazon.in/x/c/JHHsdGuqpfwBZiXpX6Jq-0YAAAGbQYO_kQoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICDMCJ9Y/clv1_CEuOPUxokZA0iHrVX94m5SHSYXpCWaYUkLcnyQCLr89t4X8KghG8If018HHz9hvVjq0yzpNb3X7OfU0WBWcADEVzbyjPD861Om8IREx1RVykBtlGskfB8IkGXCQRVeW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7ud9ZD9aKUiL2Wf1aK1xkuNcA7FBIOT3_cq0eVrbNPflqqDMKWRJugt3t5pQwAPnbIi3-pyIp8N9GR6AnKW_yWr3JYqfnqDdhxLjmOcuEwD_BPINemvWEIDfbrBhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2CYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuApU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M15HpV64RRC2YnwPSRDcWUwqsol4KU3Nn8gQTKEqW8bhwzzTddn7FoFxnE34soX5MofAymAPmsM2ab_N93d76fnCGMIPD3Y2TXfR9JV7BwYzOQqE-qtpKhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsFGuKGPvEAZk_nvDLy6xr-ktkaexkPk93A06hPLhgXB4jP_rv8ZzeAmniTmGfofL-MVBayi7OOboCN1FDcCOz3ZoRTi1gBLHWYEYltjexO_6WiKvjCMS-Hg176z9e25wDeFeoBTB9ugeZ_P5meuei9RDvgKSDd-WkN4TZzWxz3oOXUjLzq-rqxF1AsIZYhk8beAzgJrpgxsKNOevlJe4rd8v3t4TnDkU52ZCifPYL9ECd94OiuqfYvFMTEAB5m6fIyksfPnahzln7dyV5ACMSFrNrScC0aIJrhPtVYZI4iurM3ElZU9d9n5qhglHdp1-EU3X1UjVsjABUr2M9cqo6TniqCitDqN7y_T0JMaqzpOJe4DCniGKFf_413bXSo9-wXtO_zHzPkC5Yhb6jGJ2phRJkXdI10yVlqzoFa_hEh3JprYWqgQyuudb3zoT65MWoUdrXYo-5hWlLKT8xKjkHGwMuqvcepGEMHX6egyoheo77UJLa8NUBH9_nyV0t8ueQAV3L_qy94M405xcdNcEcpDir4rrm-4KFCFg4-zBXuoRrtkLQ7bUHWrSBvhWz0ZZIuwTqWRoDa1Nl8v67UD6NLXkDwfQAUi1PQmN-kxHAriNiWi2DUyFmT-s5m8jAb5EjXCSQ7H1DKuHOQZ7IcinvcH5UMeoXDNAkuANWRj7OELvOOpr2XAbQtKQfNaLqCGSuYBXCnntMnZLXy8Zle4EIIgip_J1_KS34m_SKN6Of4g6MdfW5_CMkz8zqrDXfjBPUIoYh1L58T116UGwZzGwnT-xNnHaVztCxmiyhIIiWNARYy4IzPJMEPNz5I4XFyOj3pDypMKYgT1d0QJELtDh8E_XvSTBdYLlZ3nH2Ip5sWRu8-Xhf1ETYudvTt7s0iYsoUwPzfl6iB56CyYgt94DD7G-WeVgMjZ3uotapZH9ECVDu8ck5YZ81K4qrFFLv9PfZ9I3As6LvnXmVrsX_GCES7Sn6e5FJOutbk68M4GXPy4pNt97gMXXc1UGM0f-8rzAF_1OJGMmrNsbcOOasFiVhtstDZOz_ToG-a5hll2Xoek2ekwmoTZXQMFu5GNjDV0FQn7Bunhmj9z_Oc7crzrsawXnS8dFyxUxL7aApkExiucPyV_-s7HSWQ6JPq2k7yCTf2-J2yGjulhdkaFcJQHHyPOIerjJwNBXJmaWbDPji3Rv30LM9JCY09tYLUxuGtwoOT6iebTtdNDUvqYb9wKRbVXZpsoo5FODlwEYs8O13YGM52U23cIbHl6K8nnO2myTyfyAlIqM4G23en4BbtazmUWGsaFHNF3bDPcVZI3pp8Ii3P6aWUK2TxzFS8ZdC79KhjN4gbYMJbghT8KiQC65WeN7SexuA14YLgt6AGyqa02NvavJUcw-Iy2A0QHIU81vcx2vLed944JxEJ8ubKmaxUYgaJId4BNZDHixJu9MrzklIt4D3yfBLqloHPvlRppePoVVbr2da7j8xoaU7CMS4pXLkngqI97LjxzBEH-mrvaHtk2mkG4seQ0x2v0mCHuKYT2JuY164tcmirODewPMbM1UmUNZHpIStUOXJQj7s8Q5itu09PBjcPmuYdO7UgdJm1qYiNn3IbpvMRLaTQ8URyYu2FO9rX4LBBbUuNvsACf8YE8UI_1XS_vpULD-CXHdGwuV4xGNwAxKcZER64Cxc4S_LjORM_5SbxFt1UBUEhoN3cVUc-T0A/https://www.amazon.in/stores/page/D35B788D-6372-42E8-B72F-D2A55CFCB33A/?_encoding=UTF8&store_ref=SB_A09848373JCYS1E8NEKN5-A0215452FHWDNPDBR4Y2&pd_rd_plhdr=t&aaxitk=9998e82b5d5871455782e64f6a95a0e6&hsa_cr_id=0&lp_asins=B0G5211D54%2CB0BDV83LQK%2CB0CKHZW14B&lp_query=Bike&lp_slot=desktop-hsa-3psl&aref=CsKCRd9J4d&ref_=sbx_be_s_3psl_mbd_mb0_bkgd&pd_rd_w=tEYl9&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=VGCT0N92F1AD70CZ7Y2T&pd_rd_wg=7ea1z&pd_rd_r=f7098325-b6f3-4ac4-9db4-48bea3e0c6ec
+                        - generic:
+                          - generic:
+                            - link "Chota Kingdom" [ref=e4259] [cursor=pointer]:
+                              - /url: https://aax-eu-zaz.amazon.in/x/c/JHHsdGuqpfwBZiXpX6Jq-0YAAAGbQYO_kQoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICDMCJ9Y/clv1_CEuOPUxokZA0iHrVX94m5SHSYXpCWaYUkLcnyQCLr89t4X8KghG8If018HHz9hvVjq0yzpNb3X7OfU0WBWcADEVzbyjPD861Om8IREx1RVykBtlGskfB8IkGXCQRVeW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7ud9ZD9aKUiL2Wf1aK1xkuNcA7FBIOT3_cq0eVrbNPflqqDMKWRJugt3t5pQwAPnbIi3-pyIp8N9GR6AnKW_yWr3JYqfnqDdhxLjmOcuEwD_BPINemvWEIDfbrBhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2CYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuApU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M15HpV64RRC2YnwPSRDcWUwqsol4KU3Nn8gQTKEqW8bhwzzTddn7FoFxnE34soX5MofAymAPmsM2ab_N93d76fnCGMIPD3Y2TXfR9JV7BwYzOQqE-qtpKhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsFGuKGPvEAZk_nvDLy6xr-ktkaexkPk93A06hPLhgXB4jP_rv8ZzeAmniTmGfofL-MVBayi7OOboCN1FDcCOz3ZoRTi1gBLHWYEYltjexO_6WiKvjCMS-Hg176z9e25wDeFeoBTB9ugeZ_P5meuei9RDvgKSDd-WkN4TZzWxz3oOXUjLzq-rqxF1AsIZYhk8beAzgJrpgxsKNOevlJe4rd8v3t4TnDkU52ZCifPYL9ECd94OiuqfYvFMTEAB5m6fIyksfPnahzln7dyV5ACMSFrNrScC0aIJrhPtVYZI4iurM3ElZU9d9n5qhglHdp1-EU3X1UjVsjABUr2M9cqo6TniqCitDqN7y_T0JMaqzpOJe4DCniGKFf_413bXSo9-wXtO_zHzPkC5Yhb6jGJ2phRJkXdI10yVlqzoFa_hEh3JprYWqgQyuudb3zoT65MWoUdrXYo-5hWlLKT8xKjkHGwMuqvcepGEMHX6egyoheo77UJLa8NUBH9_nyV0t8ueQAV3L_qy94M405xcdNcEcpDir4rrm-4KFCFg4-zBXuoRrtkLQ7bUHWrSBvhWz0ZZIuwTqWRoDa1Nl8v67UD6NLXkDwfQAUi1PQmN-kxHAriNiWi2DUyFmT-s5m8jAb5EjXCSQ7H1DKuHOQZ7IcinvcH5UMeoXDNAkuANWRj7OELvOOpr2XAbQtKQfNaLqCGSuYBXCnntMnZLXy8Zle4EIIgip_J1_KS34m_SKN6Of4g6MdfW5_CMkz8zqrDXfjBPUIoYh1L58T116UGwZzGwnT-xNnHaVztCxmiyhIIiWNARYy4IzPJMEPNz5I4XFyOj3pDypMKYgT1d0QJELtDh8E_XvSTBdYLlZ3nH2Ip5sWRu8-Xhf1ETYudvTt7s0iYsoUwPzfl6iB56CyYgt94DD7G-WeVgMjZ3uotapZH9ECVDu8ck5YZ81K4qrFFLv9PfZ9I3As6LvnXmVrsX_GCES7Sn6e5FJOutbk68M4GXPy4pNt97gMXXc1UGM0f-8rzAF_1OJGMmrNsbcOOasFiVhtstDZOz_ToG-a5hll2Xoek2ekwmoTZXQMFu5GNjDV0FQn7Bunhmj9z_Oc7crzrsawXnS8dFyxUxL7aApkExiucPyV_-s7HSWQ6JPq2k7yCTf2-J2yGjulhdkaFcJQHHyPOIerjJwNBXJmaWbDPji3Rv30LM9JCY09tYLUxuGtwoOT6iebTtdNDUvqYb9wKRbVXZpsoo5FODlwEYs8O13YGM52U23cIbHl6K8nnO2myTyfyAlIqM4G23en4BbtazmUWGsaFHNF3bDPcVZI3pp8Ii3P6aWUK2TxzFS8ZdC79KhjN4gbYMJbghT8KiQC65WeN7SexuA14YLgt6AGyqa02NvavJUcw-Iy2A0QHIU81vcx2vLed944JxEJ8ubKmaxUYgaJId4BNZDHixJu9MrzklIt4D3yfBLqloHPvlRppePoVVbr2da7j8xoaU7CMS4pXLkngqI97LjxzBEH-mrvaHtk2mkG4seQ0x2v0mCHuKYT2JuY164tcmirODewPMbM1UmUNZHpIStUOXJQj7s8Q5itu09PBjcPmuYdO7UgdJm1qYiNn3IbpvMRLaTQ8URyYu2FO9rX4LBBbUuNvsACf8YE8UI_1XS_vpULD-CXHdGwuV4xGNwAxKcZER64Cxc4S_LjORM_5SbxFt1UBUEhoN3cVUc-T0A/https://www.amazon.in/stores/page/D35B788D-6372-42E8-B72F-D2A55CFCB33A/?_encoding=UTF8&store_ref=SB_A09848373JCYS1E8NEKN5-A0215452FHWDNPDBR4Y2&pd_rd_plhdr=t&aaxitk=9998e82b5d5871455782e64f6a95a0e6&hsa_cr_id=0&lp_asins=B0G5211D54%2CB0BDV83LQK%2CB0CKHZW14B&lp_query=Bike&lp_slot=desktop-hsa-3psl&aref=CsKCRd9J4d&ref_=sbx_be_s_3psl_mbd_mb0_logo&pd_rd_w=tEYl9&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=VGCT0N92F1AD70CZ7Y2T&pd_rd_wg=7ea1z&pd_rd_r=f7098325-b6f3-4ac4-9db4-48bea3e0c6ec
+                              - img "Chota Kingdom" [ref=e4260]
+                            - link "Explore wide range of toys from Mittimate" [ref=e4261] [cursor=pointer]:
+                              - /url: https://aax-eu-zaz.amazon.in/x/c/JHHsdGuqpfwBZiXpX6Jq-0YAAAGbQYO_kQoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICDMCJ9Y/clv1_CEuOPUxokZA0iHrVX94m5SHSYXpCWaYUkLcnyQCLr89t4X8KghG8If018HHz9hvVjq0yzpNb3X7OfU0WBWcADEVzbyjPD861Om8IREx1RVykBtlGskfB8IkGXCQRVeW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7ud9ZD9aKUiL2Wf1aK1xkuNcA7FBIOT3_cq0eVrbNPflqqDMKWRJugt3t5pQwAPnbIi3-pyIp8N9GR6AnKW_yWr3JYqfnqDdhxLjmOcuEwD_BPINemvWEIDfbrBhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2CYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuApU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M15HpV64RRC2YnwPSRDcWUwqsol4KU3Nn8gQTKEqW8bhwzzTddn7FoFxnE34soX5MofAymAPmsM2ab_N93d76fnCGMIPD3Y2TXfR9JV7BwYzOQqE-qtpKhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsFGuKGPvEAZk_nvDLy6xr-ktkaexkPk93A06hPLhgXB4jP_rv8ZzeAmniTmGfofL-MVBayi7OOboCN1FDcCOz3ZoRTi1gBLHWYEYltjexO_6WiKvjCMS-Hg176z9e25wDeFeoBTB9ugeZ_P5meuei9RDvgKSDd-WkN4TZzWxz3oOXUjLzq-rqxF1AsIZYhk8beAzgJrpgxsKNOevlJe4rd8v3t4TnDkU52ZCifPYL9ECd94OiuqfYvFMTEAB5m6fIyksfPnahzln7dyV5ACMSFrNrScC0aIJrhPtVYZI4iurM3ElZU9d9n5qhglHdp1-EU3X1UjVsjABUr2M9cqo6TniqCitDqN7y_T0JMaqzpOJe4DCniGKFf_413bXSo9-wXtO_zHzPkC5Yhb6jGJ2phRJkXdI10yVlqzoFa_hEh3JprYWqgQyuudb3zoT65MWoUdrXYo-5hWlLKT8xKjkHGwMuqvcepGEMHX6egyoheo77UJLa8NUBH9_nyV0t8ueQAV3L_qy94M405xcdNcEcpDir4rrm-4KFCFg4-zBXuoRrtkLQ7bUHWrSBvhWz0ZZIuwTqWRoDa1Nl8v67UD6NLXkDwfQAUi1PQmN-kxHAriNiWi2DUyFmT-s5m8jAb5EjXCSQ7H1DKuHOQZ7IcinvcH5UMeoXDNAkuANWRj7OELvOOpr2XAbQtKQfNaLqCGSuYBXCnntMnZLXy8Zle4EIIgip_J1_KS34m_SKN6Of4g6MdfW5_CMkz8zqrDXfjBPUIoYh1L58T116UGwZzGwnT-xNnHaVztCxmiyhIIiWNARYy4IzPJMEPNz5I4XFyOj3pDypMKYgT1d0QJELtDh8E_XvSTBdYLlZ3nH2Ip5sWRu8-Xhf1ETYudvTt7s0iYsoUwPzfl6iB56CyYgt94DD7G-WeVgMjZ3uotapZH9ECVDu8ck5YZ81K4qrFFLv9PfZ9I3As6LvnXmVrsX_GCES7Sn6e5FJOutbk68M4GXPy4pNt97gMXXc1UGM0f-8rzAF_1OJGMmrNsbcOOasFiVhtstDZOz_ToG-a5hll2Xoek2ekwmoTZXQMFu5GNjDV0FQn7Bunhmj9z_Oc7crzrsawXnS8dFyxUxL7aApkExiucPyV_-s7HSWQ6JPq2k7yCTf2-J2yGjulhdkaFcJQHHyPOIerjJwNBXJmaWbDPji3Rv30LM9JCY09tYLUxuGtwoOT6iebTtdNDUvqYb9wKRbVXZpsoo5FODlwEYs8O13YGM52U23cIbHl6K8nnO2myTyfyAlIqM4G23en4BbtazmUWGsaFHNF3bDPcVZI3pp8Ii3P6aWUK2TxzFS8ZdC79KhjN4gbYMJbghT8KiQC65WeN7SexuA14YLgt6AGyqa02NvavJUcw-Iy2A0QHIU81vcx2vLed944JxEJ8ubKmaxUYgaJId4BNZDHixJu9MrzklIt4D3yfBLqloHPvlRppePoVVbr2da7j8xoaU7CMS4pXLkngqI97LjxzBEH-mrvaHtk2mkG4seQ0x2v0mCHuKYT2JuY164tcmirODewPMbM1UmUNZHpIStUOXJQj7s8Q5itu09PBjcPmuYdO7UgdJm1qYiNn3IbpvMRLaTQ8URyYu2FO9rX4LBBbUuNvsACf8YE8UI_1XS_vpULD-CXHdGwuV4xGNwAxKcZER64Cxc4S_LjORM_5SbxFt1UBUEhoN3cVUc-T0A/https://www.amazon.in/stores/page/D35B788D-6372-42E8-B72F-D2A55CFCB33A/?_encoding=UTF8&store_ref=SB_A09848373JCYS1E8NEKN5-A0215452FHWDNPDBR4Y2&pd_rd_plhdr=t&aaxitk=9998e82b5d5871455782e64f6a95a0e6&hsa_cr_id=0&lp_asins=B0G5211D54%2CB0BDV83LQK%2CB0CKHZW14B&lp_query=Bike&lp_slot=desktop-hsa-3psl&aref=CsKCRd9J4d&ref_=sbx_be_s_3psl_mbd_mb0_hl&pd_rd_w=tEYl9&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=VGCT0N92F1AD70CZ7Y2T&pd_rd_wg=7ea1z&pd_rd_r=f7098325-b6f3-4ac4-9db4-48bea3e0c6ec
+                              - generic [ref=e4262]:
+                                - generic [ref=e4263]: Explore wide range of toys from Mittimate
+                                - generic [ref=e4264]: Explore wide range of toys from Mittimate
+                            - link "Shop Chota Kingdom" [ref=e4265] [cursor=pointer]:
+                              - /url: https://aax-eu-zaz.amazon.in/x/c/JHHsdGuqpfwBZiXpX6Jq-0YAAAGbQYO_kQoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICDMCJ9Y/clv1_CEuOPUxokZA0iHrVX94m5SHSYXpCWaYUkLcnyQCLr89t4X8KghG8If018HHz9hvVjq0yzpNb3X7OfU0WBWcADEVzbyjPD861Om8IREx1RVykBtlGskfB8IkGXCQRVeW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7ud9ZD9aKUiL2Wf1aK1xkuNcA7FBIOT3_cq0eVrbNPflqqDMKWRJugt3t5pQwAPnbIi3-pyIp8N9GR6AnKW_yWr3JYqfnqDdhxLjmOcuEwD_BPINemvWEIDfbrBhPBne-wSBml9tlZkUux_rAVrRF9I0bxcInIFH-Gzc_r6mO-bWyVNaReipMUTeUmOk2CYQTtgTbV7n9mGD0dk7s2izRPtS0xNFricmfda3FxGEYwynzuApU-5yQODWwRmcmo6djaNSR6rH7DofgKiPz1B7kQPBXjrdEHsefg0kPl-VBmGjLx6pM0NATfcADpCyR1V8u8umKazrWoovLyO4a4ZPXHk5F3eTZyUFmEaTc0_BDZj7M15HpV64RRC2YnwPSRDcWUwqsol4KU3Nn8gQTKEqW8bhwzzTddn7FoFxnE34soX5MofAymAPmsM2ab_N93d76fnCGMIPD3Y2TXfR9JV7BwYzOQqE-qtpKhNGCPDjknV7BO4C3zvJRNiqTjUCExQsMBHVOQLRAqN-FMsB_58jgRzoruOTVDEa-acQxJH6Q_wpt5iWsFGuKGPvEAZk_nvDLy6xr-ktkaexkPk93A06hPLhgXB4jP_rv8ZzeAmniTmGfofL-MVBayi7OOboCN1FDcCOz3ZoRTi1gBLHWYEYltjexO_6WiKvjCMS-Hg176z9e25wDeFeoBTB9ugeZ_P5meuei9RDvgKSDd-WkN4TZzWxz3oOXUjLzq-rqxF1AsIZYhk8beAzgJrpgxsKNOevlJe4rd8v3t4TnDkU52ZCifPYL9ECd94OiuqfYvFMTEAB5m6fIyksfPnahzln7dyV5ACMSFrNrScC0aIJrhPtVYZI4iurM3ElZU9d9n5qhglHdp1-EU3X1UjVsjABUr2M9cqo6TniqCitDqN7y_T0JMaqzpOJe4DCniGKFf_413bXSo9-wXtO_zHzPkC5Yhb6jGJ2phRJkXdI10yVlqzoFa_hEh3JprYWqgQyuudb3zoT65MWoUdrXYo-5hWlLKT8xKjkHGwMuqvcepGEMHX6egyoheo77UJLa8NUBH9_nyV0t8ueQAV3L_qy94M405xcdNcEcpDir4rrm-4KFCFg4-zBXuoRrtkLQ7bUHWrSBvhWz0ZZIuwTqWRoDa1Nl8v67UD6NLXkDwfQAUi1PQmN-kxHAriNiWi2DUyFmT-s5m8jAb5EjXCSQ7H1DKuHOQZ7IcinvcH5UMeoXDNAkuANWRj7OELvOOpr2XAbQtKQfNaLqCGSuYBXCnntMnZLXy8Zle4EIIgip_J1_KS34m_SKN6Of4g6MdfW5_CMkz8zqrDXfjBPUIoYh1L58T116UGwZzGwnT-xNnHaVztCxmiyhIIiWNARYy4IzPJMEPNz5I4XFyOj3pDypMKYgT1d0QJELtDh8E_XvSTBdYLlZ3nH2Ip5sWRu8-Xhf1ETYudvTt7s0iYsoUwPzfl6iB56CyYgt94DD7G-WeVgMjZ3uotapZH9ECVDu8ck5YZ81K4qrFFLv9PfZ9I3As6LvnXmVrsX_GCES7Sn6e5FJOutbk68M4GXPy4pNt97gMXXc1UGM0f-8rzAF_1OJGMmrNsbcOOasFiVhtstDZOz_ToG-a5hll2Xoek2ekwmoTZXQMFu5GNjDV0FQn7Bunhmj9z_Oc7crzrsawXnS8dFyxUxL7aApkExiucPyV_-s7HSWQ6JPq2k7yCTf2-J2yGjulhdkaFcJQHHyPOIerjJwNBXJmaWbDPji3Rv30LM9JCY09tYLUxuGtwoOT6iebTtdNDUvqYb9wKRbVXZpsoo5FODlwEYs8O13YGM52U23cIbHl6K8nnO2myTyfyAlIqM4G23en4BbtazmUWGsaFHNF3bDPcVZI3pp8Ii3P6aWUK2TxzFS8ZdC79KhjN4gbYMJbghT8KiQC65WeN7SexuA14YLgt6AGyqa02NvavJUcw-Iy2A0QHIU81vcx2vLed944JxEJ8ubKmaxUYgaJId4BNZDHixJu9MrzklIt4D3yfBLqloHPvlRppePoVVbr2da7j8xoaU7CMS4pXLkngqI97LjxzBEH-mrvaHtk2mkG4seQ0x2v0mCHuKYT2JuY164tcmirODewPMbM1UmUNZHpIStUOXJQj7s8Q5itu09PBjcPmuYdO7UgdJm1qYiNn3IbpvMRLaTQ8URyYu2FO9rX4LBBbUuNvsACf8YE8UI_1XS_vpULD-CXHdGwuV4xGNwAxKcZER64Cxc4S_LjORM_5SbxFt1UBUEhoN3cVUc-T0A/https://www.amazon.in/stores/page/D35B788D-6372-42E8-B72F-D2A55CFCB33A/?_encoding=UTF8&store_ref=SB_A09848373JCYS1E8NEKN5-A0215452FHWDNPDBR4Y2&pd_rd_plhdr=t&aaxitk=9998e82b5d5871455782e64f6a95a0e6&hsa_cr_id=0&lp_asins=B0G5211D54%2CB0BDV83LQK%2CB0CKHZW14B&lp_query=Bike&lp_slot=desktop-hsa-3psl&aref=CsKCRd9J4d&ref_=sbx_be_s_3psl_mbd_mb0_cta&pd_rd_w=tEYl9&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=VGCT0N92F1AD70CZ7Y2T&pd_rd_wg=7ea1z&pd_rd_r=f7098325-b6f3-4ac4-9db4-48bea3e0c6ec
+                              - generic [ref=e4268]:
+                                - text: Shop Chota
+                                - generic [ref=e4269]:
+                                  - text: Kingdom
+                                  - img [ref=e4270]
+              - listitem [ref=e4272]:
+                - generic [ref=e4273]:
+                  - link [ref=e4274] [cursor=pointer]:
+                    - /url: https://aax-eu-zaz.amazon.in/x/c/JKLozOiLDyUv8XnEwz71UycAAAGbQYO_kgoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICBhXif3/clv1_CEuOPUxokZA0iHrVX94m5SHSYXpCWaYUkLcnyQCLr89t4X8KghG8If018HHz9hvVjq0yzpNb3X7OfU0mBWcAAFVhEn-wDfLRKAcda0pNZ2O_IrpeokfB8IkGXCQhVeW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7ud9ZD9aKUiL2Wf1aK1xkuNcA7FBIOT3_cq0eVrbNPflpGCMOCINfdV3rhcfQQj8vIr5fJUKrR2slF8NGqo_yWr3JYqfnqDdhxLjmecuFwtthDmNaOtdlpKf6r7yvFNRvEpCWV2jTxgFe1_kgdoI2VpwpV6JHIFG-OwWsjgsrOtXiM7DjCZpKEWf0msmmW1RTFlUrFYkuPxF1RdyIOiyiH3ZhBFDbjpq6tq9C9aKYguwDm5l1Wq_D2HXCFqUFsAGS2mWjj0M-_rdCqXHRJN8VxFOX3VK1TsZeM16uJhQBy7koUM-d4LOFDLERN7nAx8_fQ_spejvEQkv7P6-bgZPFPi5ASHbJ6RKD4NYvMhBCZn481qBpJ6uQRE2ZrWPDBtfngkutF595s4J2seQX-EukpEkQ_8WMNn3hQF-Ft74vQTot4iDHOXPm9H2rH4Jcrn-PnxGGBVPRPunzfceslV0jYdzeQXTunLnaJINyzJpBXj6RXONUPXDxc6lD3qV1t_jtFSUdoRUA-w6GoZF7dCgRw5kLqaS1K2VbmLbC9D6TWTo9p8C_RxqJ-QjBkduNCHHP2Cmu78tka8glXhyWog7y7YhwSuqgmgtscWqPA3pHvAMMolfv0WP8-t_cqi9TJYFCI8KyXQmhvujDtaEmwBTVRpUCnIsVX_mDOMWcfA6L67sOzn2Am2aq5IBc6eJojg21upaQ1fCPsOYSp8RmZmZpDt9zPkBUchcgC33rNP7yUUeogArKOQ8x5mjQxOVuWcg1dwyY4ghQt7CHKVdaKUMRXvSIFuKPRCOmOpRL3WGjYpDYS9WZ65oLX4VxyCnbVpVJYtKlsyGoyIA1emKeVmomdSCoupr9jYnuwqZefjvTEMDs5YgAEjTHg0ecnpF17zDYg-66PkpKOx8S_7i1TEwqkEqRRKYO8BOCSSP1Du_2C_XAMApQH5PsKY2MdavJR1oySk4MEUGkHCbHEcJF6pwXi2rxcuOKvXRqErlfupWSP4T6g5A5gqiUsx7cBBoIm9_wiluU-qM-vtcMdpYNrq7_Q4pD6W9488Sqs1UHanwW72mO4EU0QW0prv3vEbokxlDploO8oKir8OlkKVL0mHl_SlBlK8b4VeKSbael-qSBqnXhAabLO2a72Ejx2uNFxL2qgvws7PqEZkaCtX7a0pTcMyJRvTLzD6rAIIZmCigJmCggX6CSnXTnbXxRuUR9kS9I0Z-dUa3WlxoXDNAh-RG3hl1uMpm9mtsHXRRDFCUsZWK6GEcPkMLhf9o-bkL3CxCXSzd5ogjZ6L9OqV_qWxXt9aM-gkiM83IOXANEzB8r7cVMTEABs9VwkT0OHtw40X4I_D3E3G6Nmkb13IEw-NvglTsm1Afoy4Iy7IGF_byOcSDU-ysSBDyfwVTAfIckEJEKFQpdVnXveTLfgKpI7laVM58-e0oPS5mdR_XYOLukJCuU6YnIwmBQXr-hl5tCu9ioxrMTWJ5Em_gMjd4LkHargN90TAQuYcj4MyzhO3gbF_PMJbIJBw4nQ2Fvasx1nWQ_WqDgzIpJbCBKi1zuI_4NoJWc2Oq8tInQAscKpHJbgDqNnNKnLlDeKXmoVoYPj7aptiVCVJtS1Ni-PkD6i9klUlSJGCy-skt4P2TgMMv_GNgCpgah3DKMTmnQF_pOFfdeD3j9M-pWcSaxh7xJTvZYIkxgS6OC4ajL3fdlkRL5KI6rquUYmmHhqOpMNfKVW2SucfIB2OOuzOYi4yU4KCXKT0vCDZsEw4HshdCzwDZIw6t1tSoOjIhOb_td4wU_6aZOkIarVhZpsoo6ZwAnAzXMMe4EgKM6qq11sIbHl6BMvaAG6ONBHwMUosDIeE3_XZOKJf9BIIG8uZAup0RjPsVYkujZsEpUyfcSc6hx4tKVcObTClBy7CuBHVK8ihjgBrtVLjX4VKfLQPfrvpUJHbPvoXQNL02ra4MTs9m8mGbTBYYhX9E9L3KVdyVWU81Iu-FyceX5IvzYBNe4VNJm66gsS9NaSqytE4VG2PB6CkoWL11kkrAbEZRLfxdfL8-BxSTrCCCvMWI0So6cd5KjZlBEvl2OXWDsEyh0G359ca-xX0n3r4NN7MD5xU5uhIiB3oHPZWBqRufU02aAdZXakxW48vc5siMExIpZzQvsSxrr9X6rtyMpdHfwlKpdrohsJCbxE0FWiB7nEPuv6yGSNrdtJXu3zLgLRPTL_FbR_flWTDxybXVh0kJ59FET8yOflHR5EB4_ER2lO2BKCG-FWWB8eXWhl_oaLmoZCtNlsLgLhEI4o0TlYJHXlbrpw/https://www.amazon.in/stores/page/70085A79-1F33-45ED-BD65-9D1CDB88CB04/?_encoding=UTF8&store_ref=SB_A0776338DE01OA82QX4N-A0435107294KDARAY26GR&pd_rd_plhdr=t&aaxitk=e10588ec381b01d220113d80cc71163c&hsa_cr_id=0&lp_asins=B0BRY84H2H%2CB0CKZBDFK4%2CB0CB3349NS&lp_query=Bike&lp_slot=desktop-hsa-3psl&aref=Qo0V4hFqmV&ref_=sbx_be_s_3psl_mbd_mb1_bkgd&pd_rd_w=tEYl9&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=VGCT0N92F1AD70CZ7Y2T&pd_rd_wg=7ea1z&pd_rd_r=f7098325-b6f3-4ac4-9db4-48bea3e0c6ec
+                  - generic:
+                    - generic:
+                      - link "Sponsored ad from Boldfit. \"Gear up for all weather rides.\" Shop Boldfit." [ref=e4275] [cursor=pointer]:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/JKLozOiLDyUv8XnEwz71UycAAAGbQYO_kgoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICBhXif3/clv1_CEuOPUxokZA0iHrVX94m5SHSYXpCWaYUkLcnyQCLr89t4X8KghG8If018HHz9hvVjq0yzpNb3X7OfU0mBWcAAFVhEn-wDfLRKAcda0pNZ2O_IrpeokfB8IkGXCQhVeW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7ud9ZD9aKUiL2Wf1aK1xkuNcA7FBIOT3_cq0eVrbNPflpGCMOCINfdV3rhcfQQj8vIr5fJUKrR2slF8NGqo_yWr3JYqfnqDdhxLjmecuFwtthDmNaOtdlpKf6r7yvFNRvEpCWV2jTxgFe1_kgdoI2VpwpV6JHIFG-OwWsjgsrOtXiM7DjCZpKEWf0msmmW1RTFlUrFYkuPxF1RdyIOiyiH3ZhBFDbjpq6tq9C9aKYguwDm5l1Wq_D2HXCFqUFsAGS2mWjj0M-_rdCqXHRJN8VxFOX3VK1TsZeM16uJhQBy7koUM-d4LOFDLERN7nAx8_fQ_spejvEQkv7P6-bgZPFPi5ASHbJ6RKD4NYvMhBCZn481qBpJ6uQRE2ZrWPDBtfngkutF595s4J2seQX-EukpEkQ_8WMNn3hQF-Ft74vQTot4iDHOXPm9H2rH4Jcrn-PnxGGBVPRPunzfceslV0jYdzeQXTunLnaJINyzJpBXj6RXONUPXDxc6lD3qV1t_jtFSUdoRUA-w6GoZF7dCgRw5kLqaS1K2VbmLbC9D6TWTo9p8C_RxqJ-QjBkduNCHHP2Cmu78tka8glXhyWog7y7YhwSuqgmgtscWqPA3pHvAMMolfv0WP8-t_cqi9TJYFCI8KyXQmhvujDtaEmwBTVRpUCnIsVX_mDOMWcfA6L67sOzn2Am2aq5IBc6eJojg21upaQ1fCPsOYSp8RmZmZpDt9zPkBUchcgC33rNP7yUUeogArKOQ8x5mjQxOVuWcg1dwyY4ghQt7CHKVdaKUMRXvSIFuKPRCOmOpRL3WGjYpDYS9WZ65oLX4VxyCnbVpVJYtKlsyGoyIA1emKeVmomdSCoupr9jYnuwqZefjvTEMDs5YgAEjTHg0ecnpF17zDYg-66PkpKOx8S_7i1TEwqkEqRRKYO8BOCSSP1Du_2C_XAMApQH5PsKY2MdavJR1oySk4MEUGkHCbHEcJF6pwXi2rxcuOKvXRqErlfupWSP4T6g5A5gqiUsx7cBBoIm9_wiluU-qM-vtcMdpYNrq7_Q4pD6W9488Sqs1UHanwW72mO4EU0QW0prv3vEbokxlDploO8oKir8OlkKVL0mHl_SlBlK8b4VeKSbael-qSBqnXhAabLO2a72Ejx2uNFxL2qgvws7PqEZkaCtX7a0pTcMyJRvTLzD6rAIIZmCigJmCggX6CSnXTnbXxRuUR9kS9I0Z-dUa3WlxoXDNAh-RG3hl1uMpm9mtsHXRRDFCUsZWK6GEcPkMLhf9o-bkL3CxCXSzd5ogjZ6L9OqV_qWxXt9aM-gkiM83IOXANEzB8r7cVMTEABs9VwkT0OHtw40X4I_D3E3G6Nmkb13IEw-NvglTsm1Afoy4Iy7IGF_byOcSDU-ysSBDyfwVTAfIckEJEKFQpdVnXveTLfgKpI7laVM58-e0oPS5mdR_XYOLukJCuU6YnIwmBQXr-hl5tCu9ioxrMTWJ5Em_gMjd4LkHargN90TAQuYcj4MyzhO3gbF_PMJbIJBw4nQ2Fvasx1nWQ_WqDgzIpJbCBKi1zuI_4NoJWc2Oq8tInQAscKpHJbgDqNnNKnLlDeKXmoVoYPj7aptiVCVJtS1Ni-PkD6i9klUlSJGCy-skt4P2TgMMv_GNgCpgah3DKMTmnQF_pOFfdeD3j9M-pWcSaxh7xJTvZYIkxgS6OC4ajL3fdlkRL5KI6rquUYmmHhqOpMNfKVW2SucfIB2OOuzOYi4yU4KCXKT0vCDZsEw4HshdCzwDZIw6t1tSoOjIhOb_td4wU_6aZOkIarVhZpsoo6ZwAnAzXMMe4EgKM6qq11sIbHl6BMvaAG6ONBHwMUosDIeE3_XZOKJf9BIIG8uZAup0RjPsVYkujZsEpUyfcSc6hx4tKVcObTClBy7CuBHVK8ihjgBrtVLjX4VKfLQPfrvpUJHbPvoXQNL02ra4MTs9m8mGbTBYYhX9E9L3KVdyVWU81Iu-FyceX5IvzYBNe4VNJm66gsS9NaSqytE4VG2PB6CkoWL11kkrAbEZRLfxdfL8-BxSTrCCCvMWI0So6cd5KjZlBEvl2OXWDsEyh0G359ca-xX0n3r4NN7MD5xU5uhIiB3oHPZWBqRufU02aAdZXakxW48vc5siMExIpZzQvsSxrr9X6rtyMpdHfwlKpdrohsJCbxE0FWiB7nEPuv6yGSNrdtJXu3zLgLRPTL_FbR_flWTDxybXVh0kJ59FET8yOflHR5EB4_ER2lO2BKCG-FWWB8eXWhl_oaLmoZCtNlsLgLhEI4o0TlYJHXlbrpw/https://www.amazon.in/stores/page/70085A79-1F33-45ED-BD65-9D1CDB88CB04/?_encoding=UTF8&store_ref=SB_A0776338DE01OA82QX4N-A0435107294KDARAY26GR&pd_rd_plhdr=t&aaxitk=e10588ec381b01d220113d80cc71163c&hsa_cr_id=0&lp_asins=B0BRY84H2H%2CB0CKZBDFK4%2CB0CB3349NS&lp_query=Bike&lp_slot=desktop-hsa-3psl&aref=Qo0V4hFqmV&ref_=sbx_be_s_3psl_mbd_mb1_asin&pd_rd_w=tEYl9&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=VGCT0N92F1AD70CZ7Y2T&pd_rd_wg=7ea1z&pd_rd_r=f7098325-b6f3-4ac4-9db4-48bea3e0c6ec
+                        - img "Sponsored ad from Boldfit. \"Gear up for all weather rides.\" Shop Boldfit." [ref=e4276]
+                      - generic:
+                        - link:
+                          - /url: https://aax-eu-zaz.amazon.in/x/c/JKLozOiLDyUv8XnEwz71UycAAAGbQYO_kgoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICBhXif3/clv1_CEuOPUxokZA0iHrVX94m5SHSYXpCWaYUkLcnyQCLr89t4X8KghG8If018HHz9hvVjq0yzpNb3X7OfU0mBWcAAFVhEn-wDfLRKAcda0pNZ2O_IrpeokfB8IkGXCQhVeW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7ud9ZD9aKUiL2Wf1aK1xkuNcA7FBIOT3_cq0eVrbNPflpGCMOCINfdV3rhcfQQj8vIr5fJUKrR2slF8NGqo_yWr3JYqfnqDdhxLjmecuFwtthDmNaOtdlpKf6r7yvFNRvEpCWV2jTxgFe1_kgdoI2VpwpV6JHIFG-OwWsjgsrOtXiM7DjCZpKEWf0msmmW1RTFlUrFYkuPxF1RdyIOiyiH3ZhBFDbjpq6tq9C9aKYguwDm5l1Wq_D2HXCFqUFsAGS2mWjj0M-_rdCqXHRJN8VxFOX3VK1TsZeM16uJhQBy7koUM-d4LOFDLERN7nAx8_fQ_spejvEQkv7P6-bgZPFPi5ASHbJ6RKD4NYvMhBCZn481qBpJ6uQRE2ZrWPDBtfngkutF595s4J2seQX-EukpEkQ_8WMNn3hQF-Ft74vQTot4iDHOXPm9H2rH4Jcrn-PnxGGBVPRPunzfceslV0jYdzeQXTunLnaJINyzJpBXj6RXONUPXDxc6lD3qV1t_jtFSUdoRUA-w6GoZF7dCgRw5kLqaS1K2VbmLbC9D6TWTo9p8C_RxqJ-QjBkduNCHHP2Cmu78tka8glXhyWog7y7YhwSuqgmgtscWqPA3pHvAMMolfv0WP8-t_cqi9TJYFCI8KyXQmhvujDtaEmwBTVRpUCnIsVX_mDOMWcfA6L67sOzn2Am2aq5IBc6eJojg21upaQ1fCPsOYSp8RmZmZpDt9zPkBUchcgC33rNP7yUUeogArKOQ8x5mjQxOVuWcg1dwyY4ghQt7CHKVdaKUMRXvSIFuKPRCOmOpRL3WGjYpDYS9WZ65oLX4VxyCnbVpVJYtKlsyGoyIA1emKeVmomdSCoupr9jYnuwqZefjvTEMDs5YgAEjTHg0ecnpF17zDYg-66PkpKOx8S_7i1TEwqkEqRRKYO8BOCSSP1Du_2C_XAMApQH5PsKY2MdavJR1oySk4MEUGkHCbHEcJF6pwXi2rxcuOKvXRqErlfupWSP4T6g5A5gqiUsx7cBBoIm9_wiluU-qM-vtcMdpYNrq7_Q4pD6W9488Sqs1UHanwW72mO4EU0QW0prv3vEbokxlDploO8oKir8OlkKVL0mHl_SlBlK8b4VeKSbael-qSBqnXhAabLO2a72Ejx2uNFxL2qgvws7PqEZkaCtX7a0pTcMyJRvTLzD6rAIIZmCigJmCggX6CSnXTnbXxRuUR9kS9I0Z-dUa3WlxoXDNAh-RG3hl1uMpm9mtsHXRRDFCUsZWK6GEcPkMLhf9o-bkL3CxCXSzd5ogjZ6L9OqV_qWxXt9aM-gkiM83IOXANEzB8r7cVMTEABs9VwkT0OHtw40X4I_D3E3G6Nmkb13IEw-NvglTsm1Afoy4Iy7IGF_byOcSDU-ysSBDyfwVTAfIckEJEKFQpdVnXveTLfgKpI7laVM58-e0oPS5mdR_XYOLukJCuU6YnIwmBQXr-hl5tCu9ioxrMTWJ5Em_gMjd4LkHargN90TAQuYcj4MyzhO3gbF_PMJbIJBw4nQ2Fvasx1nWQ_WqDgzIpJbCBKi1zuI_4NoJWc2Oq8tInQAscKpHJbgDqNnNKnLlDeKXmoVoYPj7aptiVCVJtS1Ni-PkD6i9klUlSJGCy-skt4P2TgMMv_GNgCpgah3DKMTmnQF_pOFfdeD3j9M-pWcSaxh7xJTvZYIkxgS6OC4ajL3fdlkRL5KI6rquUYmmHhqOpMNfKVW2SucfIB2OOuzOYi4yU4KCXKT0vCDZsEw4HshdCzwDZIw6t1tSoOjIhOb_td4wU_6aZOkIarVhZpsoo6ZwAnAzXMMe4EgKM6qq11sIbHl6BMvaAG6ONBHwMUosDIeE3_XZOKJf9BIIG8uZAup0RjPsVYkujZsEpUyfcSc6hx4tKVcObTClBy7CuBHVK8ihjgBrtVLjX4VKfLQPfrvpUJHbPvoXQNL02ra4MTs9m8mGbTBYYhX9E9L3KVdyVWU81Iu-FyceX5IvzYBNe4VNJm66gsS9NaSqytE4VG2PB6CkoWL11kkrAbEZRLfxdfL8-BxSTrCCCvMWI0So6cd5KjZlBEvl2OXWDsEyh0G359ca-xX0n3r4NN7MD5xU5uhIiB3oHPZWBqRufU02aAdZXakxW48vc5siMExIpZzQvsSxrr9X6rtyMpdHfwlKpdrohsJCbxE0FWiB7nEPuv6yGSNrdtJXu3zLgLRPTL_FbR_flWTDxybXVh0kJ59FET8yOflHR5EB4_ER2lO2BKCG-FWWB8eXWhl_oaLmoZCtNlsLgLhEI4o0TlYJHXlbrpw/https://www.amazon.in/stores/page/70085A79-1F33-45ED-BD65-9D1CDB88CB04/?_encoding=UTF8&store_ref=SB_A0776338DE01OA82QX4N-A0435107294KDARAY26GR&pd_rd_plhdr=t&aaxitk=e10588ec381b01d220113d80cc71163c&hsa_cr_id=0&lp_asins=B0BRY84H2H%2CB0CKZBDFK4%2CB0CB3349NS&lp_query=Bike&lp_slot=desktop-hsa-3psl&aref=Qo0V4hFqmV&ref_=sbx_be_s_3psl_mbd_mb1_bkgd&pd_rd_w=tEYl9&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=VGCT0N92F1AD70CZ7Y2T&pd_rd_wg=7ea1z&pd_rd_r=f7098325-b6f3-4ac4-9db4-48bea3e0c6ec
+                        - generic:
+                          - generic:
+                            - link "Boldfit" [ref=e4277] [cursor=pointer]:
+                              - /url: https://aax-eu-zaz.amazon.in/x/c/JKLozOiLDyUv8XnEwz71UycAAAGbQYO_kgoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICBhXif3/clv1_CEuOPUxokZA0iHrVX94m5SHSYXpCWaYUkLcnyQCLr89t4X8KghG8If018HHz9hvVjq0yzpNb3X7OfU0mBWcAAFVhEn-wDfLRKAcda0pNZ2O_IrpeokfB8IkGXCQhVeW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7ud9ZD9aKUiL2Wf1aK1xkuNcA7FBIOT3_cq0eVrbNPflpGCMOCINfdV3rhcfQQj8vIr5fJUKrR2slF8NGqo_yWr3JYqfnqDdhxLjmecuFwtthDmNaOtdlpKf6r7yvFNRvEpCWV2jTxgFe1_kgdoI2VpwpV6JHIFG-OwWsjgsrOtXiM7DjCZpKEWf0msmmW1RTFlUrFYkuPxF1RdyIOiyiH3ZhBFDbjpq6tq9C9aKYguwDm5l1Wq_D2HXCFqUFsAGS2mWjj0M-_rdCqXHRJN8VxFOX3VK1TsZeM16uJhQBy7koUM-d4LOFDLERN7nAx8_fQ_spejvEQkv7P6-bgZPFPi5ASHbJ6RKD4NYvMhBCZn481qBpJ6uQRE2ZrWPDBtfngkutF595s4J2seQX-EukpEkQ_8WMNn3hQF-Ft74vQTot4iDHOXPm9H2rH4Jcrn-PnxGGBVPRPunzfceslV0jYdzeQXTunLnaJINyzJpBXj6RXONUPXDxc6lD3qV1t_jtFSUdoRUA-w6GoZF7dCgRw5kLqaS1K2VbmLbC9D6TWTo9p8C_RxqJ-QjBkduNCHHP2Cmu78tka8glXhyWog7y7YhwSuqgmgtscWqPA3pHvAMMolfv0WP8-t_cqi9TJYFCI8KyXQmhvujDtaEmwBTVRpUCnIsVX_mDOMWcfA6L67sOzn2Am2aq5IBc6eJojg21upaQ1fCPsOYSp8RmZmZpDt9zPkBUchcgC33rNP7yUUeogArKOQ8x5mjQxOVuWcg1dwyY4ghQt7CHKVdaKUMRXvSIFuKPRCOmOpRL3WGjYpDYS9WZ65oLX4VxyCnbVpVJYtKlsyGoyIA1emKeVmomdSCoupr9jYnuwqZefjvTEMDs5YgAEjTHg0ecnpF17zDYg-66PkpKOx8S_7i1TEwqkEqRRKYO8BOCSSP1Du_2C_XAMApQH5PsKY2MdavJR1oySk4MEUGkHCbHEcJF6pwXi2rxcuOKvXRqErlfupWSP4T6g5A5gqiUsx7cBBoIm9_wiluU-qM-vtcMdpYNrq7_Q4pD6W9488Sqs1UHanwW72mO4EU0QW0prv3vEbokxlDploO8oKir8OlkKVL0mHl_SlBlK8b4VeKSbael-qSBqnXhAabLO2a72Ejx2uNFxL2qgvws7PqEZkaCtX7a0pTcMyJRvTLzD6rAIIZmCigJmCggX6CSnXTnbXxRuUR9kS9I0Z-dUa3WlxoXDNAh-RG3hl1uMpm9mtsHXRRDFCUsZWK6GEcPkMLhf9o-bkL3CxCXSzd5ogjZ6L9OqV_qWxXt9aM-gkiM83IOXANEzB8r7cVMTEABs9VwkT0OHtw40X4I_D3E3G6Nmkb13IEw-NvglTsm1Afoy4Iy7IGF_byOcSDU-ysSBDyfwVTAfIckEJEKFQpdVnXveTLfgKpI7laVM58-e0oPS5mdR_XYOLukJCuU6YnIwmBQXr-hl5tCu9ioxrMTWJ5Em_gMjd4LkHargN90TAQuYcj4MyzhO3gbF_PMJbIJBw4nQ2Fvasx1nWQ_WqDgzIpJbCBKi1zuI_4NoJWc2Oq8tInQAscKpHJbgDqNnNKnLlDeKXmoVoYPj7aptiVCVJtS1Ni-PkD6i9klUlSJGCy-skt4P2TgMMv_GNgCpgah3DKMTmnQF_pOFfdeD3j9M-pWcSaxh7xJTvZYIkxgS6OC4ajL3fdlkRL5KI6rquUYmmHhqOpMNfKVW2SucfIB2OOuzOYi4yU4KCXKT0vCDZsEw4HshdCzwDZIw6t1tSoOjIhOb_td4wU_6aZOkIarVhZpsoo6ZwAnAzXMMe4EgKM6qq11sIbHl6BMvaAG6ONBHwMUosDIeE3_XZOKJf9BIIG8uZAup0RjPsVYkujZsEpUyfcSc6hx4tKVcObTClBy7CuBHVK8ihjgBrtVLjX4VKfLQPfrvpUJHbPvoXQNL02ra4MTs9m8mGbTBYYhX9E9L3KVdyVWU81Iu-FyceX5IvzYBNe4VNJm66gsS9NaSqytE4VG2PB6CkoWL11kkrAbEZRLfxdfL8-BxSTrCCCvMWI0So6cd5KjZlBEvl2OXWDsEyh0G359ca-xX0n3r4NN7MD5xU5uhIiB3oHPZWBqRufU02aAdZXakxW48vc5siMExIpZzQvsSxrr9X6rtyMpdHfwlKpdrohsJCbxE0FWiB7nEPuv6yGSNrdtJXu3zLgLRPTL_FbR_flWTDxybXVh0kJ59FET8yOflHR5EB4_ER2lO2BKCG-FWWB8eXWhl_oaLmoZCtNlsLgLhEI4o0TlYJHXlbrpw/https://www.amazon.in/stores/page/70085A79-1F33-45ED-BD65-9D1CDB88CB04/?_encoding=UTF8&store_ref=SB_A0776338DE01OA82QX4N-A0435107294KDARAY26GR&pd_rd_plhdr=t&aaxitk=e10588ec381b01d220113d80cc71163c&hsa_cr_id=0&lp_asins=B0BRY84H2H%2CB0CKZBDFK4%2CB0CB3349NS&lp_query=Bike&lp_slot=desktop-hsa-3psl&aref=Qo0V4hFqmV&ref_=sbx_be_s_3psl_mbd_mb1_logo&pd_rd_w=tEYl9&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=VGCT0N92F1AD70CZ7Y2T&pd_rd_wg=7ea1z&pd_rd_r=f7098325-b6f3-4ac4-9db4-48bea3e0c6ec
+                              - img "Boldfit" [ref=e4278]
+                            - link "Gear up for all weather rides" [ref=e4279] [cursor=pointer]:
+                              - /url: https://aax-eu-zaz.amazon.in/x/c/JKLozOiLDyUv8XnEwz71UycAAAGbQYO_kgoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICBhXif3/clv1_CEuOPUxokZA0iHrVX94m5SHSYXpCWaYUkLcnyQCLr89t4X8KghG8If018HHz9hvVjq0yzpNb3X7OfU0mBWcAAFVhEn-wDfLRKAcda0pNZ2O_IrpeokfB8IkGXCQhVeW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7ud9ZD9aKUiL2Wf1aK1xkuNcA7FBIOT3_cq0eVrbNPflpGCMOCINfdV3rhcfQQj8vIr5fJUKrR2slF8NGqo_yWr3JYqfnqDdhxLjmecuFwtthDmNaOtdlpKf6r7yvFNRvEpCWV2jTxgFe1_kgdoI2VpwpV6JHIFG-OwWsjgsrOtXiM7DjCZpKEWf0msmmW1RTFlUrFYkuPxF1RdyIOiyiH3ZhBFDbjpq6tq9C9aKYguwDm5l1Wq_D2HXCFqUFsAGS2mWjj0M-_rdCqXHRJN8VxFOX3VK1TsZeM16uJhQBy7koUM-d4LOFDLERN7nAx8_fQ_spejvEQkv7P6-bgZPFPi5ASHbJ6RKD4NYvMhBCZn481qBpJ6uQRE2ZrWPDBtfngkutF595s4J2seQX-EukpEkQ_8WMNn3hQF-Ft74vQTot4iDHOXPm9H2rH4Jcrn-PnxGGBVPRPunzfceslV0jYdzeQXTunLnaJINyzJpBXj6RXONUPXDxc6lD3qV1t_jtFSUdoRUA-w6GoZF7dCgRw5kLqaS1K2VbmLbC9D6TWTo9p8C_RxqJ-QjBkduNCHHP2Cmu78tka8glXhyWog7y7YhwSuqgmgtscWqPA3pHvAMMolfv0WP8-t_cqi9TJYFCI8KyXQmhvujDtaEmwBTVRpUCnIsVX_mDOMWcfA6L67sOzn2Am2aq5IBc6eJojg21upaQ1fCPsOYSp8RmZmZpDt9zPkBUchcgC33rNP7yUUeogArKOQ8x5mjQxOVuWcg1dwyY4ghQt7CHKVdaKUMRXvSIFuKPRCOmOpRL3WGjYpDYS9WZ65oLX4VxyCnbVpVJYtKlsyGoyIA1emKeVmomdSCoupr9jYnuwqZefjvTEMDs5YgAEjTHg0ecnpF17zDYg-66PkpKOx8S_7i1TEwqkEqRRKYO8BOCSSP1Du_2C_XAMApQH5PsKY2MdavJR1oySk4MEUGkHCbHEcJF6pwXi2rxcuOKvXRqErlfupWSP4T6g5A5gqiUsx7cBBoIm9_wiluU-qM-vtcMdpYNrq7_Q4pD6W9488Sqs1UHanwW72mO4EU0QW0prv3vEbokxlDploO8oKir8OlkKVL0mHl_SlBlK8b4VeKSbael-qSBqnXhAabLO2a72Ejx2uNFxL2qgvws7PqEZkaCtX7a0pTcMyJRvTLzD6rAIIZmCigJmCggX6CSnXTnbXxRuUR9kS9I0Z-dUa3WlxoXDNAh-RG3hl1uMpm9mtsHXRRDFCUsZWK6GEcPkMLhf9o-bkL3CxCXSzd5ogjZ6L9OqV_qWxXt9aM-gkiM83IOXANEzB8r7cVMTEABs9VwkT0OHtw40X4I_D3E3G6Nmkb13IEw-NvglTsm1Afoy4Iy7IGF_byOcSDU-ysSBDyfwVTAfIckEJEKFQpdVnXveTLfgKpI7laVM58-e0oPS5mdR_XYOLukJCuU6YnIwmBQXr-hl5tCu9ioxrMTWJ5Em_gMjd4LkHargN90TAQuYcj4MyzhO3gbF_PMJbIJBw4nQ2Fvasx1nWQ_WqDgzIpJbCBKi1zuI_4NoJWc2Oq8tInQAscKpHJbgDqNnNKnLlDeKXmoVoYPj7aptiVCVJtS1Ni-PkD6i9klUlSJGCy-skt4P2TgMMv_GNgCpgah3DKMTmnQF_pOFfdeD3j9M-pWcSaxh7xJTvZYIkxgS6OC4ajL3fdlkRL5KI6rquUYmmHhqOpMNfKVW2SucfIB2OOuzOYi4yU4KCXKT0vCDZsEw4HshdCzwDZIw6t1tSoOjIhOb_td4wU_6aZOkIarVhZpsoo6ZwAnAzXMMe4EgKM6qq11sIbHl6BMvaAG6ONBHwMUosDIeE3_XZOKJf9BIIG8uZAup0RjPsVYkujZsEpUyfcSc6hx4tKVcObTClBy7CuBHVK8ihjgBrtVLjX4VKfLQPfrvpUJHbPvoXQNL02ra4MTs9m8mGbTBYYhX9E9L3KVdyVWU81Iu-FyceX5IvzYBNe4VNJm66gsS9NaSqytE4VG2PB6CkoWL11kkrAbEZRLfxdfL8-BxSTrCCCvMWI0So6cd5KjZlBEvl2OXWDsEyh0G359ca-xX0n3r4NN7MD5xU5uhIiB3oHPZWBqRufU02aAdZXakxW48vc5siMExIpZzQvsSxrr9X6rtyMpdHfwlKpdrohsJCbxE0FWiB7nEPuv6yGSNrdtJXu3zLgLRPTL_FbR_flWTDxybXVh0kJ59FET8yOflHR5EB4_ER2lO2BKCG-FWWB8eXWhl_oaLmoZCtNlsLgLhEI4o0TlYJHXlbrpw/https://www.amazon.in/stores/page/70085A79-1F33-45ED-BD65-9D1CDB88CB04/?_encoding=UTF8&store_ref=SB_A0776338DE01OA82QX4N-A0435107294KDARAY26GR&pd_rd_plhdr=t&aaxitk=e10588ec381b01d220113d80cc71163c&hsa_cr_id=0&lp_asins=B0BRY84H2H%2CB0CKZBDFK4%2CB0CB3349NS&lp_query=Bike&lp_slot=desktop-hsa-3psl&aref=Qo0V4hFqmV&ref_=sbx_be_s_3psl_mbd_mb1_hl&pd_rd_w=tEYl9&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=VGCT0N92F1AD70CZ7Y2T&pd_rd_wg=7ea1z&pd_rd_r=f7098325-b6f3-4ac4-9db4-48bea3e0c6ec
+                              - generic [ref=e4280]:
+                                - generic [ref=e4281]: Gear up for all weather rides
+                                - generic [ref=e4282]: Gear up for all weather rides
+                            - link "Shop Boldfit" [ref=e4283] [cursor=pointer]:
+                              - /url: https://aax-eu-zaz.amazon.in/x/c/JKLozOiLDyUv8XnEwz71UycAAAGbQYO_kgoAAAH2AQBvbm9fdHhuX2JpZDMgICBvbm9fdHhuX2ltcDEgICBhXif3/clv1_CEuOPUxokZA0iHrVX94m5SHSYXpCWaYUkLcnyQCLr89t4X8KghG8If018HHz9hvVjq0yzpNb3X7OfU0mBWcAAFVhEn-wDfLRKAcda0pNZ2O_IrpeokfB8IkGXCQhVeW6XJeXalC7rdIQEQQ8kV_3ZVhXLA8QC8x8H15tWbp4Xgyay_2WjkwrSxutOI2vKbYuDzUcfMyagcpNBHhtJZhsefQQh8yliMIIKin6O61_zAYOsoJhkeWuV2gvjBmW5lJBN2PMN-SRnR9AjX0lL9xFahCwdXiTzSjwM7ud9ZD9aKUiL2Wf1aK1xkuNcA7FBIOT3_cq0eVrbNPflpGCMOCINfdV3rhcfQQj8vIr5fJUKrR2slF8NGqo_yWr3JYqfnqDdhxLjmecuFwtthDmNaOtdlpKf6r7yvFNRvEpCWV2jTxgFe1_kgdoI2VpwpV6JHIFG-OwWsjgsrOtXiM7DjCZpKEWf0msmmW1RTFlUrFYkuPxF1RdyIOiyiH3ZhBFDbjpq6tq9C9aKYguwDm5l1Wq_D2HXCFqUFsAGS2mWjj0M-_rdCqXHRJN8VxFOX3VK1TsZeM16uJhQBy7koUM-d4LOFDLERN7nAx8_fQ_spejvEQkv7P6-bgZPFPi5ASHbJ6RKD4NYvMhBCZn481qBpJ6uQRE2ZrWPDBtfngkutF595s4J2seQX-EukpEkQ_8WMNn3hQF-Ft74vQTot4iDHOXPm9H2rH4Jcrn-PnxGGBVPRPunzfceslV0jYdzeQXTunLnaJINyzJpBXj6RXONUPXDxc6lD3qV1t_jtFSUdoRUA-w6GoZF7dCgRw5kLqaS1K2VbmLbC9D6TWTo9p8C_RxqJ-QjBkduNCHHP2Cmu78tka8glXhyWog7y7YhwSuqgmgtscWqPA3pHvAMMolfv0WP8-t_cqi9TJYFCI8KyXQmhvujDtaEmwBTVRpUCnIsVX_mDOMWcfA6L67sOzn2Am2aq5IBc6eJojg21upaQ1fCPsOYSp8RmZmZpDt9zPkBUchcgC33rNP7yUUeogArKOQ8x5mjQxOVuWcg1dwyY4ghQt7CHKVdaKUMRXvSIFuKPRCOmOpRL3WGjYpDYS9WZ65oLX4VxyCnbVpVJYtKlsyGoyIA1emKeVmomdSCoupr9jYnuwqZefjvTEMDs5YgAEjTHg0ecnpF17zDYg-66PkpKOx8S_7i1TEwqkEqRRKYO8BOCSSP1Du_2C_XAMApQH5PsKY2MdavJR1oySk4MEUGkHCbHEcJF6pwXi2rxcuOKvXRqErlfupWSP4T6g5A5gqiUsx7cBBoIm9_wiluU-qM-vtcMdpYNrq7_Q4pD6W9488Sqs1UHanwW72mO4EU0QW0prv3vEbokxlDploO8oKir8OlkKVL0mHl_SlBlK8b4VeKSbael-qSBqnXhAabLO2a72Ejx2uNFxL2qgvws7PqEZkaCtX7a0pTcMyJRvTLzD6rAIIZmCigJmCggX6CSnXTnbXxRuUR9kS9I0Z-dUa3WlxoXDNAh-RG3hl1uMpm9mtsHXRRDFCUsZWK6GEcPkMLhf9o-bkL3CxCXSzd5ogjZ6L9OqV_qWxXt9aM-gkiM83IOXANEzB8r7cVMTEABs9VwkT0OHtw40X4I_D3E3G6Nmkb13IEw-NvglTsm1Afoy4Iy7IGF_byOcSDU-ysSBDyfwVTAfIckEJEKFQpdVnXveTLfgKpI7laVM58-e0oPS5mdR_XYOLukJCuU6YnIwmBQXr-hl5tCu9ioxrMTWJ5Em_gMjd4LkHargN90TAQuYcj4MyzhO3gbF_PMJbIJBw4nQ2Fvasx1nWQ_WqDgzIpJbCBKi1zuI_4NoJWc2Oq8tInQAscKpHJbgDqNnNKnLlDeKXmoVoYPj7aptiVCVJtS1Ni-PkD6i9klUlSJGCy-skt4P2TgMMv_GNgCpgah3DKMTmnQF_pOFfdeD3j9M-pWcSaxh7xJTvZYIkxgS6OC4ajL3fdlkRL5KI6rquUYmmHhqOpMNfKVW2SucfIB2OOuzOYi4yU4KCXKT0vCDZsEw4HshdCzwDZIw6t1tSoOjIhOb_td4wU_6aZOkIarVhZpsoo6ZwAnAzXMMe4EgKM6qq11sIbHl6BMvaAG6ONBHwMUosDIeE3_XZOKJf9BIIG8uZAup0RjPsVYkujZsEpUyfcSc6hx4tKVcObTClBy7CuBHVK8ihjgBrtVLjX4VKfLQPfrvpUJHbPvoXQNL02ra4MTs9m8mGbTBYYhX9E9L3KVdyVWU81Iu-FyceX5IvzYBNe4VNJm66gsS9NaSqytE4VG2PB6CkoWL11kkrAbEZRLfxdfL8-BxSTrCCCvMWI0So6cd5KjZlBEvl2OXWDsEyh0G359ca-xX0n3r4NN7MD5xU5uhIiB3oHPZWBqRufU02aAdZXakxW48vc5siMExIpZzQvsSxrr9X6rtyMpdHfwlKpdrohsJCbxE0FWiB7nEPuv6yGSNrdtJXu3zLgLRPTL_FbR_flWTDxybXVh0kJ59FET8yOflHR5EB4_ER2lO2BKCG-FWWB8eXWhl_oaLmoZCtNlsLgLhEI4o0TlYJHXlbrpw/https://www.amazon.in/stores/page/70085A79-1F33-45ED-BD65-9D1CDB88CB04/?_encoding=UTF8&store_ref=SB_A0776338DE01OA82QX4N-A0435107294KDARAY26GR&pd_rd_plhdr=t&aaxitk=e10588ec381b01d220113d80cc71163c&hsa_cr_id=0&lp_asins=B0BRY84H2H%2CB0CKZBDFK4%2CB0CB3349NS&lp_query=Bike&lp_slot=desktop-hsa-3psl&aref=Qo0V4hFqmV&ref_=sbx_be_s_3psl_mbd_mb1_cta&pd_rd_w=tEYl9&content-id=amzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f%3Aamzn1.sym.bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_p=bc606c7d-efde-4100-b402-6b6b85a5936f&pf_rd_r=VGCT0N92F1AD70CZ7Y2T&pd_rd_wg=7ea1z&pd_rd_r=f7098325-b6f3-4ac4-9db4-48bea3e0c6ec
+                              - generic [ref=e4286]:
+                                - text: Shop
+                                - generic [ref=e4287]:
+                                  - text: Boldfit
+                                  - img [ref=e4288]
+          - generic [ref=e4295]:
+            - heading "Need help?" [level=2] [ref=e4298]
+            - generic [ref=e4299]:
+              - link "Visit the help section" [ref=e4300] [cursor=pointer]:
+                - /url: /gp/help/customer/display.html?nodeId=201889520
+              - text: or
+              - link "contact us" [ref=e4301] [cursor=pointer]:
+                - /url: /gp/help/customer/contact-us
+          - generic [ref=e4304]:
+            - iframe [ref=e4305]:
+              - generic [ref=f3e3]:
+                - generic [ref=f3e4]: Sponsored Ad. Brand logo. Product image. Woscherr Tyre Inflator for Car - 110 psi, 12V DC Portable Air Pump/Compressor with Analog Tyre Pressure Gauge, for Car, Bikes, Bicycles or Any Inflatable with LED Light| 2 Years Warranty 1079 Shop now
+                - link "Sponsored Ad. Brand logo. Product image. Woscherr Tyre Inflator for Car - 110 psi, 12V DC Portable Air Pump/Compressor with Analog Tyre Pressure Gauge, for Car, Bikes, Bicycles or Any Inflatable with LED Light| 2 Years Warranty 1079 Shop now" [ref=f3e7] [cursor=pointer]:
+                  - /url: https://aax-eu-zaz.amazon.in/x/c/RChJ8y93-FU5ehzaCLIGgV8AAAGbQYO_sQoAAAH_AQBvbm9fdHhuX2JpZDEgICBvbm9fdHhuX2ltcDIgICCdk93y/clv1_CEuOPUxokZA9iHrVBfwR83nOSUtjDqBuscwNywOgrr5x4X8GgBG8If018HFItlC9gqEp25IbmnkC2cLPA3tdKk5xE3qfSvTPFx8tQEZQUFSoNrZjxaMd6JJGP9iOMfm6WN3Lfwzxr9YWFk9hg0v2YAFBKg8QBt9hBRY9HqMnUhKFyLqDhUk3Q0G-Kp7vPuogBnoOdtqahJ1BBWh2KcNaYfAXkcOsktIiVBKEZpAkjwMt7q9FwOmESBUKnUiigUVjPGfAC8yX5UA_jkcRZvQvSymKJEWImBPHPru8qLzlersPMUOUzKi44yeWWVHGB6m8xdE438xyXIjUzZaHIMWEUttzjPsqBj5ov4kV0NJRL7xh5DYnBxH5tDOy9rFaZVuyaBB9nEvdkX8KhWjVD7iQd1V9aLvHicQ8X9xGMnBcuSNiNu5LuVpDOWBPuKUkUn1sIY-eTu7Pq9fjUBRNWGjOocAbAkHXn1ntfTF3Y4thsfemTlNVyM_a6Qn_YUEREZruxPJTqhlCR71QwkGgkUyCyyPVUi1dal5VIi67CDbFG5TlbCOmEiZZ2GABVG3LKz3lTr0Z7ORdUTe-lKpujMkCAibAKzw8qBpY1uZOrLuEuXtbgda55_UIYFzO3jnSSKGXBWwPeeIZHEtHxOhPCNVR5jM-2b_uIilxBCRcl_dN3qM2KlEzbiKch2MCgS7pcrRi1zEu8FF4mO82pM0AbUuQFmFZuvH4PN_N2p6aeGYiMTH9mSCoFvNb6zdV6MN3TInItZJhJyn_sBPVwDfUKEP_BBlpmiruF2JPsu45IfJTbXTCoQU0NelWlz84kKulT0aqfv-LWlQW2ArqhoxoB9FnuIWaggYhstPmNP-Stf6RlEO682TBzXtV-Vfmk1qgmGbdgcQdr_0btyDkBM1wLfkWGa-i0MWlwQlSKgFpB1nRs3WM3GovM390MldwdQu57m67giyYbv3zu5ebvPv4vGvmR51QL9yYdP3Xy3iPdy8kbMkkQhJWExYCE7eT6g-eOicEPRnZ1ale0i4QVPwizbb-4hZcnVY3VMmU_g1Y7rQhgj5UCEm0a6eyKDTKVYckOZAdMWy-R4_0SzAWJ-SqPeUERRk9o_jzB-tQD4oKGUI2ZfLCVzP6WKM1_R9OG-G2uvf0vItCDfPlnysaA-YMoFwabUsjVc-2SnPUApICq5P1tcmY7xrk3Xvy6O5fyw5xeMZoGGTyNlThxmLHGWxMj3TtK9CD989E-ItjxQHv8qF3LXf_MhANdV2H-2yKtC4AYp_if7z7_qd4CgO0NYlsc4s4i3ci9ZtUv8GCiV9r-CHUUFMDNVVkBDWZsgZ5vFv4T5Q/http://www.amazon.in/dp/B07K5MRZK3/ref=syn_sd_onsite_desktop_0?ie=UTF8&psc=1&pd_rd_plhdr=t&aref=glEO4HfxyV
+                - generic [ref=f3e8]:
+                  - img "Brand logo" [ref=f3e12]
+                  - img "Product image" [ref=f3e16]
+            - button "Leave feedback on Sponsored advertisement" [ref=e4307] [cursor=pointer]:
+              - generic [ref=e4308]: Sponsored
+        - link "Go back to filtering menu" [ref=e4310] [cursor=pointer]:
+          - /url: "#s-skipLinkTargetForFilterOptions"
+      - dialog "Filters" [ref=e4311]:
+        - generic [ref=e4312]:
+          - link "Skip to main search results" [ref=e4313] [cursor=pointer]:
+            - /url: "#s-skipLinkTargetForMainSearchResults"
+          - generic [ref=e4315]:
+            - generic [ref=e4319]:
+              - group [ref=e4320]:
+                - heading "Popular Shopping Ideas" [level=2] [ref=e4321]
+                - list [ref=e4322]:
+                  - listitem [ref=e4323]:
+                    - link "Bullet" [ref=e4325] [cursor=pointer]:
+                      - /url: /s?k=bullet+bike&ref=sr_nr_p_rag_integrated_qb_0
+                  - listitem [ref=e4326]:
+                    - link "Adult" [ref=e4328] [cursor=pointer]:
+                      - /url: /s?k=bicycle+for+adults&ref=sr_nr_p_rag_integrated_qb_1
+                  - listitem [ref=e4329]:
+                    - link "Exercise" [ref=e4331] [cursor=pointer]:
+                      - /url: /s?k=exercise+bike&ref=sr_nr_p_rag_integrated_qb_2
+                  - listitem [ref=e4332]:
+                    - link "Electric" [ref=e4334] [cursor=pointer]:
+                      - /url: /s?k=e+bike+electric+scooter&ref=sr_nr_p_rag_integrated_qb_3
+                  - listitem [ref=e4335]:
+                    - button "See more" [ref=e4338] [cursor=pointer]: See more
+              - separator [ref=e4340]
+              - group "Delivery Day" [ref=e4341]:
+                - heading "Delivery Day" [level=2] [ref=e4342]
+                - list "Delivery Day" [ref=e4343]:
+                  - listitem "Popular Shopping Ideas" [ref=e4344]:
+                    - link "Apply the filter Get It by Tomorrow to narrow results" [ref=e4346] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=p_90%3A6741118031&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=6741116031&sprefix=bike%2Caps%2C480&ref=sr_nr_p_90_1&ds=v1%3ADVed4P9f2Lp1ChE%2BY1cLdnWL3ytwkJj6GZV7ylAzqx4
+                      - checkbox [ref=e4349]
+                      - text: Get It by Tomorrow
+                  - listitem "Popular Shopping Ideas" [ref=e4351]:
+                    - link "Apply the filter Get It in 2 Days to narrow results" [ref=e4353] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=p_90%3A20912642031&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=6741116031&sprefix=bike%2Caps%2C480&ref=sr_nr_p_90_2&ds=v1%3A11bixSMjHfpm1TkBOjzcBATY6%2FAODrdbLEpeq8gmaW0
+                      - checkbox [ref=e4356]
+                      - text: Get It in 2 Days
+              - group [ref=e4358]:
+                - generic [ref=e4359]:
+                  - generic [ref=e4360]: Price
+                  - generic [ref=e4363]:
+                    - generic [ref=e4364]:
+                      - generic [ref=e4365]: ₹42
+                      - generic [ref=e4366]: –
+                      - generic [ref=e4367]: ₹311,400+
+                    - generic [ref=e4369]:
+                      - generic:
+                        - slider "Minimum price": "0"
+                      - generic [ref=e4370]:
+                        - slider "Maximum price": "190"
+                - list [ref=e4371]:
+                  - listitem [ref=e4372]:
+                    - link "Up to ₹300" [ref=e4374] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=p_36%3A-30000&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=5814682031&sprefix=bike%2Caps%2C480&ref=sr_nr_p_36_1&ds=v1%3A7cey2RZPCM5iUICEady2p5Mm49dV0AvHNIChXPD9T6k
+                  - listitem [ref=e4375]:
+                    - link "₹300 - ₹500" [ref=e4377] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=p_36%3A30000-50000&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=5814682031&sprefix=bike%2Caps%2C480&ref=sr_nr_p_36_2&ds=v1%3AT%2FOhYMkcykUf6vLM2ZPBfdMajMTrrVdWW9N%2FnFoUijQ
+                  - listitem [ref=e4378]:
+                    - link "₹500 - ₹1,300" [ref=e4380] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=p_36%3A50000-130000&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=5814682031&sprefix=bike%2Caps%2C480&ref=sr_nr_p_36_3&ds=v1%3ATEO4bkPzu3VP%2FfYZA0Q9a71S14lbjLouAHLHOFbs8Dg
+                  - listitem [ref=e4381]:
+                    - link "Over ₹1,300" [ref=e4383] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=p_36%3A130000-&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=5814682031&sprefix=bike%2Caps%2C480&ref=sr_nr_p_36_4&ds=v1%3A1Jet42Yj%2FE0VBSljWqiUMHV66JMXGIGk4KGLY%2FaNrTg
+                - heading "Deals & Discounts" [level=2] [ref=e4384]
+                - list "Deals & Discounts" [ref=e4385]:
+                  - listitem [ref=e4386]:
+                    - link "All Discounts" [ref=e4388] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=p_n_deal_type%3A26921226031&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=26921223031&sprefix=bike%2Caps%2C480&ref=sr_nr_p_n_deal_type_1&ds=v1%3AibUGpOa7%2FUSA3NavOe0aYFpENG3w%2BfMbZHAKuT8a8Gc
+                  - listitem [ref=e4389]:
+                    - link "Today's Deals" [ref=e4391] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=p_n_deal_type%3A26921224031&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=26921223031&sprefix=bike%2Caps%2C480&ref=sr_nr_p_n_deal_type_2&ds=v1%3AFjVqc4pUkLyBMcLRwAMmZJ1RBUHoKxOV%2B%2FqyUZGsGv8
+              - group "Customer Review" [ref=e4392]:
+                - heading "Customer Review" [level=2] [ref=e4393]
+                - list "Customer Review" [ref=e4394]:
+                  - listitem [ref=e4395]:
+                    - link "Apply the filter 4 Stars & Up to narrow results" [ref=e4398] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=p_72%3A1318476031&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=1318475031&sprefix=bike%2Caps%2C480&ref=sr_nr_p_72_1&ds=v1%3AxMvEYzx1HFkw1CVhn%2FjklV9ZrYFof1f8ZAMYtr9E3RE
+                      - generic [ref=e4400]: 4 Stars
+                      - text: "& Up"
+              - group "Brands" [ref=e4401]:
+                - heading "Brands" [level=2] [ref=e4402]
+                - list "Brands" [ref=e4403]:
+                  - listitem "Popular Shopping Ideas" [ref=e4404]:
+                    - link "Apply the filter Hero MotoCorp to narrow results" [ref=e4406] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=p_123%3A4369391&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=91049095031&sprefix=bike%2Caps%2C480&ref=sr_nr_p_123_1&ds=v1%3AEN8nWeCDy2O9I7GQWDmRN9Nw3M2HPVuAGxcBNWsnx8s
+                      - checkbox [ref=e4409]
+                      - text: Hero MotoCorp
+                  - listitem "Popular Shopping Ideas" [ref=e4411]:
+                    - link "Apply the filter PULSAR to narrow results" [ref=e4413] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=p_123%3A7987613&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=91049095031&sprefix=bike%2Caps%2C480&ref=sr_nr_p_123_2&ds=v1%3A9KvDdsaPdDdf6F2jTefnVDzLmEL2tx11lqRvluotISI
+                      - checkbox [ref=e4416]
+                      - text: PULSAR
+                  - listitem "Popular Shopping Ideas" [ref=e4418]:
+                    - link "Apply the filter Royal Enfield to narrow results" [ref=e4420] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=p_123%3A320467&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=91049095031&sprefix=bike%2Caps%2C480&ref=sr_nr_p_123_3&ds=v1%3A5aycj3%2BkklbcIOYwXmTk0i60BgApZycNRcJFnBOF6oc
+                      - checkbox [ref=e4423]
+                      - text: Royal Enfield
+                  - listitem "Popular Shopping Ideas" [ref=e4425]:
+                    - link "Apply the filter KTM to narrow results" [ref=e4427] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=p_123%3A373513&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=91049095031&sprefix=bike%2Caps%2C480&ref=sr_nr_p_123_4&ds=v1%3APGUOgH200Iv60okiIz1zO%2BA4zFxHNJUdXWYtpRBIw2g
+                      - checkbox [ref=e4430]
+                      - text: KTM
+                  - listitem "Popular Shopping Ideas" [ref=e4432]:
+                    - link "Apply the filter Portronics to narrow results" [ref=e4434] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=p_123%3A415162&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=91049095031&sprefix=bike%2Caps%2C480&ref=sr_nr_p_123_5&ds=v1%3AD4fCKZW8zTHlbQHogURWYiNRouInGeBkfQ6Z43UGeLM
+                      - checkbox [ref=e4437]
+                      - text: Portronics
+                  - listitem "Popular Shopping Ideas" [ref=e4439]:
+                    - link "Apply the filter GRAND PITSTOP to narrow results" [ref=e4441] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=p_123%3A116499&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=91049095031&sprefix=bike%2Caps%2C480&ref=sr_nr_p_123_6&ds=v1%3Av1PfX5jHbmANHcrw2lt5BkHtKBlR09BFPwV4e%2BqxxK0
+                      - checkbox [ref=e4444]
+                      - text: GRAND PITSTOP
+                  - listitem "Popular Shopping Ideas" [ref=e4446]:
+                    - link "Apply the filter AutokraftZ to narrow results" [ref=e4448] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=p_123%3A632196&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=91049095031&sprefix=bike%2Caps%2C480&ref=sr_nr_p_123_7&ds=v1%3AEaBiHqeEAi5iIzzOxy9QkIagELbcBOKal0vLU7fZy3I
+                      - checkbox [ref=e4451]
+                      - text: AutokraftZ
+                  - listitem [ref=e4453]:
+                    - button "See more, Brands" [ref=e4456] [cursor=pointer]: See more
+              - group "Discount" [ref=e4458]:
+                - heading "Discount" [level=2] [ref=e4459]
+                - list "Discount" [ref=e4460]:
+                  - listitem [ref=e4461]:
+                    - link "10% Off or more" [ref=e4463] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=p_n_pct-off-with-tax%3A2665399031&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=2665398031&sprefix=bike%2Caps%2C480&ref=sr_nr_p_n_pct-off-with-tax_1&ds=v1%3Al2GlzBZridWs1jraIKdj6u7fAtj5rbCQQ2vq%2BmgDpms
+                  - listitem [ref=e4464]:
+                    - link "25% Off or more" [ref=e4466] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=p_n_pct-off-with-tax%3A2665400031&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=2665398031&sprefix=bike%2Caps%2C480&ref=sr_nr_p_n_pct-off-with-tax_2&ds=v1%3AIm9qEk9tMPmikkV9h96IMANK2T74aGgISbw7NPbWGdk
+                  - listitem [ref=e4467]:
+                    - link "35% Off or more" [ref=e4469] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=p_n_pct-off-with-tax%3A2665402031&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=2665398031&sprefix=bike%2Caps%2C480&ref=sr_nr_p_n_pct-off-with-tax_3&ds=v1%3AM9PV08n5qlvWxBvd%2FXxZERmJlk0vgJJcUCpt6eWN1cg
+                  - listitem [ref=e4470]:
+                    - link "50% Off or more" [ref=e4472] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=p_n_pct-off-with-tax%3A2665401031&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=2665398031&sprefix=bike%2Caps%2C480&ref=sr_nr_p_n_pct-off-with-tax_4&ds=v1%3AfCL0DIbH7ZvQWWZtkJiJnpCf2wX7YFlTL8tPAsIKH7A
+                  - listitem [ref=e4473]:
+                    - link "60% Off or more" [ref=e4475] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=p_n_pct-off-with-tax%3A27060456031&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=2665398031&sprefix=bike%2Caps%2C480&ref=sr_nr_p_n_pct-off-with-tax_5&ds=v1%3AN1H162dLFgIU7KRkVvlR6pY6MNJavkt%2Fp11YCaf49OE
+                  - listitem [ref=e4476]:
+                    - link "70% Off or more" [ref=e4478] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=p_n_pct-off-with-tax%3A27060457031&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=2665398031&sprefix=bike%2Caps%2C480&ref=sr_nr_p_n_pct-off-with-tax_6&ds=v1%3AscxGdPT5yufV9nhoKHWh7FobC3%2F5duPznNaMihX2%2BgM
+              - group "Item Condition" [ref=e4479]:
+                - heading "Item Condition" [level=2] [ref=e4480]
+                - list "Item Condition" [ref=e4481]:
+                  - listitem "Popular Shopping Ideas" [ref=e4482]:
+                    - link "Apply the filter New to narrow results" [ref=e4484] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=p_n_condition-type%3A8609960031&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=8609959031&sprefix=bike%2Caps%2C480&ref=sr_nr_p_n_condition-type_1&ds=v1%3AYYFw5Rz1F55kWqwuGRdrnhY0QU8Ox%2B0qAlLsUn9M4wI
+                      - checkbox [ref=e4487]
+                      - text: New
+              - group "Pay On Delivery" [ref=e4489]:
+                - heading "Pay On Delivery" [level=2] [ref=e4490]
+                - list "Pay On Delivery" [ref=e4491]:
+                  - listitem "Popular Shopping Ideas" [ref=e4492]:
+                    - link "Apply the filter Eligible for Pay On Delivery to narrow results" [ref=e4494] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=p_n_is_cod_eligible%3A4931671031&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=4931670031&sprefix=bike%2Caps%2C480&ref=sr_nr_p_n_is_cod_eligible_1&ds=v1%3AUXuysFoepGF93%2BWsYZZLQosvYCOfd21rbJSHhsziOeM
+                      - checkbox [ref=e4497]
+                      - text: Eligible for Pay On Delivery
+              - group "New Arrivals" [ref=e4499]:
+                - heading "New Arrivals" [level=2] [ref=e4500]
+                - list "New Arrivals" [ref=e4501]:
+                  - listitem [ref=e4502]:
+                    - link "Last 30 days" [ref=e4504] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=p_n_date_first_available_absolute%3A1318487031&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=1318486031&sprefix=bike%2Caps%2C480&ref=sr_nr_p_n_date_first_available_absolute_1&ds=v1%3APpkFaizUtKqifZLzd8fEfvmo%2FQNcmhejkTbO4hPhCqk
+                  - listitem [ref=e4505]:
+                    - link "Last 90 days" [ref=e4507] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=p_n_date_first_available_absolute%3A1318488031&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=1318486031&sprefix=bike%2Caps%2C480&ref=sr_nr_p_n_date_first_available_absolute_2&ds=v1%3AAZ9JuvJHLkJA0ndWeNSXHwz7Xn0Mleo2TCEVuCOTsB0
+              - group "Automotive Top Brands" [ref=e4508]:
+                - heading "Automotive Top Brands" [level=2] [ref=e4509]
+                - list "Automotive Top Brands" [ref=e4510]:
+                  - listitem "Popular Shopping Ideas" [ref=e4511]:
+                    - link "Apply the filter Top Brands to narrow results" [ref=e4513] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=p_n_format_browse-bin%3A14848482031&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=14848481031&sprefix=bike%2Caps%2C480&ref=sr_nr_p_n_format_browse-bin_1&ds=v1%3AxNtjRkx%2F9E6Ujt%2BQwo15SUkxk20WcIjpaGEq22jj%2Bqg
+                      - checkbox [ref=e4516]
+                      - text: Top Brands
+                  - listitem "Popular Shopping Ideas" [ref=e4518]:
+                    - link "Apply the filter Made for Amazon to narrow results" [ref=e4520] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=p_n_format_browse-bin%3A19560796031&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=14848481031&sprefix=bike%2Caps%2C480&ref=sr_nr_p_n_format_browse-bin_2&ds=v1%3ArlTptSc8mXlkWh0bHp9nfl9YS4DybFt3%2FGgsMpwvJJE
+                      - checkbox [ref=e4523]
+                      - text: Made for Amazon
+              - group "Availability" [ref=e4525]:
+                - heading "Availability" [level=2] [ref=e4526]
+                - list "Availability" [ref=e4527]:
+                  - listitem "Popular Shopping Ideas" [ref=e4528]:
+                    - link "Apply the filter Include Out of Stock to narrow results" [ref=e4530] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=p_n_availability%3A1318485031&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=1318483031&sprefix=bike%2Caps%2C480&ref=sr_nr_p_n_availability_2&ds=v1%3A5zuet1mXE8ZkWRxODvrkf%2FEwL3zUiQ%2B5wj5c%2B%2FYT9q8
+                      - checkbox [ref=e4533]
+                      - text: Include Out of Stock
+              - group "Seller" [ref=e4535]:
+                - heading "Seller" [level=2] [ref=e4536]
+                - list "Seller" [ref=e4537]:
+                  - listitem "Popular Shopping Ideas" [ref=e4538]:
+                    - link "Apply the filter ETrade Online to narrow results" [ref=e4540] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=p_6%3AA2AL6IVND0I91F&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=1318474031&sprefix=bike%2Caps%2C480&ref=sr_nr_p_6_1&ds=v1%3AEgNVackdutqcs4HH8N3pvWMyl%2FUfR%2FmfgW1WoxAabOE
+                      - checkbox [ref=e4543]
+                      - text: ETrade Online
+                  - listitem "Popular Shopping Ideas" [ref=e4545]:
+                    - link "Apply the filter BUNCH OF GOODS to narrow results" [ref=e4547] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=p_6%3AA2QSP1UFZC8LEM&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=1318474031&sprefix=bike%2Caps%2C480&ref=sr_nr_p_6_2&ds=v1%3AYjwjZRZ0xMYtTpUrI60nZcgPFBvTmTBwQ%2FXNZvkHyT4
+                      - checkbox [ref=e4550]
+                      - text: BUNCH OF GOODS
+                  - listitem [ref=e4552]:
+                    - button "See more, Seller" [ref=e4555] [cursor=pointer]: See more
+              - group "All Top Brands" [ref=e4557]:
+                - heading "All Top Brands" [level=2] [ref=e4558]
+                - list "All Top Brands" [ref=e4559]:
+                  - listitem "Popular Shopping Ideas" [ref=e4560]:
+                    - link "Apply the filter Top Brands to narrow results" [ref=e4562] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=p_n_g-101014971069111%3A206270883031&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=206270882031&sprefix=bike%2Caps%2C480&ref=sr_nr_p_n_g-101014971069111_1&ds=v1%3AfPCb7XhITnhWsiHdTUby7uXG5Cjt149S1ZDt1lGiEBs
+                      - checkbox [ref=e4565]
+                      - text: Top Brands
+              - group "Customizable Products" [ref=e4567]:
+                - heading "Customizable Products" [level=2] [ref=e4568]
+                - list "Customizable Products" [ref=e4569]:
+                  - listitem "Popular Shopping Ideas" [ref=e4570]:
+                    - link "Apply the filter Customizable to narrow results" [ref=e4572] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=p_n_customizable_template_name%3A206762212031&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=206762211031&sprefix=bike%2Caps%2C480&ref=sr_nr_p_n_customizable_template_name_1&ds=v1%3ASY8iwOunimQ4csIZHJ5gl3ppBLupxbU3EyM%2FIgQ60O8
+                      - checkbox [ref=e4575]
+                      - text: Customizable
+              - group "Category" [ref=e4577]:
+                - heading "Category" [level=2] [ref=e4578]
+                - list "Category" [ref=e4579]:
+                  - listitem [ref=e4580]:
+                    - link "2 Wheelers" [ref=e4582] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=n%3A9781374031&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=3576079031&sprefix=bike%2Caps%2C480&ref=sr_nr_n_1&ds=v1%3AIj29tOrBVT7SN0XwCeR2A8J9fsm0Lh7tWdfgM4Zbwtk
+                  - list [ref=e4583]:
+                    - listitem [ref=e4584]:
+                      - link "Pocketbikes" [ref=e4586] [cursor=pointer]:
+                        - /url: /s?k=Bike&rh=n%3A9781374031%2Cn%3A5258055031&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=3576079031&sprefix=bike%2Caps%2C480&ref=sr_nr_n_2&ds=v1%3AwZ04QesphlGxoW98Rt0oPR%2BgOTJqvXW5GN4TM0DWIN4
+                    - list
+                  - listitem [ref=e4587]:
+                    - link "Kids' Play Motorcycles" [ref=e4589] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=n%3A26279648031&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=3576079031&sprefix=bike%2Caps%2C480&ref=sr_nr_n_3&ds=v1%3Ao6xP2tZOo54XkA0wdmO4xWY4ffLdvN5dpxpKAkP1kv4
+                  - list
+                  - listitem [ref=e4590]:
+                    - link "Electrical Vehicles" [ref=e4592] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=n%3A1378201031&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=3576079031&sprefix=bike%2Caps%2C480&ref=sr_nr_n_4&ds=v1%3AVs80SLV%2FMwgzqM9iLqYMuL0jDQrcM%2FKL2BElr0HipsI
+                  - list
+                  - listitem [ref=e4593]:
+                    - link "Cycles" [ref=e4595] [cursor=pointer]:
+                      - /url: /s?k=Bike&rh=n%3A3403870031&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=3576079031&sprefix=bike%2Caps%2C480&ref=sr_nr_n_5&ds=v1%3AUbwuxZBlts0mZzp%2FpbiZVdbVblwyCbNXecOsD5VSEQ0
+                  - list [ref=e4596]:
+                    - listitem [ref=e4597]:
+                      - link "Folding Bikes" [ref=e4599] [cursor=pointer]:
+                        - /url: /s?k=Bike&rh=n%3A3403870031%2Cn%3A3404554031&dc&crid=2RQ7YNOJ0P3OR&qid=1766330711&rnid=3576079031&sprefix=bike%2Caps%2C480&ref=sr_nr_n_6&ds=v1%3Ay09RQWKBAb6ejNbcpUlUOqLMFY%2F%2B5yTQcX7DPhPfn%2F0
+                    - list
+            - generic [ref=e4603]:
+              - iframe [ref=e4604]:
+                - generic [ref=f4e4]:
+                  - generic [ref=f4e5]:
+                    - link "TM 9-803 Willys-Overland MB and Ford Model GPW Jeep Technical Manual" [ref=f4e6] [cursor=pointer]:
+                      - /url: https://aax-eu-zaz.amazon.in/x/c/RBw8LQm3B2D61Zchx3Q7h9wAAAGbQYO_3QoAAAH_AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICBu-ttS/clv1_CEuOPUxokZA9iHrVV9cW7BDAS0IlCrsbi44GxB6z0fxn1395gBG8If018HFItlC9gqEp25IbmnkC2QrDHyVSGFRIPSqxJ_LpLUUcRmF9Z0aBR68EC1UE89J9PA5kwCVn1hgbr4CVzRisxfiMQn2BzOag0_v_LYqSlvqIDGJTSWvKz-TP0A9_AwL6a8-sb_dvDm5ZatvBlJAaGDVhJ9pPeOEBzMmuj9Q7BRDVTeIh3R8Eu592kKrmQUwvwki1wFwcXzj1L_vC-RRzkVcdIth3Kk7-MFCbozbBIv-27fLJZLYSeG2Z8aSZ5RbUQAXdEYun8Mkk1qZQV9bUTfWrxJfOe71c2sxmcRsspIcY8eQqKsIJKgESbiCXqtXGw6fXCZlSDbFtl77Y/https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo3ODM0MTA0NjY0NTA3Mzg2OjE3NjYzMzA3MTE6c3Bfc2VhcmNoX2xlZnRfc2hhcmVkOjMwMDc2ODk0Nzg3NDIzMjo6Ojo&url=%2Fdp%2F1937684954%2Fref%3Dsspa_dk_left_sx_aax_0%3Fpsc%3D1%26aref%3DwdBGTkEoDc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfbGVmdF9zaGFyZWQ&aref=wdBGTkEoDc&sp_cr=ZAZ
+                    - img "TM 9-803 Willys-Overland MB and Ford Model GPW Jeep Technical Manual" [ref=f4e10]
+                    - generic [ref=f4e12]:
+                      - generic [ref=f4e13]: TM 9-803 Willys-Overland MB and Ford Model GPW ...
+                      - link "165" [ref=f4e15] [cursor=pointer]:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/RBw8LQm3B2D61Zchx3Q7h9wAAAGbQYO_3QoAAAH_AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICBu-ttS/clv1_CEuOPUxokZA9iHrVV9cW7BDAS0IlCrsbi44GxB6z0fxn1395gBG8If018HFItlC9gqEp25IbmnkC2QrDHyVSGFRIPSqxJ_LpLUUcRmF9Z0aBR68EC1UE89J9PA5kwCVn1hgbr4CVzRisxfiMQn2BzOag0_v_LYqSlvqIDGJTSWvKz-TP0A9_AwL6a8-sb_dvDm5ZatvBlJAaGDVhJ9pPeOEBzMmuj9Q7BRDVTeIh3R8Eu592kKrmQUwvwki1wFwcXzj1L_vC-RRzkVcdIth3Kk7-MFCbozbBIv-27fLJZLYSeG2Z8aSZ5RbUQAXdEYun8Mkk1qZQV9bUTfWrxJfOe71c2sxmcRsspIcY8eQqKsIJKgESbiCXqtXGw6fXCZlSDbFtl77Y/https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo3ODM0MTA0NjY0NTA3Mzg2OjE3NjYzMzA3MTE6c3Bfc2VhcmNoX2xlZnRfc2hhcmVkOjMwMDc2ODk0Nzg3NDIzMjo6Ojo&url=%2Fdp%2F1937684954%2Fref%3Dsspa_dk_left_sx_aax_0%3Fpsc%3D1%26aref%3DwdBGTkEoDc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfbGVmdF9zaGFyZWQ&aref=wdBGTkEoDc&sp_cr=ZAZ#customerReviews
+                        - text: "165"
+                      - generic [ref=f4e17]: ₹979.00
+                    - link "Shop now" [ref=f4e22] [cursor=pointer]:
+                      - /url: https://aax-eu-zaz.amazon.in/x/c/RBw8LQm3B2D61Zchx3Q7h9wAAAGbQYO_3QoAAAH_AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICBu-ttS/clv1_CEuOPUxokZA9iHrVV9cW7BDAS0IlCrsbi44GxB6z0fxn1395gBG8If018HFItlC9gqEp25IbmnkC2QrDHyVSGFRIPSqxJ_LpLUUcRmF9Z0aBR68EC1UE89J9PA5kwCVn1hgbr4CVzRisxfiMQn2BzOag0_v_LYqSlvqIDGJTSWvKz-TP0A9_AwL6a8-sb_dvDm5ZatvBlJAaGDVhJ9pPeOEBzMmuj9Q7BRDVTeIh3R8Eu592kKrmQUwvwki1wFwcXzj1L_vC-RRzkVcdIth3Kk7-MFCbozbBIv-27fLJZLYSeG2Z8aSZ5RbUQAXdEYun8Mkk1qZQV9bUTfWrxJfOe71c2sxmcRsspIcY8eQqKsIJKgESbiCXqtXGw6fXCZlSDbFtl77Y/https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo3ODM0MTA0NjY0NTA3Mzg2OjE3NjYzMzA3MTE6c3Bfc2VhcmNoX2xlZnRfc2hhcmVkOjMwMDc2ODk0Nzg3NDIzMjo6Ojo&url=%2Fdp%2F1937684954%2Fref%3Dsspa_dk_left_sx_aax_0%3Fpsc%3D1%26aref%3DwdBGTkEoDc%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfbGVmdF9zaGFyZWQ&aref=wdBGTkEoDc&sp_cr=ZAZ
+                  - separator [ref=f4e24]
+                  - generic [ref=f4e25]:
+                    - link "CAR101 Cleaning Kit Tyre & Trim Restorer (1pc) + Multipurpose Microfiber Cloth (Pack of 4, 400 GSM) + Graphene Ceramic | Multi-Surface Protectant | Scratch-Free Car, Bike & Home Cleaning Set" [ref=f4e26] [cursor=pointer]:
+                      - /url: https://aax-eu-zaz.amazon.in/x/c/RBw8LQm3B2D61Zchx3Q7h9wAAAGbQYO_3QoAAAH_AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICBu-ttS/clv1_CEuOPUxokZA9iHrVV9cW7BDAS0IlCrsbi44GxB6z0fxn1395gBG8If018HFItlC9gqEp25IbmnkC2QrDHyVSGFRIPSqxJ_LpLUUcRmF9Z0aBR68EC1UE89J9PA5kwCVn1hgbr4CVzRisxfiMQn2BzOag0_v_LYqSlvqIDGJTSWvKz-TP0A9_AwL6a8-sb_dvDm5ZatvBlJAaGDVhJ9pPeOEBzMmuj9Q7BRDVTeIh3R8Eu592kKrmQUwvwki1wFwcXzj1L_vC-RRzkVcdIth3Kk7-MFCbozbBIv-27fLJZLYSeG2Z8aSZ5RbUQAXdEYun8Mkk1qZQV9bUTfWrxJfOe71c2sxmcRsspIcY8eQqKsIJKgESbiCXqtXGw6fXCZlSDbFtl77Y/https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo3ODM0MTA0NjY0NTA3Mzg2OjE3NjYzMzA3MTE6c3Bfc2VhcmNoX2xlZnRfc2hhcmVkOjMwMDczMTI5MTUyNzgzMjo6Ojo&url=%2Fdp%2FB0FDQYCDLR%2Fref%3Dsspa_dk_left_sx_aax_1%3Fpsc%3D1%26aref%3DYnE70vj1nk%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfbGVmdF9zaGFyZWQ&aref=YnE70vj1nk&sp_cr=ZAZ
+                    - img "CAR101 Cleaning Kit Tyre & Trim Restorer (1pc) + Multipurpose Microfiber Cloth (Pack of 4, 400 GSM) + Graphene Ceramic | Multi-Surface Protectant | Scratch-Free Car, Bike & Home Cleaning Set" [ref=f4e30]
+                    - generic [ref=f4e32]:
+                      - generic [ref=f4e33]: CAR101 Cleaning Kit Tyre & Trim Restorer (1pc) ...
+                      - link "113" [ref=f4e35] [cursor=pointer]:
+                        - /url: https://aax-eu-zaz.amazon.in/x/c/RBw8LQm3B2D61Zchx3Q7h9wAAAGbQYO_3QoAAAH_AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICBu-ttS/clv1_CEuOPUxokZA9iHrVV9cW7BDAS0IlCrsbi44GxB6z0fxn1395gBG8If018HFItlC9gqEp25IbmnkC2QrDHyVSGFRIPSqxJ_LpLUUcRmF9Z0aBR68EC1UE89J9PA5kwCVn1hgbr4CVzRisxfiMQn2BzOag0_v_LYqSlvqIDGJTSWvKz-TP0A9_AwL6a8-sb_dvDm5ZatvBlJAaGDVhJ9pPeOEBzMmuj9Q7BRDVTeIh3R8Eu592kKrmQUwvwki1wFwcXzj1L_vC-RRzkVcdIth3Kk7-MFCbozbBIv-27fLJZLYSeG2Z8aSZ5RbUQAXdEYun8Mkk1qZQV9bUTfWrxJfOe71c2sxmcRsspIcY8eQqKsIJKgESbiCXqtXGw6fXCZlSDbFtl77Y/https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo3ODM0MTA0NjY0NTA3Mzg2OjE3NjYzMzA3MTE6c3Bfc2VhcmNoX2xlZnRfc2hhcmVkOjMwMDczMTI5MTUyNzgzMjo6Ojo&url=%2Fdp%2FB0FDQYCDLR%2Fref%3Dsspa_dk_left_sx_aax_1%3Fpsc%3D1%26aref%3DYnE70vj1nk%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfbGVmdF9zaGFyZWQ&aref=YnE70vj1nk&sp_cr=ZAZ#customerReviews
+                        - text: "113"
+                      - generic [ref=f4e37]: ₹2,037.00
+                    - link "Shop now" [ref=f4e42] [cursor=pointer]:
+                      - /url: https://aax-eu-zaz.amazon.in/x/c/RBw8LQm3B2D61Zchx3Q7h9wAAAGbQYO_3QoAAAH_AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICBu-ttS/clv1_CEuOPUxokZA9iHrVV9cW7BDAS0IlCrsbi44GxB6z0fxn1395gBG8If018HFItlC9gqEp25IbmnkC2QrDHyVSGFRIPSqxJ_LpLUUcRmF9Z0aBR68EC1UE89J9PA5kwCVn1hgbr4CVzRisxfiMQn2BzOag0_v_LYqSlvqIDGJTSWvKz-TP0A9_AwL6a8-sb_dvDm5ZatvBlJAaGDVhJ9pPeOEBzMmuj9Q7BRDVTeIh3R8Eu592kKrmQUwvwki1wFwcXzj1L_vC-RRzkVcdIth3Kk7-MFCbozbBIv-27fLJZLYSeG2Z8aSZ5RbUQAXdEYun8Mkk1qZQV9bUTfWrxJfOe71c2sxmcRsspIcY8eQqKsIJKgESbiCXqtXGw6fXCZlSDbFtl77Y/https://www.amazon.in/sspa/click?ie=UTF8&spc=MTo3ODM0MTA0NjY0NTA3Mzg2OjE3NjYzMzA3MTE6c3Bfc2VhcmNoX2xlZnRfc2hhcmVkOjMwMDczMTI5MTUyNzgzMjo6Ojo&url=%2Fdp%2FB0FDQYCDLR%2Fref%3Dsspa_dk_left_sx_aax_1%3Fpsc%3D1%26aref%3DYnE70vj1nk%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfbGVmdF9zaGFyZWQ&aref=YnE70vj1nk&sp_cr=ZAZ
+              - button "Leave feedback on Sponsored advertisement" [ref=e4606] [cursor=pointer]:
+                - generic [ref=e4607]: Sponsored
+            - generic [ref=e4612]:
+              - iframe [ref=e4613]:
+                - generic [ref=f5e3]:
+                  - generic [ref=f5e4]: Sponsored Ad. Brand logo. Product image. Woscherr Tyre Inflator for Car - 110 psi, 12V DC Portable Air Pump/Compressor with Analog Tyre Pressure Gauge, for Car, Bikes, Bicycles or Any Inflatable with LED Light| 2 Years Warranty 1079 Shop now
+                  - link "Sponsored Ad. Brand logo. Product image. Woscherr Tyre Inflator for Car - 110 psi, 12V DC Portable Air Pump/Compressor with Analog Tyre Pressure Gauge, for Car, Bikes, Bicycles or Any Inflatable with LED Light| 2 Years Warranty 1079 Shop now" [ref=f5e7] [cursor=pointer]:
+                    - /url: https://aax-eu-zaz.amazon.in/x/c/RBRJVDr8zWls21_VxSYDnFEAAAGbQYO_3AoAAAH_AQBvbm9fdHhuX2JpZDIgICBvbm9fdHhuX2ltcDIgICAGGEaR/clv1_CEuOPUxokZA9iHrVV9cW7BDAS0IlCrsbi44GxB6z0fxn1395gBG8If018HFItlC9gqEp25IbmnkC2cLPA3tQKkxeED-DMMPMAUs9N3FfaVSGF7tFxaMd6JJGP9iOMfm6WN3Lfwzxr9YWFk9hg0v2YAFBKg8QBt9hBRY9HqMnUhKFyLqDhUk3Q0G-Kp7vPuogBnoOdtqahJ1BBWh2KcNaYfAXkcOsktIiVBKEZpAkjwMt7q9FwOmESBUKnUiigUVjPGfAC8yX5UA_jkcRZvQvSySJRVXosQ3PBOiq7PCwHLZ4ZmaoyfiZ9SqdQA3YGI2xzvwX2MFPYNbZrZWCA6OWNcNHyedIaWJoqK8I4thJCLxZ5GNzV3WUtRyp75EPLBC7VQdDgFfelz8q-C3QKriIUX1UYbPKlet5X-QkM05NrTIBT8BptVVGQD9j_rImXkYHKYeWVofgtcSBanQGaCqtwK4HSkemgx-vfjB0Z5FIpsG6LHsD6aSErCb2eFNbE73ujfMIw0RiSvYCly2bqwq6liXCTT17VnYcMAuXQAbqO5XscAKNPHVm3CEZLFzueTzjF6c-kYNzXWmA0LhJtco2DibfDA1p0nd32e00lpy0vRg2h4mu2rcedlPw3l_dRpThUGQxQo8CeAAL3fR9ao5OsG1G47ilGiJtTnkI4eck_5VNCm0AQiiFz3AQ_2PuBuhVgFY8zmBxmpMh9OI8E3WPCB1Do6TaafHi-a_bBmAmED7Ljh6rVvdS9xpj-MEnEdKKgv5TB2_koBTix1z6b0X5LQNYgQeaEDcIpc9uYMVVcjau_AVzNrcqgBRfnrORUzOAcOrkdx9t9hbyt_dXCuJEx96o2xNBz62qFfuksO-mplmX_Xra9iwszyuPv1SKvGXiutJ0j-cjtDzcQdI9K_kWI8__g-Kz4kkGaRhrEh7asjnOgj1ENTZ_OVI2BAvm9CG4h22lL-zd4raQ9Pn4_DHlQ95QHLjkJuHOzk-ddyFnaeoXfjpPUEZVF-aI9Qz-NHlNEyCL144I1FYOJuVu66eflT1-txFjUtmEplB_l6o45BdCRl6bCZ32DAnDa4lgfN9OLiOGRZHDLBEFK-iqPeUERRk9o_jzB-tQD4oKGUI2ZfLCVzP5V6M0_B9OG-G2uvf0vItCDfPlnysaA-YMoFwabUsjVc-2SnPUApICq5P1tcmY7xrk3Xvy6O5fyw5xeMZoGGTyNlThxmLHGWxMj3TtK9CD989E-ItjxQHv8qF3LXf_MhANdV2H-2yKtC4AYp_if7z7_qd4CgO0NYlsc4s4i3ci9ZtUv8GCiV9r-CHUUIIJnlpcPaCzHV2Z6IWjQSQ/http://www.amazon.in/dp/B07K5MRZK3/ref=syn_sd_onsite_desktop_0?ie=UTF8&psc=1&pd_rd_plhdr=t&aref=glEO4HfxyV
+                  - generic [ref=f5e8]:
+                    - img "Brand logo" [ref=f5e12]
+                    - img "Product image" [ref=f5e16]
+              - button "Leave feedback on Sponsored advertisement" [ref=e4615] [cursor=pointer]:
+                - generic [ref=e4616]: Sponsored
+  - complementary "Your recently viewed items and featured recommendations"
+  - generic [ref=e4618]:
+    - button "Back to top" [ref=e4619]:
+      - generic [ref=e4621]: Back to top
+    - generic [ref=e4622]:
+      - generic [ref=e4623]:
+        - heading "Get to Know Us" [level=6] [ref=e4624]
+        - list [ref=e4625]:
+          - listitem [ref=e4626]:
+            - link "About Amazon" [ref=e4627] [cursor=pointer]:
+              - /url: https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e4628]:
+            - link "Careers" [ref=e4629] [cursor=pointer]:
+              - /url: https://amazon.jobs
+          - listitem [ref=e4630]:
+            - link "Press Releases" [ref=e4631] [cursor=pointer]:
+              - /url: https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e4632]:
+            - link "Amazon Science" [ref=e4633] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e4635]:
+        - heading "Connect with Us" [level=6] [ref=e4636]
+        - list [ref=e4637]:
+          - listitem [ref=e4638]:
+            - link "Facebook" [ref=e4639] [cursor=pointer]:
+              - /url: https://www.facebook.com/AmazonIN
+          - listitem [ref=e4640]:
+            - link "Twitter" [ref=e4641] [cursor=pointer]:
+              - /url: https://x.com/AmazonIN
+          - listitem [ref=e4642]:
+            - link "Instagram" [ref=e4643] [cursor=pointer]:
+              - /url: https://www.instagram.com/amazondotin
+      - generic [ref=e4645]:
+        - heading "Make Money with Us" [level=6] [ref=e4646]
+        - list [ref=e4647]:
+          - listitem [ref=e4648]:
+            - link "Sell on Amazon" [ref=e4649] [cursor=pointer]:
+              - /url: /b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C
+          - listitem [ref=e4650]:
+            - link "Sell under Amazon Accelerator" [ref=e4651] [cursor=pointer]:
+              - /url: https://accelerator.amazon.in/?ref_=map_1_b2b_GW_FT
+          - listitem [ref=e4652]:
+            - link "Protect and Build Your Brand" [ref=e4653] [cursor=pointer]:
+              - /url: https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT
+          - listitem [ref=e4654]:
+            - link "Amazon Global Selling" [ref=e4655] [cursor=pointer]:
+              - /url: https://sell.amazon.in/grow-your-business/amazon-global-selling.html?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1
+          - listitem [ref=e4656]:
+            - link "Supply to Amazon" [ref=e4657] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta&lang=en-IN
+          - listitem [ref=e4658]:
+            - link "Become an Affiliate" [ref=e4659] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc
+          - listitem [ref=e4660]:
+            - link "Fulfilment by Amazon" [ref=e4661] [cursor=pointer]:
+              - /url: https://services.amazon.in/services/fulfilment-by-amazon/benefits.html/ref=az_footer_fba?ld=AWRGINFBAfooter
+          - listitem [ref=e4662]:
+            - link "Advertise Your Products" [ref=e4663] [cursor=pointer]:
+              - /url: https://advertising.amazon.in/?ref=Amz.in
+          - listitem [ref=e4664]:
+            - link "Amazon Pay on Merchants" [ref=e4665] [cursor=pointer]:
+              - /url: https://www.amazonpay.in/merchant
+      - generic [ref=e4667]:
+        - heading "Let Us Help You" [level=6] [ref=e4668]
+        - list [ref=e4669]:
+          - listitem [ref=e4670]:
+            - link "Your Account" [ref=e4671] [cursor=pointer]:
+              - /url: /gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e4672]:
+            - link "Returns Centre" [ref=e4673] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e4674]:
+            - link "Recalls and Product Safety Alerts" [ref=e4675] [cursor=pointer]:
+              - /url: https://www.amazon.in/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e4676]:
+            - link "100% Purchase Protection" [ref=e4677] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc
+          - listitem [ref=e4678]:
+            - link "Amazon App Download" [ref=e4679] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6967393031&ref_=footer_mobapp
+          - listitem [ref=e4680]:
+            - link "Help" [ref=e4681] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he
+    - generic [ref=e4683]:
+      - link "Amazon India Home" [ref=e4686] [cursor=pointer]:
+        - /url: /ref=footer_logo
+      - generic [ref=e4689]:
+        - generic [ref=e4690]:
+          - link "Choose a language for shopping. Current selection is English." [ref=e4691] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=e4693]: English
+          - button "Expand to Change Language or Country" [ref=e4694] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is India." [ref=e4695] [cursor=pointer]:
+          - generic [ref=e4697]: India
+    - generic "More on Amazon" [ref=e4698]:
+      - generic "More on Amazon" [ref=e4699]:
+        - list [ref=e4700]:
+          - listitem [ref=e4701]:
+            - link "AbeBooks Books, art & collectibles" [ref=e4702] [cursor=pointer]:
+              - /url: https://www.abebooks.com/
+              - heading "AbeBooks" [level=5] [ref=e4703]
+              - generic [ref=e4704]:
+                - text: Books, art
+                - text: "& collectibles"
+          - listitem [ref=e4705]
+          - listitem [ref=e4706]:
+            - link "Amazon Web Services Scalable Cloud Computing Services" [ref=e4707] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=IN_amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=e4708]
+              - generic [ref=e4709]:
+                - text: Scalable Cloud
+                - text: Computing Services
+          - listitem [ref=e4710]
+          - listitem [ref=e4711]:
+            - link "Audible Download Audio Books" [ref=e4712] [cursor=pointer]:
+              - /url: https://www.audible.in/
+              - heading "Audible" [level=5] [ref=e4713]
+              - generic [ref=e4714]:
+                - text: Download
+                - text: Audio Books
+          - listitem [ref=e4715]
+          - listitem [ref=e4716]:
+            - link "IMDb Movies, TV & Celebrities" [ref=e4717] [cursor=pointer]:
+              - /url: https://www.imdb.com/
+              - heading "IMDb" [level=5] [ref=e4718]
+              - generic [ref=e4719]:
+                - text: Movies, TV
+                - text: "& Celebrities"
+        - list [ref=e4720]:
+          - listitem [ref=e4721]:
+            - link "Shopbop Designer Fashion Brands" [ref=e4722] [cursor=pointer]:
+              - /url: https://www.shopbop.com/
+              - heading "Shopbop" [level=5] [ref=e4723]
+              - generic [ref=e4724]:
+                - text: Designer
+                - text: Fashion Brands
+          - listitem [ref=e4725]
+          - listitem [ref=e4726]:
+            - link "Amazon Business Everything For Your Business" [ref=e4727] [cursor=pointer]:
+              - /url: /business?ref=footer_aingw
+              - heading "Amazon Business" [level=5] [ref=e4728]
+              - generic [ref=e4729]:
+                - text: Everything For
+                - text: Your Business
+          - listitem [ref=e4730]
+          - listitem [ref=e4731]:
+            - link "Amazon Prime Music 100 million songs, ad-free Over 15 million podcast episodes" [ref=e4732] [cursor=pointer]:
+              - /url: /music/prime?ref=footer_apm
+              - heading "Amazon Prime Music" [level=5] [ref=e4733]
+              - generic [ref=e4734]:
+                - text: 100 million songs, ad-free
+                - text: Over 15 million podcast episodes
+          - listitem [ref=e4735]
+          - listitem [ref=e4736]
+    - generic [ref=e4737]:
+      - list [ref=e4738]:
+        - listitem [ref=e4739]:
+          - link "Conditions of Use & Sale" [ref=e4740] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou
+        - listitem [ref=e4741]:
+          - link "Privacy Notice" [ref=e4742] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy
+        - listitem [ref=e4743]:
+          - link "Interest-Based Ads" [ref=e4744] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba
+      - generic [ref=e4745]: © 1996-2025, Amazon.com, Inc. or its affiliates
+  - iframe [ref=e4747]:
+    - iframe [ref=f7e2]:
+      - generic [active]:
+        - img [ref=f8e1]
+        - img [ref=f8e2]
+        - img [ref=f8e3]
+        - img [ref=f8e4]
+        - img [ref=f8e5]
+        - img [ref=f8e6]
+        - img [ref=f8e7]
+        - img [ref=f8e8]
+        - img [ref=f8e9]
+        - img [ref=f8e10]
+        - img [ref=f8e11]
+        - img [ref=f8e12]
+        - img [ref=f8e13]
+        - img [ref=f8e14]
+        - img [ref=f8e15]
+        - img [ref=f8e16]
+        - img [ref=f8e17]
+        - img [ref=f8e18]
+```
