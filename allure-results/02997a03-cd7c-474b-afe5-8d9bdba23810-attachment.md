@@ -1,0 +1,1011 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation "Shortcuts menu" [ref=e3]:
+    - heading "Skip to" [level=2] [ref=e4]
+    - list "Skip to" [ref=e5]:
+      - listitem [ref=e6]:
+        - link "main content" [ref=e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+    - separator [ref=e8]
+  - banner [ref=e9]:
+    - navigation "Primary" [ref=e10]:
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - link "Amazon.in" [ref=e14] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .in
+          - button "Delivering to Chennai 600009 Update location" [ref=e17] [cursor=pointer]:
+            - generic [ref=e19]:
+              - generic [ref=e20]: Delivering to Chennai 600009
+              - generic [ref=e21]: Update location
+        - search [ref=e24]:
+          - generic [ref=e27]:
+            - generic [ref=e29]: All
+            - combobox "Select the department you want to search in" [ref=e31] [cursor=pointer]:
+              - option "All Categories" [selected]
+              - option "Alexa Skills"
+              - option "Amazon Devices"
+              - option "Amazon Fashion"
+              - option "Amazon Fresh"
+              - option "Amazon Fresh Meat"
+              - option "Amazon Pharmacy"
+              - option "Appliances"
+              - option "Apps & Games"
+              - option "Audible Audiobooks"
+              - option "Baby"
+              - option "Beauty"
+              - option "Books"
+              - option "Car & Motorbike"
+              - option "Clothing & Accessories"
+              - option "Collectibles"
+              - option "Computers & Accessories"
+              - option "Deals"
+              - option "Electronics"
+              - option "Furniture"
+              - option "Garden & Outdoors"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Foods"
+              - option "Health & Personal Care"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Jewellery"
+              - option "Kindle Store"
+              - option "Luggage & Bags"
+              - option "Luxury Beauty"
+              - option "Movies & TV Shows"
+              - option "MP3 Music"
+              - option "Music"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Supplies"
+              - option "Prime Video"
+              - option "Shoes & Handbags"
+              - option "Software"
+              - option "Sports, Fitness & Outdoors"
+              - option "Subscribe & Save"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Under ₹500"
+              - option "Video Games"
+              - option "Watches"
+          - searchbox "Search Amazon.in" [ref=e34]
+          - generic "Go" [ref=e37] [cursor=pointer]:
+            - button "Go" [ref=e38]
+        - generic [ref=e40]:
+          - link "Choose a language for shopping in Amazon India. The current selection is English (EN)." [ref=e42] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+            - generic [ref=e45]:
+              - img "India" [ref=e46]
+              - generic [ref=e47]: EN
+          - link "Hello, sign in Account & Lists" [ref=e49] [cursor=pointer]:
+            - /url: https://www.amazon.in/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2F%3F_encoding%3DUTF8%26ref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+            - generic [ref=e51]: Hello, sign in
+            - generic [ref=e52]: Account & Lists
+          - link "Returns & Orders" [ref=e53] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=e54]: Returns
+            - generic [ref=e55]: "& Orders"
+          - link "0 items in cart" [ref=e56] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [ref=e58]: "0"
+            - generic [ref=e61]: Cart
+      - generic [ref=e62]:
+        - button "Open All Categories Menu" [ref=e64] [cursor=pointer]:
+          - generic [ref=e66]: All
+        - list [ref=e70]:
+          - listitem [ref=e71]:
+            - link "Fresh" [ref=e73] [cursor=pointer]:
+              - /url: /fresh?ref_=nav_cs_grocery
+          - listitem [ref=e74]:
+            - link "MX Player" [ref=e76] [cursor=pointer]:
+              - /url: /minitv?ref_=nav_avod_desktop_topnav
+          - listitem [ref=e77]:
+            - link "Sell" [ref=e79] [cursor=pointer]:
+              - /url: /b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3
+          - listitem [ref=e80]:
+            - link "Bestsellers" [ref=e82] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=e83]:
+            - link "Mobiles" [ref=e85] [cursor=pointer]:
+              - /url: /mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles
+          - listitem [ref=e86]:
+            - link "Today's Deals" [ref=e88] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=e89]:
+            - link "Customer Service" [ref=e91] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help
+          - listitem [ref=e92]:
+            - link "Prime" [ref=e94] [cursor=pointer]:
+              - /url: /prime?ref_=nav_cs_primelink_nonmember
+          - listitem [ref=e95]:
+            - link "New Releases" [ref=e97] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=e98]:
+            - link "Amazon Pay" [ref=e100] [cursor=pointer]:
+              - /url: /gp/sva/dashboard?ref_=nav_cs_apay
+          - listitem [ref=e101]:
+            - link "Fashion" [ref=e103] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6648217031&ref_=nav_cs_fashion
+          - listitem [ref=e104]:
+            - link "Electronics" [ref=e106] [cursor=pointer]:
+              - /url: /electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics
+          - listitem [ref=e107]:
+            - link "Home & Kitchen" [ref=e109] [cursor=pointer]:
+              - /url: /Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home
+          - listitem [ref=e110]:
+            - link "Books" [ref=e112] [cursor=pointer]:
+              - /url: /Books/b/?ie=UTF8&node=976389031&ref_=nav_cs_books
+          - listitem [ref=e113]:
+            - link "Computers" [ref=e115] [cursor=pointer]:
+              - /url: /computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc
+          - listitem [ref=e116]:
+            - link "Gift Cards" [ref=e118] [cursor=pointer]:
+              - /url: /gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc
+          - listitem [ref=e119]:
+            - link "Beauty & Personal Care" [ref=e121] [cursor=pointer]:
+              - /url: /beauty/b/?ie=UTF8&node=1355016031&ref_=nav_cs_beauty
+          - listitem [ref=e122]:
+            - link "Car & Motorbike" [ref=e124] [cursor=pointer]:
+              - /url: /Car-Motorbike-Store/b/?ie=UTF8&node=4772060031&ref_=nav_cs_automotive
+          - listitem [ref=e125]:
+            - link "Toys & Games" [ref=e127] [cursor=pointer]:
+              - /url: /Toys-Games/b/?ie=UTF8&node=1350380031&ref_=nav_cs_toys
+          - listitem [ref=e128]:
+            - link "Home Improvement" [ref=e130] [cursor=pointer]:
+              - /url: /Home-Improvement/b/?ie=UTF8&node=4286640031&ref_=nav_cs_hi
+          - listitem [ref=e131]:
+            - link "Grocery & Gourmet Foods" [ref=e133] [cursor=pointer]:
+              - /url: /Gourmet-Specialty-Foods/b/?ie=UTF8&node=2454178031&ref_=nav_cs_grocery
+          - listitem [ref=e134]:
+            - link "Custom Products" [ref=e136] [cursor=pointer]:
+              - /url: /Amazon-Custom/b/?ie=UTF8&node=32615889031&ref_=nav_cs_custom
+          - listitem [ref=e137]:
+            - link "Sports, Fitness & Outdoors" [ref=e139] [cursor=pointer]:
+              - /url: /Sports/b/?ie=UTF8&node=1984443031&ref_=nav_cs_sports
+          - listitem [ref=e140]:
+            - link "Health, Household & Personal Care" [ref=e142] [cursor=pointer]:
+              - /url: /health-and-personal-care/b/?ie=UTF8&node=1350384031&ref_=nav_cs_hpc
+          - listitem [ref=e143]:
+            - link "Video Games" [ref=e145] [cursor=pointer]:
+              - /url: /video-games/b/?ie=UTF8&node=976460031&ref_=nav_cs_video_games
+          - listitem [ref=e146]:
+            - link "Baby" [ref=e148] [cursor=pointer]:
+              - /url: /Baby/b/?ie=UTF8&node=1571274031&ref_=nav_cs_baby
+          - listitem [ref=e149]:
+            - link "Pet Supplies" [ref=e151] [cursor=pointer]:
+              - /url: /Pet-Supplies/b/?ie=UTF8&node=2454181031&ref_=nav_cs_pets
+          - listitem [ref=e152]:
+            - link "AmazonBasics" [ref=e154] [cursor=pointer]:
+              - /url: /b/?node=6637738031&ref_=nav_cs_amazonbasics
+          - listitem [ref=e155]:
+            - link "Audible" [ref=e157] [cursor=pointer]:
+              - /url: /Audible-Books-and-Originals/b/?ie=UTF8&node=17941593031&ref_=nav_cs_audible
+          - listitem [ref=e158]:
+            - link "Subscribe & Save" [ref=e160] [cursor=pointer]:
+              - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+          - listitem [ref=e161]:
+            - link "Kindle eBooks" [ref=e163] [cursor=pointer]:
+              - /url: /Kindle-eBooks/b/?ie=UTF8&node=1634753031&ref_=nav_cs_kindle_books
+          - listitem [ref=e164]:
+            - link "Flights" [ref=e166] [cursor=pointer]:
+              - /url: /flights?ref_=nav_cs_apay_desktop_topnav_flights
+  - main [ref=e170]:
+    - banner [ref=e172]:
+      - group "Featured content" [ref=e173]:
+        - group [ref=e177]:
+          - list [ref=e178]:
+            - listitem [ref=e179]:
+              - link "Deals" [ref=e182] [cursor=pointer]:
+                - /url: /l/21557580031/?_encoding=UTF8&pd_rd_w=HHdlH&content-id=amzn1.sym.b88702dd-4a5a-41b0-86eb-929fdf28d6b1&pf_rd_p=b88702dd-4a5a-41b0-86eb-929fdf28d6b1&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=uuylM&pd_rd_r=56219f39-2c30-421f-b8ee-401f6238da53&ref_=pd_hp_d_hero_unk
+                - img "Deals" [ref=e183]
+            - listitem [ref=e184]
+            - listitem [ref=e186]
+            - listitem [ref=e188]
+            - listitem [ref=e190]
+    - generic [ref=e192]:
+      - generic [ref=e193]:
+        - generic [ref=e195]:
+          - heading "Revamp your home in style" [level=2] [ref=e197]
+          - generic [ref=e198]:
+            - generic [ref=e199]:
+              - link "Cushion covers, bedsheets & more" [ref=e201] [cursor=pointer]:
+                - /url: /b/?_encoding=UTF8&node=1380442031&pd_rd_w=QjWUl&content-id=amzn1.sym.f8e82c51-0408-4554-a158-9be4d776850d&pf_rd_p=f8e82c51-0408-4554-a158-9be4d776850d&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+                - img "Cushion covers, bedsheets & more" [ref=e203]
+                - generic [ref=e205]: Cushion covers, bedsheets & more
+              - link "Figurines, vases & more" [ref=e207] [cursor=pointer]:
+                - /url: /b/?_encoding=UTF8&node=1380374031&pd_rd_w=QjWUl&content-id=amzn1.sym.f8e82c51-0408-4554-a158-9be4d776850d&pf_rd_p=f8e82c51-0408-4554-a158-9be4d776850d&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+                - img "Figurines, vases & more" [ref=e209]
+                - generic [ref=e211]: Figurines, vases & more
+            - generic [ref=e212]:
+              - link "Home storage" [ref=e214] [cursor=pointer]:
+                - /url: /b/?_encoding=UTF8&node=1380510031&pd_rd_w=QjWUl&content-id=amzn1.sym.f8e82c51-0408-4554-a158-9be4d776850d&pf_rd_p=f8e82c51-0408-4554-a158-9be4d776850d&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+                - img "Home storage" [ref=e216]
+                - generic [ref=e218]: Home storage
+              - link "Lighting solutions" [ref=e220] [cursor=pointer]:
+                - /url: /b/?_encoding=UTF8&node=1380485031&pd_rd_w=QjWUl&content-id=amzn1.sym.f8e82c51-0408-4554-a158-9be4d776850d&pf_rd_p=f8e82c51-0408-4554-a158-9be4d776850d&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+                - img "Lighting solutions" [ref=e222]
+                - generic [ref=e224]: Lighting solutions
+          - link "Revamp your home in style - Explore all" [ref=e226] [cursor=pointer]:
+            - /url: /b/?_encoding=UTF8&node=12414705031&pd_rd_w=QjWUl&content-id=amzn1.sym.f8e82c51-0408-4554-a158-9be4d776850d&pf_rd_p=f8e82c51-0408-4554-a158-9be4d776850d&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+            - generic [ref=e228]: Explore all
+        - generic [ref=e230]:
+          - heading "Bulk order discounts + Up to 18% GST savings" [level=2] [ref=e232]
+          - generic [ref=e233]:
+            - generic [ref=e234]:
+              - link "Up to 45% off | Laptops" [ref=e236] [cursor=pointer]:
+                - /url: /b/ref=vpr_b2c_pqc_reg/?_encoding=UTF8&ie=UTF8&node=80662860031&pd_rd_w=8pQXc&content-id=amzn1.sym.cf5632b9-cf46-4edc-8eb8-62d7de4b16d8&pf_rd_p=cf5632b9-cf46-4edc-8eb8-62d7de4b16d8&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+                - img "Up to 45% off | Laptops" [ref=e238]
+                - generic [ref=e240]: Up to 45% off | Laptops
+              - link "Up to 60% off | Kitchen appliances" [ref=e242] [cursor=pointer]:
+                - /url: /b/ref=vpr_b2c_pqc_reg/?_encoding=UTF8&ie=UTF8&node=80662860031&pd_rd_w=8pQXc&content-id=amzn1.sym.cf5632b9-cf46-4edc-8eb8-62d7de4b16d8&pf_rd_p=cf5632b9-cf46-4edc-8eb8-62d7de4b16d8&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+                - img "Up to 60% off | Kitchen appliances" [ref=e244]
+                - generic [ref=e246]: Up to 60% off | Kitchen appliances
+            - generic [ref=e247]:
+              - link "Min. 50% off | Office furniture" [ref=e249] [cursor=pointer]:
+                - /url: /b/ref=vpr_b2c_pqc_reg/?_encoding=UTF8&ie=UTF8&node=80662860031&pd_rd_w=8pQXc&content-id=amzn1.sym.cf5632b9-cf46-4edc-8eb8-62d7de4b16d8&pf_rd_p=cf5632b9-cf46-4edc-8eb8-62d7de4b16d8&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+                - img "Min. 50% off | Office furniture" [ref=e251]
+                - generic [ref=e253]: Min. 50% off | Office furniture
+              - link "For Business Purchases" [ref=e255] [cursor=pointer]:
+                - /url: /b/ref=vpr_b2c_pqc_reg/?_encoding=UTF8&ie=UTF8&node=80662860031&pd_rd_w=8pQXc&content-id=amzn1.sym.cf5632b9-cf46-4edc-8eb8-62d7de4b16d8&pf_rd_p=cf5632b9-cf46-4edc-8eb8-62d7de4b16d8&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+                - img "For Business Purchases" [ref=e257]
+                - generic [ref=e259]: Up to 60% off | for Business Purchases
+          - link "Bulk order discounts + Up to 18% GST savings - Create a free account" [ref=e261] [cursor=pointer]:
+            - /url: /b/ref=vpr_b2c_pqc_reg/?_encoding=UTF8&ie=UTF8&node=80662860031&pd_rd_w=8pQXc&content-id=amzn1.sym.cf5632b9-cf46-4edc-8eb8-62d7de4b16d8&pf_rd_p=cf5632b9-cf46-4edc-8eb8-62d7de4b16d8&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+            - generic [ref=e263]: Create a free account
+        - generic [ref=e265]:
+          - heading "Appliances for your home | Up to 55% off" [level=2] [ref=e267]
+          - generic [ref=e268]:
+            - generic [ref=e269]:
+              - link "ACs" [ref=e271] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&bbn=81107432031&rh=n%3A81107432031%2Cp_85%3A10440599031&pd_rd_w=se3Ck&content-id=amzn1.sym.58c90a12-100b-4a2f-8e15-7c06f1abe2be&pf_rd_p=58c90a12-100b-4a2f-8e15-7c06f1abe2be&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+                - img "ACs" [ref=e273]
+                - generic [ref=e275]: Air conditioners
+              - link "Refrigerators" [ref=e277] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&bbn=81107433031&rh=n%3A81107433031%2Cp_85%3A10440599031&pd_rd_w=se3Ck&content-id=amzn1.sym.58c90a12-100b-4a2f-8e15-7c06f1abe2be&pf_rd_p=58c90a12-100b-4a2f-8e15-7c06f1abe2be&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+                - img "Refrigerators" [ref=e279]
+                - generic [ref=e281]: Refrigerators
+            - generic [ref=e282]:
+              - link "Microwaves" [ref=e284] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&bbn=84514739031&rh=n%3A84514739031%2Cp_85%3A10440599031&pd_rd_w=se3Ck&content-id=amzn1.sym.58c90a12-100b-4a2f-8e15-7c06f1abe2be&pf_rd_p=58c90a12-100b-4a2f-8e15-7c06f1abe2be&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+                - img "Microwaves" [ref=e286]
+                - generic [ref=e288]: Microwaves
+              - link "Washing machines" [ref=e290] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&bbn=84514752031&rh=n%3A84514752031%2Cp_85%3A10440599031&pd_rd_w=se3Ck&content-id=amzn1.sym.58c90a12-100b-4a2f-8e15-7c06f1abe2be&pf_rd_p=58c90a12-100b-4a2f-8e15-7c06f1abe2be&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+                - img "Washing machines" [ref=e292]
+                - generic [ref=e294]: Washing machines
+          - link "Appliances for your home | Up to 55% off - See more" [ref=e296] [cursor=pointer]:
+            - /url: /s/?_encoding=UTF8&bbn=84514735031&rh=n%3A84514735031%2Cp_85%3A10440599031&pd_rd_w=se3Ck&content-id=amzn1.sym.58c90a12-100b-4a2f-8e15-7c06f1abe2be&pf_rd_p=58c90a12-100b-4a2f-8e15-7c06f1abe2be&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+            - generic [ref=e298]: See more
+        - generic [ref=e300]:
+          - heading "Starting ₹49 | Deals on home essentials" [level=2] [ref=e302]
+          - generic [ref=e303]:
+            - generic [ref=e304]:
+              - link "Cleaning" [ref=e306] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&i=home-improvement&bbn=61028133031&rh=n%3A61028133031%2Cp_72%3A1318476031%2Cp_36%3A-19900&_encoding=UTF8&qid=1714749719&rnid=3444809031&ref=sr_nr_p_36_3&pd_rd_w=bhKoO&content-id=amzn1.sym.2eab8373-f2e6-4b01-97aa-c5592db6ec60&pf_rd_p=2eab8373-f2e6-4b01-97aa-c5592db6ec60&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+                - img "Cleaning" [ref=e308]
+                - generic [ref=e310]: Cleaning supplies
+              - link "Bath accessories" [ref=e312] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&i=home-improvement&rh=n%3A60834830031%2Cp_36%3A-39900%2Cp_72%3A1318476031&dc=&fs=true&qid=1714744556&rnid=1318475031&ref=sr_nr_p_72_1&ds=v1%3AObcyf9vB3S72PU7NAfGZ%2FbllKjFxF%2BIh8NlJQg5c1A8%22&pd_rd_w=bhKoO&content-id=amzn1.sym.2eab8373-f2e6-4b01-97aa-c5592db6ec60&pf_rd_p=2eab8373-f2e6-4b01-97aa-c5592db6ec60&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+                - img "Bath accessories" [ref=e314]
+                - generic [ref=e316]: Bathroom accessories
+            - generic [ref=e317]:
+              - link "Home tools" [ref=e319] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&i=home-improvement&rh=n%3A95174669031%2Cp_36%3A3444810031%2Cp_72%3A1318476031&pd_rd_w=bhKoO&content-id=amzn1.sym.2eab8373-f2e6-4b01-97aa-c5592db6ec60&pf_rd_p=2eab8373-f2e6-4b01-97aa-c5592db6ec60&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+                - img "Home tools" [ref=e321]
+                - generic [ref=e323]: Home tools
+              - link "Wallpapers" [ref=e325] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&i=home-improvement&rh=n%3A87322479031%2Cp_36%3A-29900%2Cp_72%3A1318476031&dc=&fs=true&qid=1714750891&rnid=1318475031&ref=sr_nr_p_72_1&ds=v1%3AKT2aFWvve4xsaDjrU17ctKHJFfdbS%2FW1Ex2L5A6belw&pd_rd_w=bhKoO&content-id=amzn1.sym.2eab8373-f2e6-4b01-97aa-c5592db6ec60&pf_rd_p=2eab8373-f2e6-4b01-97aa-c5592db6ec60&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+                - img "Wallpapers" [ref=e327]
+                - generic [ref=e329]: Wallpapers
+          - link "Starting ₹49 | Deals on home essentials - Explore all" [ref=e331] [cursor=pointer]:
+            - /url: /b/?_encoding=UTF8&node=4286640031&pd_rd_w=bhKoO&content-id=amzn1.sym.2eab8373-f2e6-4b01-97aa-c5592db6ec60&pf_rd_p=2eab8373-f2e6-4b01-97aa-c5592db6ec60&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+            - generic [ref=e333]: Explore all
+        - separator [ref=e334]
+        - generic [ref=e336]:
+          - heading "Starting ₹149 | Headphones" [level=2] [ref=e338]
+          - generic [ref=e339]:
+            - generic [ref=e340]:
+              - link "boAt" [ref=e342] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&bbn=1388921031&rh=n%3A1388921031%2Cp_89%3AboAt&pd_rd_w=jskP3&content-id=amzn1.sym.82b20790-8877-4d70-8f73-9d8246e460aa&pf_rd_p=82b20790-8877-4d70-8f73-9d8246e460aa&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+                - img "boAt" [ref=e344]
+                - generic [ref=e346]: Starting ₹249 | boAt
+              - link "boult" [ref=e348] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&i=electronics&bbn=1388921031&rh=n%3A1388921031%2Cp_89%3ABoult&pd_rd_w=jskP3&content-id=amzn1.sym.82b20790-8877-4d70-8f73-9d8246e460aa&pf_rd_p=82b20790-8877-4d70-8f73-9d8246e460aa&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+                - img "boult" [ref=e350]
+                - generic [ref=e352]: Starting ₹349 | boult
+            - generic [ref=e353]:
+              - link "Noise" [ref=e355] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=noise&i=electronics&rh=n%3A1388921031%2Cp_n_condition-type%3A8609960031%2Cp_36%3A-200000&pd_rd_w=jskP3&content-id=amzn1.sym.82b20790-8877-4d70-8f73-9d8246e460aa&pf_rd_p=82b20790-8877-4d70-8f73-9d8246e460aa&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+                - img "Noise" [ref=e357]
+                - generic [ref=e359]: Starting ₹649 | Noise
+              - link "Starting ₹149 | Zebronics" [ref=e361] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&k=zebronics&i=electronics&rh=n%3A976419031%2Cn%3A29561348031%2Cp_89%3AZEBRONICS&pd_rd_w=jskP3&content-id=amzn1.sym.82b20790-8877-4d70-8f73-9d8246e460aa&pf_rd_p=82b20790-8877-4d70-8f73-9d8246e460aa&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+                - img "Starting ₹149 | Zebronics" [ref=e363]
+                - generic [ref=e365]: Starting ₹149 | Zebronics
+          - link "Starting ₹149 | Headphones - See all offers" [ref=e367] [cursor=pointer]:
+            - /url: /b/?_encoding=UTF8&ie=UTF8&node=1388921031&pd_rd_w=jskP3&content-id=amzn1.sym.82b20790-8877-4d70-8f73-9d8246e460aa&pf_rd_p=82b20790-8877-4d70-8f73-9d8246e460aa&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+            - generic [ref=e369]: See all offers
+        - generic [ref=e371]:
+          - heading "Automotive essentials | Up to 60% off" [level=2] [ref=e373]
+          - generic [ref=e374]:
+            - generic [ref=e375]:
+              - link "Cleaning accessories" [ref=e377] [cursor=pointer]:
+                - /url: /b/?_encoding=UTF8&ie=UTF8&node=5257472031&pd_rd_w=nMBB6&content-id=amzn1.sym.9ff36f11-82d6-4600-a8fb-e52bb32e171c&pf_rd_p=9ff36f11-82d6-4600-a8fb-e52bb32e171c&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+                - img "Cleaning accessories" [ref=e379]
+                - generic [ref=e381]: Cleaning accessories
+              - link "Tyre & rim care" [ref=e383] [cursor=pointer]:
+                - /url: /b/?_encoding=UTF8&ie=UTF8&node=5257496031&pd_rd_w=nMBB6&content-id=amzn1.sym.9ff36f11-82d6-4600-a8fb-e52bb32e171c&pf_rd_p=9ff36f11-82d6-4600-a8fb-e52bb32e171c&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+                - img "Tyre & rim care" [ref=e385]
+                - generic [ref=e387]: Tyre & rim care
+            - generic [ref=e388]:
+              - link "Helmets" [ref=e390] [cursor=pointer]:
+                - /url: /b/?_encoding=UTF8&ie=UTF8&node=5258045031&pd_rd_w=nMBB6&content-id=amzn1.sym.9ff36f11-82d6-4600-a8fb-e52bb32e171c&pf_rd_p=9ff36f11-82d6-4600-a8fb-e52bb32e171c&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+                - img "Helmets" [ref=e392]
+                - generic [ref=e394]: Helmets
+              - link "Vacuum cleaner" [ref=e396] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&bbn=21541481031&rh=n%3A21541481031%2Cp_72%3A1318477031&pd_rd_w=nMBB6&content-id=amzn1.sym.9ff36f11-82d6-4600-a8fb-e52bb32e171c&pf_rd_p=9ff36f11-82d6-4600-a8fb-e52bb32e171c&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+                - img "Vacuum cleaner" [ref=e398]
+                - generic [ref=e400]: Vacuum cleaner
+          - link "Automotive essentials | Up to 60% off - See more" [ref=e402] [cursor=pointer]:
+            - /url: /b/?_encoding=UTF8&ie=UTF8&node=4772060031&pd_rd_w=nMBB6&content-id=amzn1.sym.9ff36f11-82d6-4600-a8fb-e52bb32e171c&pf_rd_p=9ff36f11-82d6-4600-a8fb-e52bb32e171c&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+            - generic [ref=e404]: See more
+        - generic [ref=e406]:
+          - heading "Starting ₹199 | Amazon Brands & more" [level=2] [ref=e408]
+          - generic [ref=e409]:
+            - generic [ref=e410]:
+              - link "Starting ₹199 | Bedsheets" [ref=e412] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&bbn=1380460031&rh=n%3A1380460031%2Cp_n_format_browse-bin%3A19560802031&pd_rd_w=z1qIv&content-id=amzn1.sym.4d494d65-8009-406a-9a50-5e08a16212d7&pf_rd_p=4d494d65-8009-406a-9a50-5e08a16212d7&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+                - img "Starting ₹199 | Bedsheets" [ref=e414]
+                - generic [ref=e416]: Starting ₹199 | Bedsheets
+              - link "Starting ₹199 | Curtains" [ref=e418] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&bbn=1380479031&rh=n%3A1380479031%2Cp_n_format_browse-bin%3A19560802031&pd_rd_w=z1qIv&content-id=amzn1.sym.4d494d65-8009-406a-9a50-5e08a16212d7&pf_rd_p=4d494d65-8009-406a-9a50-5e08a16212d7&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+                - img "Starting ₹199 | Curtains" [ref=e420]
+                - generic [ref=e422]: Starting ₹199 | Curtains
+            - generic [ref=e423]:
+              - link "Minimum 40% off | Ironing board & more" [ref=e425] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&bbn=1380510031&rh=n%3A1380510031%2Cp_n_format_browse-bin%3A19560790031&pd_rd_w=z1qIv&content-id=amzn1.sym.4d494d65-8009-406a-9a50-5e08a16212d7&pf_rd_p=4d494d65-8009-406a-9a50-5e08a16212d7&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+                - img "Minimum 40% off | Ironing board & more" [ref=e427]
+                - generic [ref=e429]: Minimum 40% off | Ironing board & more
+              - link "Up to 60% off | Home decor" [ref=e431] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&bbn=1380374031&rh=n%3A1380374031%2Cp_n_format_browse-bin%3A19560799031&pd_rd_w=z1qIv&content-id=amzn1.sym.4d494d65-8009-406a-9a50-5e08a16212d7&pf_rd_p=4d494d65-8009-406a-9a50-5e08a16212d7&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+                - img "Up to 60% off | Home decor" [ref=e433]
+                - generic [ref=e435]: Up to 60% off | Home decor
+          - link "Starting ₹199 | Amazon Brands & more - See more" [ref=e437] [cursor=pointer]:
+            - /url: /s/?_encoding=UTF8&bbn=1380442031&rh=n%3A1380442031%2Cp_n_format_browse-bin%3A19560802031&pd_rd_w=z1qIv&content-id=amzn1.sym.4d494d65-8009-406a-9a50-5e08a16212d7&pf_rd_p=4d494d65-8009-406a-9a50-5e08a16212d7&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+            - generic [ref=e439]: See more
+        - generic [ref=e441]:
+          - heading "Up to 50% off | Baby care & toys | Amazon Brands" [level=2] [ref=e443]
+          - generic [ref=e444]:
+            - generic [ref=e445]:
+              - link "Up to 50% off | Baby diapers & wipes" [ref=e447] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&hidden-keywords=B09X5CSLYK%7CB09HMCT2K8%7CB0CHY2639W%7CB07Q2F3DC9%7CB07SGD11JT%7CB07XZF19P2%7CB0CHY22KBL%7CB07Q2F37JN%7CB07SMR9P39%7CB07XZFKR6J%7CB0CHY1T6HZ%7CB07Q2BRTV7%7CB07SKJ1KHJ%7CB07XZDN6MQ%7CB0CHY35GCF%7CB07Q2CS1BC%7CB07SLLXZHP%7CB07XZFHW2Q%7CB0D2RS6KK3%7CB0D2RS2FFN%7CB0D2RPQ8XT%7CB0DD3WG652%7CB0DD3V1NM2%7CB0DGGWNNLJ%7CB0DGGVWM4C%7CB07QSLRRWS%7CB09RPBZRT8%7CB07QN6MGF7%7CB09RPF5Y3Y%7CB085SBL6CW%7CB07G49M3M7%7CB07HB3PJ2F%7CB07RH2HRT4%7CB0D4F42KKD%7CB0D4F3LFNP%7CB0DYJYDKZQ%7CB0DYK32T73%7CB0DYJZ3Z1H%7CB0DYK1RRPV%7CB0DYJXN5P1%7CB0DYJY6ZRX%7CB0DYK1NPJY&pd_rd_w=A763z&content-id=amzn1.sym.1b4f279c-9df0-4e25-ba25-5dedc397aaa7&pf_rd_p=1b4f279c-9df0-4e25-ba25-5dedc397aaa7&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+                - img "Up to 50% off | Baby diapers & wipes" [ref=e449]
+                - generic [ref=e451]: Up to 50% off | Baby diapers & wipes
+              - link "Up to 50% off | Ride ons" [ref=e453] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&hidden-keywords=B0DZ2T1Y83%7CB0F1CMLYHF%7CB0D2L3FFTQ%7CB0DRNPVXH6%7CB0876CD7RC%7CB0F6CJG8W8%7CB0876CZRH6%7CB0DR2H878K%7CB0DRNN14K2%7CB0DRNNYPCF%7CB0F6C9K8CH%7CB0DPKJCF9X%7CB0DCC4HYN4%7CB0DCC2VSWY%7CB0DTVMWPNB%7CB0DSPSD77M%7CB0F6CB65QS%7CB0DRNNPGNM%7CB0B4SQDSX6%7CB0D2L1KDHJ%7CB0876BGXNY%7CB0DTV32BY3%7CB0DBVRW5M9%7CB0D2KYZBY6%7CB0DTV8G1MV%7CB0DTV4NKW6%7CB0CCP19MQF%7CB0DT9CCRTX%7CB0DSPS7827%7CB0CCNWQHWK%7CB0DT9MQK4Y%7CB0F225JB12%7CB0F222B6N6%7CB0DYJTLMYM%7CB0DYJVR8FZ%7CB0FB3FSGHC%7CB0DRNPWB96%7CB0DRNQZ5T3&pd_rd_w=A763z&content-id=amzn1.sym.1b4f279c-9df0-4e25-ba25-5dedc397aaa7&pf_rd_p=1b4f279c-9df0-4e25-ba25-5dedc397aaa7&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+                - img "Up to 50% off | Ride ons" [ref=e455]
+                - generic [ref=e457]: Up to 50% off | Ride ons
+            - generic [ref=e458]:
+              - link "Starting ₹649 | RC cars" [ref=e460] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&hidden-keywords=B0DG5Q6XYS%7CB0DQGGVLPN%7CB0DQGN2913%7CB0DQG6CCY2%7CB0DQGNY554%7CB0DG5Q3B36%7CB0DQF736VL%7CB0CQTNJXPF%7CB0DQGJ4VG2%7CB0DRPJL2YB%7CB0DQGKTTR9%7CB0DQGZVMS1%7CB0DQC9RYYC%7CB0F3FVRHXL%7CB0F3G449P2%7CB0F3FX43DB%7CB0F3FLZMTD%7CB0F3JJM9PW%7CB0F3FVN9MP%7CB0F3FX43DG%7CB0DRPJYY9P%7CB0DQGRSXPR%7CB0F3G512FC%7CB0F3GD6MNY%7CB0F3G43ZN1%7CB0F3G1JPDL%7CB0F3G8B6WJ%7CB0F3G5G42Y%7CB0F3G4ZS2X%7CB0F4CRHHZ2%7CB0DG5NPPVJ%7CB0DRP3TW2J%7CB0DQGGTRLR%7CB0DQGQCP88%7CB0DQGT3J7Z%7CB0CQK5X7P5%7CB0CQK534Q6%7CB0DG5NQ3P6%7CB0F4CLW7LD%7CB0F4CYK91T&pd_rd_w=A763z&content-id=amzn1.sym.1b4f279c-9df0-4e25-ba25-5dedc397aaa7&pf_rd_p=1b4f279c-9df0-4e25-ba25-5dedc397aaa7&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+                - img "Starting ₹649 | RC cars" [ref=e462]
+                - generic [ref=e464]: Starting ₹649 | RC cars
+              - link "Up to 50% off | Baby safety essentials" [ref=e466] [cursor=pointer]:
+                - /url: /s/?_encoding=UTF8&hidden-keywords=B0C1Z4PJK2%7CB0C1Z4DLH7%7CB0CXTGS2TX%7CB0CXTCGMHQ%7CB0DKTS361R%7CB0DKTQ9R19%7CB0D4HQMS5Y%7CB0D4TZTRYV%7CB0D4ZDWRSK%7CB0BVVBQZ9H%7CB0BVB92Z31%7CB0BVBF6NFT%7CB0BVBDZTWY%7CB0BVB8P7QK%7CB0DWKCFKDV%7CB0DWK6SLVS%7CB0DWK92KZD%7CB0DWK7H7JK%7CB0BVLXV2QR%7CB0BVLZCDPM%7CB0BVBFVVGF%7CB0BVBBM7KG%7CB08751M1LF%7CB0F444YS8J%7CB0F446YJL1%7CB0BVV9X42J%7CB0C1Z4CQ9H%7CB0BVVDZ288%7CB0DY7K7GHN%7CB0DY7L551Y%7CB0DRNQTDW6%7CB0DRNQQN26%7CB0DWK6CT4G%7CB0DWK62LHZ%7CB0DWK9Y4HC%7CB0DWKBNHZ5%7CB0DWF3TTY3%7CB0DWDSY4YC%7CB0F3XTJZZW%7CB0F3XW8HLQ%7CB0F4XZ8K92%7CB0F4XVS3YD%7CB0F4XY3RRM%7CB0DWSM2SZ1%7CB0BVLZSFYD%7CB0F8H9GPYX%7CB0F8HGNBLB%7CB0F8HRD2P7%7CB0F8H76HWM%7CB0F8HM6K5T%7CB0FCBWN99Z%7CB0FCBV9P4L%7CB0F1D5DG27%7CB0F1D46QM5&pd_rd_w=A763z&content-id=amzn1.sym.1b4f279c-9df0-4e25-ba25-5dedc397aaa7&pf_rd_p=1b4f279c-9df0-4e25-ba25-5dedc397aaa7&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+                - img "Up to 50% off | Baby safety essentials" [ref=e468]
+                - generic [ref=e470]: Up to 50% off | Baby safety essentials
+          - link "Up to 50% off | Baby care & toys | Amazon Brands - See all offers" [ref=e472] [cursor=pointer]:
+            - /url: /l/58543489031/?_encoding=UTF8&pd_rd_w=A763z&content-id=amzn1.sym.1b4f279c-9df0-4e25-ba25-5dedc397aaa7&pf_rd_p=1b4f279c-9df0-4e25-ba25-5dedc397aaa7&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=ZGLbe&pd_rd_r=c3676554-d39e-4799-94da-7a1dc41d0358&ref_=pd_hp_d_atf_unk
+            - generic [ref=e474]: See all offers
+        - separator [ref=e475]
+      - generic [ref=e477]:
+        - generic [ref=e480]:
+          - generic [ref=e481]:
+            - heading "Starting ₹70,348 | From daily commutes to weekend thrills" [level=2] [ref=e482]
+            - link "See all offers" [ref=e484] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&node=28253258031&ref=ls_gwc_mb_en8_&pd_rd_w=1Bifz&content-id=amzn1.sym.13fe170f-2614-440c-9b26-6ec5a6de037f&pf_rd_p=13fe170f-2614-440c-9b26-6ec5a6de037f&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_ls_gwc_pc_en4_
+          - generic [ref=e486]:
+            - list
+        - separator [ref=e488]
+        - generic [ref=e491]:
+          - generic [ref=e492]:
+            - heading "Up to 70% off | Winter essentials curated from emreging brands" [level=2] [ref=e493]
+            - link "See all" [ref=e495] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&node=10894223031&pd_rd_w=JkRqL&content-id=amzn1.sym.33bc8655-291b-43c9-af51-66cba01762b5&pf_rd_p=33bc8655-291b-43c9-af51-66cba01762b5&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_LPDEALS
+          - generic [ref=e497]:
+            - list
+        - separator [ref=e499]
+        - generic [ref=e501]:
+          - heading "Best Sellers in Beauty" [level=2] [ref=e503]:
+            - generic [ref=e505]: Best Sellers in Beauty
+          - generic [ref=e507]:
+            - link "Ghar Soaps Sandalwood & Saffron Magic Soaps For Bath (300 Gms Pack Of 3) | Paraben Free | Chandan & Kesar Bath Soap | Handmade Soaps For Glowing | Skin Brightening Soap For Men & Women" [ref=e509] [cursor=pointer]:
+              - /url: /Sandalwood-Saffron-300-Handmade-Whitening/dp/B09S6M7JQJ/?_encoding=UTF8&pd_rd_w=4ktr1&content-id=amzn1.sym.211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_p=211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_crs_zg_bs_1355016031
+              - img "Ghar Soaps Sandalwood & Saffron Magic Soaps For Bath (300 Gms Pack Of 3) | Paraben Free | Chandan & Kesar Bath Soap | Handmade Soaps For Glowing | Skin Brightening Soap For Men & Women" [ref=e511]
+            - link "Cetaphil Paraben, Sulphate-Free Gentle Skin Hydrating Face Wash Cleanser with Niacinamide, Vitamin B5 for Dry to Normal, Sensitive Skin - 125 ml" [ref=e513] [cursor=pointer]:
+              - /url: /Cetaphil-Sulphate-Free-Hydrating-Niacinamide-Sensitive/dp/B01CCGW4OE/?_encoding=UTF8&pd_rd_w=4ktr1&content-id=amzn1.sym.211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_p=211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_crs_zg_bs_1355016031
+              - img "Cetaphil Paraben, Sulphate-Free Gentle Skin Hydrating Face Wash Cleanser with Niacinamide, Vitamin B5 for Dry to Normal, Sensitive Skin - 125 ml" [ref=e515]
+            - link "Bare Anatomy Anti Dandruff | Reduces Up To 100% Strengthens Hair|Derma Approved Shampoo With Salicylic Acid & Biotin|Helps Remove Flakes And Itching| Shampoo For All Hair Types|For Women And Men|100Ml" [ref=e517] [cursor=pointer]:
+              - /url: /Bare-Anatomy-Dandruff-Strengthens-Salicylic/dp/B0F5BLYYCN/?_encoding=UTF8&pd_rd_w=4ktr1&content-id=amzn1.sym.211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_p=211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_crs_zg_bs_1355016031
+              - img "Bare Anatomy Anti Dandruff | Reduces Up To 100% Strengthens Hair|Derma Approved Shampoo With Salicylic Acid & Biotin|Helps Remove Flakes And Itching| Shampoo For All Hair Types|For Women And Men|100Ml" [ref=e519]
+            - link "NIVEA Nourishing Body Milk 600ml Body Lotion with Hyaluronic Acid | 72Hr Hydration | Deep Moisture Care for Very Dry Skin | Enriched with Almond Oil | Smooth, Radiant & Healthy Looking Skin Care" [ref=e521] [cursor=pointer]:
+              - /url: /NIVEA-Body-Lotion-Nourishing-600ml/dp/B07VKM2HR5/?_encoding=UTF8&pd_rd_w=4ktr1&content-id=amzn1.sym.211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_p=211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_crs_zg_bs_1355016031
+              - img "NIVEA Nourishing Body Milk 600ml Body Lotion with Hyaluronic Acid | 72Hr Hydration | Deep Moisture Care for Very Dry Skin | Enriched with Almond Oil | Smooth, Radiant & Healthy Looking Skin Care" [ref=e523]
+        - generic [ref=e525]:
+          - heading "Up to 75% off | International brands" [level=2] [ref=e527]
+          - link "Up to 75% off | International brands See all offers" [ref=e528] [cursor=pointer]:
+            - /url: /b/?_encoding=UTF8&node=21469514031&pd_rd_w=i5KeG&content-id=amzn1.sym.2ec1ebe4-cc12-4e30-85b2-144a714a68f9&pf_rd_p=2ec1ebe4-cc12-4e30-85b2-144a714a68f9&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_unk
+            - img "Up to 75% off | International brands" [ref=e531]
+            - generic [ref=e534]: See all offers
+        - generic [ref=e536]:
+          - heading "Up to 70% off | Curated home essentials from Amazon Launchpad" [level=2] [ref=e538]:
+            - generic [ref=e540]: Up to 70% off | Curated home essentials from Amazon Launchpad
+          - generic [ref=e542]:
+            - group [ref=e545]:
+              - group [ref=e549]:
+                - list [ref=e550]:
+                  - listitem [ref=e551]:
+                    - link "SleepSmith Mattress Topper with Flip Memory Foam & Graphite Infused Cloud Foam, 2-in-1 Reversible Soft & Body Supportive Mattress Topper/Gadda, 5 Year Warranty (King Size, 72\"x72\"x2\")" [ref=e552] [cursor=pointer]:
+                      - /url: /SleepSmith-Graphite-Reversible-Supportive-Mattress/dp/B09SDGFPKV/?_encoding=UTF8&pd_rd_w=CGvmS&content-id=amzn1.sym.f0271112-1abc-42db-b0be-04337b9dbcdb&pf_rd_p=f0271112-1abc-42db-b0be-04337b9dbcdb&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_LPDEALS
+                      - img "SleepSmith Mattress Topper with Flip Memory Foam & Graphite Infused Cloud Foam, 2-in-1 Reversible Soft & Body Supportive Mattress Topper/Gadda, 5 Year Warranty (King Size, 72\"x72\"x2\")" [ref=e554]
+                  - listitem [ref=e555]:
+                    - link [ref=e556] [cursor=pointer]:
+                      - /url: /SleepSmith-Graphite-Reversible-Supportive-Mattress/dp/B09SDGFPKV/?_encoding=UTF8&pd_rd_w=CGvmS&content-id=amzn1.sym.f0271112-1abc-42db-b0be-04337b9dbcdb&pf_rd_p=f0271112-1abc-42db-b0be-04337b9dbcdb&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_LPDEALS
+                  - listitem [ref=e559]:
+                    - link [ref=e560] [cursor=pointer]:
+                      - /url: /SleepSmith-Graphite-Reversible-Supportive-Mattress/dp/B09SDGFPKV/?_encoding=UTF8&pd_rd_w=CGvmS&content-id=amzn1.sym.f0271112-1abc-42db-b0be-04337b9dbcdb&pf_rd_p=f0271112-1abc-42db-b0be-04337b9dbcdb&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_LPDEALS
+                  - listitem [ref=e563]:
+                    - link [ref=e564] [cursor=pointer]:
+                      - /url: /SleepSmith-Graphite-Reversible-Supportive-Mattress/dp/B09SDGFPKV/?_encoding=UTF8&pd_rd_w=CGvmS&content-id=amzn1.sym.f0271112-1abc-42db-b0be-04337b9dbcdb&pf_rd_p=f0271112-1abc-42db-b0be-04337b9dbcdb&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_LPDEALS
+                  - listitem [ref=e567]:
+                    - link [ref=e568] [cursor=pointer]:
+                      - /url: /SleepSmith-Graphite-Reversible-Supportive-Mattress/dp/B09SDGFPKV/?_encoding=UTF8&pd_rd_w=CGvmS&content-id=amzn1.sym.f0271112-1abc-42db-b0be-04337b9dbcdb&pf_rd_p=f0271112-1abc-42db-b0be-04337b9dbcdb&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_LPDEALS
+                  - listitem [ref=e571]:
+                    - link [ref=e572] [cursor=pointer]:
+                      - /url: /SleepSmith-Graphite-Reversible-Supportive-Mattress/dp/B09SDGFPKV/?_encoding=UTF8&pd_rd_w=CGvmS&content-id=amzn1.sym.f0271112-1abc-42db-b0be-04337b9dbcdb&pf_rd_p=f0271112-1abc-42db-b0be-04337b9dbcdb&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_LPDEALS
+            - generic [ref=e575]:
+              - link "SleepSmith Mattress Topper with Flip Memory Foam & Graphite Infused Cloud Foam, 2-in-1 Reversible Soft & Body Supportive..." [ref=e576] [cursor=pointer]:
+                - /url: /SleepSmith-Graphite-Reversible-Supportive-Mattress/dp/B09SDGFPKV/?_encoding=UTF8&pd_rd_w=CGvmS&content-id=amzn1.sym.f0271112-1abc-42db-b0be-04337b9dbcdb&pf_rd_p=f0271112-1abc-42db-b0be-04337b9dbcdb&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_LPDEALS
+                - paragraph [ref=e577]:
+                  - generic [ref=e579]: SleepSmith Mattress Topper with Flip Memory Foam & Graphite Infused Cloud Foam, 2-in-1 Reversible Soft & Body Supportive...
+              - 'generic "Deal Price: ₹7,978.00, M.R.P.: ₹13,350.00" [ref=e580]':
+                - generic [ref=e581]:
+                  - generic [ref=e582]: ₹7,978.00
+                  - generic [ref=e583]:
+                    - text: ₹
+                    - generic [ref=e584]:
+                      - text: 7,978
+                      - generic [ref=e585]: .
+                    - text: "00"
+                - text: "M.R.P:"
+                - generic [ref=e586]:
+                  - generic [ref=e587]: ₹13,350.00
+                  - text: ₹13,350
+        - generic [ref=e589]:
+          - heading "Up to 40% off | Smart storage, clutter-free living" [level=2] [ref=e591]:
+            - generic [ref=e593]: Up to 40% off | Smart storage, clutter-free living
+          - generic [ref=e595]:
+            - group [ref=e598]:
+              - group [ref=e602]:
+                - list [ref=e603]:
+                  - listitem [ref=e604]:
+                    - link "Cello Petal Bathroom Set | Sturdy and Durable | Lightweight and Rigid | Easy to Clean and Attractive Design | Small Set of 3, Dark Grey" [ref=e605] [cursor=pointer]:
+                      - /url: /Petal-Bathroom-Lightweight-attractive-Grey/dp/B0CR79RSND/?_encoding=UTF8&pd_rd_w=vevzf&content-id=amzn1.sym.1c9485a4-8ca1-4f61-8be8-e5ff5919f284&pf_rd_p=1c9485a4-8ca1-4f61-8be8-e5ff5919f284&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+                      - img "Cello Petal Bathroom Set | Sturdy and Durable | Lightweight and Rigid | Easy to Clean and Attractive Design | Small Set of 3, Dark Grey" [ref=e607]
+                  - listitem [ref=e608]:
+                    - link [ref=e609] [cursor=pointer]:
+                      - /url: /Petal-Bathroom-Lightweight-attractive-Grey/dp/B0CR79RSND/?_encoding=UTF8&pd_rd_w=vevzf&content-id=amzn1.sym.1c9485a4-8ca1-4f61-8be8-e5ff5919f284&pf_rd_p=1c9485a4-8ca1-4f61-8be8-e5ff5919f284&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+                  - listitem [ref=e612]:
+                    - link [ref=e613] [cursor=pointer]:
+                      - /url: /Petal-Bathroom-Lightweight-attractive-Grey/dp/B0CR79RSND/?_encoding=UTF8&pd_rd_w=vevzf&content-id=amzn1.sym.1c9485a4-8ca1-4f61-8be8-e5ff5919f284&pf_rd_p=1c9485a4-8ca1-4f61-8be8-e5ff5919f284&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+                  - listitem [ref=e616]:
+                    - link [ref=e617] [cursor=pointer]:
+                      - /url: /Petal-Bathroom-Lightweight-attractive-Grey/dp/B0CR79RSND/?_encoding=UTF8&pd_rd_w=vevzf&content-id=amzn1.sym.1c9485a4-8ca1-4f61-8be8-e5ff5919f284&pf_rd_p=1c9485a4-8ca1-4f61-8be8-e5ff5919f284&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+                  - listitem [ref=e620]:
+                    - link [ref=e621] [cursor=pointer]:
+                      - /url: /Petal-Bathroom-Lightweight-attractive-Grey/dp/B0CR79RSND/?_encoding=UTF8&pd_rd_w=vevzf&content-id=amzn1.sym.1c9485a4-8ca1-4f61-8be8-e5ff5919f284&pf_rd_p=1c9485a4-8ca1-4f61-8be8-e5ff5919f284&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+                  - listitem [ref=e624]:
+                    - link [ref=e625] [cursor=pointer]:
+                      - /url: /Petal-Bathroom-Lightweight-attractive-Grey/dp/B0CR79RSND/?_encoding=UTF8&pd_rd_w=vevzf&content-id=amzn1.sym.1c9485a4-8ca1-4f61-8be8-e5ff5919f284&pf_rd_p=1c9485a4-8ca1-4f61-8be8-e5ff5919f284&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+            - generic [ref=e628]:
+              - link "Cello Petal Bathroom Set | Sturdy and Durable | Lightweight and Rigid | Easy to Clean and Attractive Design | Small Set..." [ref=e629] [cursor=pointer]:
+                - /url: /Petal-Bathroom-Lightweight-attractive-Grey/dp/B0CR79RSND/?_encoding=UTF8&pd_rd_w=vevzf&content-id=amzn1.sym.1c9485a4-8ca1-4f61-8be8-e5ff5919f284&pf_rd_p=1c9485a4-8ca1-4f61-8be8-e5ff5919f284&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+                - paragraph [ref=e630]:
+                  - generic [ref=e632]: Cello Petal Bathroom Set | Sturdy and Durable | Lightweight and Rigid | Easy to Clean and Attractive Design | Small Set...
+              - 'generic "Deal Price: ₹699.00, M.R.P.: ₹1,149.00" [ref=e633]':
+                - generic [ref=e634]:
+                  - generic [ref=e635]: ₹699.00
+                  - generic [ref=e636]:
+                    - text: ₹
+                    - generic [ref=e637]:
+                      - text: "699"
+                      - generic [ref=e638]: .
+                    - text: "00"
+                - text: "M.R.P:"
+                - generic [ref=e639]:
+                  - generic [ref=e640]: ₹1,149.00
+                  - text: ₹1,149.00
+        - separator [ref=e641]
+        - generic [ref=e644]:
+          - heading "Best Sellers in Clothing & Accessories" [level=2] [ref=e646]
+          - generic [ref=e648]:
+            - list
+        - separator [ref=e650]
+        - generic [ref=e653]:
+          - generic [ref=e654]:
+            - heading "Up to 60% off | Cookware, kitchen tool & more | Amazon Launchpad" [level=2] [ref=e655]
+            - link "See all" [ref=e657] [cursor=pointer]:
+              - /url: /l/10894223031/?_encoding=UTF8&pd_rd_w=2laR7&content-id=amzn1.sym.7c7623b1-a065-43a7-9b99-3410d69873f3&pf_rd_p=7c7623b1-a065-43a7-9b99-3410d69873f3&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_LPDEALS
+          - generic [ref=e659]:
+            - list
+        - separator [ref=e661]
+        - generic [ref=e663]:
+          - heading "Up to 60% off | Home & kitchen essentials from women owned brands" [level=2] [ref=e665]:
+            - generic [ref=e667]: Up to 60% off | Home & kitchen essentials from women owned brands
+          - generic [ref=e669]:
+            - group [ref=e672]:
+              - group [ref=e676]:
+                - list [ref=e677]:
+                  - listitem [ref=e678]:
+                    - link "hago Refrigerator Organizer Container with 6 Grid Compartments | 1200 ML Fridge Storage Box for Vegetables & Fruits | BPA-Free Kitchen Storage Container for Fridge Organisation" [ref=e679] [cursor=pointer]:
+                      - /url: /Hago-Containers-Container-Vegetable-Refrigerator/dp/B0CQ1XDP1T/?_encoding=UTF8&pd_rd_w=9rfVG&content-id=amzn1.sym.68031489-662f-4988-a7b3-836d05f2936c&pf_rd_p=68031489-662f-4988-a7b3-836d05f2936c&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_kar_gw_pc_en_
+                      - img "hago Refrigerator Organizer Container with 6 Grid Compartments | 1200 ML Fridge Storage Box for Vegetables & Fruits | BPA-Free Kitchen Storage Container for Fridge Organisation" [ref=e681]
+                  - listitem [ref=e682]:
+                    - link [ref=e683] [cursor=pointer]:
+                      - /url: /Hago-Containers-Container-Vegetable-Refrigerator/dp/B0CQ1XDP1T/?_encoding=UTF8&pd_rd_w=9rfVG&content-id=amzn1.sym.68031489-662f-4988-a7b3-836d05f2936c&pf_rd_p=68031489-662f-4988-a7b3-836d05f2936c&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_kar_gw_pc_en_
+                  - listitem [ref=e686]:
+                    - link [ref=e687] [cursor=pointer]:
+                      - /url: /Hago-Containers-Container-Vegetable-Refrigerator/dp/B0CQ1XDP1T/?_encoding=UTF8&pd_rd_w=9rfVG&content-id=amzn1.sym.68031489-662f-4988-a7b3-836d05f2936c&pf_rd_p=68031489-662f-4988-a7b3-836d05f2936c&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_kar_gw_pc_en_
+                  - listitem [ref=e690]:
+                    - link [ref=e691] [cursor=pointer]:
+                      - /url: /Hago-Containers-Container-Vegetable-Refrigerator/dp/B0CQ1XDP1T/?_encoding=UTF8&pd_rd_w=9rfVG&content-id=amzn1.sym.68031489-662f-4988-a7b3-836d05f2936c&pf_rd_p=68031489-662f-4988-a7b3-836d05f2936c&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_kar_gw_pc_en_
+                  - listitem [ref=e694]:
+                    - link [ref=e695] [cursor=pointer]:
+                      - /url: /Hago-Containers-Container-Vegetable-Refrigerator/dp/B0CQ1XDP1T/?_encoding=UTF8&pd_rd_w=9rfVG&content-id=amzn1.sym.68031489-662f-4988-a7b3-836d05f2936c&pf_rd_p=68031489-662f-4988-a7b3-836d05f2936c&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_kar_gw_pc_en_
+                  - listitem [ref=e698]:
+                    - link [ref=e699] [cursor=pointer]:
+                      - /url: /Hago-Containers-Container-Vegetable-Refrigerator/dp/B0CQ1XDP1T/?_encoding=UTF8&pd_rd_w=9rfVG&content-id=amzn1.sym.68031489-662f-4988-a7b3-836d05f2936c&pf_rd_p=68031489-662f-4988-a7b3-836d05f2936c&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_kar_gw_pc_en_
+            - generic [ref=e702]:
+              - link "hago Refrigerator Organizer Container with 6 Grid Compartments | 1200 ML Fridge Storage Box for Vegetables & Fruits |..." [ref=e703] [cursor=pointer]:
+                - /url: /Hago-Containers-Container-Vegetable-Refrigerator/dp/B0CQ1XDP1T/?_encoding=UTF8&pd_rd_w=9rfVG&content-id=amzn1.sym.68031489-662f-4988-a7b3-836d05f2936c&pf_rd_p=68031489-662f-4988-a7b3-836d05f2936c&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_kar_gw_pc_en_
+                - paragraph [ref=e704]:
+                  - generic [ref=e706]: hago Refrigerator Organizer Container with 6 Grid Compartments | 1200 ML Fridge Storage Box for Vegetables & Fruits |...
+              - 'generic "Deal Price: ₹267.00, M.R.P.: ₹1,200.00" [ref=e707]':
+                - generic [ref=e708]:
+                  - generic [ref=e709]: ₹267.00
+                  - generic [ref=e710]:
+                    - text: ₹
+                    - generic [ref=e711]:
+                      - text: "267"
+                      - generic [ref=e712]: .
+                    - text: "00"
+                - text: "M.R.P:"
+                - generic [ref=e713]:
+                  - generic [ref=e714]: ₹1,200.00
+                  - text: ₹1,200.00
+        - generic [ref=e716]:
+          - heading "Up to 60% off | Trending products from Emerging Businesses" [level=2] [ref=e718]:
+            - generic [ref=e720]: Up to 60% off | Trending products from Emerging Businesses
+          - generic [ref=e722]:
+            - group [ref=e725]:
+              - group [ref=e729]:
+                - list [ref=e730]:
+                  - listitem [ref=e731]:
+                    - link "JustLatest Scalp Massage, Solar Powered Scalp Massager (Marble Pink), Head Massager, Hair Massager For Hair Growth" [ref=e732] [cursor=pointer]:
+                      - /url: /JustLatest-Massager-Marble-Scrubber-Shampoo/dp/B0D3Z2BSPB/?_encoding=UTF8&pd_rd_w=2nZ0k&content-id=amzn1.sym.0deca50d-eb96-4ef5-b928-a4dff4389377&pf_rd_p=0deca50d-eb96-4ef5-b928-a4dff4389377&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_NSS
+                      - img "JustLatest Scalp Massage, Solar Powered Scalp Massager (Marble Pink), Head Massager, Hair Massager For Hair Growth" [ref=e734]
+                  - listitem [ref=e735]:
+                    - link [ref=e736] [cursor=pointer]:
+                      - /url: /JustLatest-Massager-Marble-Scrubber-Shampoo/dp/B0D3Z2BSPB/?_encoding=UTF8&pd_rd_w=2nZ0k&content-id=amzn1.sym.0deca50d-eb96-4ef5-b928-a4dff4389377&pf_rd_p=0deca50d-eb96-4ef5-b928-a4dff4389377&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_NSS
+                  - listitem [ref=e739]:
+                    - link [ref=e740] [cursor=pointer]:
+                      - /url: /JustLatest-Massager-Marble-Scrubber-Shampoo/dp/B0D3Z2BSPB/?_encoding=UTF8&pd_rd_w=2nZ0k&content-id=amzn1.sym.0deca50d-eb96-4ef5-b928-a4dff4389377&pf_rd_p=0deca50d-eb96-4ef5-b928-a4dff4389377&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_NSS
+                  - listitem [ref=e743]:
+                    - link [ref=e744] [cursor=pointer]:
+                      - /url: /JustLatest-Massager-Marble-Scrubber-Shampoo/dp/B0D3Z2BSPB/?_encoding=UTF8&pd_rd_w=2nZ0k&content-id=amzn1.sym.0deca50d-eb96-4ef5-b928-a4dff4389377&pf_rd_p=0deca50d-eb96-4ef5-b928-a4dff4389377&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_NSS
+            - generic [ref=e747]:
+              - link "JustLatest Scalp Massage, Solar Powered Scalp Massager (Marble Pink), Head Massager, Hair Massager For Hair Growth" [ref=e748] [cursor=pointer]:
+                - /url: /JustLatest-Massager-Marble-Scrubber-Shampoo/dp/B0D3Z2BSPB/?_encoding=UTF8&pd_rd_w=2nZ0k&content-id=amzn1.sym.0deca50d-eb96-4ef5-b928-a4dff4389377&pf_rd_p=0deca50d-eb96-4ef5-b928-a4dff4389377&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_NSS
+                - paragraph [ref=e749]:
+                  - generic [ref=e751]: JustLatest Scalp Massage, Solar Powered Scalp Massager (Marble Pink), Head Massager, Hair Massager For Hair Growth
+              - 'generic "Price: ₹149.00, M.R.P.: ₹299.00" [ref=e752]':
+                - generic [ref=e753]:
+                  - generic [ref=e754]: ₹149.00
+                  - generic [ref=e755]:
+                    - text: ₹
+                    - generic [ref=e756]:
+                      - text: "149"
+                      - generic [ref=e757]: .
+                    - text: "00"
+                - text: "M.R.P:"
+                - generic [ref=e758]:
+                  - generic [ref=e759]: ₹299.00
+                  - text: ₹299.00
+        - generic [ref=e761]:
+          - heading "Best Sellers in Home & Kitchen" [level=2] [ref=e763]:
+            - generic [ref=e765]: Best Sellers in Home & Kitchen
+          - generic [ref=e767]:
+            - link "Orient Electric Areva Portable Room Heater | 2000W | Two Heating Modes | Advanced Overheat Protection | Horizontal & Vertical Mount | 1-year replacement warranty by Orient | White" [ref=e769] [cursor=pointer]:
+              - /url: /Orient-Electric-Areva-Adjustable-Thermostat/dp/B083973WX4/?_encoding=UTF8&pd_rd_w=2bpVj&content-id=amzn1.sym.211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_p=211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_crs_zg_bs_976442031
+              - img "Orient Electric Areva Portable Room Heater | 2000W | Two Heating Modes | Advanced Overheat Protection | Horizontal & Vertical Mount | 1-year replacement warranty by Orient | White" [ref=e771]
+            - link "Amazon Brand - Presto! Garbage Bags | Medium | 180 Count | 30 Bags X 6 Rolls | 19 X 21 Inches | For Dry & Wet Waste | Black" [ref=e773] [cursor=pointer]:
+              - /url: /Amazon-Brand-Presto-Oxo-Biodegradable-Garbage/dp/B0821PN8L4/?_encoding=UTF8&pd_rd_w=2bpVj&content-id=amzn1.sym.211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_p=211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_crs_zg_bs_976442031
+              - img "Amazon Brand - Presto! Garbage Bags | Medium | 180 Count | 30 Bags X 6 Rolls | 19 X 21 Inches | For Dry & Wet Waste | Black" [ref=e775]
+            - link "Orpat OEH-1220 2000-Watt Fan Heater (White)" [ref=e777] [cursor=pointer]:
+              - /url: /Orpat-OEH-1220-2000-Watt-Heater-White/dp/B00B7GHQQW/?_encoding=UTF8&pd_rd_w=2bpVj&content-id=amzn1.sym.211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_p=211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_crs_zg_bs_976442031
+              - img "Orpat OEH-1220 2000-Watt Fan Heater (White)" [ref=e779]
+            - link "AGARO Elite Lint Remover with Cord, for Woolen Sweaters, Blankets, Jackets/Burr Remover Pill Remover from Carpets, Curtains" [ref=e781] [cursor=pointer]:
+              - /url: /AGARO-Remover-Sweaters-Blankets-Curtains/dp/B0DVZ5V64W/?_encoding=UTF8&pd_rd_w=2bpVj&content-id=amzn1.sym.211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_p=211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_crs_zg_bs_976442031
+              - img "AGARO Elite Lint Remover with Cord, for Woolen Sweaters, Blankets, Jackets/Burr Remover Pill Remover from Carpets, Curtains" [ref=e783]
+        - generic [ref=e785]:
+          - heading "Min.30% off | Top selections from Small Businesses" [level=2] [ref=e787]:
+            - generic [ref=e789]: Min.30% off | Top selections from Small Businesses
+          - generic [ref=e791]:
+            - group [ref=e794]:
+              - group [ref=e798]:
+                - list [ref=e799]:
+                  - listitem [ref=e800]:
+                    - link "Alloy Steel EZ Foldable Pointer Hiking Stick Automatic 31 Inch Extendable with Comfortable Grip Nylon Bag Ideal for Car Office Indoor Outdoor" [ref=e801] [cursor=pointer]:
+                      - /url: /Foldable-Pointer-Automatic-Extendable-Comfortable/dp/B0FNKL3QVH/?_encoding=UTF8&pd_rd_w=YUWXR&content-id=amzn1.sym.b543087e-cabb-48ee-8bbc-1d85086bc8fa&pf_rd_p=b543087e-cabb-48ee-8bbc-1d85086bc8fa&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_NAMABE2
+                      - img "Alloy Steel EZ Foldable Pointer Hiking Stick Automatic 31 Inch Extendable with Comfortable Grip Nylon Bag Ideal for Car Office Indoor Outdoor" [ref=e803]
+                  - listitem [ref=e804]:
+                    - link [ref=e805] [cursor=pointer]:
+                      - /url: /Foldable-Pointer-Automatic-Extendable-Comfortable/dp/B0FNKL3QVH/?_encoding=UTF8&pd_rd_w=YUWXR&content-id=amzn1.sym.b543087e-cabb-48ee-8bbc-1d85086bc8fa&pf_rd_p=b543087e-cabb-48ee-8bbc-1d85086bc8fa&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_NAMABE2
+                  - listitem [ref=e808]:
+                    - link [ref=e809] [cursor=pointer]:
+                      - /url: /Foldable-Pointer-Automatic-Extendable-Comfortable/dp/B0FNKL3QVH/?_encoding=UTF8&pd_rd_w=YUWXR&content-id=amzn1.sym.b543087e-cabb-48ee-8bbc-1d85086bc8fa&pf_rd_p=b543087e-cabb-48ee-8bbc-1d85086bc8fa&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_NAMABE2
+                  - listitem [ref=e812]:
+                    - link [ref=e813] [cursor=pointer]:
+                      - /url: /Foldable-Pointer-Automatic-Extendable-Comfortable/dp/B0FNKL3QVH/?_encoding=UTF8&pd_rd_w=YUWXR&content-id=amzn1.sym.b543087e-cabb-48ee-8bbc-1d85086bc8fa&pf_rd_p=b543087e-cabb-48ee-8bbc-1d85086bc8fa&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_NAMABE2
+                  - listitem [ref=e816]:
+                    - link [ref=e817] [cursor=pointer]:
+                      - /url: /Foldable-Pointer-Automatic-Extendable-Comfortable/dp/B0FNKL3QVH/?_encoding=UTF8&pd_rd_w=YUWXR&content-id=amzn1.sym.b543087e-cabb-48ee-8bbc-1d85086bc8fa&pf_rd_p=b543087e-cabb-48ee-8bbc-1d85086bc8fa&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_NAMABE2
+            - generic [ref=e820]:
+              - link "Alloy Steel EZ Foldable Pointer Hiking Stick Automatic 31 Inch Extendable with Comfortable Grip Nylon Bag Ideal for Car..." [ref=e821] [cursor=pointer]:
+                - /url: /Foldable-Pointer-Automatic-Extendable-Comfortable/dp/B0FNKL3QVH/?_encoding=UTF8&pd_rd_w=YUWXR&content-id=amzn1.sym.b543087e-cabb-48ee-8bbc-1d85086bc8fa&pf_rd_p=b543087e-cabb-48ee-8bbc-1d85086bc8fa&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_NAMABE2
+                - paragraph [ref=e822]:
+                  - generic [ref=e824]: Alloy Steel EZ Foldable Pointer Hiking Stick Automatic 31 Inch Extendable with Comfortable Grip Nylon Bag Ideal for Car...
+              - 'generic "Price: ₹2,999.00, M.R.P.: ₹3,300.00" [ref=e825]':
+                - generic [ref=e826]:
+                  - generic [ref=e827]: ₹2,999.00
+                  - generic [ref=e828]:
+                    - text: ₹
+                    - generic [ref=e829]:
+                      - text: 2,999
+                      - generic [ref=e830]: .
+                    - text: "00"
+                - text: "M.R.P:"
+                - generic [ref=e831]:
+                  - generic [ref=e832]: ₹3,300.00
+                  - text: ₹3,300.00
+        - separator [ref=e833]
+        - generic [ref=e836]:
+          - generic [ref=e837]:
+            - heading "Up to 60% off | Best offers on kitchen products from emerging brands" [level=2] [ref=e838]
+            - link "See all" [ref=e840] [cursor=pointer]:
+              - /url: /l/10894223031/?_encoding=UTF8&pd_rd_w=uJiHg&content-id=amzn1.sym.48427e2c-5b07-47f0-a941-4de8f3f6b6d4&pf_rd_p=48427e2c-5b07-47f0-a941-4de8f3f6b6d4&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_LPDEALS
+          - generic [ref=e842]:
+            - list
+        - separator [ref=e844]
+        - separator [ref=e845]
+        - generic [ref=e847]:
+          - heading "Best Sellers in Computers & Accessories" [level=2] [ref=e849]:
+            - generic [ref=e851]: Best Sellers in Computers & Accessories
+          - generic [ref=e853]:
+            - link "Ambrane Unbreakable 3A Fast Charging 1.5m Braided Type C Cable for Smartphones, Tablets & other Type C devices, 480Mbps Data Sync, Quick Charge 3.0 (RCT15A, Black)" [ref=e855] [cursor=pointer]:
+              - /url: /Ambrane-Unbreakable-Charging-Braided-Cable/dp/B098NS6PVG/?_encoding=UTF8&pd_rd_w=zhHEt&content-id=amzn1.sym.211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_p=211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_crs_zg_bs_976392031
+              - img "Ambrane Unbreakable 3A Fast Charging 1.5m Braided Type C Cable for Smartphones, Tablets & other Type C devices, 480Mbps Data Sync, Quick Charge 3.0 (RCT15A, Black)" [ref=e857]
+            - link "Safari Omega spacious/large laptop backpack with Raincover, college bag, travel bag for men and women, Black, 30 Litre" [ref=e859] [cursor=pointer]:
+              - /url: /Safari-Laptop-Backpack-Raincover-college/dp/B097JJ2CK6/?_encoding=UTF8&pd_rd_w=zhHEt&content-id=amzn1.sym.211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_p=211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_crs_zg_bs_976392031
+              - img "Safari Omega spacious/large laptop backpack with Raincover, college bag, travel bag for men and women, Black, 30 Litre" [ref=e861]
+            - link "Dyazo Water Resistant Laptop Sleeve/Laptop case/laptop cover with Handle Compatible for 15 Inch to 15.6\" Inches laptops & Notebooks - Grey" [ref=e863] [cursor=pointer]:
+              - /url: /Dyazo-Resistant-Compatible-laptops-Notebooks/dp/B09BFV96TS/?_encoding=UTF8&pd_rd_w=zhHEt&content-id=amzn1.sym.211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_p=211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_crs_zg_bs_976392031
+              - img "Dyazo Water Resistant Laptop Sleeve/Laptop case/laptop cover with Handle Compatible for 15 Inch to 15.6\" Inches laptops & Notebooks - Grey" [ref=e865]
+            - link "Portronics Konnect X 3A Unbreakable Nylon Braided USB to Type C Fast Charging Cable 2M Long, Supports All Type C Smartphones and Devices(Black)" [ref=e867] [cursor=pointer]:
+              - /url: /Portronics-Unbreakable-Charging-Supports-Smartphones/dp/B0CSK7TFFM/?_encoding=UTF8&pd_rd_w=zhHEt&content-id=amzn1.sym.211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_p=211684f4-ebe1-443f-8a4a-0773471e979f&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_crs_zg_bs_976392031
+              - img "Portronics Konnect X 3A Unbreakable Nylon Braided USB to Type C Fast Charging Cable 2M Long, Supports All Type C Smartphones and Devices(Black)" [ref=e869]
+        - generic [ref=e871]:
+          - heading "Starting ₹199 | Bring joy home with every toy" [level=2] [ref=e873]:
+            - generic [ref=e875]: Starting ₹199 | Bring joy home with every toy
+          - generic [ref=e877]:
+            - group [ref=e880]:
+              - group [ref=e884]:
+                - list [ref=e885]:
+                  - listitem [ref=e886]:
+                    - link "Remote Control Excavator Construction Toy, 360-Degree Rotation, Musical Sounds, Smoke Effects, LED Lights, Horn, Metal Bucket. for Kids Above 6+." [ref=e887] [cursor=pointer]:
+                      - /url: /Control-Excavator-Construction-360-Degree-Rotation/dp/B0FR2L9GFS/?_encoding=UTF8&pd_rd_w=dqgUJ&content-id=amzn1.sym.d2d56aa1-19e8-44cf-b45d-de55a27fa065&pf_rd_p=d2d56aa1-19e8-44cf-b45d-de55a27fa065&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+                      - img "Remote Control Excavator Construction Toy, 360-Degree Rotation, Musical Sounds, Smoke Effects, LED Lights, Horn, Metal Bucket. for Kids Above 6+." [ref=e889]
+                  - listitem [ref=e890]:
+                    - link [ref=e891] [cursor=pointer]:
+                      - /url: /Control-Excavator-Construction-360-Degree-Rotation/dp/B0FR2L9GFS/?_encoding=UTF8&pd_rd_w=dqgUJ&content-id=amzn1.sym.d2d56aa1-19e8-44cf-b45d-de55a27fa065&pf_rd_p=d2d56aa1-19e8-44cf-b45d-de55a27fa065&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+                  - listitem [ref=e894]:
+                    - link [ref=e895] [cursor=pointer]:
+                      - /url: /Control-Excavator-Construction-360-Degree-Rotation/dp/B0FR2L9GFS/?_encoding=UTF8&pd_rd_w=dqgUJ&content-id=amzn1.sym.d2d56aa1-19e8-44cf-b45d-de55a27fa065&pf_rd_p=d2d56aa1-19e8-44cf-b45d-de55a27fa065&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+                  - listitem [ref=e898]:
+                    - link [ref=e899] [cursor=pointer]:
+                      - /url: /Control-Excavator-Construction-360-Degree-Rotation/dp/B0FR2L9GFS/?_encoding=UTF8&pd_rd_w=dqgUJ&content-id=amzn1.sym.d2d56aa1-19e8-44cf-b45d-de55a27fa065&pf_rd_p=d2d56aa1-19e8-44cf-b45d-de55a27fa065&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+                  - listitem [ref=e902]:
+                    - link [ref=e903] [cursor=pointer]:
+                      - /url: /Control-Excavator-Construction-360-Degree-Rotation/dp/B0FR2L9GFS/?_encoding=UTF8&pd_rd_w=dqgUJ&content-id=amzn1.sym.d2d56aa1-19e8-44cf-b45d-de55a27fa065&pf_rd_p=d2d56aa1-19e8-44cf-b45d-de55a27fa065&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+                  - listitem [ref=e906]:
+                    - link [ref=e907] [cursor=pointer]:
+                      - /url: /Control-Excavator-Construction-360-Degree-Rotation/dp/B0FR2L9GFS/?_encoding=UTF8&pd_rd_w=dqgUJ&content-id=amzn1.sym.d2d56aa1-19e8-44cf-b45d-de55a27fa065&pf_rd_p=d2d56aa1-19e8-44cf-b45d-de55a27fa065&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+            - generic [ref=e910]:
+              - link "Remote Control Excavator Construction Toy, 360-Degree Rotation, Musical Sounds, Smoke Effects, LED Lights, Horn, Metal..." [ref=e911] [cursor=pointer]:
+                - /url: /Control-Excavator-Construction-360-Degree-Rotation/dp/B0FR2L9GFS/?_encoding=UTF8&pd_rd_w=dqgUJ&content-id=amzn1.sym.d2d56aa1-19e8-44cf-b45d-de55a27fa065&pf_rd_p=d2d56aa1-19e8-44cf-b45d-de55a27fa065&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_ls_gwc_pc_en2_
+                - paragraph [ref=e912]:
+                  - generic [ref=e914]: Remote Control Excavator Construction Toy, 360-Degree Rotation, Musical Sounds, Smoke Effects, LED Lights, Horn, Metal...
+              - 'generic "Deal Price: ₹3,134.00, M.R.P.: ₹6,999.00" [ref=e915]':
+                - generic [ref=e916]:
+                  - generic [ref=e917]: ₹3,134.00
+                  - generic [ref=e918]:
+                    - text: ₹
+                    - generic [ref=e919]:
+                      - text: 3,134
+                      - generic [ref=e920]: .
+                    - text: "00"
+                - text: "M.R.P:"
+                - generic [ref=e921]:
+                  - generic [ref=e922]: ₹6,999.00
+                  - text: ₹6,999.00
+        - generic [ref=e924]:
+          - heading "Up to 70% off | Top deals from Small Businesses" [level=2] [ref=e926]:
+            - generic [ref=e928]: Up to 70% off | Top deals from Small Businesses
+          - generic [ref=e930]:
+            - group [ref=e933]:
+              - group [ref=e937]:
+                - list [ref=e938]:
+                  - listitem [ref=e939]:
+                    - link "Glass Tealight Votive Candle Holder (Pack of 2) with 8 Scented Tealights Large (English Lavender, British Rose, Exotic Floral, Frangipani) (Leaf Full Body Design)" [ref=e940] [cursor=pointer]:
+                      - /url: /Colourful-Tealight-Tealights-Lavender-Frangipani/dp/B0CJTSKJTN/?_encoding=UTF8&pd_rd_w=Q3dkj&content-id=amzn1.sym.3786de61-27ba-42a0-a39a-5e77c9187c13&pf_rd_p=3786de61-27ba-42a0-a39a-5e77c9187c13&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_NAMBOTTLES
+                      - img "Glass Tealight Votive Candle Holder (Pack of 2) with 8 Scented Tealights Large (English Lavender, British Rose, Exotic Floral, Frangipani) (Leaf Full Body Design)" [ref=e942]
+                  - listitem [ref=e943]:
+                    - link [ref=e944] [cursor=pointer]:
+                      - /url: /Colourful-Tealight-Tealights-Lavender-Frangipani/dp/B0CJTSKJTN/?_encoding=UTF8&pd_rd_w=Q3dkj&content-id=amzn1.sym.3786de61-27ba-42a0-a39a-5e77c9187c13&pf_rd_p=3786de61-27ba-42a0-a39a-5e77c9187c13&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_NAMBOTTLES
+                  - listitem [ref=e947]:
+                    - link [ref=e948] [cursor=pointer]:
+                      - /url: /Colourful-Tealight-Tealights-Lavender-Frangipani/dp/B0CJTSKJTN/?_encoding=UTF8&pd_rd_w=Q3dkj&content-id=amzn1.sym.3786de61-27ba-42a0-a39a-5e77c9187c13&pf_rd_p=3786de61-27ba-42a0-a39a-5e77c9187c13&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_NAMBOTTLES
+                  - listitem [ref=e951]:
+                    - link [ref=e952] [cursor=pointer]:
+                      - /url: /Colourful-Tealight-Tealights-Lavender-Frangipani/dp/B0CJTSKJTN/?_encoding=UTF8&pd_rd_w=Q3dkj&content-id=amzn1.sym.3786de61-27ba-42a0-a39a-5e77c9187c13&pf_rd_p=3786de61-27ba-42a0-a39a-5e77c9187c13&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_NAMBOTTLES
+            - generic [ref=e955]:
+              - link "Glass Tealight Votive Candle Holder (Pack of 2) with 8 Scented Tealights Large (English Lavender, British Rose, Exotic..." [ref=e956] [cursor=pointer]:
+                - /url: /Colourful-Tealight-Tealights-Lavender-Frangipani/dp/B0CJTSKJTN/?_encoding=UTF8&pd_rd_w=Q3dkj&content-id=amzn1.sym.3786de61-27ba-42a0-a39a-5e77c9187c13&pf_rd_p=3786de61-27ba-42a0-a39a-5e77c9187c13&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_NAMBOTTLES
+                - paragraph [ref=e957]:
+                  - generic [ref=e959]: Glass Tealight Votive Candle Holder (Pack of 2) with 8 Scented Tealights Large (English Lavender, British Rose, Exotic...
+              - 'generic "Price: ₹330.00, M.R.P.: ₹1,199.00" [ref=e960]':
+                - generic [ref=e961]:
+                  - generic [ref=e962]: ₹330.00
+                  - generic [ref=e963]:
+                    - text: ₹
+                    - generic [ref=e964]:
+                      - text: "330"
+                      - generic [ref=e965]: .
+                    - text: "00"
+                - text: "M.R.P:"
+                - generic [ref=e966]:
+                  - generic [ref=e967]: ₹1,199.00
+                  - text: ₹1,199.00
+        - generic [ref=e969]:
+          - heading "Starting ₹199 | Budget buys from Emerging businesses" [level=2] [ref=e971]:
+            - generic [ref=e973]: Starting ₹199 | Budget buys from Emerging businesses
+          - generic [ref=e975]:
+            - group [ref=e978]:
+              - group [ref=e982]:
+                - list [ref=e983]:
+                  - listitem [ref=e984]:
+                    - link "RARECARE Baby Nail Trimmer | New Born Essentials | Baby Nail Cutter New Born 0-12 Months with 6 Filer Heads Adjustment |1 Year Warranty |, Pink, White, 1 Count" [ref=e985] [cursor=pointer]:
+                      - /url: /RARECARE-Trimmer-Essentials-Adjustment-Warranty/dp/B0F63XS9CZ/?_encoding=UTF8&pd_rd_w=yAs4M&content-id=amzn1.sym.f8001f54-45ff-4c9e-b540-f079b3e39211&pf_rd_p=f8001f54-45ff-4c9e-b540-f079b3e39211&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_NSS
+                      - img "RARECARE Baby Nail Trimmer | New Born Essentials | Baby Nail Cutter New Born 0-12 Months with 6 Filer Heads Adjustment |1 Year Warranty |, Pink, White, 1 Count" [ref=e987]
+                  - listitem [ref=e988]:
+                    - link [ref=e989] [cursor=pointer]:
+                      - /url: /RARECARE-Trimmer-Essentials-Adjustment-Warranty/dp/B0F63XS9CZ/?_encoding=UTF8&pd_rd_w=yAs4M&content-id=amzn1.sym.f8001f54-45ff-4c9e-b540-f079b3e39211&pf_rd_p=f8001f54-45ff-4c9e-b540-f079b3e39211&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_NSS
+                  - listitem [ref=e992]:
+                    - link [ref=e993] [cursor=pointer]:
+                      - /url: /RARECARE-Trimmer-Essentials-Adjustment-Warranty/dp/B0F63XS9CZ/?_encoding=UTF8&pd_rd_w=yAs4M&content-id=amzn1.sym.f8001f54-45ff-4c9e-b540-f079b3e39211&pf_rd_p=f8001f54-45ff-4c9e-b540-f079b3e39211&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_NSS
+                  - listitem [ref=e996]:
+                    - link [ref=e997] [cursor=pointer]:
+                      - /url: /RARECARE-Trimmer-Essentials-Adjustment-Warranty/dp/B0F63XS9CZ/?_encoding=UTF8&pd_rd_w=yAs4M&content-id=amzn1.sym.f8001f54-45ff-4c9e-b540-f079b3e39211&pf_rd_p=f8001f54-45ff-4c9e-b540-f079b3e39211&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_NSS
+                  - listitem [ref=e1000]:
+                    - link [ref=e1001] [cursor=pointer]:
+                      - /url: /RARECARE-Trimmer-Essentials-Adjustment-Warranty/dp/B0F63XS9CZ/?_encoding=UTF8&pd_rd_w=yAs4M&content-id=amzn1.sym.f8001f54-45ff-4c9e-b540-f079b3e39211&pf_rd_p=f8001f54-45ff-4c9e-b540-f079b3e39211&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_NSS
+                  - listitem [ref=e1004]:
+                    - link [ref=e1005] [cursor=pointer]:
+                      - /url: /RARECARE-Trimmer-Essentials-Adjustment-Warranty/dp/B0F63XS9CZ/?_encoding=UTF8&pd_rd_w=yAs4M&content-id=amzn1.sym.f8001f54-45ff-4c9e-b540-f079b3e39211&pf_rd_p=f8001f54-45ff-4c9e-b540-f079b3e39211&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_NSS
+            - generic [ref=e1008]:
+              - link "RARECARE Baby Nail Trimmer | New Born Essentials | Baby Nail Cutter New Born 0-12 Months with 6 Filer Heads Adjustment..." [ref=e1009] [cursor=pointer]:
+                - /url: /RARECARE-Trimmer-Essentials-Adjustment-Warranty/dp/B0F63XS9CZ/?_encoding=UTF8&pd_rd_w=yAs4M&content-id=amzn1.sym.f8001f54-45ff-4c9e-b540-f079b3e39211&pf_rd_p=f8001f54-45ff-4c9e-b540-f079b3e39211&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_NSS
+                - paragraph [ref=e1010]:
+                  - generic [ref=e1012]: RARECARE Baby Nail Trimmer | New Born Essentials | Baby Nail Cutter New Born 0-12 Months with 6 Filer Heads Adjustment...
+              - 'generic "Price: ₹349.00, M.R.P.: ₹499.00" [ref=e1013]':
+                - generic [ref=e1014]:
+                  - generic [ref=e1015]: ₹349.00
+                  - generic [ref=e1016]:
+                    - text: ₹
+                    - generic [ref=e1017]:
+                      - text: "349"
+                      - generic [ref=e1018]: .
+                    - text: "00"
+                - text: "M.R.P:"
+                - generic [ref=e1019]:
+                  - generic [ref=e1020]: ₹499.00
+                  - text: ₹499.00
+        - separator [ref=e1021]
+        - generic [ref=e1024]:
+          - generic [ref=e1025]:
+            - heading "Min. 50% off | Unique home finds | Amazon Brands & more" [level=2] [ref=e1026]
+            - link "See all" [ref=e1028] [cursor=pointer]:
+              - /url: /s/?_encoding=UTF8&bbn=5925789031&rh=n%3A5925789031%2Cp_n_format_browse-bin%3A19560801031&pd_rd_w=9qJHo&content-id=amzn1.sym.5c71aec9-f305-470c-a5ee-954c638d1aa3&pf_rd_p=5c71aec9-f305-470c-a5ee-954c638d1aa3&pf_rd_r=K13N8FY88G4AK92W2BKJ&pd_rd_wg=zVrMP&pd_rd_r=9578d921-3f1e-494a-b7d6-533f342ffc71&ref_=pd_hp_d_btf_PB
+          - generic [ref=e1030]:
+            - list
+        - separator [ref=e1032]
+  - complementary "Your recently viewed items and featured recommendations"
+  - generic [ref=e1033]:
+    - button "Back to top" [ref=e1034]:
+      - generic [ref=e1036]: Back to top
+    - generic [ref=e1037]:
+      - generic [ref=e1038]:
+        - heading "Get to Know Us" [level=6] [ref=e1039]
+        - list [ref=e1040]:
+          - listitem [ref=e1041]:
+            - link "About Amazon" [ref=e1042] [cursor=pointer]:
+              - /url: https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e1043]:
+            - link "Careers" [ref=e1044] [cursor=pointer]:
+              - /url: https://amazon.jobs
+          - listitem [ref=e1045]:
+            - link "Press Releases" [ref=e1046] [cursor=pointer]:
+              - /url: https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=e1047]:
+            - link "Amazon Science" [ref=e1048] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=e1050]:
+        - heading "Connect with Us" [level=6] [ref=e1051]
+        - list [ref=e1052]:
+          - listitem [ref=e1053]:
+            - link "Facebook" [ref=e1054] [cursor=pointer]:
+              - /url: https://www.facebook.com/AmazonIN
+          - listitem [ref=e1055]:
+            - link "Twitter" [ref=e1056] [cursor=pointer]:
+              - /url: https://x.com/AmazonIN
+          - listitem [ref=e1057]:
+            - link "Instagram" [ref=e1058] [cursor=pointer]:
+              - /url: https://www.instagram.com/amazondotin
+      - generic [ref=e1060]:
+        - heading "Make Money with Us" [level=6] [ref=e1061]
+        - list [ref=e1062]:
+          - listitem [ref=e1063]:
+            - link "Sell on Amazon" [ref=e1064] [cursor=pointer]:
+              - /url: /b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C
+          - listitem [ref=e1065]:
+            - link "Sell under Amazon Accelerator" [ref=e1066] [cursor=pointer]:
+              - /url: https://accelerator.amazon.in/?ref_=map_1_b2b_GW_FT
+          - listitem [ref=e1067]:
+            - link "Protect and Build Your Brand" [ref=e1068] [cursor=pointer]:
+              - /url: https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT
+          - listitem [ref=e1069]:
+            - link "Amazon Global Selling" [ref=e1070] [cursor=pointer]:
+              - /url: https://sell.amazon.in/grow-your-business/amazon-global-selling.html?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1
+          - listitem [ref=e1071]:
+            - link "Supply to Amazon" [ref=e1072] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta&lang=en-IN
+          - listitem [ref=e1073]:
+            - link "Become an Affiliate" [ref=e1074] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc
+          - listitem [ref=e1075]:
+            - link "Fulfilment by Amazon" [ref=e1076] [cursor=pointer]:
+              - /url: https://services.amazon.in/services/fulfilment-by-amazon/benefits.html/ref=az_footer_fba?ld=AWRGINFBAfooter
+          - listitem [ref=e1077]:
+            - link "Advertise Your Products" [ref=e1078] [cursor=pointer]:
+              - /url: https://advertising.amazon.in/?ref=Amz.in
+          - listitem [ref=e1079]:
+            - link "Amazon Pay on Merchants" [ref=e1080] [cursor=pointer]:
+              - /url: https://www.amazonpay.in/merchant
+      - generic [ref=e1082]:
+        - heading "Let Us Help You" [level=6] [ref=e1083]
+        - list [ref=e1084]:
+          - listitem [ref=e1085]:
+            - link "Your Account" [ref=e1086] [cursor=pointer]:
+              - /url: /gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=e1087]:
+            - link "Returns Centre" [ref=e1088] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=e1089]:
+            - link "Recalls and Product Safety Alerts" [ref=e1090] [cursor=pointer]:
+              - /url: https://www.amazon.in/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=e1091]:
+            - link "100% Purchase Protection" [ref=e1092] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc
+          - listitem [ref=e1093]:
+            - link "Amazon App Download" [ref=e1094] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6967393031&ref_=footer_mobapp
+          - listitem [ref=e1095]:
+            - link "Help" [ref=e1096] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he
+    - generic [ref=e1098]:
+      - link "Amazon India Home" [ref=e1101] [cursor=pointer]:
+        - /url: /ref=footer_logo
+      - generic [ref=e1104]:
+        - generic [ref=e1105]:
+          - link "Choose a language for shopping. Current selection is English." [ref=e1106] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=e1108]: English
+          - button "Expand to Change Language or Country" [ref=e1109] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is India." [ref=e1110] [cursor=pointer]:
+          - generic [ref=e1112]: India
+    - generic "More on Amazon" [ref=e1113]:
+      - generic "More on Amazon" [ref=e1114]:
+        - list [ref=e1115]:
+          - listitem [ref=e1116]:
+            - link "AbeBooks Books, art & collectibles" [ref=e1117] [cursor=pointer]:
+              - /url: https://www.abebooks.com/
+              - heading "AbeBooks" [level=5] [ref=e1118]
+              - generic [ref=e1119]:
+                - text: Books, art
+                - text: "& collectibles"
+          - listitem [ref=e1120]
+          - listitem [ref=e1121]:
+            - link "Amazon Web Services Scalable Cloud Computing Services" [ref=e1122] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=IN_amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=e1123]
+              - generic [ref=e1124]:
+                - text: Scalable Cloud
+                - text: Computing Services
+          - listitem [ref=e1125]
+          - listitem [ref=e1126]:
+            - link "Audible Download Audio Books" [ref=e1127] [cursor=pointer]:
+              - /url: https://www.audible.in/
+              - heading "Audible" [level=5] [ref=e1128]
+              - generic [ref=e1129]:
+                - text: Download
+                - text: Audio Books
+          - listitem [ref=e1130]
+          - listitem [ref=e1131]:
+            - link "IMDb Movies, TV & Celebrities" [ref=e1132] [cursor=pointer]:
+              - /url: https://www.imdb.com/
+              - heading "IMDb" [level=5] [ref=e1133]
+              - generic [ref=e1134]:
+                - text: Movies, TV
+                - text: "& Celebrities"
+        - list [ref=e1135]:
+          - listitem [ref=e1136]:
+            - link "Shopbop Designer Fashion Brands" [ref=e1137] [cursor=pointer]:
+              - /url: https://www.shopbop.com/
+              - heading "Shopbop" [level=5] [ref=e1138]
+              - generic [ref=e1139]:
+                - text: Designer
+                - text: Fashion Brands
+          - listitem [ref=e1140]
+          - listitem [ref=e1141]:
+            - link "Amazon Business Everything For Your Business" [ref=e1142] [cursor=pointer]:
+              - /url: /business?ref=footer_aingw
+              - heading "Amazon Business" [level=5] [ref=e1143]
+              - generic [ref=e1144]:
+                - text: Everything For
+                - text: Your Business
+          - listitem [ref=e1145]
+          - listitem [ref=e1146]:
+            - link "Amazon Prime Music 100 million songs, ad-free Over 15 million podcast episodes" [ref=e1147] [cursor=pointer]:
+              - /url: /music/prime?ref=footer_apm
+              - heading "Amazon Prime Music" [level=5] [ref=e1148]
+              - generic [ref=e1149]:
+                - text: 100 million songs, ad-free
+                - text: Over 15 million podcast episodes
+          - listitem [ref=e1150]
+          - listitem [ref=e1151]
+    - generic [ref=e1152]:
+      - list [ref=e1153]:
+        - listitem [ref=e1154]:
+          - link "Conditions of Use & Sale" [ref=e1155] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou
+        - listitem [ref=e1156]:
+          - link "Privacy Notice" [ref=e1157] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy
+        - listitem [ref=e1158]:
+          - link "Interest-Based Ads" [ref=e1159] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba
+      - generic [ref=e1160]: © 1996-2025, Amazon.com, Inc. or its affiliates
+```

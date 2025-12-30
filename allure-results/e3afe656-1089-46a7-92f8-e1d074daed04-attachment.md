@@ -1,0 +1,36 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - link "Amazon" [ref=e6] [cursor=pointer]:
+    - /url: /ref=ap_frn_logo
+    - img "Amazon" [ref=e7]
+  - generic [ref=e10]:
+    - generic [ref=e11]: Enter verification code
+    - generic [ref=e13]: For your security, we have sent the code to your email s******@gmail.com.
+    - generic [ref=e15]:
+      - textbox [active] [ref=e21]
+      - generic [ref=e22]:
+        - link "Resend code":
+          - /url: "#"
+      - generic [ref=e29]: Please wait 49 seconds before requesting another code.
+      - generic [ref=e32] [cursor=pointer]:
+        - button "Submit code" [ref=e33]
+        - generic [ref=e34]: Submit code
+    - generic [ref=e35]:
+      - heading "Need help?" [level=5] [ref=e36]
+      - generic [ref=e37]:
+        - text: If you cannot receive the code or if you changed your email or phone number,
+        - link "try a different way" [ref=e38] [cursor=pointer]:
+          - /url: https://www.amazon.in:443/ap/cvf/accountrecovery?arb=2d25decd-1db1-4406-b2ba-67530e2fcc67&openid.assoc_handle=inflex&pageId=inflex&orig_return_to=https%3A%2F%2Fwww.amazon.in%2Fap%2Fsignin%3Fie%3DUTF8%26clientContext%3D523-9149622-2464304%26openid.pape.max_auth_age%3D0%26use_global_authentication%3Dfalse%26openid.identity%3Dhttp%253A%252F%252Fspecs.openid.net%252Fauth%252F2.0%252Fidentifier_select%26isSHuMAAuthenticable%3Dfalse%26pageId%3Dinflex%26useSHuMAWorkflow%3Dfalse%26arb%3D8a0c33aa-c512-4a7d-99c2-2922f7adce12%26openid.return_to%3Dhttps%253A%252F%252Fwww.amazon.in%252F%253Fref_%253Dnav_signin%26openid.assoc_handle%3Dinflex%26openid.mode%3Dcheckid_setup%26openid.claimed_id%3Dhttp%253A%252F%252Fspecs.openid.net%252Fauth%252F2.0%252Fidentifier_select%26openid.ns%3Dhttp%253A%252F%252Fspecs.openid.net%252Fauth%252F2.0&isResend=0&ref_=ch_tiv_approval_broadcast_to_account_recovery
+        - text: .
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - link "Conditions of Use" [ref=e43] [cursor=pointer]:
+        - /url: /gp/help/customer/display.html/ref=ap_desktop_footer_cou?ie=UTF8&nodeId=200545940
+      - link "Privacy Notice" [ref=e44] [cursor=pointer]:
+        - /url: /gp/help/customer/display.html/ref=ap_desktop_footer_privacy_notice?ie=UTF8&nodeId=200534380
+      - link "Help" [ref=e45] [cursor=pointer]:
+        - /url: /help
+    - generic [ref=e46]: © 1996-2025, Amazon.com, Inc. or its affiliates
+```

@@ -40,20 +40,31 @@ export default defineConfig({
 
   /* Configure projects for major browsers */
   projects: [
+
+    { // Defining a new project that runs the setup test. This project name will be put as dependent test inside another runner project.
+      name : 'AmazonAuthSetup',
+      testMatch : 'auth.setup.ts'
+    },
+
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'], headless: false },
+      use: { ...devices['Desktop Chrome'],
+        headless: false,
+        storageState : 'playwright/.auth/user.json',
+       },
+       dependencies : ['AmazonAuthSetup']
     },
 
-    {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
-    },
+    // {
+    //   name: 'firefox',
+    //   use: { ...devices['Desktop Firefox'] },
+    // },
 
-    {
-      name: 'webkit',
-      use: { ...devices['Desktop Safari'] },
-    },
+    // {
+    //   name: 'webkit',
+    //   use: { ...devices['Desktop Safari'] },
+    // },
+
 
     /* Test against mobile viewports. */
     // {
