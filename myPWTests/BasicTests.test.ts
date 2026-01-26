@@ -1,10 +1,12 @@
 
-    import {test, expect, Browser, BrowserContext, Page, Locator, firefox } from '@playwright/test'
+    import {test, expect, Browser, BrowserContext, Page, Locator, firefox, APIResponse } from '@playwright/test'
     import { chromium } from '@playwright/test'
     import { link } from 'fs';
     import path from 'path';
     import testData from './testData.json';
     import * as XLSX from 'xlsx';
+import { TIMEOUT } from 'dns';
+import { error, time } from 'console';
 
     let browser : Browser;
     let browserContext : BrowserContext;
@@ -12,7 +14,7 @@
 
 
     test.beforeAll(async() => {
-        browser = await chromium.launch({headless: false});
+        browser = await chromium.launch({headless: false, slowMo: 2000});
     });
 
     test.afterAll(async() => {
@@ -37,7 +39,8 @@
 
         const nameTB : Locator = await page.getByPlaceholder("Enter Name");
         await nameTB.focus();
-        await nameTB.fill("FirstName", {timeout:1000});
+        await nameTB.fill("FirstName", {timeout:1000, force : true});
+        // await nameTB.pressSequentially("FirstName", {delay : 2000});
 
         (await page.waitForSelector('//input[@placeholder="Enter EMail"]')).focus;
 
@@ -52,7 +55,7 @@
             await page.waitForTimeout(10000);
             const jhgh = async() => await page.locator("//input[@id='female']").click();
             await jhgh();
-            await page.screenshot({path: 'screenshot1.png'});
+            await page.screenshot({path: 'screenshot1.png', animations : 'allow', scale : 'device', fullPage : true});
             // await clickRadio(element);
 
         }
@@ -77,7 +80,7 @@
 
     const checkBoxesCount : number = await checkboxes.count();
 
-    for(let i = 0; i<checkBoxesCount; i++){
+    for(let i = 1; i<=checkBoxesCount; i++){
         await checkboxes.nth(i).click();
         await page.waitForTimeout(2000);
         await page.screenshot({path: './screenshots/screenshot' + i + '.png'});
@@ -124,7 +127,7 @@
 
         const uploadMultiFiles = page.locator('//input[@id="multipleFilesInput"]');
         uploadMultiFiles.scrollIntoViewIfNeeded();
-        uploadMultiFiles.setInputFiles([path.join('D:/Downloaded/Austronaut in plasma suite.jpeg'),
+        uploadMultiFiles.setInputFiles(['D:/Downloaded/Austronaut in plasma suite.jpeg',
                                         path.join('D:/Downloaded/Nasa James Webb - Space.jpg')
         ]);
         await page.waitForTimeout(5000);
@@ -175,7 +178,7 @@
         await page.locator('//button[@id="promptBtn"]').click();
 
 
-        // const [mDialog] = await Promise.all([
+        // const [mDialog, _] = await Promise.all([
         //     page.waitForEvent('dialog'),
         //     page.locator('//button[@id="promptBtn"]').click(),
         // ]);
@@ -358,7 +361,123 @@
         console.log(await findValueInDyTable(dyTable, 'Firefox', 'Memory (MB)'));
 
     }); // End of test 14
-    
+
+
+    // This test will not work as page.evaluate runs on browser context unlike the variables declared in the test context.
+    // So scrolling from (initialPageSize, newPageSize) doesn’t really mean anything meaningful to window.scrollTo.
+    test('Lazy loading page scrolling', async() => {
+
+        let initialPageSize = 0;
+        let newPageSize = document.body.scrollHeight;
+
+        while(newPageSize != initialPageSize){
+
+            await page.evaluate(() => {
+                window.scrollTo(initialPageSize, newPageSize);
+                initialPageSize = newPageSize;
+                newPageSize = document.body.scrollHeight;
+            });
+        }
+
+    }); // End of test 15
+
+    // This approach is perfectly fine but will still error out if the page has infinite scroll.
+    // Playwright will giveup looping after 30 seconds no matter how many times it has looped.
+    test('Lazy loading page scrolling test', async() => {
+
+        await page.goto('https://www.pinterest.com/today/best/duo-photo-ideas/128364/');
+        await page.waitForLoadState('domcontentloaded');
+
+        let initialPageSize = 0;
+
+        while(true){
+
+            let newPageSize = await page.evaluate(() => document.body.scrollHeight);
+
+            if(newPageSize == initialPageSize){
+                break;
+            }
+
+            await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+
+            await page.waitForTimeout(1000);
+
+        }
+
+    }); // End of test 16
+
+
+    test('API test', async({request}) => {
+
+        const response = await request.get('https://www.youtube.com/results', {params : 
+            {
+                'search_query' : 'review+pull+request+like+a+senior'
+            }
+        , timeout : 3000, failOnStatusCode: true});
+
+        expect(response.status()).toBe(200);
+        console.log('Content type recieved in response : ' + response.headers()['content-type'].toString());
+        expect(response.headers()['content-type']).toContain('text/html; charset=utf-8');
+
+        const responseBody = await response.body(); // Using .body instead of .json as the response is html page
+        console.log(responseBody);
+
+        expect(responseBody).not.toHaveProperty('requestStatus')
+
+    }); // End of test 16
+
+    test('Mocking or Routing an API', async({page}) => {
+
+        await page.goto('https://somewww');
+
+        await page.route('https://www.youtube.com/', async(routee) => {
+
+            // Fulfill does nothing with the response from the API request but we mock the whole Response.
+           await routee.fulfill({
+            status : 200,
+            contentType : 'text/plain',
+            headers : {
+                header1 : "header1value",
+                header2 : "header2value"
+            },
+            body : JSON.stringify({
+                name : "SomeName",
+                DOB : 12/12/2020,
+                info : 'Nothing here'
+            })
+           });
+
+           // Aborting the request. Takes pre-defined errorcodes.
+           routee.abort('aborted');
+
+        });
+    }); // End of test 17
+
+
+    test('Fetching response and manipulating it beofore using', async() =>{
+
+        // This is kind of a listener. So it should be implemented before actually making a call to the API.
+        await page.route('https://dog.ceo/api/breeds/list/all', async(routee) => {
+
+           // Fetch is used to fetch the response and manipulate before using it.
+           
+            const ogResponse : APIResponse =  await routee.fetch();
+            const responseJson = await ogResponse.json();
+            console.log('Original response : ' + JSON.stringify(responseJson, null, 2));
+            responseJson.message.somejsonField = "SomeNewValue";
+
+            // It should be fulfilled with fulfill() method, passing APIResponse and Response Json body got and manipulated from the fetch.
+            await routee.fulfill({response : ogResponse, json : responseJson});
+
+            console.log('New response : ' + JSON.stringify(responseJson, null, 4));
+
+        });
+
+        await page.goto("https://dog.ceo/api/breeds/list/all");
+
+    });
+
+
 
 
     }); // end of test description

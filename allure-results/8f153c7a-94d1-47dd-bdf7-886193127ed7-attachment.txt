@@ -1,0 +1,2 @@
+Content type recieved in response : text/html; charset=utf-8
+<Buffer 3c 21 44 4f 43 54 59 50 45 20 68 74 6d 6c 3e 3c 68 74 6d 6c 20 73 74 79 6c 65 3d 22 66 6f 6e 74 2d 73 69 7a 65 3a 20 31 30 70 78 3b 66 6f 6e 74 2d 66 ... 1453122 more bytes>

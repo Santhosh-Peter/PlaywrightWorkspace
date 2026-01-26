@@ -1,0 +1,2 @@
+Content type recieved in response : text/html; charset=utf-8
+Promise { <pending> }

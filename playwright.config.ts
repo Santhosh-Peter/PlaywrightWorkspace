@@ -41,24 +41,33 @@ export default defineConfig({
   /* Configure projects for major browsers */
   projects: [
 
-    { // Defining a new project that runs the setup test. This project name will be put as dependent test inside another runner project.
-      name : 'AmazonAuthSetup',
-      testMatch : 'auth.setup.ts'
-    },
-
-    {
-      name: 'chromium',
-      use: { ...devices['Desktop Chrome'],
-        headless: false,
-        storageState : 'playwright/.auth/user.json',
-       },
-       dependencies : ['AmazonAuthSetup']
-    },
+    // { // Defining a new project that runs the setup test. This project name will be put as dependent test inside another runner project.
+    //   name : 'AmazonAuthSetup',
+    //   // testMatch : 'auth.setup.ts'
+    // },
 
     // {
-    //   name: 'firefox',
-    //   use: { ...devices['Desktop Firefox'] },
+    //   name: 'chromium',
+    //   use: { ...devices['Desktop Chrome'],
+    //     headless: false,
+    //     storageState : 'playwright/.auth/user.json',
+    //    },
+    //    dependencies : ['AmazonAuthSetup']
     // },
+
+    // {
+    //   name: 'newChromium',
+    //   testMatch : 'auth.setup.ts',
+
+    //   use: { ...devices['Desktop Chrome'],
+    //     headless: false,
+    //    },
+    // },
+
+    {
+      name: 'firefox',
+      use: { ...devices['Desktop Firefox'] },
+    },
 
     // {
     //   name: 'webkit',
