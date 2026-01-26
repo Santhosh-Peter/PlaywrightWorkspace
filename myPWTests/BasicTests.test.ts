@@ -478,8 +478,6 @@ import { error, time } from 'console';
     });
 
 
-
-
     }); // end of test description
 
     async function findValueInDyTable(table : Locator, rowValue: String, colValue: String) {
