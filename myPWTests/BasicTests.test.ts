@@ -475,6 +475,7 @@ import { error, time } from 'console';
 
         await page.goto("https://dog.ceo/api/breeds/list/all");
 
+        
     });
 
 
